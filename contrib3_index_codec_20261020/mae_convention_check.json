@@ -1,0 +1,78 @@
+{
+  "PEMS03": {
+    "shape": [
+      5248,
+      12,
+      358,
+      1
+    ],
+    "horizon_axis": 1,
+    "conventions": {
+      "global": 14.18402095612171,
+      "per_horizon": 14.184023231689766,
+      "per_slot": 14.184023231689766
+    },
+    "logged": 14.1924,
+    "harness_reported": 14.184020998392748,
+    "best_match": "per_horizon",
+    "gap_vs_log": -0.008376768310233373,
+    "explained": false
+  },
+  "PEMS04": {
+    "shape": [
+      3424,
+      12,
+      307,
+      1
+    ],
+    "horizon_axis": 1,
+    "conventions": {
+      "global": 17.58424477219811,
+      "per_horizon": 17.584229199755665,
+      "per_slot": 17.584229199755665
+    },
+    "logged": 17.6296,
+    "harness_reported": 17.584244762161727,
+    "best_match": "global",
+    "gap_vs_log": -0.045355227801888276,
+    "explained": false
+  },
+  "PEMS07": {
+    "shape": [
+      5664,
+      12,
+      883,
+      1
+    ],
+    "horizon_axis": 1,
+    "conventions": {
+      "global": 18.847079333678312,
+      "per_horizon": 18.84708019666178,
+      "per_slot": 18.84708019666178
+    },
+    "logged": 18.8438,
+    "harness_reported": 18.847079337236142,
+    "best_match": "global",
+    "gap_vs_log": 0.003279333678310792,
+    "explained": true
+  },
+  "PEMS08": {
+    "shape": [
+      3584,
+      12,
+      170,
+      1
+    ],
+    "horizon_axis": 1,
+    "conventions": {
+      "global": 12.958646936128737,
+      "per_horizon": 12.958656061076638,
+      "per_slot": 12.958656061076638
+    },
+    "logged": 12.9798,
+    "harness_reported": 12.958646897852166,
+    "best_match": "per_horizon",
+    "gap_vs_log": -0.02114393892336075,
+    "explained": false
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "protocol": "E1_equal_validation_folds_seed1_v1",
+  "test_opened": false,
+  "affine": "global a*yhat+b; a in [0.8,1.2], fixed 9+9 slope grid, b median residual",
+  "datasets": {
+    "PEMS04": {
+      "student_source": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1\\selected_predictions.npz",
+      "teacher_source": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_parent_predictions_joint3.npz",
+      "teacher_padding_discarded": 0,
+      "models": {
+        "Teacher": {
+          "folds": [
+            {
+              "fit_end": 1866,
+              "eval_end": 2375,
+              "none": {
+                "mae": 17.294463606286552,
+                "rmse": 29.207757904417107,
+                "mape": 0.12075365895253794
+              },
+              "smooth_target_time": {
+                "mae": 17.138905128147957,
+                "rmse": 28.953974404007056,
+                "mape": 0.12032844391632264
+              },
+              "mae_affine": {
+                "mae": 17.294447947879362,
+                "rmse": 29.20774458999415,
+                "mape": 0.12075999057743943
+              },
+              "slope": 1.0,
+              "bias": 0.0015869140625,
+              "smooth_table_values": 176832
+            },
+            {
+              "fit_end": 2375,
+              "eval_end": 2884,
+              "none": {
+                "mae": 17.28051060385095,
+                "rmse": 29.066957578030223,
+                "mape": 0.11796967729750117
+              },
+              "smooth_target_time": {
+                "mae": 17.073717128303414,
+                "rmse": 28.760480029049052,
+                "mape": 0.1169606419675359
+              },
+              "mae_affine": {
+                "mae": 17.280469976305287,
+                "rmse": 29.066917755717938,
+                "mape": 0.11797491847069069
+              },
+              "slope": 1.0,
+              "bias": 0.00152587890625,
+              "smooth_table_values": 176832
+            },
+            {
+              "fit_end": 2884,
+              "eval_end": 3394,
+              "none": {
+                "mae": 18.35231471744552,
+                "rmse": 30.713279906417437,
+                "mape": 0.1177928348336796
+              },
+              "smooth_target_time": {
+                "mae": 18.175658374261413,
+                "rmse": 30.491453334383646,
+                "mape": 0.11686408205285415
+              },
+              "mae_affine": {
+                "mae": 18.35226942900484,
+                "rmse": 30.713262124211173,
+                "mape": 0.11779721099244485
+              },
+              "slope": 1.0,
+              "bias": 0.0016937255859375,
+              "smooth_table_values": 176832
+            }
+          ],
+          "mean_fold_mae": {
+            "none": 17.642429642527674,
+            "smooth_target_time": 17.462760210237594,
+            "mae_affine": 17.642395784396495
+          }
+        },
+        "Student": {
+          "folds": [
+            {
+              "fit_end": 1866,
+              "eval_end": 2375,
+              "none": {
+                "mae": 17.310517344390984,
+                "rmse": 29.20953933591795,
+                "mape": 0.12158198343896552
+              },
+              "smooth_target_time": {
+                "mae": 17.15838767845251,
+                "rmse": 28.966705505651504,
+                "mape": 0.12073684801675343
+              },
+              "mae_affine": {
+                "mae": 17.310517254790394,
+                "rmse": 29.209538160457303,
+                "mape": 0.12158295047149442
+              },
+              "slope": 1.0,
+              "bias": 0.000213623046875,
+              "smooth_table_values": 176832
+            },
+            {
+              "fit_end": 2375,
+              "eval_end": 2884,
+              "none": {
+                "mae": 17.305052829267186,
+                "rmse": 29.08311393379554,
+                "mape": 0.11871676437960621
+              },
+              "smooth_target_time": {
+                "mae": 17.093175116457296,
+                "rmse": 28.771295907886017,
+                "mape": 0.11733464787098298
+              },
+              "mae_affine": {
+                "mae": 17.30504908719978,
+                "rmse": 29.08310939371422,
+                "mape": 0.11871752924729286
+              },
+              "slope": 1.0,
+              "bias": 0.0001983642578125,
+              "smooth_table_values": 176832
+            },
+            {
+              "fit_end": 2884,
+              "eval_end": 3394,
+              "none": {
+                "mae": 18.37125873612992,
+                "rmse": 30.77288770656782,
+                "mape": 0.11841245426646267
+              },
+              "smooth_target_time": {
+                "mae": 18.190422292219214,
+                "rmse": 30.546470681880553,
+                "mape": 0.1172094202528678
+              },
+              "mae_affine": {
+                "mae": 18.371254445918463,
+                "rmse": 30.77288611860966,
+                "mape": 0.11841316332717132
+              },
+              "slope": 1.0,
+              "bias": 0.000244140625,
+              "smooth_table_values": 176832
+            }
+          ],
+          "mean_fold_mae": {
+            "none": 17.662276303262697,
+            "smooth_target_time": 17.48066169570967,
+            "mae_affine": 17.66227359596955
+          }
+        }
+      },
+      "student_minus_teacher_mae": {
+        "none": 0.01984666073502339,
+        "smooth_target_time": 0.017901485472076928,
+        "mae_affine": 0.01987781157305335
+      }
+    },
+    "PEMS07": {
+      "student_source": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only\\selected_predictions.npz",
+      "teacher_source": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS07\\PEMS07_12to12_parent_predictions_joint3.npz",
+      "teacher_padding_discarded": 0,
+      "models": {
+        "Teacher": {
+          "folds": [
+            {
+              "fit_end": 3102,
+              "eval_end": 3947,
+              "none": {
+                "mae": 17.78528062525864,
+                "rmse": 31.509279921895857,
+                "mape": 0.07541918778669357
+              },
+              "smooth_target_time": {
+                "mae": 17.522012171148948,
+                "rmse": 30.952841660051536,
+                "mape": 0.07421918182770797
+              },
+              "mae_affine": {
+                "mae": 17.785283623502067,
+                "rmse": 31.509237810540185,
+                "mape": 0.07541945789166331
+              },
+              "slope": 1.0,
+              "bias": -0.001220703125,
+              "smooth_table_values": 508608
+            },
+            {
+              "fit_end": 3947,
+              "eval_end": 4794,
+              "none": {
+                "mae": 18.66551207016634,
+                "rmse": 33.16884889979574,
+                "mape": 0.0761412716213065
+              },
+              "smooth_target_time": {
+                "mae": 18.326804476747544,
+                "rmse": 32.53618794071918,
+                "mape": 0.07464974585933537
+              },
+              "mae_affine": {
+                "mae": 18.665545925944787,
+                "rmse": 33.168834286766376,
+                "mape": 0.07614153071252092
+              },
+              "slope": 1.0,
+              "bias": -0.001007080078125,
+              "smooth_table_values": 508608
+            },
+            {
+              "fit_end": 4794,
+              "eval_end": 5640,
+              "none": {
+                "mae": 18.039098284072356,
+                "rmse": 32.187381551507634,
+                "mape": 0.07812578928064691
+              },
+              "smooth_target_time": {
+                "mae": 17.738707446607318,
+                "rmse": 31.585055814212108,
+                "mape": 0.07674703996792531
+              },
+              "mae_affine": {
+                "mae": 18.039096424279872,
+                "rmse": 32.18737447440716,
+                "mape": 0.07812562742141017
+              },
+              "slope": 1.0,
+              "bias": -0.00054931640625,
+              "smooth_table_values": 508608
+            }
+          ],
+          "mean_fold_mae": {
+            "none": 18.163296993165776,
+            "smooth_target_time": 17.862508031501267,
+            "mae_affine": 18.16330865790891
+          }
+        },
+        "Student": {
+          "folds": [
+            {
+              "fit_end": 3102,
+              "eval_end": 3947,
+              "none": {
+                "mae": 17.966149968926654,
+                "rmse": 32.21177197184952,
+                "mape": 0.07581865042498478
+              },
+              "smooth_target_time": {
+                "mae": 17.63943473464133,
+                "rmse": 31.29863433033906,
+                "mape": 0.07433979323520155
+              },
+              "mae_affine": {
+                "mae": 17.966149968926654,
+                "rmse": 32.21177197184952,
+                "mape": 0.07581865042498478
+              },
+              "slope": 1.0,
+              "bias": 0.0,
+              "smooth_table_values": 508608
+            },
+            {
+              "fit_end": 3947,
+              "eval_end": 4794,
+              "none": {
+                "mae": 18.893852168783663,
+                "rmse": 33.924225849311114,
+                "mape": 0.07672995878748723
+              },
+              "smooth_target_time": {
+                "mae": 18.47402684599493,
+                "rmse": 32.937774274564596,
+                "mape": 0.07507916468677002
+              },
+              "mae_affine": {
+                "mae": 18.893852168783663,
+                "rmse": 33.924225849311114,
+                "mape": 0.07672995878748723
+              },
+              "slope": 1.0,
+              "bias": 0.0,
+              "smooth_table_values": 508608
+            },
+            {
+              "fit_end": 4794,
+              "eval_end": 5640,
+              "none": {
+                "mae": 18.275531857852926,
+                "rmse": 33.03558363241092,
+                "mape": 0.078719872350113
+              },
+              "smooth_target_time": {
+                "mae": 17.891464551939183,
+                "rmse": 31.923336174932768,
+                "mape": 0.0771515410544188
+              },
+              "mae_affine": {
+                "mae": 18.275531857852926,
+                "rmse": 33.03558363241092,
+                "mape": 0.078719872350113
+              },
+              "slope": 1.0,
+              "bias": 0.0,
+              "smooth_table_values": 508608
+            }
+          ],
+          "mean_fold_mae": {
+            "none": 18.378511331854416,
+            "smooth_target_time": 18.001642044191815,
+            "mae_affine": 18.378511331854416
+          }
+        }
+      },
+      "student_minus_teacher_mae": {
+        "none": 0.21521433868863937,
+        "smooth_target_time": 0.1391340126905476,
+        "mae_affine": 0.2152026739455053
+      }
+    }
+  }
+}

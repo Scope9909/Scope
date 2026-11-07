@@ -1,0 +1,33 @@
+{
+  "dataset": "PEMS07",
+  "seed": 1,
+  "selector": "first55_three_block_stability_int8_s1",
+  "device": "cuda:0",
+  "test_raw_metrics": {
+    "mae": 19.14895356227233,
+    "rmse": 34.148076569434345,
+    "mape": 0.0792337442135954
+  },
+  "test_calibrated_metrics": {
+    "mae": 18.745886483573084,
+    "rmse": 32.82148114952441,
+    "mape": 0.07757785842912895
+  },
+  "validation_count": 5640,
+  "test_count": 5640,
+  "protocol": "PEMS07 frozen Student, full-node exact memory, same sparse-exact field recipes",
+  "source_sha256": {
+    "val": "13b1f1e1b6acd4ec0460ef0a52b58aaeec1eec6c1fa778af8d964a1505feb6c2",
+    "test": "456d28e093c58cd53d736a851fc301046ffa54ed9d5f6dccfc796a6a818d329a"
+  },
+  "package_sha256": {
+    "val": "d3926782e9729d97f393b83364ea7b997276e863bca69093a69247ad86de30e1",
+    "test": "3092a0b46e7aa8b6c39d459cbf7eb0f98267ca276c4f88951f32605669b940e6"
+  },
+  "package_bytes": {
+    "val": 10321545,
+    "test": 10326391
+  },
+  "test_based_selection": false,
+  "calibration_fit_split": "validation_only"
+}

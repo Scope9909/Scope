@@ -1,0 +1,209 @@
+{
+ "all_pass": true,
+ "rows": [
+  {
+   "dataset": "PEMS03",
+   "tier": "rec",
+   "split": "val",
+   "ref_delta": 0.002101329097591531,
+   "decoded_delta": 0.002101329097591531,
+   "abs_diff": 0.0,
+   "size_MB": 23.301576,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS03",
+   "tier": "rec",
+   "split": "test",
+   "ref_delta": 0.001955756960354549,
+   "decoded_delta": 0.001955756960354549,
+   "abs_diff": 0.0,
+   "size_MB": 23.080492,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS03",
+   "tier": "ext",
+   "split": "val",
+   "ref_delta": 0.0032820143937790647,
+   "decoded_delta": 0.0032820143937790647,
+   "abs_diff": 0.0,
+   "size_MB": 14.295948,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS03",
+   "tier": "ext",
+   "split": "test",
+   "ref_delta": 0.008236807826412118,
+   "decoded_delta": 0.008236807826412118,
+   "abs_diff": 0.0,
+   "size_MB": 14.088292,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS08",
+   "tier": "rec",
+   "split": "val",
+   "ref_delta": 0.0016523659339018337,
+   "decoded_delta": 0.0016523659339018337,
+   "abs_diff": 0.0,
+   "size_MB": 6.944556,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS08",
+   "tier": "rec",
+   "split": "test",
+   "ref_delta": 0.0015735594882357873,
+   "decoded_delta": 0.0015735594882357873,
+   "abs_diff": 0.0,
+   "size_MB": 6.893412,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS08",
+   "tier": "ext",
+   "split": "val",
+   "ref_delta": 0.003655043490569554,
+   "decoded_delta": 0.003655043490569554,
+   "abs_diff": 0.0,
+   "size_MB": 4.127392,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS08",
+   "tier": "ext",
+   "split": "test",
+   "ref_delta": 0.0029563844930482475,
+   "decoded_delta": 0.0029563844930482475,
+   "abs_diff": 0.0,
+   "size_MB": 4.087936,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS07",
+   "tier": "rec",
+   "split": "val",
+   "ref_delta": 0.005563205060713727,
+   "decoded_delta": 0.005563205060713727,
+   "abs_diff": 0.0,
+   "size_MB": 60.956472,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS07",
+   "tier": "rec",
+   "split": "test",
+   "ref_delta": 0.005500060304591159,
+   "decoded_delta": 0.005500060304591159,
+   "abs_diff": 0.0,
+   "size_MB": 62.267704,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS07",
+   "tier": "ext",
+   "split": "val",
+   "ref_delta": 0.0044270127228003275,
+   "decoded_delta": 0.0044270127228003275,
+   "abs_diff": 0.0,
+   "size_MB": 36.551496,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  },
+  {
+   "dataset": "PEMS07",
+   "tier": "ext",
+   "split": "test",
+   "ref_delta": 0.004608891113207392,
+   "decoded_delta": 0.004608891113207392,
+   "abs_diff": 0.0,
+   "size_MB": 36.952464,
+   "exact": {
+    "T": true,
+    "E": true,
+    "fd": true,
+    "hd": true,
+    "B": true
+   },
+   "pass_": true
+  }
+ ]
+}

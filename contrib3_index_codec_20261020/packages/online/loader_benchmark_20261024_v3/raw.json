@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems03_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 275236,
+    "read_seconds": 0.01039250000002312,
+    "decode_seconds": 0.00975370000003295,
+    "total_seconds": 0.02014620000005607,
+    "working_set_before": 32817152,
+    "working_set_after": 36012032,
+    "peak_working_set": 37146624,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 1,
+    "file_sha256": "050a5e4e9001743dd139bf0817176a5c347992806c802c477d23df7b0363702f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 190096,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.036062700000002224,
+    "total_seconds": 0.036062700000002224,
+    "working_set_before": 32972800,
+    "working_set_after": 36515840,
+    "peak_working_set": 39981056,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 1,
+    "file_sha256": "1011313ab77ee6956e6eabaf20209669e4a57853773f46fa462853a89af4209c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 166400,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.045900199999948654,
+    "total_seconds": 0.045900199999948654,
+    "working_set_before": 33050624,
+    "working_set_after": 36671488,
+    "peak_working_set": 54341632,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 1,
+    "file_sha256": "8d4302de3f2bf25b98f9be359655286ade160384bf071b254efbb8fd54b1400c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 166067,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.05710540000001174,
+    "total_seconds": 0.05710540000001174,
+    "working_set_before": 32849920,
+    "working_set_after": 36646912,
+    "peak_working_set": 53661696,
+    "array_nbytes": 2361042,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 1,
+    "file_sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems04_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 78718,
+    "read_seconds": 0.009261999999978343,
+    "decode_seconds": 0.007600099999990562,
+    "total_seconds": 0.016862099999968905,
+    "working_set_before": 32890880,
+    "working_set_after": 34590720,
+    "peak_working_set": 35225600,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 1,
+    "file_sha256": "a954abae049915ee80eb24c9a30473886053237daf0e47ff2e266d4832827ee2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 46263,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.027410299999985455,
+    "total_seconds": 0.027410299999985455,
+    "working_set_before": 32989184,
+    "working_set_after": 34676736,
+    "peak_working_set": 37535744,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 1,
+    "file_sha256": "e66d610fbddfa3094ac6d6ca661a7e1ea37be110efcc1cc5024809230d418136"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.025956400000040958,
+    "total_seconds": 0.025956400000040958,
+    "working_set_before": 32817152,
+    "working_set_after": 34512896,
+    "peak_working_set": 44695552,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 1,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02685079999997697,
+    "total_seconds": 0.02685079999997697,
+    "working_set_before": 33169408,
+    "working_set_after": 34906112,
+    "peak_working_set": 45187072,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 1,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems07_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 355339,
+    "read_seconds": 0.00977380000000494,
+    "decode_seconds": 0.016424400000005335,
+    "total_seconds": 0.026198200000010274,
+    "working_set_before": 33017856,
+    "working_set_after": 41938944,
+    "peak_working_set": 46043136,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 1,
+    "file_sha256": "29d30cc1d2c6cfee6c4766008c4e32a3fe8016ae297132afa7f14972450dd882"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 95082,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.05376699999999346,
+    "total_seconds": 0.05376699999999346,
+    "working_set_before": 32972800,
+    "working_set_after": 42344448,
+    "peak_working_set": 54726656,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 1,
+    "file_sha256": "c1de48d95daf9b1c7679797beabaefb9764f696b28e39bfa3d7382bd74faf32b"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 83063,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.09773169999999709,
+    "total_seconds": 0.09773169999999709,
+    "working_set_before": 32944128,
+    "working_set_after": 42708992,
+    "peak_working_set": 107458560,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 1,
+    "file_sha256": "3cbc702cccc94d36b48cf786c68996bf1f93c0596e2fd122c274e7ad5b8ba26e"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 80752,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.12261380000001054,
+    "total_seconds": 0.12261380000001054,
+    "working_set_before": 32706560,
+    "working_set_after": 42336256,
+    "peak_working_set": 106639360,
+    "array_nbytes": 8305866,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 1,
+    "file_sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems08_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 32901,
+    "read_seconds": 0.010202199999980621,
+    "decode_seconds": 0.006418100000018967,
+    "total_seconds": 0.016620299999999588,
+    "working_set_before": 32899072,
+    "working_set_after": 34582528,
+    "peak_working_set": 34582528,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 1,
+    "file_sha256": "b241bb7247804bac4aee887a63e0e2f117aae82d6e5ddb2192d7f803febb6470"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 18058,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.018087100000002465,
+    "total_seconds": 0.018087100000002465,
+    "working_set_before": 32935936,
+    "working_set_after": 34795520,
+    "peak_working_set": 36167680,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 1,
+    "file_sha256": "a14185bfa7e93a232b988928ffdff61f893b57dadc37da643a441652d3be8cfe"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.024724700000035682,
+    "total_seconds": 0.024724700000035682,
+    "working_set_before": 32997376,
+    "working_set_after": 34377728,
+    "peak_working_set": 40775680,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 1,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02228339999999207,
+    "total_seconds": 0.02228339999999207,
+    "working_set_before": 32890880,
+    "working_set_after": 34324480,
+    "peak_working_set": 40697856,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 1,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 190096,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02704799999997931,
+    "total_seconds": 0.02704799999997931,
+    "working_set_before": 32890880,
+    "working_set_after": 36683776,
+    "peak_working_set": 40165376,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 2,
+    "file_sha256": "1011313ab77ee6956e6eabaf20209669e4a57853773f46fa462853a89af4209c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 166400,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.03800830000000133,
+    "total_seconds": 0.03800830000000133,
+    "working_set_before": 32923648,
+    "working_set_after": 36524032,
+    "peak_working_set": 54071296,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 2,
+    "file_sha256": "8d4302de3f2bf25b98f9be359655286ade160384bf071b254efbb8fd54b1400c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 166067,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.04318000000000666,
+    "total_seconds": 0.04318000000000666,
+    "working_set_before": 33005568,
+    "working_set_after": 36839424,
+    "peak_working_set": 53653504,
+    "array_nbytes": 2361042,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 2,
+    "file_sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems03_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 275236,
+    "read_seconds": 0.0003503000000364409,
+    "decode_seconds": 0.009786599999983991,
+    "total_seconds": 0.010136900000020432,
+    "working_set_before": 33075200,
+    "working_set_after": 36147200,
+    "peak_working_set": 37281792,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 2,
+    "file_sha256": "050a5e4e9001743dd139bf0817176a5c347992806c802c477d23df7b0363702f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 46263,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.014718900000048052,
+    "total_seconds": 0.014718900000048052,
+    "working_set_before": 32919552,
+    "working_set_after": 34652160,
+    "peak_working_set": 37269504,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 2,
+    "file_sha256": "e66d610fbddfa3094ac6d6ca661a7e1ea37be110efcc1cc5024809230d418136"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.020519900000010693,
+    "total_seconds": 0.020519900000010693,
+    "working_set_before": 33062912,
+    "working_set_after": 34947072,
+    "peak_working_set": 45043712,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 2,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.019936500000028445,
+    "total_seconds": 0.019936500000028445,
+    "working_set_before": 33017856,
+    "working_set_after": 34750464,
+    "peak_working_set": 44953600,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 2,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems04_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 78718,
+    "read_seconds": 0.0001720000000204891,
+    "decode_seconds": 0.006805799999995088,
+    "total_seconds": 0.006977800000015577,
+    "working_set_before": 33157120,
+    "working_set_after": 34770944,
+    "peak_working_set": 35516416,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 2,
+    "file_sha256": "a954abae049915ee80eb24c9a30473886053237daf0e47ff2e266d4832827ee2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 95082,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.04205980000000409,
+    "total_seconds": 0.04205980000000409,
+    "working_set_before": 32882688,
+    "working_set_after": 42504192,
+    "peak_working_set": 54919168,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 2,
+    "file_sha256": "c1de48d95daf9b1c7679797beabaefb9764f696b28e39bfa3d7382bd74faf32b"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 83063,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.08469259999998258,
+    "total_seconds": 0.08469259999998258,
+    "working_set_before": 33034240,
+    "working_set_after": 42737664,
+    "peak_working_set": 107524096,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 2,
+    "file_sha256": "3cbc702cccc94d36b48cf786c68996bf1f93c0596e2fd122c274e7ad5b8ba26e"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 80752,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.10121379999998226,
+    "total_seconds": 0.10121379999998226,
+    "working_set_before": 32665600,
+    "working_set_after": 42602496,
+    "peak_working_set": 106635264,
+    "array_nbytes": 8305866,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 2,
+    "file_sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems07_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 355339,
+    "read_seconds": 0.00033400000000938235,
+    "decode_seconds": 0.017129800000020623,
+    "total_seconds": 0.017463800000030005,
+    "working_set_before": 32927744,
+    "working_set_after": 42057728,
+    "peak_working_set": 46161920,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 2,
+    "file_sha256": "29d30cc1d2c6cfee6c4766008c4e32a3fe8016ae297132afa7f14972450dd882"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 18058,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.011329299999999876,
+    "total_seconds": 0.011329299999999876,
+    "working_set_before": 32915456,
+    "working_set_after": 34246656,
+    "peak_working_set": 35864576,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 2,
+    "file_sha256": "a14185bfa7e93a232b988928ffdff61f893b57dadc37da643a441652d3be8cfe"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.01549950000003264,
+    "total_seconds": 0.01549950000003264,
+    "working_set_before": 32882688,
+    "working_set_after": 34648064,
+    "peak_working_set": 40624128,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 2,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.01598380000001498,
+    "total_seconds": 0.01598380000001498,
+    "working_set_before": 33005568,
+    "working_set_after": 34889728,
+    "peak_working_set": 40796160,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 2,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems08_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 32901,
+    "read_seconds": 0.00016580000004751128,
+    "decode_seconds": 0.006559900000013386,
+    "total_seconds": 0.006725700000060897,
+    "working_set_before": 32985088,
+    "working_set_after": 34680832,
+    "peak_working_set": 34680832,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 2,
+    "file_sha256": "b241bb7247804bac4aee887a63e0e2f117aae82d6e5ddb2192d7f803febb6470"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 166400,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.03945090000001983,
+    "total_seconds": 0.03945090000001983,
+    "working_set_before": 32808960,
+    "working_set_after": 36519936,
+    "peak_working_set": 54120448,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 3,
+    "file_sha256": "8d4302de3f2bf25b98f9be359655286ade160384bf071b254efbb8fd54b1400c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 166067,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.03937109999998256,
+    "total_seconds": 0.03937109999998256,
+    "working_set_before": 32960512,
+    "working_set_after": 36638720,
+    "peak_working_set": 53678080,
+    "array_nbytes": 2361042,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 3,
+    "file_sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems03_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 275236,
+    "read_seconds": 0.0005990999999880842,
+    "decode_seconds": 0.009107700000015484,
+    "total_seconds": 0.009706800000003568,
+    "working_set_before": 32669696,
+    "working_set_after": 35753984,
+    "peak_working_set": 36888576,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 3,
+    "file_sha256": "050a5e4e9001743dd139bf0817176a5c347992806c802c477d23df7b0363702f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 190096,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02674920000004022,
+    "total_seconds": 0.02674920000004022,
+    "working_set_before": 32792576,
+    "working_set_after": 36810752,
+    "peak_working_set": 40280064,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 3,
+    "file_sha256": "1011313ab77ee6956e6eabaf20209669e4a57853773f46fa462853a89af4209c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.022420199999999113,
+    "total_seconds": 0.022420199999999113,
+    "working_set_before": 32874496,
+    "working_set_after": 34689024,
+    "peak_working_set": 44773376,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 3,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02081309999999803,
+    "total_seconds": 0.02081309999999803,
+    "working_set_before": 32890880,
+    "working_set_after": 34783232,
+    "peak_working_set": 44974080,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 3,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems04_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 78718,
+    "read_seconds": 0.0003074999999626016,
+    "decode_seconds": 0.0073557999999707135,
+    "total_seconds": 0.007663299999933315,
+    "working_set_before": 32960512,
+    "working_set_after": 34668544,
+    "peak_working_set": 35422208,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 3,
+    "file_sha256": "a954abae049915ee80eb24c9a30473886053237daf0e47ff2e266d4832827ee2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 46263,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.014654399999983525,
+    "total_seconds": 0.014654399999983525,
+    "working_set_before": 32915456,
+    "working_set_after": 34631680,
+    "peak_working_set": 37171200,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 3,
+    "file_sha256": "e66d610fbddfa3094ac6d6ca661a7e1ea37be110efcc1cc5024809230d418136"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 83063,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.09022290000001476,
+    "total_seconds": 0.09022290000001476,
+    "working_set_before": 32845824,
+    "working_set_after": 42545152,
+    "peak_working_set": 107393024,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 3,
+    "file_sha256": "3cbc702cccc94d36b48cf786c68996bf1f93c0596e2fd122c274e7ad5b8ba26e"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 80752,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.09379319999999325,
+    "total_seconds": 0.09379319999999325,
+    "working_set_before": 32976896,
+    "working_set_after": 42569728,
+    "peak_working_set": 106770432,
+    "array_nbytes": 8305866,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 3,
+    "file_sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems07_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 355339,
+    "read_seconds": 0.0002920999999673768,
+    "decode_seconds": 0.016419100000007347,
+    "total_seconds": 0.016711199999974724,
+    "working_set_before": 33062912,
+    "working_set_after": 42110976,
+    "peak_working_set": 46215168,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 3,
+    "file_sha256": "29d30cc1d2c6cfee6c4766008c4e32a3fe8016ae297132afa7f14972450dd882"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 95082,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.039909600000044065,
+    "total_seconds": 0.039909600000044065,
+    "working_set_before": 32747520,
+    "working_set_after": 42229760,
+    "peak_working_set": 54648832,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 3,
+    "file_sha256": "c1de48d95daf9b1c7679797beabaefb9764f696b28e39bfa3d7382bd74faf32b"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.01724819999998317,
+    "total_seconds": 0.01724819999998317,
+    "working_set_before": 33116160,
+    "working_set_after": 34881536,
+    "peak_working_set": 40828928,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 3,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.01657829999999194,
+    "total_seconds": 0.01657829999999194,
+    "working_set_before": 33054720,
+    "working_set_after": 34721792,
+    "peak_working_set": 40747008,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 3,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems08_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 32901,
+    "read_seconds": 0.0001955999999836422,
+    "decode_seconds": 0.006734799999946972,
+    "total_seconds": 0.006930399999930614,
+    "working_set_before": 32849920,
+    "working_set_after": 34451456,
+    "peak_working_set": 34451456,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 3,
+    "file_sha256": "b241bb7247804bac4aee887a63e0e2f117aae82d6e5ddb2192d7f803febb6470"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 18058,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.011346500000001924,
+    "total_seconds": 0.011346500000001924,
+    "working_set_before": 32825344,
+    "working_set_after": 34308096,
+    "peak_working_set": 36114432,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 3,
+    "file_sha256": "a14185bfa7e93a232b988928ffdff61f893b57dadc37da643a441652d3be8cfe"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 166067,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.04229929999996784,
+    "total_seconds": 0.04229929999996784,
+    "working_set_before": 32993280,
+    "working_set_after": 36798464,
+    "peak_working_set": 53678080,
+    "array_nbytes": 2361042,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 4,
+    "file_sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems03_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 275236,
+    "read_seconds": 0.0002446999999961008,
+    "decode_seconds": 0.009302699999977904,
+    "total_seconds": 0.009547399999974004,
+    "working_set_before": 32894976,
+    "working_set_after": 35905536,
+    "peak_working_set": 37040128,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 4,
+    "file_sha256": "050a5e4e9001743dd139bf0817176a5c347992806c802c477d23df7b0363702f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 190096,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02685070000001133,
+    "total_seconds": 0.02685070000001133,
+    "working_set_before": 32800768,
+    "working_set_after": 36556800,
+    "peak_working_set": 40062976,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 4,
+    "file_sha256": "1011313ab77ee6956e6eabaf20209669e4a57853773f46fa462853a89af4209c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 166400,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.03816820000002963,
+    "total_seconds": 0.03816820000002963,
+    "working_set_before": 33062912,
+    "working_set_after": 36700160,
+    "peak_working_set": 54333440,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 4,
+    "file_sha256": "8d4302de3f2bf25b98f9be359655286ade160384bf071b254efbb8fd54b1400c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.021096000000000004,
+    "total_seconds": 0.021096000000000004,
+    "working_set_before": 32976896,
+    "working_set_after": 34779136,
+    "peak_working_set": 44892160,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 4,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems04_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 78718,
+    "read_seconds": 0.00022469999998975254,
+    "decode_seconds": 0.0073474999999803,
+    "total_seconds": 0.007572199999970053,
+    "working_set_before": 33124352,
+    "working_set_after": 34709504,
+    "peak_working_set": 35348480,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 4,
+    "file_sha256": "a954abae049915ee80eb24c9a30473886053237daf0e47ff2e266d4832827ee2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 46263,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.018065100000001166,
+    "total_seconds": 0.018065100000001166,
+    "working_set_before": 32710656,
+    "working_set_after": 34582528,
+    "peak_working_set": 37617664,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 4,
+    "file_sha256": "e66d610fbddfa3094ac6d6ca661a7e1ea37be110efcc1cc5024809230d418136"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.021095500000001266,
+    "total_seconds": 0.021095500000001266,
+    "working_set_before": 32841728,
+    "working_set_after": 34574336,
+    "peak_working_set": 44797952,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 4,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 80752,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.10922030000000404,
+    "total_seconds": 0.10922030000000404,
+    "working_set_before": 32993280,
+    "working_set_after": 42795008,
+    "peak_working_set": 106995712,
+    "array_nbytes": 8305866,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 4,
+    "file_sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems07_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 355339,
+    "read_seconds": 0.0003419000000235428,
+    "decode_seconds": 0.016814500000009502,
+    "total_seconds": 0.017156400000033045,
+    "working_set_before": 32710656,
+    "working_set_after": 41922560,
+    "peak_working_set": 46026752,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 4,
+    "file_sha256": "29d30cc1d2c6cfee6c4766008c4e32a3fe8016ae297132afa7f14972450dd882"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 95082,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.03902049999999235,
+    "total_seconds": 0.03902049999999235,
+    "working_set_before": 32870400,
+    "working_set_after": 42553344,
+    "peak_working_set": 54960128,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 4,
+    "file_sha256": "c1de48d95daf9b1c7679797beabaefb9764f696b28e39bfa3d7382bd74faf32b"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 83063,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.08086639999999079,
+    "total_seconds": 0.08086639999999079,
+    "working_set_before": 32870400,
+    "working_set_after": 42700800,
+    "peak_working_set": 107466752,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 4,
+    "file_sha256": "3cbc702cccc94d36b48cf786c68996bf1f93c0596e2fd122c274e7ad5b8ba26e"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.016938600000003134,
+    "total_seconds": 0.016938600000003134,
+    "working_set_before": 32911360,
+    "working_set_after": 34406400,
+    "peak_working_set": 40857600,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 4,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems08_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 32901,
+    "read_seconds": 0.00016770000001997687,
+    "decode_seconds": 0.005999700000018038,
+    "total_seconds": 0.006167400000038015,
+    "working_set_before": 32796672,
+    "working_set_after": 34885632,
+    "peak_working_set": 34885632,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 4,
+    "file_sha256": "b241bb7247804bac4aee887a63e0e2f117aae82d6e5ddb2192d7f803febb6470"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 18058,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.01107310000003281,
+    "total_seconds": 0.01107310000003281,
+    "working_set_before": 32964608,
+    "working_set_after": 34799616,
+    "peak_working_set": 36159488,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 4,
+    "file_sha256": "a14185bfa7e93a232b988928ffdff61f893b57dadc37da643a441652d3be8cfe"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.016508600000008755,
+    "total_seconds": 0.016508600000008755,
+    "working_set_before": 33017856,
+    "working_set_after": 34406400,
+    "peak_working_set": 40955904,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 4,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems03_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 275236,
+    "read_seconds": 0.00026000000002568413,
+    "decode_seconds": 0.009033900000019912,
+    "total_seconds": 0.009293900000045596,
+    "working_set_before": 32886784,
+    "working_set_after": 36143104,
+    "peak_working_set": 37277696,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 5,
+    "file_sha256": "050a5e4e9001743dd139bf0817176a5c347992806c802c477d23df7b0363702f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 190096,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02567489999995587,
+    "total_seconds": 0.02567489999995587,
+    "working_set_before": 33185792,
+    "working_set_after": 36724736,
+    "peak_working_set": 40189952,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 5,
+    "file_sha256": "1011313ab77ee6956e6eabaf20209669e4a57853773f46fa462853a89af4209c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 166400,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.03673930000002201,
+    "total_seconds": 0.03673930000002201,
+    "working_set_before": 32935936,
+    "working_set_after": 36675584,
+    "peak_working_set": 54218752,
+    "array_nbytes": 2361906,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 5,
+    "file_sha256": "8d4302de3f2bf25b98f9be359655286ade160384bf071b254efbb8fd54b1400c"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems03_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 166067,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.03852059999996982,
+    "total_seconds": 0.03852059999996982,
+    "working_set_before": 32964608,
+    "working_set_after": 36622336,
+    "peak_working_set": 53702656,
+    "array_nbytes": 2361042,
+    "train_raw_shape": [
+      15734,
+      36
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS03",
+    "repeat": 5,
+    "file_sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems04_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 78718,
+    "read_seconds": 0.00021320000001878725,
+    "decode_seconds": 0.007011000000034073,
+    "total_seconds": 0.0072242000000528606,
+    "working_set_before": 33026048,
+    "working_set_after": 34652160,
+    "peak_working_set": 35291136,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 5,
+    "file_sha256": "a954abae049915ee80eb24c9a30473886053237daf0e47ff2e266d4832827ee2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 46263,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.013164099999983137,
+    "total_seconds": 0.013164099999983137,
+    "working_set_before": 32858112,
+    "working_set_after": 34586624,
+    "peak_working_set": 37474304,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 5,
+    "file_sha256": "e66d610fbddfa3094ac6d6ca661a7e1ea37be110efcc1cc5024809230d418136"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.021154700000010962,
+    "total_seconds": 0.021154700000010962,
+    "working_set_before": 32837632,
+    "working_set_after": 34680832,
+    "peak_working_set": 44814336,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 5,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems04_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 38511,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.02134369999998853,
+    "total_seconds": 0.02134369999998853,
+    "working_set_before": 32874496,
+    "working_set_after": 34734080,
+    "peak_working_set": 44838912,
+    "array_nbytes": 1328050,
+    "train_raw_shape": [
+      10204,
+      31
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS04",
+    "repeat": 5,
+    "file_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems07_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 355339,
+    "read_seconds": 0.00031230000001869485,
+    "decode_seconds": 0.016585999999961132,
+    "total_seconds": 0.016898299999979827,
+    "working_set_before": 33083392,
+    "working_set_after": 42201088,
+    "peak_working_set": 46305280,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 5,
+    "file_sha256": "29d30cc1d2c6cfee6c4766008c4e32a3fe8016ae297132afa7f14972450dd882"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 95082,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.042410899999993035,
+    "total_seconds": 0.042410899999993035,
+    "working_set_before": 32825344,
+    "working_set_after": 42209280,
+    "peak_working_set": 54575104,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 5,
+    "file_sha256": "c1de48d95daf9b1c7679797beabaefb9764f696b28e39bfa3d7382bd74faf32b"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 83063,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.09404570000003787,
+    "total_seconds": 0.09404570000003787,
+    "working_set_before": 33017856,
+    "working_set_after": 42663936,
+    "peak_working_set": 107515904,
+    "array_nbytes": 8308770,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 5,
+    "file_sha256": "3cbc702cccc94d36b48cf786c68996bf1f93c0596e2fd122c274e7ad5b8ba26e"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems07_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 80752,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.09210969999998042,
+    "total_seconds": 0.09210969999998042,
+    "working_set_before": 32907264,
+    "working_set_after": 42409984,
+    "peak_working_set": 106754048,
+    "array_nbytes": 8305866,
+    "train_raw_shape": [
+      16944,
+      121
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS07",
+    "repeat": 5,
+    "file_sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\loader_benchmark_20261024_v3\\pems08_test_legacy_npz.npz",
+    "kind": "legacy_npz",
+    "file_bytes": 32901,
+    "read_seconds": 0.00017339999999421707,
+    "decode_seconds": 0.00616029999997636,
+    "total_seconds": 0.006333699999970577,
+    "working_set_before": 32862208,
+    "working_set_after": 35000320,
+    "peak_working_set": 35000320,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 5,
+    "file_sha256": "b241bb7247804bac4aee887a63e0e2f117aae82d6e5ddb2192d7f803febb6470"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_generic.alsc",
+    "kind": "generic",
+    "file_bytes": 18058,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.015457500000024993,
+    "total_seconds": 0.015457500000024993,
+    "working_set_before": 32980992,
+    "working_set_after": 34258944,
+    "peak_working_set": 35831808,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 5,
+    "file_sha256": "a14185bfa7e93a232b988928ffdff61f893b57dadc37da643a441652d3be8cfe"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_exact.alsc",
+    "kind": "exact",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.015105700000049183,
+    "total_seconds": 0.015105700000049183,
+    "working_set_before": 32907264,
+    "working_set_after": 34328576,
+    "peak_working_set": 40660992,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 5,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  },
+  {
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_test_20261023_v1\\pems08_test_selected.alsc",
+    "kind": "selected",
+    "file_bytes": 14984,
+    "read_seconds": 0.0,
+    "decode_seconds": 0.015522799999985182,
+    "total_seconds": 0.015522799999985182,
+    "working_set_before": 32956416,
+    "working_set_after": 34816000,
+    "peak_working_set": 40894464,
+    "array_nbytes": 923136,
+    "train_raw_shape": [
+      10723,
+      20
+    ],
+    "train_raw_dtype": "float32",
+    "dataset": "PEMS08",
+    "repeat": 5,
+    "file_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"
+  }
+]

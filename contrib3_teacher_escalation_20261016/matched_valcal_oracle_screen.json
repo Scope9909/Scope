@@ -1,0 +1,184 @@
+{
+  "protocol": "matched_ValCal_early_Validation_fit_late_Validation_oracle_v1",
+  "test_keys_read": false,
+  "metric": "mean of the 12 masked horizon MAEs",
+  "caveat": "The frozen ValCal hyperparameters were previously chosen with Validation; this is a feasibility screen, not independent final confirmation.",
+  "datasets": {
+    "PEMS03": {
+      "sources": {
+        "student": "paper_results/pems03_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only/selected_predictions.npz",
+        "calibration": "paper_results/pems03_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal/calibration.json",
+        "teacher": "datasets/PEMS03/PEMS03_12to12_parent_predictions_joint3.npz"
+      },
+      "calibration_params": {
+        "num_bins": 20,
+        "smooth_shrinkage": 0.55,
+        "num_time_bins": 96,
+        "time_shrinkage": 0.35,
+        "slices_per_day": 288
+      },
+      "fit_indices": [
+        0,
+        2617
+      ],
+      "evaluation_indices": [
+        3939,
+        5236
+      ],
+      "evaluation_windows": 1298,
+      "student_matched_valcal_mae": 13.795556733257127,
+      "teacher_matched_valcal_mae": 13.79504368717865,
+      "teacher_always_gain": 0.0005130460784776858,
+      "teacher_better_window_fraction": 0.5562403697996918,
+      "budgets": {
+        "0.05": {
+          "max_teacher_windows": 64,
+          "oracle_chosen_windows": 64,
+          "oracle_gain_at_most_budget": 0.00975949217695924
+        },
+        "0.1": {
+          "max_teacher_windows": 129,
+          "oracle_chosen_windows": 129,
+          "oracle_gain_at_most_budget": 0.015568903335722084
+        },
+        "0.2": {
+          "max_teacher_windows": 259,
+          "oracle_chosen_windows": 259,
+          "oracle_gain_at_most_budget": 0.023138584193728683
+        }
+      }
+    },
+    "PEMS04": {
+      "sources": {
+        "student": "paper_results/icde_generality/pems04_joint3_lite_r256_strictalign_s1/selected_predictions.npz",
+        "calibration": "paper_results/icde_generality/pems04_joint3_lite_r256_strictalign_s1_valcal/calibration.json",
+        "teacher": "datasets/PEMS04/PEMS04_12to12_parent_predictions_joint3_strict.npz"
+      },
+      "calibration_params": {
+        "num_bins": 20,
+        "smooth_shrinkage": 0.55,
+        "num_time_bins": 96,
+        "time_shrinkage": 0.35,
+        "slices_per_day": 288
+      },
+      "fit_indices": [
+        0,
+        1696
+      ],
+      "evaluation_indices": [
+        2557,
+        3393
+      ],
+      "evaluation_windows": 837,
+      "student_matched_valcal_mae": 18.298109845422033,
+      "teacher_matched_valcal_mae": 18.2793931359793,
+      "teacher_always_gain": 0.018716709442731627,
+      "teacher_better_window_fraction": 0.6594982078853047,
+      "budgets": {
+        "0.05": {
+          "max_teacher_windows": 41,
+          "oracle_chosen_windows": 41,
+          "oracle_gain_at_most_budget": 0.0059582751347624875
+        },
+        "0.1": {
+          "max_teacher_windows": 83,
+          "oracle_chosen_windows": 83,
+          "oracle_gain_at_most_budget": 0.01011720798721146
+        },
+        "0.2": {
+          "max_teacher_windows": 167,
+          "oracle_chosen_windows": 167,
+          "oracle_gain_at_most_budget": 0.01633481224147832
+        }
+      }
+    },
+    "PEMS07": {
+      "sources": {
+        "student": "paper_results/pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only/selected_predictions.npz",
+        "calibration": "paper_results/pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal/calibration.json",
+        "teacher": "datasets/PEMS07/PEMS07_12to12_parent_predictions_joint3.npz"
+      },
+      "calibration_params": {
+        "num_bins": 20,
+        "smooth_shrinkage": 0.55,
+        "num_time_bins": 96,
+        "time_shrinkage": 0.35,
+        "slices_per_day": 288
+      },
+      "fit_indices": [
+        0,
+        2819
+      ],
+      "evaluation_indices": [
+        4242,
+        5639
+      ],
+      "evaluation_windows": 1398,
+      "student_matched_valcal_mae": 18.280733972140514,
+      "teacher_matched_valcal_mae": 18.125981825765482,
+      "teacher_always_gain": 0.15475214637503143,
+      "teacher_better_window_fraction": 0.9377682403433476,
+      "budgets": {
+        "0.05": {
+          "max_teacher_windows": 69,
+          "oracle_chosen_windows": 69,
+          "oracle_gain_at_most_budget": 0.018380929211795127
+        },
+        "0.1": {
+          "max_teacher_windows": 139,
+          "oracle_chosen_windows": 139,
+          "oracle_gain_at_most_budget": 0.03409118328243939
+        },
+        "0.2": {
+          "max_teacher_windows": 279,
+          "oracle_chosen_windows": 279,
+          "oracle_gain_at_most_budget": 0.06084154408011914
+        }
+      }
+    },
+    "PEMS08": {
+      "sources": {
+        "student": "paper_results/pems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only/selected_predictions.npz",
+        "calibration": "paper_results/pems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal/calibration.json",
+        "teacher": "datasets/PEMS08/PEMS08_12to12_parent_predictions_joint3.npz"
+      },
+      "calibration_params": {
+        "num_bins": 20,
+        "smooth_shrinkage": 0.55,
+        "num_time_bins": 96,
+        "time_shrinkage": 0.35,
+        "slices_per_day": 288
+      },
+      "fit_indices": [
+        0,
+        1782
+      ],
+      "evaluation_indices": [
+        2686,
+        3565
+      ],
+      "evaluation_windows": 880,
+      "student_matched_valcal_mae": 13.950430161199582,
+      "teacher_matched_valcal_mae": 13.919563368222384,
+      "teacher_always_gain": 0.030866792977198187,
+      "teacher_better_window_fraction": 0.6022727272727273,
+      "budgets": {
+        "0.05": {
+          "max_teacher_windows": 44,
+          "oracle_chosen_windows": 44,
+          "oracle_gain_at_most_budget": 0.013534666634264975
+        },
+        "0.1": {
+          "max_teacher_windows": 88,
+          "oracle_chosen_windows": 88,
+          "oracle_gain_at_most_budget": 0.022311965948328478
+        },
+        "0.2": {
+          "max_teacher_windows": 176,
+          "oracle_chosen_windows": 176,
+          "oracle_gain_at_most_budget": 0.03502338744273297
+        }
+      }
+    }
+  }
+}

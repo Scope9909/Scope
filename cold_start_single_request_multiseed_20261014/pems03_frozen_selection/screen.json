@@ -1,0 +1,67 @@
+{
+  "protocol": "frozen_three_block_stability_float32_validation_seed1",
+  "test_evaluated": false,
+  "nodes": 358,
+  "selected_nodes": 36,
+  "selected_node_ids": [
+    19,
+    21,
+    25,
+    26,
+    27,
+    30,
+    31,
+    33,
+    34,
+    46,
+    57,
+    58,
+    62,
+    82,
+    85,
+    96,
+    98,
+    139,
+    146,
+    152,
+    165,
+    166,
+    180,
+    188,
+    215,
+    219,
+    260,
+    263,
+    266,
+    277,
+    279,
+    290,
+    298,
+    300,
+    330,
+    344
+  ],
+  "validation_folds": [
+    {
+      "eval_start": 2880,
+      "eval_end": 3665,
+      "sparse_raw_mae": 13.109627811863147,
+      "full_raw_mae": 13.09959274394316,
+      "backbone_raw_mae": 13.203423320044395
+    },
+    {
+      "eval_start": 3665,
+      "eval_end": 4451,
+      "sparse_raw_mae": 14.690357052028638,
+      "full_raw_mae": 14.687384813150643,
+      "backbone_raw_mae": 14.78305819128537
+    },
+    {
+      "eval_start": 4451,
+      "eval_end": 5237,
+      "sparse_raw_mae": 13.021752883435381,
+      "full_raw_mae": 13.042796007322726,
+      "backbone_raw_mae": 13.093489838384192
+    }
+  ]
+}

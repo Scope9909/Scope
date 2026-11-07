@@ -1,0 +1,111 @@
+{
+  "protocol": "hyperd_aligned_pems04_efficiency_v1",
+  "name": "lite_r256_kdfix3_final_s1_b1_20261010",
+  "experiment_directory": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_val_s1",
+  "retrieval_cache_override": null,
+  "split": "test",
+  "logical_samples": 3394,
+  "batch_size": 1,
+  "warmup_batches": 50,
+  "repeats": 3,
+  "device": {
+    "requested": "cuda",
+    "torch_device": "cuda:0",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "platform": "Windows-10-10.0.22000-SP0",
+    "python": "3.11.0",
+    "torch": "2.0.0+cu117",
+    "cpu_threads": 1
+  },
+  "model": {
+    "parameters_total": 665314,
+    "parameters_trainable_flag_at_load": 665314,
+    "parameter_tensor_bytes_at_runtime": 2661256,
+    "parameter_tensor_mib_at_runtime": 2.5379714965820312
+  },
+  "accuracy_first_trial": {
+    "mae_global_valid_elements": 17.655972009641907,
+    "rmse_global_valid_elements": 29.426697128139587,
+    "valid_elements": 12340883,
+    "warning": "This is a benchmark sanity metric. Official paper metrics may use horizon-wise aggregation; do not silently mix the two."
+  },
+  "timing": {
+    "loader_seconds_per_batch": {
+      "mean": 0.0006867012964048857,
+      "std": 0.00016770502029526805,
+      "p50": 0.0006575999999540727,
+      "p95": 0.0009833899999875937
+    },
+    "host_to_device_seconds_per_batch": {
+      "mean": 0.0003118357002558308,
+      "std": 9.766519919354441e-05,
+      "p50": 0.00027449999993223173,
+      "p95": 0.000511095000035766
+    },
+    "forward_seconds_per_batch": {
+      "mean": 0.0045425092221571236,
+      "std": 0.001282993389346537,
+      "p50": 0.004036049999967872,
+      "p95": 0.007729814999959215
+    },
+    "end_to_end_seconds_per_batch": {
+      "mean": 0.00554104621881784,
+      "std": 0.001424134233507101,
+      "p50": 0.004999549999865849,
+      "p95": 0.008910194999941723
+    },
+    "forward_ms_per_physical_sample": {
+      "mean": 4.542509222157123,
+      "std": 1.282993389346537,
+      "p50": 4.036049999967872,
+      "p95": 7.729814999959215
+    },
+    "end_to_end_ms_per_physical_sample": {
+      "mean": 5.54104621881784,
+      "std": 1.424134233507101,
+      "p50": 4.999549999865849,
+      "p95": 8.910194999941723
+    },
+    "forward_throughput_samples_per_second": 220.14264607813502,
+    "end_to_end_throughput_samples_per_second": 180.47133348282122,
+    "physical_samples_all_trials": 10182
+  },
+  "memory": {
+    "process_rss_after_import_mib": 301.3671875,
+    "process_rss_after_dataset_mib": 1198.6796875,
+    "process_rss_after_model_mib": 2051.71875,
+    "process_peak_rss_observed_mib": 3324.35546875,
+    "peak_gpu_allocated_mib": 20.9443359375,
+    "peak_gpu_reserved_mib": 28.0
+  },
+  "storage": {
+    "files": [
+      {
+        "role": "fp32_checkpoint_used",
+        "path": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_val_s1\\best.pth",
+        "exists": true,
+        "bytes": 2684405,
+        "mib": 2.5600481033325195
+      },
+      {
+        "role": "retrieval_cache",
+        "path": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k4_exact_mean.npz",
+        "exists": true,
+        "bytes": 105784863,
+        "mib": 100.88430690765381
+      }
+    ],
+    "fp32_complete_deployment_bytes": 108469268,
+    "fp32_complete_deployment_mib": 103.44435501098633,
+    "external_assets_bytes": 105784863,
+    "external_assets_mib": 100.88430690765381,
+    "fp16_complete_deployment_bytes_if_available": null,
+    "fp16_complete_deployment_mib_if_available": null,
+    "warning": "Complete deployment storage includes only files discovered from this experiment config plus the explicitly supplied calibrator."
+  },
+  "flops": {
+    "status": "not_requested"
+  }
+}

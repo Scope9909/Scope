@@ -1,0 +1,41 @@
+{
+  "protocol": "frozen_srm_online_test_once_v1",
+  "dataset": "PEMS04",
+  "seed_label": 2,
+  "mode": "full",
+  "selector": "actual_online_state_byte_capped_int8_s1",
+  "test_evaluated": true,
+  "test_evaluations": 1,
+  "test_based_selection": false,
+  "query_cache_loaded": false,
+  "memory_format": "int8",
+  "batch_size": 32,
+  "validation_samples": 3394,
+  "test_samples": 3394,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s2\\best.pth",
+  "checkpoint_sha256": "f8c95e6fb5653d02675bd8cdedcbc43a3103e478aa7719509dd782b5661ec7b7",
+  "calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s2_valcal\\calibration.json",
+  "calibration_sha256": "dcf1c65d0f62a21a91f3133315d99aaaa16312fe5b265fff5cf6effc6fa55f58",
+  "validation_state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming_20261014\\pems04_full_cold_state.npz",
+  "test_state": "D:\\lunwen\\June\\TLAST-main\\online_end_to_end_20261014\\pems04_full_online_state.npz",
+  "validation_state_sha256": "aeec5bb7b1334d4e2dad057f8e1788e65b5cf549c6ff0551091320727a74eacd",
+  "test_state_sha256": "3f2d08bfc1ac4b43216d53718755cedda0bf5734076f553d1445a7fa8e6c717e",
+  "test_state_bytes": 5016405,
+  "selected_nodes": 307,
+  "total_nodes": 307,
+  "validation_raw": {
+    "mae": 17.834579607328326,
+    "rmse": 30.04341068098785,
+    "mape": 0.11910004798294059
+  },
+  "test_raw": {
+    "mae": 17.656942310849377,
+    "rmse": 29.39393851065096,
+    "mape": 0.12020223772745063
+  },
+  "test_fixed_calibrated": {
+    "mae": 17.5072353427205,
+    "rmse": 29.17735133167743,
+    "mape": 0.11968322719287007
+  }
+}

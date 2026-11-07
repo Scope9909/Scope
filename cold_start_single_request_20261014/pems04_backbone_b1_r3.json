@@ -1,0 +1,90 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS04",
+  "mode": "backbone",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1\\best.pth",
+  "state": null,
+  "state_bytes": 0,
+  "selected_nodes": 0,
+  "total_nodes": 307,
+  "cold_start_endpoint": null,
+  "pending_candidates_at_cold_start": 0,
+  "source_train_candidates": 0,
+  "device": "cuda:0",
+  "batch_size": 1,
+  "warmup_passes": 1,
+  "repeats": 3,
+  "samples_per_pass": 3394,
+  "load_and_init_seconds": 1.543428099999801,
+  "pass_wall_seconds": [
+    19.805910399998538,
+    19.380375299999287,
+    19.194420400001036
+  ],
+  "pass_wall_median_seconds": 19.380375299999287,
+  "pass_wall_p95_seconds": 19.76335688999861,
+  "throughput_samples_per_second_at_median": 175.12560760369408,
+  "retrieval_seconds": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "retrieval_median_seconds": 0.0,
+  "model_and_transfer_seconds": [
+    16.265433700003996,
+    16.68537089995334,
+    16.47329939998781
+  ],
+  "model_and_transfer_median_seconds": 16.47329939998781,
+  "loader_batch_latency_ms_p50": 0.6417499998860876,
+  "loader_batch_latency_ms_p95": 1.1935799991988456,
+  "compute_batch_latency_ms_p50": 4.311900000175228,
+  "compute_batch_latency_ms_p95": 7.9785500005527865,
+  "end_to_end_batch_latency_ms_p50": 4.99850000051083,
+  "end_to_end_batch_latency_ms_p95": 8.783565001613164,
+  "batch_latency_scope": "one batch of at most 1; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 704991232,
+  "cpu_rss_peak_sampled_bytes": 1321607168,
+  "gpu_peak_allocated_bytes": 21747712,
+  "gpu_peak_reserved_bytes": 31457280,
+  "raw_validation_metrics": {
+    "mae": 17.98726367714153,
+    "rmse": 30.067804658385782,
+    "mape": 0.12079800234055486
+  },
+  "fixed_validation_calibration": {
+    "reference": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1_valcal\\calibration.json",
+    "folds": [
+      {
+        "fit_end": 1866,
+        "eval_start": 1866,
+        "eval_end": 2375,
+        "raw_mae": 17.445674074130647,
+        "fixed_calibrated_mae": 17.295539789919328
+      },
+      {
+        "fit_end": 2375,
+        "eval_start": 2375,
+        "eval_end": 2884,
+        "raw_mae": 17.47146494476472,
+        "fixed_calibrated_mae": 17.24718468416761
+      },
+      {
+        "fit_end": 2884,
+        "eval_start": 2884,
+        "eval_end": 3394,
+        "raw_mae": 18.535452341859372,
+        "fixed_calibrated_mae": 18.347005965559195
+      }
+    ],
+    "mean_raw_mae": 17.81753045358491,
+    "mean_fixed_calibrated_mae": 17.62991014654871
+  },
+  "prediction_parity": {
+    "reference": "D:\\lunwen\\June\\TLAST-main\\pems04_s1_hetero_budget_20261013\\backbone_val_predictions.npz",
+    "max_absolute_difference": 0.0194091796875,
+    "mean_absolute_difference": 3.072689287364483e-05
+  }
+}

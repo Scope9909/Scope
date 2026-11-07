@@ -1,0 +1,90 @@
+{
+  "protocol": "PEMS04_frozen_ValCal_expanding_folds_validation_only",
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_expicde_pems04_joint3_retrieval_free_pilot_v2_s1\\best.pth",
+  "reference_report": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1_valcal\\calibration.json",
+  "test_evaluated": false,
+  "parameters": {
+    "num_bins": 20,
+    "smooth_shrinkage": 0.55,
+    "num_time_bins": 96,
+    "time_shrinkage": 0.35,
+    "slices_per_day": 288
+  },
+  "baseline_validation": {
+    "mae": 17.946400710082383,
+    "rmse": 30.05994657373749,
+    "mape": 0.12012104057379629
+  },
+  "validation_folds": [
+    {
+      "train_samples": 1866,
+      "evaluation_start": 1866,
+      "evaluation_end": 2375,
+      "baseline": {
+        "mae": 17.40096868592086,
+        "rmse": 29.198345962653562,
+        "mape": 0.12211015051328862
+      },
+      "smooth_level": {
+        "mae": 17.317413251313926,
+        "rmse": 29.039817349845077,
+        "mape": 0.12194739054053182
+      },
+      "smooth_plus_target_time": {
+        "mae": 17.255230976527038,
+        "rmse": 28.974553204815503,
+        "mape": 0.12161060363151106
+      },
+      "smooth_gate_passed": true,
+      "target_time_gate_passed": true
+    },
+    {
+      "train_samples": 2375,
+      "evaluation_start": 2375,
+      "evaluation_end": 2884,
+      "baseline": {
+        "mae": 17.419640681933316,
+        "rmse": 29.094724953723894,
+        "mape": 0.11956123962251151
+      },
+      "smooth_level": {
+        "mae": 17.311019646669592,
+        "rmse": 28.920137760413677,
+        "mape": 0.11894398259662468
+      },
+      "smooth_plus_target_time": {
+        "mae": 17.199895832969236,
+        "rmse": 28.78294216268846,
+        "mape": 0.11834183077425241
+      },
+      "smooth_gate_passed": true,
+      "target_time_gate_passed": true
+    },
+    {
+      "train_samples": 2884,
+      "evaluation_start": 2884,
+      "evaluation_end": 3394,
+      "baseline": {
+        "mae": 18.510265023909934,
+        "rmse": 30.809348927864097,
+        "mape": 0.11923242891153535
+      },
+      "smooth_level": {
+        "mae": 18.389387167375258,
+        "rmse": 30.639700596873613,
+        "mape": 0.11861170225938245
+      },
+      "smooth_plus_target_time": {
+        "mae": 18.322702902018897,
+        "rmse": 30.580157058984707,
+        "mape": 0.11817548560491671
+      },
+      "smooth_gate_passed": true,
+      "target_time_gate_passed": true
+    }
+  ],
+  "all_validation_gates_passed": true,
+  "pilot_calibrated_oos_fold_mean_mae": 17.59260990383839,
+  "reference_calibrated_oos_fold_mean_mae": 17.48066169570967,
+  "pilot_minus_reference_calibrated_oos_mae": 0.11194820812871953
+}

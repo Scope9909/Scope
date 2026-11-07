@@ -1,0 +1,23 @@
+{
+  "protocol": "fixed-node independent-model Validation confirmation",
+  "threshold": 0.02,
+  "retrieval_k": 4,
+  "test_used": false,
+  "nodes_frozen_from_seed1": {
+    "PEMS03": [22],
+    "PEMS04": [0],
+    "PEMS07": [117],
+    "PEMS08": [19]
+  },
+  "results": [
+    {"dataset":"PEMS03","seed":2,"full_val_delta_mae":0.0000020024,"late40_delta_mae":-0.0000004664,"passed":true},
+    {"dataset":"PEMS03","seed":3,"full_val_delta_mae":0.0000020024,"late40_delta_mae":-0.0000004664,"passed":true},
+    {"dataset":"PEMS04","seed":2,"full_val_delta_mae":0.0066558930,"late40_delta_mae":0.0166433872,"passed":true},
+    {"dataset":"PEMS04","seed":3,"full_val_delta_mae":0.0066555612,"late40_delta_mae":0.0166421451,"passed":true},
+    {"dataset":"PEMS07","seed":2,"full_val_delta_mae":0.0060765607,"late40_delta_mae":0.0057952842,"passed":true},
+    {"dataset":"PEMS07","seed":3,"full_val_delta_mae":0.0060898315,"late40_delta_mae":0.0058086726,"passed":true},
+    {"dataset":"PEMS08","seed":2,"full_val_delta_mae":0.0001981747,"late40_delta_mae":-0.0000000003,"passed":true},
+    {"dataset":"PEMS08","seed":3,"full_val_delta_mae":0.0001981747,"late40_delta_mae":-0.0000000003,"passed":true}
+  ],
+  "interpretation": "All fixed-node plans pass the +0.02 Validation error budget on independent Student checkpoints. The late-40% result is a temporal confirmation audit after node freezing, not an independent node-selection split."
+}

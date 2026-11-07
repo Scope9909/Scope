@@ -1,0 +1,54 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS08",
+  "mode": "backbone",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS08\\TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth",
+  "state": null,
+  "state_bytes": 0,
+  "selected_nodes": 0,
+  "retrieval_format": null,
+  "total_nodes": 170,
+  "cold_start_endpoint": null,
+  "pending_candidates_at_cold_start": 0,
+  "source_train_candidates": 0,
+  "device": "cuda:0",
+  "batch_size": 1,
+  "warmup_passes": 1,
+  "repeats": 1,
+  "samples_per_pass": 3566,
+  "load_and_init_seconds": 1.7153346000013698,
+  "pass_wall_seconds": [
+    18.379440999997314
+  ],
+  "pass_wall_median_seconds": 18.379440999997314,
+  "pass_wall_p95_seconds": 18.379440999997314,
+  "throughput_samples_per_second_at_median": 194.0211348103852,
+  "retrieval_seconds": [
+    0.0
+  ],
+  "retrieval_median_seconds": 0.0,
+  "model_and_transfer_seconds": [
+    14.981022299984033
+  ],
+  "model_and_transfer_median_seconds": 14.981022299984033,
+  "loader_batch_latency_ms_p50": 0.6123999992269091,
+  "loader_batch_latency_ms_p95": 1.1254000000917586,
+  "compute_batch_latency_ms_p50": 3.6770999995496823,
+  "compute_batch_latency_ms_p95": 6.368875001498964,
+  "end_to_end_batch_latency_ms_p50": 4.388499999549822,
+  "end_to_end_batch_latency_ms_p95": 7.0786250007586204,
+  "batch_latency_scope": "one batch of at most 1; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 652611584,
+  "cpu_rss_peak_sampled_bytes": 1184972800,
+  "gpu_peak_allocated_bytes": 17026560,
+  "gpu_peak_reserved_bytes": 29360128,
+  "raw_validation_metrics": {
+    "mae": 13.368448142569752,
+    "rmse": 23.513322717040722,
+    "mape": 0.09958954098673513
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": null
+}

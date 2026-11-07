@@ -1,0 +1,53 @@
+{
+  "protocol": "three_budget_nodewise_online_state_coding_v1",
+  "frozen_utc": "2026-10-22",
+  "data_access": "Validation-only selection and confirmation; Test labels unavailable",
+  "retrieval_k": 4,
+  "thresholds": {
+    "validation_delta_mae_max": 0.02,
+    "topk_set_flip_rate_max": 0.005,
+    "exact_availability_flip_rate_max": 0.01
+  },
+  "candidate_rule": {
+    "source": "same Validation online-state snapshot",
+    "screening": "single-node actual-byte saving versus strong lossless state",
+    "candidate_pool": "top 8 byte-saving nodes",
+    "node_selection": "beam search over sorted node sets",
+    "beam_width": 3,
+    "max_depth": 4,
+    "tie_break": ["passed_constraints", "actual_encoded_bytes", "validation_delta_mae"],
+    "encoding": "selected train_raw nodes Q8; all other fields and nodes lossless",
+    "fallback": "strong lossless state when actual encoded bytes are not smaller"
+  },
+  "frozen_nodes": {
+    "PEMS03": [22],
+    "PEMS04": [0],
+    "PEMS07": [117],
+    "PEMS08": []
+  },
+  "deployment_decision": {
+    "PEMS03": "quantized selected nodes",
+    "PEMS04": "quantized selected nodes",
+    "PEMS07": "quantized selected nodes",
+    "PEMS08": "strong lossless fallback"
+  },
+  "independent_model_confirmation": {
+    "seeds": [2, 3],
+    "scope": "fixed seed-1 node rule evaluated on independent Student checkpoints",
+    "validation_only": true,
+    "late_validation_confirmation_fraction": 0.4,
+    "test_used": false,
+    "results": {
+      "PEMS03": {"full_val_delta_mae": 0.0000020, "late40_delta_mae": -0.0000005},
+      "PEMS04": {"full_val_delta_mae": 0.006656, "late40_delta_mae": 0.016643},
+      "PEMS07": {"full_val_delta_mae": 0.006083, "late40_delta_mae": 0.005802},
+      "PEMS08": {"full_val_delta_mae": 0.000198, "late40_delta_mae": -0.0000000}
+    }
+  },
+  "limitations": [
+    "Thresholds were frozen after exploratory work and are not preregistered.",
+    "Beam search is bounded by the top-8 byte-saving candidate pool and depth 4; no global-optimality claim.",
+    "The late-40% temporal audit is a confirmation check on fixed nodes, not a fully independent node-selection split.",
+    "PEMS08 does not obtain an additional compressed deployment state under the strong-lossless byte gate."
+  ]
+}

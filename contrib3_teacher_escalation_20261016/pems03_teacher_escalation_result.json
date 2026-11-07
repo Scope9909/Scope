@@ -1,0 +1,290 @@
+{
+  "dataset": "PEMS03",
+  "protocol_version": "v2_nested_fit_official_mae_strict_online_budget",
+  "validation_only": true,
+  "test_keys_read": false,
+  "protocol": {
+    "total_validation_windows": 5237,
+    "fit": [
+      0,
+      2617
+    ],
+    "inner_train": [
+      0,
+      1962
+    ],
+    "inner_validation": [
+      1975,
+      2617
+    ],
+    "selection": [
+      2630,
+      3926
+    ],
+    "evaluation": [
+      3939,
+      5236
+    ],
+    "embargo_windows": 12,
+    "gate_inputs": "past 12 raw observations, frozen Student 12-step forecast, time-of-day/day-of-week",
+    "model_selection": "epoch chosen only inside Fit by chronological inner validation loss; refit on all Fit",
+    "routing": "exact top-k is an offline diagnostic only",
+    "streaming_check": "threshold fixed from Selection; chronological token bucket enforces the hard budget on Evaluation",
+    "metric": "official masked horizon-wise MAE averaged over 12 horizons"
+  },
+  "feature_dimension": 224,
+  "training": [
+    {
+      "seed": 17,
+      "best_epoch": 29,
+      "inner_validation_loss": 0.5001968145370483,
+      "inner_epochs_run": 54
+    },
+    {
+      "seed": 29,
+      "best_epoch": 25,
+      "inner_validation_loss": 0.5039544701576233,
+      "inner_epochs_run": 50
+    },
+    {
+      "seed": 43,
+      "best_epoch": 33,
+      "inner_validation_loss": 0.49894171953201294,
+      "inner_epochs_run": 58
+    },
+    {
+      "seed": 71,
+      "best_epoch": 31,
+      "inner_validation_loss": 0.5005804896354675,
+      "inner_epochs_run": 56
+    },
+    {
+      "seed": 101,
+      "best_epoch": 39,
+      "inner_validation_loss": 0.5045602917671204,
+      "inner_epochs_run": 64
+    }
+  ],
+  "evaluation": {
+    "num_windows": 1298,
+    "student_mae": 13.911419509991868,
+    "teacher_always_mae": 13.91285857530542,
+    "teacher_always_gain": -0.0014390653135514242,
+    "teacher_better_window_fraction": 0.5693374422187981,
+    "learned_gate_utility_spearman": 0.05802108806533897,
+    "methods": {
+      "historical_volatility": {
+        "0.05": {
+          "teacher_windows": 64,
+          "mae": 13.911145884860199,
+          "gain_vs_student": 0.0002736251316690641
+        },
+        "0.1": {
+          "teacher_windows": 129,
+          "mae": 13.910223242911144,
+          "gain_vs_student": 0.0011962670807239562
+        },
+        "0.2": {
+          "teacher_windows": 259,
+          "mae": 13.911874761649765,
+          "gain_vs_student": -0.00045525165789683797
+        }
+      },
+      "student_prediction_mean": {
+        "0.05": {
+          "teacher_windows": 64,
+          "mae": 13.910847276771038,
+          "gain_vs_student": 0.0005722332208293324
+        },
+        "0.1": {
+          "teacher_windows": 129,
+          "mae": 13.911855435880272,
+          "gain_vs_student": -0.0004359258884036876
+        },
+        "0.2": {
+          "teacher_windows": 259,
+          "mae": 13.910272308668832,
+          "gain_vs_student": 0.001147201323036029
+        }
+      },
+      "learned_utility_gate_ensemble": {
+        "0.05": {
+          "teacher_windows": 64,
+          "mae": 13.920015217238147,
+          "gain_vs_student": -0.008595707246279005
+        },
+        "0.1": {
+          "teacher_windows": 129,
+          "mae": 13.918430854482722,
+          "gain_vs_student": -0.0070113444908539435
+        },
+        "0.2": {
+          "teacher_windows": 259,
+          "mae": 13.91635292270138,
+          "gain_vs_student": -0.004933412709512197
+        }
+      },
+      "truth_utility_oracle": {
+        "0.05": {
+          "teacher_windows": 64,
+          "mae": 13.900980683176998,
+          "gain_vs_student": 0.010438826814869628
+        },
+        "0.1": {
+          "teacher_windows": 129,
+          "mae": 13.894977977262272,
+          "gain_vs_student": 0.01644153272959592
+        },
+        "0.2": {
+          "teacher_windows": 259,
+          "mae": 13.886754841033373,
+          "gain_vs_student": 0.024664668958495284
+        }
+      },
+      "random_routing_500_trials": {
+        "0.05": {
+          "teacher_windows": 64,
+          "mae_mean": 13.911444000983332,
+          "mae_std": 0.0006249400378521188,
+          "gain_vs_student_mean": -2.449099146417666e-05
+        },
+        "0.1": {
+          "teacher_windows": 129,
+          "mae_mean": 13.911582959724306,
+          "mae_std": 0.0009224426877527083,
+          "gain_vs_student_mean": -0.00016344973243853644
+        },
+        "0.2": {
+          "teacher_windows": 259,
+          "mae_mean": 13.911652140268082,
+          "mae_std": 0.001249003935700563,
+          "gain_vs_student_mean": -0.00023263027621389654
+        }
+      }
+    },
+    "strict_online_methods": {
+      "historical_volatility": {
+        "0.05": {
+          "selection_target_budget": 0.05,
+          "score_threshold": 21.9064998626709,
+          "teacher_windows": 17,
+          "realized_evaluation_budget": 0.013097072419106317,
+          "mae": 13.91239154733296,
+          "gain_vs_student": -0.0009720373410928573
+        },
+        "0.1": {
+          "selection_target_budget": 0.1,
+          "score_threshold": 20.97465744018555,
+          "teacher_windows": 40,
+          "realized_evaluation_budget": 0.030816640986132512,
+          "mae": 13.912093216569959,
+          "gain_vs_student": -0.0006737065780910712
+        },
+        "0.2": {
+          "selection_target_budget": 0.2,
+          "score_threshold": 19.941950225830077,
+          "teacher_windows": 99,
+          "realized_evaluation_budget": 0.07627118644067797,
+          "mae": 13.912368545483156,
+          "gain_vs_student": -0.0009490354912884413
+        }
+      },
+      "student_prediction_mean": {
+        "0.05": {
+          "selection_target_budget": 0.05,
+          "score_threshold": 291.7507568014845,
+          "teacher_windows": 21,
+          "realized_evaluation_budget": 0.016178736517719568,
+          "mae": 13.911096783254221,
+          "gain_vs_student": 0.0003227267376466614
+        },
+        "0.1": {
+          "selection_target_budget": 0.1,
+          "score_threshold": 282.74280259222957,
+          "teacher_windows": 55,
+          "realized_evaluation_budget": 0.0423728813559322,
+          "mae": 13.912198476142185,
+          "gain_vs_student": -0.0007789661503174727
+        },
+        "0.2": {
+          "selection_target_budget": 0.2,
+          "score_threshold": 261.4801395061074,
+          "teacher_windows": 192,
+          "realized_evaluation_budget": 0.14791987673343607,
+          "mae": 13.910420443342197,
+          "gain_vs_student": 0.0009990666496708656
+        }
+      },
+      "learned_utility_gate_ensemble": {
+        "0.05": {
+          "selection_target_budget": 0.05,
+          "score_threshold": 1.0810614824295044,
+          "teacher_windows": 43,
+          "realized_evaluation_budget": 0.03312788906009245,
+          "mae": 13.919869412180278,
+          "gain_vs_student": -0.008449902188409908
+        },
+        "0.1": {
+          "selection_target_budget": 0.1,
+          "score_threshold": 0.3696713149547577,
+          "teacher_windows": 97,
+          "realized_evaluation_budget": 0.07473035439137134,
+          "mae": 13.919480274720227,
+          "gain_vs_student": -0.00806076472835926
+        },
+        "0.2": {
+          "selection_target_budget": 0.2,
+          "score_threshold": 0.1417027860879898,
+          "teacher_windows": 208,
+          "realized_evaluation_budget": 0.16024653312788906,
+          "mae": 13.917151518953693,
+          "gain_vs_student": -0.00573200896182513
+        }
+      }
+    },
+    "safe_up_to_budget_streaming": {
+      "0.05": {
+        "maximum_budget": 0.05,
+        "selection_chosen_windows": 0,
+        "selection_chosen_budget": 0.0,
+        "selection_gain": 0.0,
+        "score_threshold": null,
+        "teacher_windows": 0,
+        "realized_evaluation_budget": 0.0,
+        "mae": 13.911419509991868,
+        "gain_vs_student": 0.0
+      },
+      "0.1": {
+        "maximum_budget": 0.1,
+        "selection_chosen_windows": 0,
+        "selection_chosen_budget": 0.0,
+        "selection_gain": 0.0,
+        "score_threshold": null,
+        "teacher_windows": 0,
+        "realized_evaluation_budget": 0.0,
+        "mae": 13.911419509991868,
+        "gain_vs_student": 0.0
+      },
+      "0.2": {
+        "maximum_budget": 0.2,
+        "selection_chosen_windows": 0,
+        "selection_chosen_budget": 0.0,
+        "selection_gain": 0.0,
+        "score_threshold": null,
+        "teacher_windows": 0,
+        "realized_evaluation_budget": 0.0,
+        "mae": 13.911419509991868,
+        "gain_vs_student": 0.0
+      }
+    },
+    "learned_oracle_recovery_at_10pct": -0.42644105061038673,
+    "strict_online_oracle_recovery_at_10pct": -0.49026844765204364
+  },
+  "screening_rule": {
+    "gain_at_10pct_at_least": 0.03,
+    "must_beat_random_and_available_baselines": true,
+    "oracle_recovery_at_10pct_at_least": 0.6
+  },
+  "screening_pass": false,
+  "relative_screening_pass": false
+}

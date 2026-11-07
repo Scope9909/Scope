@@ -1,0 +1,162 @@
+{
+  "student_source": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only\\selected_predictions.npz",
+  "teacher_source": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS07\\PEMS07_12to12_parent_predictions_joint3.npz",
+  "teacher_padding_discarded": 0,
+  "models": {
+    "Teacher": {
+      "folds": [
+        {
+          "fit_end": 3102,
+          "eval_end": 3947,
+          "none": {
+            "mae": 17.78528062525864,
+            "rmse": 31.509279921895857,
+            "mape": 0.07541918778669357
+          },
+          "smooth_target_time": {
+            "mae": 17.522012171148948,
+            "rmse": 30.952841660051536,
+            "mape": 0.07421918182770797
+          },
+          "mae_affine": {
+            "mae": 17.785283623502067,
+            "rmse": 31.509237810540185,
+            "mape": 0.07541945789166331
+          },
+          "slope": 1.0,
+          "bias": -0.001220703125,
+          "smooth_table_values": 508608
+        },
+        {
+          "fit_end": 3947,
+          "eval_end": 4794,
+          "none": {
+            "mae": 18.66551207016634,
+            "rmse": 33.16884889979574,
+            "mape": 0.0761412716213065
+          },
+          "smooth_target_time": {
+            "mae": 18.326804476747544,
+            "rmse": 32.53618794071918,
+            "mape": 0.07464974585933537
+          },
+          "mae_affine": {
+            "mae": 18.665545925944787,
+            "rmse": 33.168834286766376,
+            "mape": 0.07614153071252092
+          },
+          "slope": 1.0,
+          "bias": -0.001007080078125,
+          "smooth_table_values": 508608
+        },
+        {
+          "fit_end": 4794,
+          "eval_end": 5640,
+          "none": {
+            "mae": 18.039098284072356,
+            "rmse": 32.187381551507634,
+            "mape": 0.07812578928064691
+          },
+          "smooth_target_time": {
+            "mae": 17.738707446607318,
+            "rmse": 31.585055814212108,
+            "mape": 0.07674703996792531
+          },
+          "mae_affine": {
+            "mae": 18.039096424279872,
+            "rmse": 32.18737447440716,
+            "mape": 0.07812562742141017
+          },
+          "slope": 1.0,
+          "bias": -0.00054931640625,
+          "smooth_table_values": 508608
+        }
+      ],
+      "mean_fold_mae": {
+        "none": 18.163296993165776,
+        "smooth_target_time": 17.862508031501267,
+        "mae_affine": 18.16330865790891
+      }
+    },
+    "Student": {
+      "folds": [
+        {
+          "fit_end": 3102,
+          "eval_end": 3947,
+          "none": {
+            "mae": 17.966149968926654,
+            "rmse": 32.21177197184952,
+            "mape": 0.07581865042498478
+          },
+          "smooth_target_time": {
+            "mae": 17.63943473464133,
+            "rmse": 31.29863433033906,
+            "mape": 0.07433979323520155
+          },
+          "mae_affine": {
+            "mae": 17.966149968926654,
+            "rmse": 32.21177197184952,
+            "mape": 0.07581865042498478
+          },
+          "slope": 1.0,
+          "bias": 0.0,
+          "smooth_table_values": 508608
+        },
+        {
+          "fit_end": 3947,
+          "eval_end": 4794,
+          "none": {
+            "mae": 18.893852168783663,
+            "rmse": 33.924225849311114,
+            "mape": 0.07672995878748723
+          },
+          "smooth_target_time": {
+            "mae": 18.47402684599493,
+            "rmse": 32.937774274564596,
+            "mape": 0.07507916468677002
+          },
+          "mae_affine": {
+            "mae": 18.893852168783663,
+            "rmse": 33.924225849311114,
+            "mape": 0.07672995878748723
+          },
+          "slope": 1.0,
+          "bias": 0.0,
+          "smooth_table_values": 508608
+        },
+        {
+          "fit_end": 4794,
+          "eval_end": 5640,
+          "none": {
+            "mae": 18.275531857852926,
+            "rmse": 33.03558363241092,
+            "mape": 0.078719872350113
+          },
+          "smooth_target_time": {
+            "mae": 17.891464551939183,
+            "rmse": 31.923336174932768,
+            "mape": 0.0771515410544188
+          },
+          "mae_affine": {
+            "mae": 18.275531857852926,
+            "rmse": 33.03558363241092,
+            "mape": 0.078719872350113
+          },
+          "slope": 1.0,
+          "bias": 0.0,
+          "smooth_table_values": 508608
+        }
+      ],
+      "mean_fold_mae": {
+        "none": 18.378511331854416,
+        "smooth_target_time": 18.001642044191815,
+        "mae_affine": 18.378511331854416
+      }
+    }
+  },
+  "student_minus_teacher_mae": {
+    "none": 0.21521433868863937,
+    "smooth_target_time": 0.1391340126905476,
+    "mae_affine": 0.2152026739455053
+  }
+}

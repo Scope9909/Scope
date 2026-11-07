@@ -1,0 +1,54 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS04",
+  "mode": "backbone",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1\\best.pth",
+  "state": null,
+  "state_bytes": 0,
+  "selected_nodes": 0,
+  "retrieval_format": null,
+  "total_nodes": 307,
+  "cold_start_endpoint": null,
+  "pending_candidates_at_cold_start": 0,
+  "source_train_candidates": 0,
+  "device": "cuda:0",
+  "batch_size": 32,
+  "warmup_passes": 0,
+  "repeats": 1,
+  "samples_per_pass": 3394,
+  "load_and_init_seconds": 2.3670084000004863,
+  "pass_wall_seconds": [
+    5.5107458000020415
+  ],
+  "pass_wall_median_seconds": 5.5107458000020415,
+  "pass_wall_p95_seconds": 5.5107458000020415,
+  "throughput_samples_per_second_at_median": 615.8875990975201,
+  "retrieval_seconds": [
+    0.0
+  ],
+  "retrieval_median_seconds": 0.0,
+  "model_and_transfer_seconds": [
+    4.425803999976779
+  ],
+  "model_and_transfer_median_seconds": 4.425803999976779,
+  "loader_batch_latency_ms_p50": 9.157000000413973,
+  "loader_batch_latency_ms_p95": 11.326230000486245,
+  "compute_batch_latency_ms_p50": 30.448299999989104,
+  "compute_batch_latency_ms_p95": 33.51070999997319,
+  "end_to_end_batch_latency_ms_p50": 39.91680000035558,
+  "end_to_end_batch_latency_ms_p95": 44.181699998080134,
+  "batch_latency_scope": "one batch of at most 32; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 704073728,
+  "cpu_rss_peak_sampled_bytes": 1294561280,
+  "gpu_peak_allocated_bytes": 378456064,
+  "gpu_peak_reserved_bytes": 675282944,
+  "raw_validation_metrics": {
+    "mae": 17.987263826050217,
+    "rmse": 30.067804963665825,
+    "mape": 0.12079800336302988
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": null
+}

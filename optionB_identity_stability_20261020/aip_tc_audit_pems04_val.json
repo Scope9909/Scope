@@ -1,0 +1,36 @@
+{
+  "scope": "PEMS04 validation-only, zero training, no Test",
+  "baseline_C0_mae": 17.851883162604068,
+  "exact_gate_w": [
+    0.9256349802017212,
+    0.9254528284072876,
+    0.9252904653549194,
+    0.9249714612960815,
+    0.924895703792572,
+    0.9247380495071411,
+    0.9246551990509033,
+    0.9244900941848755,
+    0.9242478609085083,
+    0.9242421388626099,
+    0.9241918325424194,
+    0.9242140054702759
+  ],
+  "exact_fire_rate": 0.09481956086521721,
+  "recon_mae_z_over_fired_slots": 0.008856654167175293,
+  "recon_mae_raw_over_fired_slots": 1.3857048676776498,
+  "naive_expected_cost": 0.12150495475254056,
+  "measured_cost_rank8_E": 0.12225368506490142,
+  "Q2a_sparse_storage": {
+    "mae_delta": 0.0,
+    "lossless_storage_saving_on_E": 0.9051804391347827
+  },
+  "Q2b_residual_coding": {
+    "energy_E_field_rank8": 0.986341252922954,
+    "energy_residual_field_rank8": 0.13469201059095295,
+    "mae_delta": 0.08114621743614947
+  },
+  "Q2d_quantisation": {
+    "fp16": 0.000941489509294513,
+    "int8": 0.06524108807391116
+  }
+}

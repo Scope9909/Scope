@@ -1,0 +1,33 @@
+{
+  "protocol": "chronological_prefix_oos_v1",
+  "seed": 1,
+  "prefix_train_samples": 8145,
+  "prefix_validation_samples": 339,
+  "adapter_oos_samples": 1697,
+  "trainable_parameters": 650,
+  "best_epoch": 20,
+  "parent_validation_mae": 17.988252051959662,
+  "best_validation_mae": 17.903201171200212,
+  "test_mae": 17.791055540337307,
+  "test_horizon_mae": [
+    16.24575582373595,
+    16.715371721803702,
+    17.10885601001037,
+    17.393643062572888,
+    17.64323985682671,
+    17.84015091424263,
+    18.02415910994518,
+    18.185829755294687,
+    18.347703070011118,
+    18.50018936865536,
+    18.651854588367648,
+    18.83591320258143
+  ],
+  "test_h8_h12_mae": 18.504297996982046,
+  "test_horizon_drift": 2.590157378845479,
+  "oos_parent_mae": 19.137876988355927,
+  "oos_retrieval_mae": 23.074696089220367,
+  "prefix_exp_dir": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exp07272227_s1",
+  "full_parent_exp_dir": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exp07170128_s1",
+  "retrieval_cache": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k4.npz"
+}

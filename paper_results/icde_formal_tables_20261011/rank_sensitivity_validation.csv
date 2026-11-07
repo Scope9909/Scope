@@ -1,0 +1,4 @@
+﻿rank,parameters,anchor_val_mae,best_epoch,best_val_mae,best_val_rmse,training_finished,test_skipped
+128,435938,17.8763,14,17.826,30.0191,True,True
+256,665314,17.8542,15,17.8332,30.0461,True,True
+384,894690,17.8544,15,17.8324,30.0514,True,True

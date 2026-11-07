@@ -1,0 +1,52 @@
+{
+  "scope": "PEMS04 validation-only, frozen joint3, zero training, no Test; codec applied exactly once per arm",
+  "futures_pca_explained_energy_rank8": 0.986341252922954,
+  "history_pca_explained_energy_rank8": 0.9863584220739018,
+  "arms": {
+    "C0_T_raw_E_raw": 17.851883162604068,
+    "E_deployed_basis": 17.971646353460265,
+    "E_futures_basis": 17.974179787224294,
+    "T_futures_basis": 17.853879056749616,
+    "T_and_E_futures_basis": 17.974868410463355,
+    "T2_full_futures_basis": 17.973503886816438
+  },
+  "exact_value_rank_sweep": {
+    "E_rank12": {
+      "mae": 17.85259564115164,
+      "delta_vs_C0": 0.0007124785475731699,
+      "explained_energy": 1.0
+    },
+    "E_rank10": {
+      "mae": 17.931159123852837,
+      "delta_vs_C0": 0.07927596124876857,
+      "explained_energy": 0.9933512106466027
+    },
+    "E_rank8": {
+      "mae": 17.974179787224294,
+      "delta_vs_C0": 0.12229662462022617,
+      "explained_energy": 0.986341252922954
+    },
+    "E_rank6": {
+      "mae": 18.00501515900756,
+      "delta_vs_C0": 0.1531319964034914,
+      "explained_energy": 0.978961444229983
+    },
+    "E_rank4": {
+      "mae": 18.08833698058005,
+      "delta_vs_C0": 0.2364538179759812,
+      "explained_energy": 0.970667364833494
+    }
+  },
+  "baseline": "C0_T_raw_E_raw",
+  "verdict": {
+    "P1_payload_free_best_case": false,
+    "payload_cost_best_case": 0.12229662462022617,
+    "P2_decision_cost_under_best_payload": -0.0013645236469166377,
+    "P2_decoupling_necessary": false,
+    "route": "CLOSED",
+    "thresholds": {
+      "P1_abs": 0.01,
+      "P2_min": 0.02
+    }
+  }
+}

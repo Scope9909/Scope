@@ -1,0 +1,253 @@
+{
+  "results": {
+    "PEMS03": {
+      "nodes": 358,
+      "val_samples": 5237,
+      "fire_rate": 0.060028396999006854,
+      "baseline_C0": 13.198728293025091,
+      "accepted_C0": 13.1987,
+      "acceptance_delta": 2.829302509077536e-05,
+      "arms_absolute": {
+        "C0_raw": 13.198728293025091,
+        "E_sparse_f16": 13.19908605197599,
+        "fd_f16": 13.198729100607373,
+        "hd_f16": NaN,
+        "fd_i16": 13.198728293025091,
+        "hd_i16": 13.198728293025091,
+        "fd_i8": 13.198729908189655,
+        "hd_i8": 13.198731523354219,
+        "A1_conservative": 13.19908605197599,
+        "A2_aggressive": 13.199087667140553
+      },
+      "arms_delta": {
+        "C0_raw": 0.0,
+        "E_sparse_f16": 0.00035775895089784626,
+        "fd_f16": 8.075822819364475e-07,
+        "hd_f16": NaN,
+        "fd_i16": 0.0,
+        "hd_i16": 0.0,
+        "fd_i8": 1.615164563872895e-06,
+        "hd_i8": 3.23032912774579e-06,
+        "A1_conservative": 0.00035775895089784626,
+        "A2_aggressive": 0.00035937411546171916
+      },
+      "per_field_delta": {
+        "fd_f16": 8.075822819364475e-07,
+        "hd_f16": NaN,
+        "fd_i16": 0.0,
+        "hd_i16": 0.0,
+        "fd_i8": 1.615164563872895e-06,
+        "hd_i8": 3.23032912774579e-06
+      },
+      "hd_absmax_raw": 228996.09375,
+      "hd_f16_overflow_count": 107,
+      "accounting": {
+        "all_raw_bits_per_slot": 106.66666666666667,
+        "all_raw_MB": 299.97536,
+        "A1_conservative": {
+          "bits_per_slot": 29.960454351984108,
+          "MB": 84.256857,
+          "reduction_vs_all_raw": 0.719120740450149
+        },
+        "A2_aggressive": {
+          "bits_per_slot": 21.293787685317444,
+          "MB": 59.883859,
+          "reduction_vs_all_raw": 0.800370740450149
+        }
+      }
+    },
+    "PEMS04": {
+      "nodes": 307,
+      "val_samples": 3394,
+      "fire_rate": 0.09481956086521721,
+      "baseline_C0": 17.852024704101243,
+      "accepted_C0": 17.852,
+      "acceptance_delta": 2.4704101242889465e-05,
+      "arms_absolute": {
+        "C0_raw": 17.852024704101243,
+        "E_sparse_f16": 17.852940747948125,
+        "fd_f16": 17.852024704101243,
+        "hd_f16": NaN,
+        "fd_i16": 17.852024704101243,
+        "hd_i16": 17.852024704101243,
+        "fd_i8": 17.852024704101243,
+        "hd_i8": 17.852018342685643,
+        "A1_conservative": 17.85293756724032,
+        "A2_aggressive": 17.852943928655925
+      },
+      "arms_delta": {
+        "C0_raw": 0.0,
+        "E_sparse_f16": 0.0009160438468818199,
+        "fd_f16": 0.0,
+        "hd_f16": NaN,
+        "fd_i16": 0.0,
+        "hd_i16": 0.0,
+        "fd_i8": 0.0,
+        "hd_i8": -6.361415600508735e-06,
+        "A1_conservative": 0.0009128631390780129,
+        "A2_aggressive": 0.0009192245546820743
+      },
+      "per_field_delta": {
+        "fd_f16": 0.0,
+        "hd_f16": NaN,
+        "fd_i16": 0.0,
+        "hd_i16": 0.0,
+        "fd_i8": 0.0,
+        "hd_i8": -6.361415600508735e-06
+      },
+      "hd_absmax_raw": 95520.7109375,
+      "hd_f16_overflow_count": 139,
+      "accounting": {
+        "all_raw_bits_per_slot": 106.66666666666667,
+        "all_raw_MB": 166.71328,
+        "A1_conservative": {
+          "bits_per_slot": 30.517112973843474,
+          "MB": 47.696325,
+          "reduction_vs_all_raw": 0.7139020658702174
+        },
+        "A2_aggressive": {
+          "bits_per_slot": 21.85044630717681,
+          "MB": 34.150871,
+          "reduction_vs_all_raw": 0.7951520658702174
+        }
+      }
+    },
+    "PEMS07": {
+      "nodes": 883,
+      "val_samples": 5640,
+      "fire_rate": 0.21987534102257242,
+      "baseline_C0": 18.222244758939976,
+      "accepted_C0": 18.2222,
+      "acceptance_delta": 4.4758939974798295e-05,
+      "arms_absolute": {
+        "C0_raw": 18.222244758939976,
+        "E_sparse_f16": 18.22581724045065,
+        "fd_f16": 18.222246350245772,
+        "hd_f16": NaN,
+        "fd_i16": 18.222246350245772,
+        "hd_i16": 18.222244758939976,
+        "fd_i8": 18.22224794155157,
+        "hd_i8": 18.22225748938634,
+        "A1_conservative": 18.225818831756442,
+        "A2_aggressive": 18.225828379591213
+      },
+      "arms_delta": {
+        "C0_raw": 0.0,
+        "E_sparse_f16": 0.003572481510673242,
+        "fd_f16": 1.5913057964667132e-06,
+        "hd_f16": NaN,
+        "fd_i16": 1.5913057964667132e-06,
+        "hd_i16": 0.0,
+        "fd_i8": 3.1826115929334264e-06,
+        "hd_i8": 1.2730446364628278e-05,
+        "A1_conservative": 0.003574072816466156,
+        "A2_aggressive": 0.003583620651237851
+      },
+      "per_field_delta": {
+        "fd_f16": 1.5913057964667132e-06,
+        "hd_f16": NaN,
+        "fd_i16": 1.5913057964667132e-06,
+        "hd_i16": 0.0,
+        "fd_i8": 3.1826115929334264e-06,
+        "hd_i8": 1.2730446364628278e-05
+      },
+      "hd_absmax_raw": 646741.4375,
+      "hd_f16_overflow_count": 6392,
+      "accounting": {
+        "all_raw_bits_per_slot": 106.66666666666667,
+        "all_raw_MB": 796.8192,
+        "A1_conservative": {
+          "bits_per_slot": 32.51800545636116,
+          "MB": 242.915354,
+          "reduction_vs_all_raw": 0.6951436988466142
+        },
+        "A2_aggressive": {
+          "bits_per_slot": 23.85133878969449,
+          "MB": 178.173794,
+          "reduction_vs_all_raw": 0.7763936988466141
+        }
+      }
+    },
+    "PEMS08": {
+      "nodes": 170,
+      "val_samples": 3566,
+      "fire_rate": 0.22304031539705058,
+      "baseline_C0": 13.24612245128439,
+      "accepted_C0": 13.2461,
+      "acceptance_delta": 2.2451284388935733e-05,
+      "arms_absolute": {
+        "C0_raw": 13.24612245128439,
+        "E_sparse_f16": 13.24611994008996,
+        "fd_f16": 13.24612245128439,
+        "hd_f16": NaN,
+        "fd_i16": 13.24612245128439,
+        "hd_i16": 13.24612245128439,
+        "fd_i8": 13.246123706881603,
+        "hd_i8": 13.24612245128439,
+        "A1_conservative": 13.24611994008996,
+        "A2_aggressive": 13.24612621807603
+      },
+      "arms_delta": {
+        "C0_raw": 0.0,
+        "E_sparse_f16": -2.511194429288821e-06,
+        "fd_f16": 0.0,
+        "hd_f16": NaN,
+        "fd_i16": 0.0,
+        "hd_i16": 0.0,
+        "fd_i8": 1.2555972137562321e-06,
+        "hd_i8": 0.0,
+        "A1_conservative": -2.511194429288821e-06,
+        "A2_aggressive": 3.7667916412686964e-06
+      },
+      "per_field_delta": {
+        "fd_f16": 0.0,
+        "hd_f16": NaN,
+        "fd_i16": 0.0,
+        "hd_i16": 0.0,
+        "fd_i8": 1.2555972137562321e-06,
+        "hd_i8": 0.0
+      },
+      "hd_absmax_raw": 128025.90625,
+      "hd_f16_overflow_count": 420,
+      "accounting": {
+        "all_raw_bits_per_slot": 106.66666666666667,
+        "all_raw_MB": 96.9952,
+        "A1_conservative": {
+          "bits_per_slot": 32.56864504635281,
+          "MB": 29.615646000000005,
+          "reduction_vs_all_raw": 0.6946689526904424
+        },
+        "A2_aggressive": {
+          "bits_per_slot": 23.901978379686145,
+          "MB": 21.734786000000003,
+          "reduction_vs_all_raw": 0.7759189526904424
+        }
+      }
+    }
+  },
+  "verdict": {
+    "G1_equal_accuracy_le_0.01_everywhere": true,
+    "G2_reduction_ge_50pct_everywhere": true,
+    "G3_fd_tolerates_16bit_everywhere": true,
+    "cost_by_dataset": {
+      "PEMS03": 0.00035775895089784626,
+      "PEMS04": 0.0009128631390780129,
+      "PEMS07": 0.003574072816466156,
+      "PEMS08": -2.511194429288821e-06
+    },
+    "saving_by_dataset": {
+      "PEMS03": 0.719120740450149,
+      "PEMS04": 0.7139020658702174,
+      "PEMS07": 0.6951436988466142,
+      "PEMS08": 0.6946689526904424
+    },
+    "datasets_completed": [
+      "PEMS03",
+      "PEMS04",
+      "PEMS07",
+      "PEMS08"
+    ],
+    "datasets_failed": [],
+    "fieldwise_global_generalises": true
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "protocol": "immutable_log_convergence_v1",
+  "datasets": {
+    "PEMS04": {
+      "Teacher": {
+        "runs": [
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_latc_pca_r8_joint3\\TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_latc_pca_r8_joint3.log",
+            "epochs_completed": 10,
+            "best_epoch": 10,
+            "best_val_mae": 17.817,
+            "mean_training_seconds_per_epoch": 44.642880000000005,
+            "total_training_seconds_from_epoch_logs": 446.4288,
+            "training_finished_marker": true,
+            "seed": 1
+          }
+        ],
+        "common_epoch_count": 11,
+        "final_common_epoch": 10,
+        "final_common_val_mae_mean": 17.817,
+        "final_common_val_mae_sample_std": 0.0
+      },
+      "Lite-R256": {
+        "runs": [
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_val_s1\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_val_s1.log",
+            "epochs_completed": 23,
+            "best_epoch": 15,
+            "best_val_mae": 17.8332,
+            "mean_training_seconds_per_epoch": 21.045195652173913,
+            "total_training_seconds_from_epoch_logs": 484.03950000000003,
+            "training_finished_marker": true,
+            "seed": 1
+          },
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_fixedparent_s2\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_fixedparent_s2.log",
+            "epochs_completed": 17,
+            "best_epoch": 9,
+            "best_val_mae": 17.8338,
+            "mean_training_seconds_per_epoch": 21.010947058823525,
+            "total_training_seconds_from_epoch_logs": 357.18609999999995,
+            "training_finished_marker": true,
+            "seed": 2
+          },
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_fixedparent_s3\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_fixedparent_s3.log",
+            "epochs_completed": 30,
+            "best_epoch": 22,
+            "best_val_mae": 17.8323,
+            "mean_training_seconds_per_epoch": 20.90876333333333,
+            "total_training_seconds_from_epoch_logs": 627.2628999999998,
+            "training_finished_marker": true,
+            "seed": 3
+          }
+        ],
+        "common_epoch_count": 18,
+        "final_common_epoch": 17,
+        "final_common_val_mae_mean": 17.836166666666667,
+        "final_common_val_mae_sample_std": 0.0025146238950051712
+      }
+    },
+    "PEMS07": {
+      "Teacher": {
+        "runs": [
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_final_joint\\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_final_joint.log",
+            "epochs_completed": 20,
+            "best_epoch": 16,
+            "best_val_mae": 18.0886,
+            "mean_training_seconds_per_epoch": 193.458855,
+            "total_training_seconds_from_epoch_logs": 3869.1771,
+            "training_finished_marker": true,
+            "seed": 1
+          }
+        ],
+        "common_epoch_count": 21,
+        "final_common_epoch": 20,
+        "final_common_val_mae_mean": 18.0889,
+        "final_common_val_mae_sample_std": 0.0
+      },
+      "Lite-R256": {
+        "runs": [
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1.log",
+            "epochs_completed": 30,
+            "best_epoch": 21,
+            "best_val_mae": 18.2965,
+            "mean_training_seconds_per_epoch": 86.81155000000003,
+            "total_training_seconds_from_epoch_logs": 2604.3465000000006,
+            "training_finished_marker": true,
+            "seed": 1
+          },
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s2\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s2.log",
+            "epochs_completed": 26,
+            "best_epoch": 18,
+            "best_val_mae": 18.2956,
+            "mean_training_seconds_per_epoch": 86.8826,
+            "total_training_seconds_from_epoch_logs": 2258.9476,
+            "training_finished_marker": true,
+            "seed": 2
+          },
+          {
+            "log": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s3\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s3.log",
+            "epochs_completed": 28,
+            "best_epoch": 20,
+            "best_val_mae": 18.2957,
+            "mean_training_seconds_per_epoch": 87.45514285714286,
+            "total_training_seconds_from_epoch_logs": 2448.744,
+            "training_finished_marker": true,
+            "seed": 3
+          }
+        ],
+        "common_epoch_count": 27,
+        "final_common_epoch": 26,
+        "final_common_val_mae_mean": 18.298433333333335,
+        "final_common_val_mae_sample_std": 0.0003511884584276062
+      }
+    }
+  }
+}

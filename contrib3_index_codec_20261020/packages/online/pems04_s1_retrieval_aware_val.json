@@ -1,0 +1,130 @@
+{
+  "dataset": "PEMS04",
+  "seed": 1,
+  "scope": "Validation only; exploratory; no Test selection",
+  "gate": 0.02,
+  "max_candidates": 4,
+  "probe_batches": 1,
+  "hit_weight": 2.0,
+  "same_layout_q0_val_bytes": 81133,
+  "same_layout_q0_val_mae": 17.8505870975215,
+  "raw_val_mae": 17.850632239234397,
+  "candidates": [
+    {
+      "node": 11,
+      "single_bytes": 76954,
+      "single_saving": 4179,
+      "exact_hit_flips": 384,
+      "mean_abs_retrieval_change": 0.00011668153988417758,
+      "risk": 0.06463281057214224
+    },
+    {
+      "node": 0,
+      "single_bytes": 77645,
+      "single_saving": 3488,
+      "exact_hit_flips": 0,
+      "mean_abs_retrieval_change": 4.497330675842941e-05,
+      "risk": 4.497330675842941e-05
+    },
+    {
+      "node": 10,
+      "single_bytes": 78506,
+      "single_saving": 2627,
+      "exact_hit_flips": 384,
+      "mean_abs_retrieval_change": 3.9808211788054436e-05,
+      "risk": 0.06455593724404611
+    },
+    {
+      "node": 1,
+      "single_bytes": 78999,
+      "single_saving": 2134,
+      "exact_hit_flips": 240,
+      "mean_abs_retrieval_change": 2.7084863314064602e-05,
+      "risk": 0.04034966550847535
+    }
+  ],
+  "cost_only": {
+    "nodes": [
+      0,
+      1,
+      10,
+      11
+    ],
+    "bytes": 70842,
+    "saving": 10291,
+    "val_delta": 0.01711809599854419,
+    "passed": true,
+    "retrieval_probe": {
+      "exact_hit_flips": 1008,
+      "mean_abs_retrieval_change": 0.00022854792174472604
+    },
+    "steps": [
+      {
+        "node": 11,
+        "accepted": true,
+        "bytes": 76954,
+        "val_delta": 0.007816759168875365
+      },
+      {
+        "node": 0,
+        "accepted": true,
+        "bytes": 73862,
+        "val_delta": 0.014521889968090562
+      },
+      {
+        "node": 10,
+        "accepted": true,
+        "bytes": 73272,
+        "val_delta": 0.01585550964282234
+      },
+      {
+        "node": 1,
+        "accepted": true,
+        "bytes": 70842,
+        "val_delta": 0.01711809599854419
+      }
+    ]
+  },
+  "retrieval_aware": {
+    "nodes": [
+      0,
+      1,
+      10,
+      11
+    ],
+    "bytes": 70842,
+    "saving": 10291,
+    "val_delta": 0.01711809599854419,
+    "passed": true,
+    "retrieval_probe": {
+      "exact_hit_flips": 1008,
+      "mean_abs_retrieval_change": 0.00022854792174472604
+    },
+    "steps": [
+      {
+        "node": 0,
+        "accepted": true,
+        "bytes": 77645,
+        "val_delta": 0.006659989086333695
+      },
+      {
+        "node": 11,
+        "accepted": true,
+        "bytes": 73862,
+        "val_delta": 0.014521889968090562
+      },
+      {
+        "node": 1,
+        "accepted": true,
+        "bytes": 71474,
+        "val_delta": 0.015784476323812413
+      },
+      {
+        "node": 10,
+        "accepted": true,
+        "bytes": 70842,
+        "val_delta": 0.01711809599854419
+      }
+    ]
+  }
+}

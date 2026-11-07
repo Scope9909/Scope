@@ -1,0 +1,502 @@
+{
+  "ablation": [
+    {
+      "dataset": "PEMS04",
+      "stage": "Lite-R256",
+      "scope": "Test (frozen)",
+      "mae": 17.655989921734342,
+      "rmse": 29.397703526214173,
+      "mape_percent": 12.04972052936859
+    },
+    {
+      "dataset": "PEMS04",
+      "stage": "+ smooth-level",
+      "scope": "Test (frozen)",
+      "mae": 17.55953169773641,
+      "rmse": 29.241570821978954,
+      "mape_percent": 11.99961228897013
+    },
+    {
+      "dataset": "PEMS04",
+      "stage": "+ target-time (ValCal)",
+      "scope": "Test (frozen)",
+      "mae": 17.506396413236917,
+      "rmse": 29.180958683788422,
+      "mape_percent": 11.975853599718507
+    },
+    {
+      "dataset": "PEMS04",
+      "stage": "Lite-R256",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 17.662466325512984,
+      "rmse": 29.689490804660426,
+      "mape_percent": 11.957928359793218
+    },
+    {
+      "dataset": "PEMS04",
+      "stage": "+ smooth-level",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 17.55842807569083,
+      "rmse": 29.516018709993784,
+      "mape_percent": 11.89017661132324
+    },
+    {
+      "dataset": "PEMS04",
+      "stage": "+ target-time (ValCal)",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 17.481249599658312,
+      "rmse": 29.429663273360813,
+      "mape_percent": 11.842763074302919
+    },
+    {
+      "dataset": "PEMS07",
+      "stage": "Lite-R256",
+      "scope": "Test (frozen)",
+      "mae": 19.14258676623,
+      "rmse": 34.146460495050526,
+      "mape_percent": 7.907886428450155
+    },
+    {
+      "dataset": "PEMS07",
+      "stage": "+ smooth-level",
+      "scope": "Test (frozen)",
+      "mae": 18.903993510178175,
+      "rmse": 33.20426957802241,
+      "mape_percent": 7.811090396081146
+    },
+    {
+      "dataset": "PEMS07",
+      "stage": "+ target-time (ValCal)",
+      "scope": "Test (frozen)",
+      "mae": 18.73994076295274,
+      "rmse": 32.81981203912951,
+      "mape_percent": 7.746757259084886
+    },
+    {
+      "dataset": "PEMS07",
+      "stage": "Lite-R256",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 18.378876856755856,
+      "rmse": 33.05786854357722,
+      "mape_percent": 7.708985291974366
+    },
+    {
+      "dataset": "PEMS07",
+      "stage": "+ smooth-level",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 18.133830337318408,
+      "rmse": 32.308366434696424,
+      "mape_percent": 7.6079787020474425
+    },
+    {
+      "dataset": "PEMS07",
+      "stage": "+ target-time (ValCal)",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 18.001970882691168,
+      "rmse": 32.053894099166996,
+      "mape_percent": 7.552379097930569
+    },
+    {
+      "dataset": "PEMSBAY",
+      "stage": "Lite-R256",
+      "scope": "Test (frozen)",
+      "mae": 1.5659061291542289,
+      "rmse": 3.520247723557242,
+      "mape_percent": 3.516502531581344
+    },
+    {
+      "dataset": "PEMSBAY",
+      "stage": "+ smooth-level",
+      "scope": "Test (frozen)",
+      "mae": 1.5551851162345571,
+      "rmse": 3.506385098362443,
+      "mape_percent": 3.484631026332821
+    },
+    {
+      "dataset": "PEMSBAY",
+      "stage": "+ target-time (ValCal)",
+      "scope": "Test (frozen)",
+      "mae": 1.5469541231948538,
+      "rmse": 3.4974349600866024,
+      "mape_percent": 3.467125156474727
+    },
+    {
+      "dataset": "PEMSBAY",
+      "stage": "Lite-R256",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 1.5982895364739453,
+      "rmse": 3.5982522204120135,
+      "mape_percent": 3.7109410215407554
+    },
+    {
+      "dataset": "PEMSBAY",
+      "stage": "+ smooth-level",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 1.583176010603938,
+      "rmse": 3.5822750216792794,
+      "mape_percent": 3.6798659930339825
+    },
+    {
+      "dataset": "PEMSBAY",
+      "stage": "+ target-time (ValCal)",
+      "scope": "Validation expanding-fold OOS",
+      "mae": 1.5713113945211774,
+      "rmse": 3.5701204600316188,
+      "mape_percent": 3.654083373321252
+    }
+  ],
+  "rank_sensitivity": [
+    {
+      "rank": 128,
+      "parameters": 435938,
+      "anchor_val_mae": 17.8763,
+      "best_epoch": 14,
+      "best_val_mae": 17.826,
+      "best_val_rmse": 30.0191,
+      "training_finished": true,
+      "test_skipped": true
+    },
+    {
+      "rank": 256,
+      "parameters": 665314,
+      "anchor_val_mae": 17.8542,
+      "best_epoch": 15,
+      "best_val_mae": 17.8332,
+      "best_val_rmse": 30.0461,
+      "training_finished": true,
+      "test_skipped": true
+    },
+    {
+      "rank": 384,
+      "parameters": 894690,
+      "anchor_val_mae": 17.8544,
+      "best_epoch": 15,
+      "best_val_mae": 17.8324,
+      "best_val_rmse": 30.0514,
+      "training_finished": true,
+      "test_skipped": true
+    }
+  ],
+  "kd_alpha_sensitivity": [
+    {
+      "kd_alpha": 0.1,
+      "rank": 256,
+      "parameters": 665314,
+      "anchor_val_mae": 17.8542,
+      "best_epoch": 4,
+      "best_val_mae": 17.8394,
+      "best_val_rmse": 30.0607,
+      "training_finished": true,
+      "test_skipped": true
+    },
+    {
+      "kd_alpha": 0.2,
+      "rank": 256,
+      "parameters": 665314,
+      "anchor_val_mae": 17.8542,
+      "best_epoch": 20,
+      "best_val_mae": 17.8331,
+      "best_val_rmse": 30.0553,
+      "training_finished": true,
+      "test_skipped": true
+    },
+    {
+      "kd_alpha": 0.3,
+      "rank": 256,
+      "parameters": 665314,
+      "anchor_val_mae": 17.8542,
+      "best_epoch": 15,
+      "best_val_mae": 17.8332,
+      "best_val_rmse": 30.0461,
+      "training_finished": true,
+      "test_skipped": true
+    }
+  ],
+  "efficiency": [
+    {
+      "dataset": "PEMS04",
+      "model": "Teacher",
+      "batch_size": 1,
+      "passes": 1,
+      "forward_ms_per_sample": 8.04491767830093,
+      "end_to_end_ms_per_sample": 11.316813641673104,
+      "throughput_samples_per_second": 124.30207989539028,
+      "calibrator_cpu_ms_per_sample": null,
+      "parameters": 1011437,
+      "deployment_mib": 286.7791738510132,
+      "peak_gpu_allocated_mib": 23.42041015625
+    },
+    {
+      "dataset": "PEMS04",
+      "model": "Teacher",
+      "batch_size": 32,
+      "passes": 5,
+      "forward_ms_per_sample": 1.5459668282693058,
+      "end_to_end_ms_per_sample": 3.9497976869168303,
+      "throughput_samples_per_second": 646.8444094104464,
+      "calibrator_cpu_ms_per_sample": null,
+      "parameters": 1011437,
+      "deployment_mib": 286.7791738510132,
+      "peak_gpu_allocated_mib": 407.97802734375
+    },
+    {
+      "dataset": "PEMS04",
+      "model": "Lite-R256+ValCal",
+      "batch_size": 1,
+      "passes": 1,
+      "forward_ms_per_sample": 4.904613170308356,
+      "end_to_end_ms_per_sample": 6.021361579270864,
+      "throughput_samples_per_second": 203.88967799822007,
+      "calibrator_cpu_ms_per_sample": 0.1731897407189514,
+      "parameters": 665314,
+      "deployment_mib": 104.20506286621094,
+      "peak_gpu_allocated_mib": 20.93017578125
+    },
+    {
+      "dataset": "PEMS04",
+      "model": "Lite-R256+ValCal",
+      "batch_size": 32,
+      "passes": 5,
+      "forward_ms_per_sample": 1.0669861857454677,
+      "end_to_end_ms_per_sample": 1.3797520093412374,
+      "throughput_samples_per_second": 937.2192567810363,
+      "calibrator_cpu_ms_per_sample": 0.16848399528580701,
+      "parameters": 665314,
+      "deployment_mib": 104.20506286621094,
+      "peak_gpu_allocated_mib": 366.4599609375
+    },
+    {
+      "dataset": "PEMS07",
+      "model": "Teacher",
+      "batch_size": 1,
+      "passes": 1,
+      "forward_ms_per_sample": 11.644481861675565,
+      "end_to_end_ms_per_sample": 19.889051294313045,
+      "throughput_samples_per_second": 85.8775866439545,
+      "calibrator_cpu_ms_per_sample": null,
+      "parameters": 1059821,
+      "deployment_mib": 1886.193694114685,
+      "peak_gpu_allocated_mib": 44.916015625
+    },
+    {
+      "dataset": "PEMS07",
+      "model": "Teacher",
+      "batch_size": 32,
+      "passes": 5,
+      "forward_ms_per_sample": 4.382120077683419,
+      "end_to_end_ms_per_sample": 12.336227881357605,
+      "throughput_samples_per_second": 228.2000452458263,
+      "calibrator_cpu_ms_per_sample": null,
+      "parameters": 1059821,
+      "deployment_mib": 1886.193694114685,
+      "peak_gpu_allocated_mib": 1141.66845703125
+    },
+    {
+      "dataset": "PEMS07",
+      "model": "Lite-R256+ValCal",
+      "batch_size": 1,
+      "passes": 1,
+      "forward_ms_per_sample": 5.676968528378177,
+      "end_to_end_ms_per_sample": 6.897321400721392,
+      "throughput_samples_per_second": 176.1503511955675,
+      "calibrator_cpu_ms_per_sample": 0.5432283368793942,
+      "parameters": 703330,
+      "deployment_mib": 1454.4345474243164,
+      "peak_gpu_allocated_mib": 40.20654296875
+    },
+    {
+      "dataset": "PEMS07",
+      "model": "Lite-R256+ValCal",
+      "batch_size": 32,
+      "passes": 5,
+      "forward_ms_per_sample": 3.097988753532104,
+      "end_to_end_ms_per_sample": 3.471657849575237,
+      "throughput_samples_per_second": 322.79006786576355,
+      "calibrator_cpu_ms_per_sample": 0.6708292517731747,
+      "parameters": 703330,
+      "deployment_mib": 1454.4345474243164,
+      "peak_gpu_allocated_mib": 1029.51025390625
+    }
+  ],
+  "paired_bootstrap": {
+    "PEMS03": {
+      "definition": "network_only_MAE_minus_valcal_MAE; positive favors ValCal",
+      "unit": "test sample endpoint resampling; official horizon-mean masked MAE",
+      "repeats": 5000,
+      "rng_seed": 20261011,
+      "observed_difference": 0.24771308955106086,
+      "ci95_percentile": [
+        0.23859311919825207,
+        0.2568778375507568
+      ],
+      "probability_difference_le_zero": 0.0
+    },
+    "PEMS04": {
+      "definition": "network_only_MAE_minus_valcal_MAE; positive favors ValCal",
+      "unit": "test sample endpoint resampling; official horizon-mean masked MAE",
+      "repeats": 5000,
+      "rng_seed": 20261011,
+      "observed_difference": 0.14959350882261546,
+      "ci95_percentile": [
+        0.1436317848881873,
+        0.1555204171285082
+      ],
+      "probability_difference_le_zero": 0.0
+    },
+    "PEMS07": {
+      "definition": "network_only_MAE_minus_valcal_MAE; positive favors ValCal",
+      "unit": "test sample endpoint resampling; official horizon-mean masked MAE",
+      "repeats": 5000,
+      "rng_seed": 20261011,
+      "observed_difference": 0.4026460181018585,
+      "ci95_percentile": [
+        0.39652812140173815,
+        0.40860122707034874
+      ],
+      "probability_difference_le_zero": 0.0
+    },
+    "PEMS08": {
+      "definition": "network_only_MAE_minus_valcal_MAE; positive favors ValCal",
+      "unit": "test sample endpoint resampling; official horizon-mean masked MAE",
+      "repeats": 5000,
+      "rng_seed": 20261011,
+      "observed_difference": 0.2122272752275265,
+      "ci95_percentile": [
+        0.20442668534653702,
+        0.21966351137747459
+      ],
+      "probability_difference_le_zero": 0.0
+    },
+    "PEMSBAY": {
+      "definition": "network_only_MAE_minus_valcal_MAE; positive favors ValCal",
+      "unit": "test sample endpoint resampling; official horizon-mean masked MAE",
+      "repeats": 5000,
+      "rng_seed": 20261011,
+      "observed_difference": 0.018952006178481806,
+      "ci95_percentile": [
+        0.018471547262251937,
+        0.019412323511681574
+      ],
+      "probability_difference_le_zero": 0.0
+    }
+  },
+  "pems07_valcal_quantization": {
+    "protocol": "pems07_frozen_valcal_precision_audit_v1",
+    "selection_rule": "precision formats pre-registered; validation evaluated before test; test not used for selection",
+    "quantization": {
+      "FP32": "direct cast of all tables",
+      "FP16": "direct cast of all tables",
+      "INT8_centers": "per-horizon/node affine uint8 across 20 prediction bins",
+      "INT8_residuals": "per-horizon/node symmetric int8 across 20 bins; per-node symmetric int8 across 96 time bins"
+    },
+    "source_predictions": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only\\selected_predictions.npz",
+    "source_calibrator": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal\\calibrator.npz",
+    "fp64_reference": {
+      "val": {
+        "mae": 17.63568268483201,
+        "rmse": 31.115696672775226,
+        "mape": 0.07584664035795083
+      },
+      "test": {
+        "mae": 18.73994076295274,
+        "rmse": 32.81981203912951,
+        "mape": 0.07746757259084885
+      }
+    },
+    "formats": {
+      "FP32": {
+        "artifact": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_valcal_quantization_20261011\\valcal_fp32.npz",
+        "artifact_bytes": 1592423,
+        "artifact_mib": 1.5186529159545898,
+        "val": {
+          "metrics": {
+            "mae": 17.63568268466237,
+            "rmse": 31.11569667119912,
+            "mape": 0.07584664035789755
+          },
+          "delta_vs_fp64": {
+            "mae": -1.6963852544904512e-10,
+            "rmse": -1.5761045801809814e-09,
+            "mape": -5.32768273941997e-14
+          },
+          "max_abs_prediction_delta_vs_fp64": 0.00011868295371186832
+        },
+        "test": {
+          "metrics": {
+            "mae": 18.739940762793708,
+            "rmse": 32.81981203730019,
+            "mape": 0.07746757258956387
+          },
+          "delta_vs_fp64": {
+            "mae": -1.5903367511782562e-10,
+            "rmse": -1.8293206949238083e-09,
+            "mape": -1.284986006488964e-12
+          },
+          "max_abs_prediction_delta_vs_fp64": 0.00011868295371186832
+        }
+      },
+      "FP16": {
+        "artifact": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_valcal_quantization_20261011\\valcal_fp16.npz",
+        "artifact_bytes": 831563,
+        "artifact_mib": 0.7930402755737305,
+        "val": {
+          "metrics": {
+            "mae": 17.635710457188246,
+            "rmse": 31.115760841859085,
+            "mape": 0.07584674472489193
+          },
+          "delta_vs_fp64": {
+            "mae": 2.7772356236965834e-05,
+            "rmse": 6.41690838598663e-05,
+            "mape": 1.0436694110327327e-07
+          },
+          "max_abs_prediction_delta_vs_fp64": 1.0304993215013383
+        },
+        "test": {
+          "metrics": {
+            "mae": 18.739978365271742,
+            "rmse": 32.819915760256144,
+            "mape": 0.07746772247760732
+          },
+          "delta_vs_fp64": {
+            "mae": 3.760231900074018e-05,
+            "rmse": 0.00010372112663503685,
+            "mape": 1.4988675846316912e-07
+          },
+          "max_abs_prediction_delta_vs_fp64": 1.0247524008354958
+        }
+      },
+      "INT8": {
+        "artifact": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_valcal_quantization_20261011\\valcal_int8.npz",
+        "artifact_bytes": 488229,
+        "artifact_mib": 0.46561145782470703,
+        "val": {
+          "metrics": {
+            "mae": 17.63573147821933,
+            "rmse": 31.11578404051831,
+            "mape": 0.07584729078244647
+          },
+          "delta_vs_fp64": {
+            "mae": 4.879338732166616e-05,
+            "rmse": 8.736774308459871e-05,
+            "mape": 6.504244956379024e-07
+          },
+          "max_abs_prediction_delta_vs_fp64": 5.521646248078071
+        },
+        "test": {
+          "metrics": {
+            "mae": 18.739854863030576,
+            "rmse": 32.8194310767684,
+            "mape": 0.07746822232553881
+          },
+          "delta_vs_fp64": {
+            "mae": -8.589992216556652e-05,
+            "rmse": -0.0003809623611061852,
+            "mape": 6.497346899531076e-07
+          },
+          "max_abs_prediction_delta_vs_fp64": 5.376931936823212
+        }
+      }
+    }
+  }
+}

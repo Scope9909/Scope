@@ -1,0 +1,18 @@
+{
+  "source_files": [
+    "D:\\lunwen\\June\\TLAST-main\\output\\pdf\\darc_single_column_20261103\\figure_data.json",
+    "D:\\lunwen\\June\\TLAST-main\\Template.tex"
+  ],
+  "outputs": {
+    "storage": [
+      "D:\\lunwen\\June\\TLAST-main\\output\\pdf\\darc_double_column_20261103\\fig_darc_accuracy_storage_and_codec_v4.pdf",
+      "D:\\lunwen\\June\\TLAST-main\\output\\pdf\\darc_double_column_20261103\\fig_darc_accuracy_storage_and_codec_v4.svg",
+      "D:\\lunwen\\June\\TLAST-main\\output\\pdf\\darc_double_column_20261103\\fig_darc_accuracy_storage_and_codec_v4.png"
+    ],
+    "lowrank": [
+      "D:\\lunwen\\June\\TLAST-main\\output\\pdf\\darc_double_column_20261103\\fig_darc_iasc_initialization_and_kd_v5.pdf",
+      "D:\\lunwen\\June\\TLAST-main\\output\\pdf\\darc_double_column_20261103\\fig_darc_iasc_initialization_and_kd_v5.svg",
+      "D:\\lunwen\\June\\TLAST-main\\output\\pdf\\darc_double_column_20261103\\fig_darc_iasc_initialization_and_kd_v5.png"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "PEMS08",
+  "chosen_nodes": [
+    7,
+    14,
+    19
+  ],
+  "queries": 3567,
+  "exact_availability_changed": 85608,
+  "exact_hits_original": 759012,
+  "exact_hits_coded": 673404,
+  "exact_availability_total": 856080
+}

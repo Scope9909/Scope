@@ -1,0 +1,94 @@
+{
+  "PEMS03": {
+    "val": {
+      "array_MB": 299.98,
+      "zlib_MB": 109.02,
+      "lzma_MB": 76.23,
+      "fcl_file_MB": 66.38
+    },
+    "test": {
+      "array_MB": 299.98,
+      "zlib_MB": 108.33,
+      "lzma_MB": 75.64,
+      "fcl_file_MB": 66.32
+    },
+    "total": {
+      "zlib_MB": 217.35,
+      "lzma_MB": 151.86,
+      "fcl_file_MB": 132.7,
+      "array_MB": 599.95
+    },
+    "fcl_vs_zlib": 0.3894954430001818,
+    "fcl_vs_lzma": 0.1262203227271521,
+    "lzma_vs_zlib": 0.3013060696201326
+  },
+  "PEMS04": {
+    "val": {
+      "array_MB": 166.71,
+      "zlib_MB": 60.46,
+      "lzma_MB": 41.84,
+      "fcl_file_MB": 35.95
+    },
+    "test": {
+      "array_MB": 166.71,
+      "zlib_MB": 58.83,
+      "lzma_MB": 40.51,
+      "fcl_file_MB": 35.46
+    },
+    "total": {
+      "zlib_MB": 119.28,
+      "lzma_MB": 82.35,
+      "fcl_file_MB": 71.41,
+      "array_MB": 333.43
+    },
+    "fcl_vs_zlib": 0.40133684393207325,
+    "fcl_vs_lzma": 0.1328551622590246,
+    "lzma_vs_zlib": 0.30961572967726847
+  },
+  "PEMS07": {
+    "val": {
+      "array_MB": 796.82,
+      "zlib_MB": 346.85,
+      "lzma_MB": 193.85,
+      "fcl_file_MB": 160.46
+    },
+    "test": {
+      "array_MB": 796.82,
+      "zlib_MB": 346.31,
+      "lzma_MB": 196.92,
+      "fcl_file_MB": 161.39
+    },
+    "total": {
+      "zlib_MB": 693.17,
+      "lzma_MB": 390.77,
+      "fcl_file_MB": 321.85,
+      "array_MB": 1593.64
+    },
+    "fcl_vs_zlib": 0.5356793903597941,
+    "fcl_vs_lzma": 0.1763715565151862,
+    "lzma_vs_zlib": 0.4362499093940444
+  },
+  "PEMS08": {
+    "val": {
+      "array_MB": 97.0,
+      "zlib_MB": 32.6,
+      "lzma_MB": 21.97,
+      "fcl_file_MB": 19.48
+    },
+    "test": {
+      "array_MB": 97.02,
+      "zlib_MB": 32.28,
+      "lzma_MB": 21.64,
+      "fcl_file_MB": 19.4
+    },
+    "total": {
+      "zlib_MB": 64.89,
+      "lzma_MB": 43.61,
+      "fcl_file_MB": 38.88,
+      "array_MB": 194.02
+    },
+    "fcl_vs_zlib": 0.40080470667252,
+    "fcl_vs_lzma": 0.10840308472886584,
+    "lzma_vs_zlib": 0.3279527070309961
+  }
+}

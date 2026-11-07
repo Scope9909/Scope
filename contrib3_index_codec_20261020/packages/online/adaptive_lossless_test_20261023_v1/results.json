@@ -1,0 +1,128 @@
+{
+  "scope": "User-requested Test reproducibility check for new lossless coding",
+  "not_independent_blind_test": true,
+  "test_metric_tuning": false,
+  "results": [
+    {
+      "dataset": "PEMS03",
+      "seed": 1,
+      "selector": "first55_three_block_stability_int8_topk36_budget",
+      "device": "cuda:0",
+      "test_raw_metrics": {
+        "mae": 14.203832009637146,
+        "rmse": 24.153384418043625,
+        "mape": 0.14439219439968304
+      },
+      "test_calibrated_metrics": {
+        "mae": 13.972821004185853,
+        "rmse": 23.88195140531958,
+        "mape": 0.1405171815066493
+      },
+      "validation_count": 5237,
+      "test_count": 5237,
+      "package_bytes": {
+        "selected": 166067,
+        "exact": 166400,
+        "generic": 190096
+      },
+      "legacy_baseline_bytes": 275236,
+      "source_sha256": "dbc74084386a28d209f622414c6e38d48279ba27a0a6a1667c617fd88338ab48",
+      "package_sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15",
+      "runtime_state_bitwise_equal": true,
+      "raw_mae_change_vs_previous": 0.0,
+      "calibrated_mae_change_vs_previous": 0.0,
+      "elapsed_seconds": 68.45681039999909
+    },
+    {
+      "dataset": "PEMS04",
+      "seed": 1,
+      "selector": "actual_online_state_byte_capped_int8_s1",
+      "device": "cuda:0",
+      "test_raw_metrics": {
+        "mae": 17.700025844780416,
+        "rmse": 29.428938445185665,
+        "mape": 0.1207726410067058
+      },
+      "test_calibrated_metrics": {
+        "mae": 17.55115396149279,
+        "rmse": 29.21504864659642,
+        "mape": 0.11998939060599545
+      },
+      "validation_count": 3394,
+      "test_count": 3394,
+      "package_bytes": {
+        "selected": 38511,
+        "exact": 38511,
+        "generic": 46263
+      },
+      "legacy_baseline_bytes": 78718,
+      "source_sha256": "a6698b74319d5ebc1f73b73b8d3001b0227dc2d896e4621b2f4bb1615a78ea75",
+      "package_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f",
+      "runtime_state_bitwise_equal": true,
+      "raw_mae_change_vs_previous": 0.0,
+      "calibrated_mae_change_vs_previous": 0.0,
+      "elapsed_seconds": 33.56176499999856
+    },
+    {
+      "dataset": "PEMS07",
+      "seed": 1,
+      "selector": "first55_three_block_stability_int8_s1",
+      "device": "cuda:0",
+      "test_raw_metrics": {
+        "mae": 18.7381170520666,
+        "rmse": 32.23465921372962,
+        "mape": 0.07863840962632261
+      },
+      "test_calibrated_metrics": {
+        "mae": 18.511485090094865,
+        "rmse": 31.880941263653387,
+        "mape": 0.0772718073315594
+      },
+      "validation_count": 5640,
+      "test_count": 5640,
+      "package_bytes": {
+        "selected": 80752,
+        "exact": 83063,
+        "generic": 95082
+      },
+      "legacy_baseline_bytes": 355339,
+      "source_sha256": "3e084ceee996ae3928d973d40fdc6eddeab941d30d304fc15c0c460d536a112c",
+      "package_sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956",
+      "runtime_state_bitwise_equal": true,
+      "raw_mae_change_vs_previous": 0.0,
+      "calibrated_mae_change_vs_previous": 0.0,
+      "elapsed_seconds": 217.30348409999715
+    },
+    {
+      "dataset": "PEMS08",
+      "seed": 1,
+      "selector": "actual_online_state_byte_capped_int8_s1",
+      "device": "cuda:0",
+      "test_raw_metrics": {
+        "mae": 13.100968681001655,
+        "rmse": 22.80585964935321,
+        "mape": 0.08631209762949756
+      },
+      "test_calibrated_metrics": {
+        "mae": 12.876735252774017,
+        "rmse": 22.487691357049325,
+        "mape": 0.08489391238663152
+      },
+      "validation_count": 3566,
+      "test_count": 3567,
+      "package_bytes": {
+        "selected": 14984,
+        "exact": 14984,
+        "generic": 18058
+      },
+      "legacy_baseline_bytes": 32901,
+      "source_sha256": "8c5bd632887d535298e6d549470b549e81074199448159d2493c6ad4a8eb71bc",
+      "package_sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2",
+      "runtime_state_bitwise_equal": true,
+      "raw_mae_change_vs_previous": 0.0,
+      "calibrated_mae_change_vs_previous": 0.0,
+      "elapsed_seconds": 22.391386800001783
+    }
+  ],
+  "complete": true
+}

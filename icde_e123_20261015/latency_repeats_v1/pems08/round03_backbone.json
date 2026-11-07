@@ -1,0 +1,54 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS08",
+  "mode": "backbone",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS08\\TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth",
+  "state": null,
+  "state_bytes": 0,
+  "selected_nodes": 0,
+  "retrieval_format": null,
+  "total_nodes": 170,
+  "cold_start_endpoint": null,
+  "pending_candidates_at_cold_start": 0,
+  "source_train_candidates": 0,
+  "device": "cuda:0",
+  "batch_size": 1,
+  "warmup_passes": 1,
+  "repeats": 1,
+  "samples_per_pass": 3566,
+  "load_and_init_seconds": 1.7298550000014075,
+  "pass_wall_seconds": [
+    18.257450799999788
+  ],
+  "pass_wall_median_seconds": 18.257450799999788,
+  "pass_wall_p95_seconds": 18.257450799999788,
+  "throughput_samples_per_second_at_median": 195.3175193548949,
+  "retrieval_seconds": [
+    0.0
+  ],
+  "retrieval_median_seconds": 0.0,
+  "model_and_transfer_seconds": [
+    14.86393749992203
+  ],
+  "model_and_transfer_median_seconds": 14.86393749992203,
+  "loader_batch_latency_ms_p50": 0.6146999985503498,
+  "loader_batch_latency_ms_p95": 1.0950750001939014,
+  "compute_batch_latency_ms_p50": 3.6661999984062277,
+  "compute_batch_latency_ms_p95": 6.341000002066721,
+  "end_to_end_batch_latency_ms_p50": 4.39735000145447,
+  "end_to_end_batch_latency_ms_p95": 7.002524998824811,
+  "batch_latency_scope": "one batch of at most 1; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 651628544,
+  "cpu_rss_peak_sampled_bytes": 1209442304,
+  "gpu_peak_allocated_bytes": 17026560,
+  "gpu_peak_reserved_bytes": 29360128,
+  "raw_validation_metrics": {
+    "mae": 13.368448142569752,
+    "rmse": 23.513322717040722,
+    "mape": 0.09958954098673513
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": null
+}

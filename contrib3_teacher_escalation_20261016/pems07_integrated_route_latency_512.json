@@ -1,0 +1,41 @@
+{
+  "protocol": "PEMS07_same_process_batch1_first512_Test_requests_frozen_gate_3_repeats",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "test_labels_read": false,
+  "request_scope": "first 512 consecutive official Test endpoints; no result-based selection",
+  "retrieval": "frozen precomputed Train-memory cache lookup; teacher candidate features built on demand",
+  "timed": "input slicing + cache payload construction + CPU/GPU transfer + model forward + calibration + CPU gate + conditional Teacher",
+  "parity_max_abs": {
+    "student": 0.00927734375,
+    "teacher": 0.008544921875,
+    "gate_score": 1.7762184143510495e-06
+  },
+  "results": {
+    "student": {
+      "mean_ms": 196.48317916667915,
+      "p50_ms": 199.11940000019968,
+      "p95_ms": 226.7354500017973,
+      "teacher_calls_per_pass": 0,
+      "samples_per_pass": 512,
+      "repeats": 3
+    },
+    "teacher": {
+      "mean_ms": 212.75611393229119,
+      "p50_ms": 219.13209999911487,
+      "p95_ms": 244.32977499873232,
+      "teacher_calls_per_pass": 512,
+      "samples_per_pass": 512,
+      "repeats": 3
+    },
+    "routed": {
+      "mean_ms": 199.73335052079005,
+      "p50_ms": 200.02929999827757,
+      "p95_ms": 275.0313250016916,
+      "teacher_calls_per_pass": 2,
+      "samples_per_pass": 512,
+      "repeats": 3
+    }
+  },
+  "caveat": "Sequential single-process replay on 512 requests, not full-Test production/concurrent throughput; model/cache loading excluded; 3 repeats share a process."
+}

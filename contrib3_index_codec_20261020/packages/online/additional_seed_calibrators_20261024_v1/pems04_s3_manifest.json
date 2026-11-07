@@ -1,0 +1,27 @@
+{
+  "dataset": "PEMS04",
+  "seed": 3,
+  "selector": "actual_online_state_byte_capped_int8_s1",
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s3\\best.pth",
+  "checkpoint_sha256": "32d4c5a870306f3b239d76f60cc4efac6ce739208f3c3e21481ced9b89210da3",
+  "calibration_config": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s3_valcal\\calibration.json",
+  "calibration_config_sha256": "f858c0e3211f86e061fc7d4a138bc65f4a16abbbb4927f91b9dc74d0207c8a74",
+  "validation_state": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec_20261020\\packages\\online\\adaptive_lossless_val_20261023_v2\\pems04_val_selected.alsc",
+  "validation_state_sha256": "a3f392586cd7cfb800450451b4cb4b7f536176d68cdcbe35bf17760b1a26549c",
+  "calibrator": "contrib3_index_codec_20261020\\packages\\online\\additional_seed_calibrators_20261024_v1\\pems04_s3_calibrator.npz",
+  "calibrator_sha256": "1a38bd1d549f594c3d4fe7426eaf1bdb14c5077e3e59a2320ede6f243ffbdc28",
+  "calibrator_bytes": 788236,
+  "validation_count": 3394,
+  "validation_raw": {
+    "mae": 17.84939741427107,
+    "rmse": 30.04979633809428,
+    "mape": 0.11931420004875691
+  },
+  "validation_calibrated": {
+    "mae": 17.296978427443538,
+    "rmse": 29.28788371943485,
+    "mape": 0.11589381243618703
+  },
+  "independent_reload_identical": true,
+  "test_data_used": false
+}

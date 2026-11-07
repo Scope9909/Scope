@@ -1,0 +1,10 @@
+{
+  "protocol": "train_only_online_memory_state_export",
+  "dataset": "PEMS08",
+  "test_evaluated": false,
+  "selection": "all_nodes",
+  "nodes": 170,
+  "total_nodes": 170,
+  "state_bytes": 2914282,
+  "query_outputs_serialized": false
+}

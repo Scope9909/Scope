@@ -1,0 +1,811 @@
+{
+  "dataset": "PEMS08",
+  "seed": 1,
+  "scope": "Validation only; no Test labels used",
+  "search": "beam",
+  "beam_width": 3,
+  "max_depth": 4,
+  "max_candidates": 8,
+  "gate": 0.02,
+  "topk_gate": 0.005,
+  "exact_gate": 0.01,
+  "strong_lossless_bytes": 33803,
+  "retrieval_k": 4,
+  "base_bytes": 35325,
+  "baseline_val_mae": 13.154658311154428,
+  "candidate_nodes": [
+    19,
+    14,
+    7,
+    5,
+    6
+  ],
+  "best": null,
+  "states": [
+    {
+      "nodes": [
+        19
+      ],
+      "bytes": 34518,
+      "saving": 807,
+      "val_delta": 0.00019817481694417438,
+      "stability": {
+        "exact_hit_flips": 144,
+        "exact_hit_flip_rate": 0.0001682557487380819,
+        "mean_abs_retrieval_change": 2.9144155174621935e-05,
+        "topk_set_count": 71320,
+        "topk_set_flips": 107,
+        "topk_set_flip_rate": 0.0015002804262478969,
+        "mean_topk_overlap": 3.99826135726304,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 16.76563571323858
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        14
+      ],
+      "bytes": 35149,
+      "saving": 176,
+      "val_delta": 0.008006106678623226,
+      "stability": {
+        "exact_hit_flips": 42792,
+        "exact_hit_flip_rate": 0.05,
+        "mean_abs_retrieval_change": 0.0001584717883732101,
+        "topk_set_count": 71320,
+        "topk_set_flips": 119,
+        "topk_set_flip_rate": 0.0016685361749859786,
+        "mean_topk_overlap": 3.9982052720134607,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        7
+      ],
+      "bytes": 35152,
+      "saving": 173,
+      "val_delta": 0.009583402387038475,
+      "stability": {
+        "exact_hit_flips": 42792,
+        "exact_hit_flip_rate": 0.05,
+        "mean_abs_retrieval_change": 0.00016876237818984856,
+        "topk_set_count": 71320,
+        "topk_set_flips": 128,
+        "topk_set_flip_rate": 0.00179472798653954,
+        "mean_topk_overlap": 3.9981211441390916,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        6
+      ],
+      "bytes": 35167,
+      "saving": 158,
+      "val_delta": 0.007661597529017072,
+      "stability": {
+        "exact_hit_flips": 42792,
+        "exact_hit_flip_rate": 0.05,
+        "mean_abs_retrieval_change": 0.00017249632782079412,
+        "topk_set_count": 71320,
+        "topk_set_flips": 117,
+        "topk_set_flip_rate": 0.0016404935501962983,
+        "mean_topk_overlap": 3.9982753785754346,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        5
+      ],
+      "bytes": 35167,
+      "saving": 158,
+      "val_delta": 0.007694683169376049,
+      "stability": {
+        "exact_hit_flips": 42792,
+        "exact_hit_flip_rate": 0.05,
+        "mean_abs_retrieval_change": 0.00017249632782079412,
+        "topk_set_count": 71320,
+        "topk_set_flips": 117,
+        "topk_set_flip_rate": 0.0016404935501962983,
+        "mean_topk_overlap": 3.9982753785754346,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        7,
+        14
+      ],
+      "bytes": 33642,
+      "saving": 1683,
+      "val_delta": 0.01758950906565815,
+      "stability": {
+        "exact_hit_flips": 85584,
+        "exact_hit_flip_rate": 0.1,
+        "mean_abs_retrieval_change": 0.0003272341665630587,
+        "topk_set_count": 71320,
+        "topk_set_flips": 247,
+        "topk_set_flip_rate": 0.003463264161525519,
+        "mean_topk_overlap": 3.996326416152552,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        7,
+        14
+      ],
+      "bytes": 33642,
+      "saving": 1683,
+      "val_delta": 0.01758950906565815,
+      "stability": {
+        "exact_hit_flips": 85584,
+        "exact_hit_flip_rate": 0.1,
+        "mean_abs_retrieval_change": 0.0003272341665630587,
+        "topk_set_count": 71320,
+        "topk_set_flips": 247,
+        "topk_set_flip_rate": 0.003463264161525519,
+        "mean_topk_overlap": 3.996326416152552,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        7,
+        19
+      ],
+      "bytes": 34278,
+      "saving": 1047,
+      "val_delta": 0.009781577203979097,
+      "stability": {
+        "exact_hit_flips": 42936,
+        "exact_hit_flip_rate": 0.05016825574873808,
+        "mean_abs_retrieval_change": 0.0001979065333644705,
+        "topk_set_count": 71320,
+        "topk_set_flips": 235,
+        "topk_set_flip_rate": 0.003295008412787437,
+        "mean_topk_overlap": 3.996382501402131,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 7.633714984325652
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        7,
+        19
+      ],
+      "bytes": 34278,
+      "saving": 1047,
+      "val_delta": 0.009781577203979097,
+      "stability": {
+        "exact_hit_flips": 42936,
+        "exact_hit_flip_rate": 0.05016825574873808,
+        "mean_abs_retrieval_change": 0.0001979065333644705,
+        "topk_set_count": 71320,
+        "topk_set_flips": 235,
+        "topk_set_flip_rate": 0.003295008412787437,
+        "mean_topk_overlap": 3.996382501402131,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 7.633714984325652
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        6,
+        19
+      ],
+      "bytes": 34298,
+      "saving": 1027,
+      "val_delta": 0.007859772345957694,
+      "stability": {
+        "exact_hit_flips": 42936,
+        "exact_hit_flip_rate": 0.05016825574873808,
+        "mean_abs_retrieval_change": 0.00020164048299541604,
+        "topk_set_count": 71320,
+        "topk_set_flips": 224,
+        "topk_set_flip_rate": 0.0031407739764441954,
+        "mean_topk_overlap": 3.9965367358384745,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 8.008584916591644
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        5,
+        19
+      ],
+      "bytes": 34298,
+      "saving": 1027,
+      "val_delta": 0.007892857986314894,
+      "stability": {
+        "exact_hit_flips": 42936,
+        "exact_hit_flip_rate": 0.05016825574873808,
+        "mean_abs_retrieval_change": 0.00020164048299541604,
+        "topk_set_count": 71320,
+        "topk_set_flips": 224,
+        "topk_set_flip_rate": 0.0031407739764441954,
+        "mean_topk_overlap": 3.9965367358384745,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 8.008584916591644
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        6,
+        14
+      ],
+      "bytes": 34299,
+      "saving": 1026,
+      "val_delta": 0.015667704207636746,
+      "stability": {
+        "exact_hit_flips": 85584,
+        "exact_hit_flip_rate": 0.1,
+        "mean_abs_retrieval_change": 0.0003309681161940042,
+        "topk_set_count": 71320,
+        "topk_set_flips": 236,
+        "topk_set_flip_rate": 0.003309029725182277,
+        "mean_topk_overlap": 3.9964806505888952,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        5,
+        14
+      ],
+      "bytes": 34299,
+      "saving": 1026,
+      "val_delta": 0.015700789847995722,
+      "stability": {
+        "exact_hit_flips": 85584,
+        "exact_hit_flip_rate": 0.1,
+        "mean_abs_retrieval_change": 0.0003309681161940042,
+        "topk_set_count": 71320,
+        "topk_set_flips": 236,
+        "topk_set_flip_rate": 0.003309029725182277,
+        "mean_topk_overlap": 3.9964806505888952,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        14,
+        19
+      ],
+      "bytes": 34337,
+      "saving": 988,
+      "val_delta": 0.008204281495563848,
+      "stability": {
+        "exact_hit_flips": 42936,
+        "exact_hit_flip_rate": 0.05016825574873808,
+        "mean_abs_retrieval_change": 0.00018761594354783201,
+        "topk_set_count": 71320,
+        "topk_set_flips": 226,
+        "topk_set_flip_rate": 0.0031688166012338757,
+        "mean_topk_overlap": 3.9964666292765,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 7.9377124837014525
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        14,
+        19
+      ],
+      "bytes": 34337,
+      "saving": 988,
+      "val_delta": 0.008204281495563848,
+      "stability": {
+        "exact_hit_flips": 42936,
+        "exact_hit_flip_rate": 0.05016825574873808,
+        "mean_abs_retrieval_change": 0.00018761594354783201,
+        "topk_set_count": 71320,
+        "topk_set_flips": 226,
+        "topk_set_flip_rate": 0.0031688166012338757,
+        "mean_topk_overlap": 3.9964666292765,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 7.9377124837014525
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        6,
+        7
+      ],
+      "bytes": 36247,
+      "saving": -922,
+      "val_delta": 0.01724499991605377,
+      "stability": {
+        "exact_hit_flips": 85584,
+        "exact_hit_flip_rate": 0.1,
+        "mean_abs_retrieval_change": 0.0003412587060106427,
+        "topk_set_count": 71320,
+        "topk_set_flips": 245,
+        "topk_set_flip_rate": 0.0034352215367358385,
+        "mean_topk_overlap": 3.996396522714526,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        5,
+        7
+      ],
+      "bytes": 36247,
+      "saving": -922,
+      "val_delta": 0.017278085556412748,
+      "stability": {
+        "exact_hit_flips": 85584,
+        "exact_hit_flip_rate": 0.1,
+        "mean_abs_retrieval_change": 0.0003412587060106427,
+        "topk_set_count": 71320,
+        "topk_set_flips": 245,
+        "topk_set_flip_rate": 0.0034352215367358385,
+        "mean_topk_overlap": 3.996396522714526,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        7,
+        14,
+        19
+      ],
+      "bytes": 32487,
+      "saving": 2838,
+      "val_delta": 0.017787683882600547,
+      "stability": {
+        "exact_hit_flips": 85728,
+        "exact_hit_flip_rate": 0.10016825574873808,
+        "mean_abs_retrieval_change": 0.0003563783217376806,
+        "topk_set_count": 71320,
+        "topk_set_flips": 354,
+        "topk_set_flip_rate": 0.004963544587773415,
+        "mean_topk_overlap": 3.9945877734155917,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 5.067579156261379
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        7,
+        14,
+        19
+      ],
+      "bytes": 32487,
+      "saving": 2838,
+      "val_delta": 0.017787683882600547,
+      "stability": {
+        "exact_hit_flips": 85728,
+        "exact_hit_flip_rate": 0.10016825574873808,
+        "mean_abs_retrieval_change": 0.0003563783217376806,
+        "topk_set_count": 71320,
+        "topk_set_flips": 354,
+        "topk_set_flip_rate": 0.004963544587773415,
+        "mean_topk_overlap": 3.9945877734155917,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 5.067579156261379
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        7,
+        14,
+        19
+      ],
+      "bytes": 32487,
+      "saving": 2838,
+      "val_delta": 0.017787683882600547,
+      "stability": {
+        "exact_hit_flips": 85728,
+        "exact_hit_flip_rate": 0.10016825574873808,
+        "mean_abs_retrieval_change": 0.0003563783217376806,
+        "topk_set_count": 71320,
+        "topk_set_flips": 354,
+        "topk_set_flip_rate": 0.004963544587773415,
+        "mean_topk_overlap": 3.9945877734155917,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 5.067579156261379
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        6,
+        7,
+        14
+      ],
+      "bytes": 34696,
+      "saving": 629,
+      "val_delta": 0.025251106594673445,
+      "stability": {
+        "exact_hit_flips": 128376,
+        "exact_hit_flip_rate": 0.15,
+        "mean_abs_retrieval_change": 0.0004997304943838527,
+        "topk_set_count": 71320,
+        "topk_set_flips": 364,
+        "topk_set_flip_rate": 0.005103757711721817,
+        "mean_topk_overlap": 3.9946017947279864,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        6,
+        7,
+        14
+      ],
+      "bytes": 34696,
+      "saving": 629,
+      "val_delta": 0.025251106594673445,
+      "stability": {
+        "exact_hit_flips": 128376,
+        "exact_hit_flip_rate": 0.15,
+        "mean_abs_retrieval_change": 0.0004997304943838527,
+        "topk_set_count": 71320,
+        "topk_set_flips": 364,
+        "topk_set_flip_rate": 0.005103757711721817,
+        "mean_topk_overlap": 3.9946017947279864,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        5,
+        7,
+        14
+      ],
+      "bytes": 34696,
+      "saving": 629,
+      "val_delta": 0.025284192235035974,
+      "stability": {
+        "exact_hit_flips": 128376,
+        "exact_hit_flip_rate": 0.15,
+        "mean_abs_retrieval_change": 0.0004997304943838527,
+        "topk_set_count": 71320,
+        "topk_set_flips": 364,
+        "topk_set_flip_rate": 0.005103757711721817,
+        "mean_topk_overlap": 3.9946017947279864,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        5,
+        7,
+        14
+      ],
+      "bytes": 34696,
+      "saving": 629,
+      "val_delta": 0.025284192235035974,
+      "stability": {
+        "exact_hit_flips": 128376,
+        "exact_hit_flip_rate": 0.15,
+        "mean_abs_retrieval_change": 0.0004997304943838527,
+        "topk_set_count": 71320,
+        "topk_set_flips": 364,
+        "topk_set_flip_rate": 0.005103757711721817,
+        "mean_topk_overlap": 3.9946017947279864,
+        "top1_flips": 0,
+        "top1_flip_rate": 0.0,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 0.0
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        6,
+        7,
+        19
+      ],
+      "bytes": 35419,
+      "saving": -94,
+      "val_delta": 0.017443174732994393,
+      "stability": {
+        "exact_hit_flips": 85728,
+        "exact_hit_flip_rate": 0.10016825574873808,
+        "mean_abs_retrieval_change": 0.00037040286118526463,
+        "topk_set_count": 71320,
+        "topk_set_flips": 352,
+        "topk_set_flip_rate": 0.004935501962983735,
+        "mean_topk_overlap": 3.994657879977566,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 5.096372219649228
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        5,
+        7,
+        19
+      ],
+      "bytes": 35419,
+      "saving": -94,
+      "val_delta": 0.017476260373355146,
+      "stability": {
+        "exact_hit_flips": 85728,
+        "exact_hit_flip_rate": 0.10016825574873808,
+        "mean_abs_retrieval_change": 0.00037040286118526463,
+        "topk_set_count": 71320,
+        "topk_set_flips": 352,
+        "topk_set_flip_rate": 0.004935501962983735,
+        "mean_topk_overlap": 3.994657879977566,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 5.096372219649228
+      },
+      "passed": false,
+      "deployment_viable": false
+    },
+    {
+      "nodes": [
+        6,
+        7,
+        14,
+        19
+      ],
+      "bytes": 33614,
+      "saving": 1711,
+      "val_delta": 0.025449281411615843,
+      "stability": {
+        "exact_hit_flips": 128520,
+        "exact_hit_flip_rate": 0.15016825574873807,
+        "mean_abs_retrieval_change": 0.0005288746495584747,
+        "topk_set_count": 71320,
+        "topk_set_flips": 471,
+        "topk_set_flip_rate": 0.006604038137969714,
+        "mean_topk_overlap": 3.9928631519910263,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 3.8087537607569604
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        6,
+        7,
+        14,
+        19
+      ],
+      "bytes": 33614,
+      "saving": 1711,
+      "val_delta": 0.025449281411615843,
+      "stability": {
+        "exact_hit_flips": 128520,
+        "exact_hit_flip_rate": 0.15016825574873807,
+        "mean_abs_retrieval_change": 0.0005288746495584747,
+        "topk_set_count": 71320,
+        "topk_set_flips": 471,
+        "topk_set_flip_rate": 0.006604038137969714,
+        "mean_topk_overlap": 3.9928631519910263,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 3.8087537607569604
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        6,
+        7,
+        14,
+        19
+      ],
+      "bytes": 33614,
+      "saving": 1711,
+      "val_delta": 0.025449281411615843,
+      "stability": {
+        "exact_hit_flips": 128520,
+        "exact_hit_flip_rate": 0.15016825574873807,
+        "mean_abs_retrieval_change": 0.0005288746495584747,
+        "topk_set_count": 71320,
+        "topk_set_flips": 471,
+        "topk_set_flip_rate": 0.006604038137969714,
+        "mean_topk_overlap": 3.9928631519910263,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 3.8087537607569604
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        5,
+        7,
+        14,
+        19
+      ],
+      "bytes": 33614,
+      "saving": 1711,
+      "val_delta": 0.025482367051976595,
+      "stability": {
+        "exact_hit_flips": 128520,
+        "exact_hit_flip_rate": 0.15016825574873807,
+        "mean_abs_retrieval_change": 0.0005288746495584747,
+        "topk_set_count": 71320,
+        "topk_set_flips": 471,
+        "topk_set_flip_rate": 0.006604038137969714,
+        "mean_topk_overlap": 3.9928631519910263,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 3.8087537607569604
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        5,
+        7,
+        14,
+        19
+      ],
+      "bytes": 33614,
+      "saving": 1711,
+      "val_delta": 0.025482367051976595,
+      "stability": {
+        "exact_hit_flips": 128520,
+        "exact_hit_flip_rate": 0.15016825574873807,
+        "mean_abs_retrieval_change": 0.0005288746495584747,
+        "topk_set_count": 71320,
+        "topk_set_flips": 471,
+        "topk_set_flip_rate": 0.006604038137969714,
+        "mean_topk_overlap": 3.9928631519910263,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 3.8087537607569604
+      },
+      "passed": false,
+      "deployment_viable": true
+    },
+    {
+      "nodes": [
+        5,
+        7,
+        14,
+        19
+      ],
+      "bytes": 33614,
+      "saving": 1711,
+      "val_delta": 0.025482367051976595,
+      "stability": {
+        "exact_hit_flips": 128520,
+        "exact_hit_flip_rate": 0.15016825574873807,
+        "mean_abs_retrieval_change": 0.0005288746495584747,
+        "topk_set_count": 71320,
+        "topk_set_flips": 471,
+        "topk_set_flip_rate": 0.006604038137969714,
+        "mean_topk_overlap": 3.9928631519910263,
+        "top1_flips": 10,
+        "top1_flip_rate": 0.00014021312394840157,
+        "mean_base_k_boundary_margin": 27.043869490393554,
+        "mean_flipped_base_k_boundary_margin": 3.8087537607569604
+      },
+      "passed": false,
+      "deployment_viable": true
+    }
+  ],
+  "test_used": false
+}

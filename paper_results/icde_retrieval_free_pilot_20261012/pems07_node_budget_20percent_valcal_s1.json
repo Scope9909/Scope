@@ -1,0 +1,99 @@
+{
+  "protocol": "fixed_validation_only_calibration_of_sensor_sparse_memory",
+  "selected_nodes": 177,
+  "test_evaluated": false,
+  "algebraic_sensor_mix_not_physical_sparse_forward": true,
+  "reference_calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal\\calibration.json",
+  "folds": [
+    {
+      "selection_samples": 3102,
+      "evaluation_start": 3102,
+      "evaluation_end": 3947,
+      "raw": {
+        "mae": 17.754973065731196,
+        "rmse": 31.066991439692895,
+        "mape": 0.07673704159158538
+      },
+      "smooth": {
+        "mae": 17.650764050809162,
+        "rmse": 30.882190542870617,
+        "mape": 0.07593577571977522
+      },
+      "calibrated": {
+        "mae": 17.5517666844873,
+        "rmse": 30.72903755648832,
+        "mape": 0.07539629138222835
+      },
+      "full_memory_calibrated": {
+        "mae": 17.63943473464133,
+        "rmse": 31.29863433033906,
+        "mape": 0.07433979323520155
+      },
+      "calibrated_mae_minus_full_memory": -0.08766805015402923,
+      "smooth_gate_passed": true,
+      "target_time_gate_passed": true
+    },
+    {
+      "selection_samples": 3947,
+      "evaluation_start": 3947,
+      "evaluation_end": 4794,
+      "raw": {
+        "mae": 18.541107676602387,
+        "rmse": 32.69661942381261,
+        "mape": 0.07718239757689939
+      },
+      "smooth": {
+        "mae": 18.417217401737364,
+        "rmse": 32.50964011310932,
+        "mape": 0.07621329107449061
+      },
+      "calibrated": {
+        "mae": 18.27060115021656,
+        "rmse": 32.28733054870769,
+        "mape": 0.07547078955292859
+      },
+      "full_memory_calibrated": {
+        "mae": 18.47402684599493,
+        "rmse": 32.937774274564596,
+        "mape": 0.07507916468677002
+      },
+      "calibrated_mae_minus_full_memory": -0.2034256957783711,
+      "smooth_gate_passed": true,
+      "target_time_gate_passed": true
+    },
+    {
+      "selection_samples": 4794,
+      "evaluation_start": 4794,
+      "evaluation_end": 5640,
+      "raw": {
+        "mae": 17.88222003522591,
+        "rmse": 31.645207248854046,
+        "mape": 0.07802234688267103
+      },
+      "smooth": {
+        "mae": 17.778759894919123,
+        "rmse": 31.489378307338914,
+        "mape": 0.07716169250767237
+      },
+      "calibrated": {
+        "mae": 17.688558305459654,
+        "rmse": 31.352513122963348,
+        "mape": 0.0766570048082753
+      },
+      "full_memory_calibrated": {
+        "mae": 17.891464551939183,
+        "rmse": 31.923336174932768,
+        "mape": 0.0771515410544188
+      },
+      "calibrated_mae_minus_full_memory": -0.20290624647952882,
+      "smooth_gate_passed": true,
+      "target_time_gate_passed": true
+    }
+  ],
+  "summary": {
+    "mean_calibrated_mae_minus_full_memory": -0.1646666641373097,
+    "improved_fold_count": 3,
+    "all_smooth_gates_passed": true,
+    "all_target_time_gates_passed": true
+  }
+}

@@ -1,0 +1,13 @@
+data.shape=(28224, 883, 1)
+time_data.shape=(28224, 2)
+idx.shape=(28201,)
+idx_train.shape=(16921,)
+idx_val.shape=(5640,)
+idx_test.shape=(5640,)
+
+idx:16921 16920
+idx_train:11 16931
+idx_val:16932 22571
+idx_test:22572 28211
+scaler_mode=global
+mean=309.4402915324664, std=189.51338745657242

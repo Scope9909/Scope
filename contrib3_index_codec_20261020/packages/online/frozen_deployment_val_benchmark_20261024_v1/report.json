@@ -1,0 +1,145 @@
+{
+  "scope": "Sequential warm Validation inference with loaded ALSC state and calibrator",
+  "test_used": false,
+  "labels_used": false,
+  "loader_time_excluded": true,
+  "model_setup_and_asset_load_excluded": true,
+  "results": [
+    {
+      "dataset": "PEMS03",
+      "batch_size": 1,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 128,
+      "median_call_ms": 104.28129999996827,
+      "p95_call_ms": 128.2139999999572,
+      "median_ms_per_sample": 106.34922421874468,
+      "per_repeat_total_ms": [
+        13429.771400000389,
+        13612.70069999932,
+        13817.869799999244
+      ],
+      "outputs_repeat_identical": true
+    },
+    {
+      "dataset": "PEMS03",
+      "batch_size": 32,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 4,
+      "median_call_ms": 164.6712499999694,
+      "p95_call_ms": 202.91290000000117,
+      "median_ms_per_sample": 5.265935937499577,
+      "per_repeat_total_ms": [
+        595.7093999999188,
+        717.0865000000504,
+        674.0397999999459
+      ],
+      "outputs_repeat_identical": true
+    },
+    {
+      "dataset": "PEMS04",
+      "batch_size": 1,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 128,
+      "median_call_ms": 87.497849999977,
+      "p95_call_ms": 107.41699999994125,
+      "median_ms_per_sample": 88.6350476562514,
+      "per_repeat_total_ms": [
+        11345.28610000018,
+        12342.797100000436,
+        9989.442899999975
+      ],
+      "outputs_repeat_identical": true
+    },
+    {
+      "dataset": "PEMS04",
+      "batch_size": 32,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 4,
+      "median_call_ms": 143.33019999997987,
+      "p95_call_ms": 192.80760000003738,
+      "median_ms_per_sample": 4.553965624999989,
+      "per_repeat_total_ms": [
+        564.9808999997958,
+        582.9075999999986,
+        695.2655999999706
+      ],
+      "outputs_repeat_identical": true
+    },
+    {
+      "dataset": "PEMS07",
+      "batch_size": 1,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 128,
+      "median_call_ms": 266.9028000000253,
+      "p95_call_ms": 357.84269999999196,
+      "median_ms_per_sample": 274.6042593750068,
+      "per_repeat_total_ms": [
+        36004.161699999146,
+        35149.34520000087,
+        31723.772799999773
+      ],
+      "outputs_repeat_identical": true
+    },
+    {
+      "dataset": "PEMS07",
+      "batch_size": 32,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 4,
+      "median_call_ms": 362.0108000000073,
+      "p95_call_ms": 454.7677999998996,
+      "median_ms_per_sample": 11.77717656250099,
+      "per_repeat_total_ms": [
+        1622.8684999998677,
+        1507.4786000001268,
+        1404.961299999968
+      ],
+      "outputs_repeat_identical": true
+    },
+    {
+      "dataset": "PEMS08",
+      "batch_size": 1,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 128,
+      "median_call_ms": 50.71440000006078,
+      "p95_call_ms": 64.84890000001542,
+      "median_ms_per_sample": 52.20339843749677,
+      "per_repeat_total_ms": [
+        6729.20600000009,
+        6682.034999999587,
+        6617.276200001015
+      ],
+      "outputs_repeat_identical": true
+    },
+    {
+      "dataset": "PEMS08",
+      "batch_size": 32,
+      "samples": 128,
+      "device": "cuda:0",
+      "repeats": 3,
+      "calls_per_repeat": 4,
+      "median_call_ms": 70.58619999997973,
+      "p95_call_ms": 81.52059999997618,
+      "median_ms_per_sample": 2.2491953124994524,
+      "per_repeat_total_ms": [
+        288.3353000000852,
+        273.44459999994797,
+        287.8969999999299
+      ],
+      "outputs_repeat_identical": true
+    }
+  ]
+}

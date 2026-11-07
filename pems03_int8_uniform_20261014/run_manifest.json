@@ -1,0 +1,20 @@
+{
+  "protocol": "pems03_int8_three_seed_validation_only_v1",
+  "planned": [
+    "pems03_s1_sparse_int8_b1_r3.json",
+    "pems03_s1_full_int8_b1_r3.json",
+    "pems03_s2_sparse_int8_b1_r3.json",
+    "pems03_s2_full_int8_b1_r3.json",
+    "pems03_s3_sparse_int8_b1_r3.json",
+    "pems03_s3_full_int8_b1_r3.json"
+  ],
+  "completed": [
+    "pems03_s1_sparse_int8_b1_r3.json",
+    "pems03_s1_full_int8_b1_r3.json",
+    "pems03_s2_sparse_int8_b1_r3.json",
+    "pems03_s2_full_int8_b1_r3.json",
+    "pems03_s3_sparse_int8_b1_r3.json",
+    "pems03_s3_full_int8_b1_r3.json"
+  ],
+  "test_evaluated": false
+}

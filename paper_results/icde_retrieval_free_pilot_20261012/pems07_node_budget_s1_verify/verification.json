@@ -1,0 +1,8 @@
+{
+  "test_evaluated": false,
+  "full_memory_prediction_maximum_absolute_difference": 0.07086181640625,
+  "full_memory_prediction_mean_absolute_difference": 2.5361779989907518e-05,
+  "full_memory_validation_mae_reproduced": 18.296498921963146,
+  "full_memory_validation_mae_archived": 18.296498918304977,
+  "passed_exact_prediction_check": false
+}

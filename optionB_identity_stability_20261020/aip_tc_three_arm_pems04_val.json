@@ -1,0 +1,32 @@
+{
+  "scope": "PEMS04 validation-only, frozen joint3, zero training, no Test; uniform-reranker deployment path",
+  "acceptance": {
+    "cache_based": 17.85374864772975,
+    "recorded": 17.8537288,
+    "rebuilt_c0": 17.853611877294274
+  },
+  "arms": {
+    "C0_baseline_frozen_decision_raw_payload": 17.853611877294274,
+    "T1_aip_tc_frozen_decision_compressed_payload": 17.972093242906396,
+    "T2_naive_symmetric_compression": 17.970731899967284
+  },
+  "history_pca_explained_energy_rank8": 0.9863584220739018,
+  "storage": {
+    "per_entry_per_node_bytes_full": 96,
+    "per_entry_per_node_bytes_compressed": 34,
+    "reduction": 0.6458333333333333,
+    "note": "T1 and T2 store identical bytes; they differ only in whether the decision artifacts (candidate index, quality scalars) are frozen at ingestion or recomputed from decoded histories."
+  },
+  "verdict": {
+    "P1_payload_free": false,
+    "P2_decoupling_necessary": false,
+    "payload_compression_cost": 0.11848136561212286,
+    "decision_compression_cost": -0.0013613429391128307,
+    "naive_total_cost": 0.11712002267301003,
+    "route": "CLOSED",
+    "thresholds": {
+      "P1_abs": 0.01,
+      "P2_min": 0.02
+    }
+  }
+}

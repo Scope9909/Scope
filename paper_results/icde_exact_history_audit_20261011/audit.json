@@ -1,0 +1,319 @@
+{
+  "protocol": "exact_history_train_only_full_val_test_recompute_v1",
+  "selection_inputs": "query history only; candidate histories restricted to idx_train at the same time-of-day",
+  "candidate_target_access": "only candidate futures indexed by idx_train are read after exact history selection",
+  "validation_test_future_used_for_selection": false,
+  "datasets": {
+    "PEMS03": {
+      "cache": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS03\\PEMS03_12to12_analog_k4_exact_mean.npz",
+      "split_arrays_match_active_index": {
+        "idx_train": true,
+        "idx_val": true,
+        "idx_test": true
+      },
+      "scaler_matches_active_index": true,
+      "split_endpoints_disjoint": true,
+      "split_order_is_chronological": true,
+      "metadata": {
+        "exact_match_rule": "masked_mse_eq_0",
+        "exact_min_valid_history": 6,
+        "train_leave_one_out": 1,
+        "exact_train_leave_one_out": 1
+      },
+      "full_recompute": {
+        "val": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        },
+        "test": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        }
+      },
+      "train_leave_one_out_recompute": {
+        "samples": 64,
+        "leave_one_out_enabled": true,
+        "availability_bitwise_equal": true,
+        "prediction_max_abs_error": 0.0,
+        "prediction_allclose": true
+      },
+      "prediction_archive_endpoint_alignment": true,
+      "prediction_archive_truth_alignment": true,
+      "coverage": {
+        "valid_elements": 22333228,
+        "exact_hit_elements": 1327267,
+        "element_coverage_percent": 5.943014596904666,
+        "sample_any_hit_percent": 100.0
+      },
+      "grouped_test_errors": {
+        "teacher": {
+          "exact_hit_mae_element_weighted": 0.1070841938625454,
+          "non_hit_mae_element_weighted": 15.082427640812398,
+          "overall_mae_element_weighted": 14.19244079382353
+        },
+        "network_only": {
+          "exact_hit_mae_element_weighted": 0.10536197709296181,
+          "non_hit_mae_element_weighted": 15.087083941959834,
+          "overall_mae_element_weighted": 14.196718018720123
+        },
+        "full_system": {
+          "exact_hit_mae_element_weighted": 0.1373803901670495,
+          "non_hit_mae_element_weighted": 14.821695985319336,
+          "overall_mae_element_weighted": 13.949004966043892
+        }
+      },
+      "audit_pass": true
+    },
+    "PEMS04": {
+      "cache": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k4_exact_mean.npz",
+      "split_arrays_match_active_index": {
+        "idx_train": true,
+        "idx_val": true,
+        "idx_test": true
+      },
+      "scaler_matches_active_index": true,
+      "split_endpoints_disjoint": true,
+      "split_order_is_chronological": true,
+      "metadata": {
+        "exact_match_rule": "masked_mse_eq_0",
+        "exact_min_valid_history": 6,
+        "train_leave_one_out": 1,
+        "exact_train_leave_one_out": 1
+      },
+      "full_recompute": {
+        "val": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        },
+        "test": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        }
+      },
+      "train_leave_one_out_recompute": {
+        "samples": 64,
+        "leave_one_out_enabled": true,
+        "availability_bitwise_equal": true,
+        "prediction_max_abs_error": 0.0,
+        "prediction_allclose": true
+      },
+      "prediction_archive_endpoint_alignment": true,
+      "prediction_archive_truth_alignment": true,
+      "coverage": {
+        "valid_elements": 12340883,
+        "exact_hit_elements": 1196136,
+        "element_coverage_percent": 9.692466900464092,
+        "sample_any_hit_percent": 100.0
+      },
+      "grouped_test_errors": {
+        "teacher": {
+          "exact_hit_mae_element_weighted": 0.13524935308469582,
+          "non_hit_mae_element_weighted": 19.5073026731979,
+          "overall_mae_element_weighted": 17.629672817205716
+        },
+        "network_only": {
+          "exact_hit_mae_element_weighted": 0.1516709172787149,
+          "non_hit_mae_element_weighted": 19.534701457668543,
+          "overall_mae_element_weighted": 17.656007638234414
+        },
+        "full_system": {
+          "exact_hit_mae_element_weighted": 0.16763294648582622,
+          "non_hit_mae_element_weighted": 19.367337867836312,
+          "overall_mae_element_weighted": 17.506412823347635
+        }
+      },
+      "audit_pass": true
+    },
+    "PEMS07": {
+      "cache": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS07\\PEMS07_12to12_analog_k4_exact_mean.npz",
+      "split_arrays_match_active_index": {
+        "idx_train": true,
+        "idx_val": true,
+        "idx_test": true
+      },
+      "scaler_matches_active_index": true,
+      "split_endpoints_disjoint": true,
+      "split_order_is_chronological": true,
+      "metadata": {
+        "exact_match_rule": "masked_mse_eq_0",
+        "exact_min_valid_history": 6,
+        "train_leave_one_out": 1,
+        "exact_train_leave_one_out": 1
+      },
+      "full_recompute": {
+        "val": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        },
+        "test": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        }
+      },
+      "train_leave_one_out_recompute": {
+        "samples": 64,
+        "leave_one_out_enabled": true,
+        "availability_bitwise_equal": true,
+        "prediction_max_abs_error": 0.0,
+        "prediction_allclose": true
+      },
+      "prediction_archive_endpoint_alignment": true,
+      "prediction_archive_truth_alignment": true,
+      "coverage": {
+        "valid_elements": 59437638,
+        "exact_hit_elements": 12405184,
+        "element_coverage_percent": 20.870923572030236,
+        "sample_any_hit_percent": 100.0
+      },
+      "grouped_test_errors": {
+        "teacher": {
+          "exact_hit_mae_element_weighted": 0.2126023130611429,
+          "non_hit_mae_element_weighted": 23.75786928251953,
+          "overall_mae_element_weighted": 18.84375460849349
+        },
+        "network_only": {
+          "exact_hit_mae_element_weighted": 0.19991949302492318,
+          "non_hit_mae_element_weighted": 24.13886490049453,
+          "overall_mae_element_weighted": 19.142585900551506
+        },
+        "full_system": {
+          "exact_hit_mae_element_weighted": 0.2898622331352909,
+          "non_hit_mae_element_weighted": 23.606294743750226,
+          "overall_mae_element_weighted": 18.739939934735766
+        }
+      },
+      "audit_pass": true
+    },
+    "PEMS08": {
+      "cache": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS08\\PEMS08_12to12_analog_k4_exact_mean.npz",
+      "split_arrays_match_active_index": {
+        "idx_train": true,
+        "idx_val": true,
+        "idx_test": true
+      },
+      "scaler_matches_active_index": true,
+      "split_endpoints_disjoint": true,
+      "split_order_is_chronological": true,
+      "metadata": {
+        "exact_match_rule": "masked_mse_eq_0",
+        "exact_min_valid_history": 6,
+        "train_leave_one_out": 1,
+        "exact_train_leave_one_out": 1
+      },
+      "full_recompute": {
+        "val": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        },
+        "test": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        }
+      },
+      "train_leave_one_out_recompute": {
+        "samples": 64,
+        "leave_one_out_enabled": true,
+        "availability_bitwise_equal": true,
+        "prediction_max_abs_error": 0.0,
+        "prediction_allclose": true
+      },
+      "prediction_archive_endpoint_alignment": true,
+      "prediction_archive_truth_alignment": true,
+      "coverage": {
+        "valid_elements": 7252101,
+        "exact_hit_elements": 1533231,
+        "element_coverage_percent": 21.141887020051154,
+        "sample_any_hit_percent": 100.0
+      },
+      "grouped_test_errors": {
+        "teacher": {
+          "exact_hit_mae_element_weighted": 0.4806322195620329,
+          "non_hit_mae_element_weighted": 16.330807832174795,
+          "overall_mae_element_weighted": 12.979781611676511
+        },
+        "network_only": {
+          "exact_hit_mae_element_weighted": 0.54455268723565,
+          "non_hit_mae_element_weighted": 16.317237515954947,
+          "overall_mae_element_weighted": 12.982594309438364
+        },
+        "full_system": {
+          "exact_hit_mae_element_weighted": 0.531843602023808,
+          "non_hit_mae_element_weighted": 16.05151962267113,
+          "overall_mae_element_weighted": 12.7703672525079
+        }
+      },
+      "audit_pass": true
+    },
+    "PEMSBAY": {
+      "cache": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMSBAY\\PEMSBAY_12to12_analog_k8_exact_mean_712.npz",
+      "split_arrays_match_active_index": {
+        "idx_train": true,
+        "idx_val": true,
+        "idx_test": true
+      },
+      "scaler_matches_active_index": true,
+      "split_endpoints_disjoint": true,
+      "split_order_is_chronological": true,
+      "metadata": {
+        "exact_match_rule": "masked_mse_eq_0",
+        "exact_min_valid_history": 6,
+        "train_leave_one_out": 1,
+        "exact_train_leave_one_out": 1
+      },
+      "full_recompute": {
+        "val": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        },
+        "test": {
+          "availability_bitwise_equal": true,
+          "prediction_max_abs_error": 0.0,
+          "prediction_allclose": true
+        }
+      },
+      "train_leave_one_out_recompute": {
+        "samples": 64,
+        "leave_one_out_enabled": true,
+        "availability_bitwise_equal": true,
+        "prediction_max_abs_error": 0.0,
+        "prediction_allclose": true
+      },
+      "prediction_archive_endpoint_alignment": true,
+      "prediction_archive_truth_alignment": true,
+      "coverage": {
+        "valid_elements": 40631496,
+        "exact_hit_elements": 843996,
+        "element_coverage_percent": 2.0771964684736197,
+        "sample_any_hit_percent": 100.0
+      },
+      "grouped_test_errors": {
+        "teacher": {
+          "exact_hit_mae_element_weighted": 0.030301201283948392,
+          "non_hit_mae_element_weighted": 1.5963105848851957,
+          "overall_mae_element_weighted": 1.5637814932730667
+        },
+        "network_only": {
+          "exact_hit_mae_element_weighted": 0.030290808637966855,
+          "non_hit_mae_element_weighted": 1.5984805102551887,
+          "overall_mae_element_weighted": 1.5659061291542287
+        },
+        "full_system": {
+          "exact_hit_mae_element_weighted": 0.03283235023807907,
+          "non_hit_mae_element_weighted": 1.579072570219316,
+          "overall_mae_element_weighted": 1.546954122975747
+        }
+      },
+      "audit_pass": true
+    }
+  },
+  "all_datasets_pass": true
+}

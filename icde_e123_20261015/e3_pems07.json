@@ -1,0 +1,41 @@
+{
+  "samples": 5640,
+  "teacher_padding_discarded": 24,
+  "teacher_mae": 18.843755317614452,
+  "student_valcal_mae": 18.739940748078144,
+  "observed_teacher_minus_student": 0.103814569536311,
+  "blocks": {
+    "12": {
+      "available": true,
+      "valid_block_starts": 5629,
+      "independent_blocks_approx": 470,
+      "ci95": [
+        0.08755281584632174,
+        0.11970491468503201
+      ],
+      "probability_improvement_le_zero": 0.0
+    },
+    "72": {
+      "available": true,
+      "valid_block_starts": 5569,
+      "independent_blocks_approx": 78,
+      "ci95": [
+        0.07420704725445684,
+        0.13431301466478582
+      ],
+      "probability_improvement_le_zero": 0.0
+    },
+    "288": {
+      "available": true,
+      "valid_block_starts": 5353,
+      "independent_blocks_approx": 19,
+      "ci95": [
+        0.061073533427432304,
+        0.14763376318403784
+      ],
+      "probability_improvement_le_zero": 0.0
+    }
+  },
+  "teacher_source": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS07\\PEMS07_12to12_parent_predictions_joint3.npz",
+  "student_source": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal\\selected_predictions.npz"
+}

@@ -1,0 +1,463 @@
+{
+  "scope": "Validation frozen-beam state re-costing",
+  "test_used": false,
+  "labels_loaded": false,
+  "search_rerun": false,
+  "new_exact_bytes": 38782,
+  "states": [
+    {
+      "nodes": [
+        0
+      ],
+      "val_delta": 0.006705114767072473,
+      "topk_flip_rate": 0.003659208850533199,
+      "exact_flip_rate": 0.0058452297222803045,
+      "old_package_bytes": 77645,
+      "new_package_bytes": 38214,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": true
+    },
+    {
+      "nodes": [
+        1
+      ],
+      "val_delta": 0.0012626171812470943,
+      "topk_flip_rate": 0.0021955253103199193,
+      "exact_flip_rate": 0.0026137206075237136,
+      "old_package_bytes": 78999,
+      "new_package_bytes": 39291,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        2
+      ],
+      "val_delta": 0.0013336328306721157,
+      "topk_flip_rate": 0.001074001558727926,
+      "exact_flip_rate": 0.03225806451612903,
+      "old_package_bytes": 80802,
+      "new_package_bytes": 40537,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        6
+      ],
+      "val_delta": 0.002760297386963373,
+      "topk_flip_rate": 0.0011215237515919934,
+      "exact_flip_rate": 0.03225806451612903,
+      "old_package_bytes": 80531,
+      "new_package_bytes": 40519,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        7
+      ],
+      "val_delta": 0.011784461287906112,
+      "topk_flip_rate": 0.0010169749272910449,
+      "exact_flip_rate": 0.03225806451612903,
+      "old_package_bytes": 80031,
+      "new_package_bytes": 39340,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        10
+      ],
+      "val_delta": 0.0013336182012579911,
+      "topk_flip_rate": 0.001074001558727926,
+      "exact_flip_rate": 0.03225806451612903,
+      "old_package_bytes": 78506,
+      "new_package_bytes": 40544,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        11
+      ],
+      "val_delta": 0.007861734207295967,
+      "topk_flip_rate": 0.002281065257475241,
+      "exact_flip_rate": 0.03225806451612903,
+      "old_package_bytes": 76954,
+      "new_package_bytes": 39949,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        13
+      ],
+      "val_delta": 0.008119613801213177,
+      "topk_flip_rate": 0.0025757028532324595,
+      "exact_flip_rate": 0.03225806451612903,
+      "old_package_bytes": 81025,
+      "new_package_bytes": 39871,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        1
+      ],
+      "val_delta": 0.007967731948312462,
+      "topk_flip_rate": 0.0058547341608531185,
+      "exact_flip_rate": 0.008458950329804019,
+      "old_package_bytes": 75510,
+      "new_package_bytes": 38081,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        2
+      ],
+      "val_delta": 0.008038747597741036,
+      "topk_flip_rate": 0.004733210409261125,
+      "exact_flip_rate": 0.03810329423840934,
+      "old_package_bytes": 77389,
+      "new_package_bytes": 39302,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        6
+      ],
+      "val_delta": 0.009465412154035846,
+      "topk_flip_rate": 0.004780732602125193,
+      "exact_flip_rate": 0.03810329423840934,
+      "old_package_bytes": 77128,
+      "new_package_bytes": 39317,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        7
+      ],
+      "val_delta": 0.018489576054978585,
+      "topk_flip_rate": 0.004676183777824244,
+      "exact_flip_rate": 0.03810329423840934,
+      "old_package_bytes": 77073,
+      "new_package_bytes": 38131,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        10
+      ],
+      "val_delta": 0.008038732968323359,
+      "topk_flip_rate": 0.004733210409261125,
+      "exact_flip_rate": 0.03810329423840934,
+      "old_package_bytes": 75208,
+      "new_package_bytes": 39312,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        11
+      ],
+      "val_delta": 0.014566848974364888,
+      "topk_flip_rate": 0.00594027410800844,
+      "exact_flip_rate": 0.03810329423840934,
+      "old_package_bytes": 73862,
+      "new_package_bytes": 38815,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        10
+      ],
+      "val_delta": 0.00259623538249798,
+      "topk_flip_rate": 0.0032695268690478454,
+      "exact_flip_rate": 0.03487178512365274,
+      "old_package_bytes": 76515,
+      "new_package_bytes": 40397,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        11
+      ],
+      "val_delta": 0.009124351388535956,
+      "topk_flip_rate": 0.004476590567795161,
+      "exact_flip_rate": 0.03487178512365274,
+      "old_package_bytes": 75278,
+      "new_package_bytes": 39931,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        2,
+        11
+      ],
+      "val_delta": 0.00919536703796453,
+      "topk_flip_rate": 0.003355066816203167,
+      "exact_flip_rate": 0.06451612903225806,
+      "old_package_bytes": 76348,
+      "new_package_bytes": 40951,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        6,
+        11
+      ],
+      "val_delta": 0.01062203159425934,
+      "topk_flip_rate": 0.0034025890090672345,
+      "exact_flip_rate": 0.06451612903225806,
+      "old_package_bytes": 74523,
+      "new_package_bytes": 38709,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        7,
+        11
+      ],
+      "val_delta": 0.019646195495198526,
+      "topk_flip_rate": 0.003298040184766286,
+      "exact_flip_rate": 0.06451612903225806,
+      "old_package_bytes": 75784,
+      "new_package_bytes": 39900,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        10,
+        11
+      ],
+      "val_delta": 0.009195352408553958,
+      "topk_flip_rate": 0.003355066816203167,
+      "exact_flip_rate": 0.06451612903225806,
+      "old_package_bytes": 76337,
+      "new_package_bytes": 40968,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        11,
+        13
+      ],
+      "val_delta": 0.015981348008509144,
+      "topk_flip_rate": 0.004856768110707701,
+      "exact_flip_rate": 0.06451612903225806,
+      "old_package_bytes": 76782,
+      "new_package_bytes": 40310,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        1,
+        11
+      ],
+      "val_delta": 0.015829466155604877,
+      "topk_flip_rate": 0.008135799418328359,
+      "exact_flip_rate": 0.04071701484593305,
+      "old_package_bytes": 71474,
+      "new_package_bytes": 38710,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        11
+      ],
+      "val_delta": 0.01590048180503345,
+      "topk_flip_rate": 0.007014275666736366,
+      "exact_flip_rate": 0.07036135875453838,
+      "old_package_bytes": 73291,
+      "new_package_bytes": 39757,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        6,
+        11
+      ],
+      "val_delta": 0.017327146361324708,
+      "topk_flip_rate": 0.007061797859600433,
+      "exact_flip_rate": 0.07036135875453838,
+      "old_package_bytes": 71399,
+      "new_package_bytes": 37500,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        10,
+        11
+      ],
+      "val_delta": 0.015900467175619326,
+      "topk_flip_rate": 0.007014275666736366,
+      "exact_flip_rate": 0.07036135875453838,
+      "old_package_bytes": 73272,
+      "new_package_bytes": 39759,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        6,
+        11
+      ],
+      "val_delta": 0.011884648775495776,
+      "topk_flip_rate": 0.005598114319387153,
+      "exact_flip_rate": 0.06712984963978177,
+      "old_package_bytes": 72886,
+      "new_package_bytes": 38575,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        2,
+        6,
+        11
+      ],
+      "val_delta": 0.011955664424920798,
+      "topk_flip_rate": 0.004476590567795161,
+      "exact_flip_rate": 0.0967741935483871,
+      "old_package_bytes": 73897,
+      "new_package_bytes": 39653,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        6,
+        10,
+        11
+      ],
+      "val_delta": 0.011955649795510226,
+      "topk_flip_rate": 0.004476590567795161,
+      "exact_flip_rate": 0.0967741935483871,
+      "old_package_bytes": 73915,
+      "new_package_bytes": 39635,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        6,
+        11,
+        13
+      ],
+      "val_delta": 0.01874164539546541,
+      "topk_flip_rate": 0.005978291862299694,
+      "exact_flip_rate": 0.0967741935483871,
+      "old_package_bytes": 74320,
+      "new_package_bytes": 38931,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        1,
+        6,
+        11
+      ],
+      "val_delta": 0.018589763542564697,
+      "topk_flip_rate": 0.009257323169920353,
+      "exact_flip_rate": 0.07297507936206209,
+      "old_package_bytes": 69046,
+      "new_package_bytes": 37355,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        6,
+        11
+      ],
+      "val_delta": 0.01866077919199327,
+      "topk_flip_rate": 0.008135799418328359,
+      "exact_flip_rate": 0.1026194232706674,
+      "old_package_bytes": 70761,
+      "new_package_bytes": 38417,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        0,
+        6,
+        10,
+        11
+      ],
+      "val_delta": 0.018660764562575594,
+      "topk_flip_rate": 0.008135799418328359,
+      "exact_flip_rate": 0.1026194232706674,
+      "old_package_bytes": 70816,
+      "new_package_bytes": 38424,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    }
+  ]
+}

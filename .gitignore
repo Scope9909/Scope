@@ -1,0 +1,37 @@
+
+# Local preparation records and large/private assets
+_preparation/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+_runtime_deps/
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.npz
+*.npy
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.fcz
+*.alsc
+*.zip
+*.log
+
+# --- whitelisted in-repo paper artifacts (small, config/manifest-referenced) ---
+!contrib3_index_codec_20261020/**/*.npz
+!contrib3_index_codec_20261020/**/*.alsc
+!contrib3_neighbor_path_20261017/*.npz
+!paper_results/*second_moment*.npz
+!paper_results/**/*second_moment*.npz
+!datasets/PEMSBAY/PEMSBAY_12to12_index_scaler_712.npz
+!EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exp*_s1/best.pth
+release/staging/

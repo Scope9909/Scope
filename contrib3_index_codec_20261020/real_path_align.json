@@ -1,0 +1,98 @@
+{
+  "PEMS08": {
+    "val": {
+      "real_MAE": 12.979351074764319,
+      "logged_MAE": 12.9793,
+      "replay_gap": 5.107476431831515e-05,
+      "emulated_MAE": 13.24612,
+      "emulator_gap": 0.26676892523568085,
+      "query_count": 3566,
+      "reproduced": true,
+      "reranker": "as-trained",
+      "scope": "PEMS08_val_only_no_training"
+    },
+    "test": {
+      "real_MAE": 12.958646897852166,
+      "logged_MAE": 12.9798,
+      "replay_gap": -0.02115310214783328,
+      "emulated_MAE": 13.25865,
+      "emulator_gap": 0.30000310214783354,
+      "query_count": 3584,
+      "reproduced": false,
+      "reranker": "as-trained",
+      "scope": "PEMS08_test_only_no_training"
+    }
+  },
+  "PEMS04": {
+    "val": {
+      "real_MAE": 17.817001367153974,
+      "logged_MAE": 17.817,
+      "replay_gap": 1.3671539740300886e-06,
+      "emulated_MAE": 17.85202,
+      "emulator_gap": 0.035018632846025355,
+      "query_count": 3394,
+      "reproduced": true,
+      "reranker": "as-trained",
+      "scope": "PEMS04_val_only_no_training"
+    },
+    "test": {
+      "real_MAE": 17.584244762161727,
+      "logged_MAE": 17.6296,
+      "replay_gap": -0.045355237838272444,
+      "emulated_MAE": 17.67307,
+      "emulator_gap": 0.08882523783827168,
+      "query_count": 3424,
+      "reproduced": false,
+      "reranker": "as-trained",
+      "scope": "PEMS04_test_only_no_training"
+    }
+  },
+  "PEMS03": {
+    "val": {
+      "real_MAE": 13.190643793080737,
+      "logged_MAE": 13.1907,
+      "replay_gap": -5.620691926289112e-05,
+      "emulated_MAE": 13.19873,
+      "emulator_gap": 0.00808620691926265,
+      "query_count": 5237,
+      "reproduced": true,
+      "reranker": "as-trained",
+      "scope": "PEMS03_val_only_no_training"
+    },
+    "test": {
+      "real_MAE": 14.184020998392748,
+      "logged_MAE": 14.1924,
+      "replay_gap": -0.008379001607250913,
+      "emulated_MAE": 14.20526,
+      "emulator_gap": 0.02123900160725256,
+      "query_count": 5248,
+      "reproduced": false,
+      "reranker": "as-trained",
+      "scope": "PEMS03_test_only_no_training"
+    }
+  },
+  "PEMS07": {
+    "val": {
+      "real_MAE": 18.088618066515476,
+      "logged_MAE": 18.0889,
+      "replay_gap": -0.00028193348452276723,
+      "emulated_MAE": 18.22224,
+      "emulator_gap": 0.13362193348452323,
+      "query_count": 5640,
+      "reproduced": true,
+      "reranker": "as-trained",
+      "scope": "PEMS07_val_only_no_training"
+    },
+    "test": {
+      "real_MAE": 18.847079337236142,
+      "logged_MAE": 18.8438,
+      "replay_gap": 0.0032793372361403783,
+      "emulated_MAE": 18.95955,
+      "emulator_gap": 0.11247066276385809,
+      "query_count": 5664,
+      "reproduced": true,
+      "reranker": "as-trained",
+      "scope": "PEMS07_test_only_no_training"
+    }
+  }
+}

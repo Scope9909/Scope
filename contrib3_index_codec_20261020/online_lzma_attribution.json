@@ -1,0 +1,26 @@
+{
+  "PEMS03": {
+    "a_orig_npz": 610182,
+    "b_orig_lzma": 317284,
+    "c_u16_lzma": 259748,
+    "d_u16_scalef16_lzma": 259552
+  },
+  "PEMS04": {
+    "a_orig_npz": 218466,
+    "b_orig_lzma": 97344,
+    "c_u16_lzma": 80508,
+    "d_u16_scalef16_lzma": 80408
+  },
+  "PEMS07": {
+    "a_orig_npz": 2061414,
+    "b_orig_lzma": 275364,
+    "c_u16_lzma": 247724,
+    "d_u16_scalef16_lzma": 247628
+  },
+  "PEMS08": {
+    "a_orig_npz": 134055,
+    "b_orig_lzma": 37524,
+    "c_u16_lzma": 26060,
+    "d_u16_scalef16_lzma": 26044
+  }
+}

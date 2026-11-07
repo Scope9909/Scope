@@ -1,0 +1,46 @@
+{
+  "dataset": "PEMSBAY",
+  "role": "3/6/12-step accuracy only",
+  "codec_claim": false,
+  "lead_definition": "individual horizon index, not 1..h mean",
+  "model_seed": 1,
+  "test_samples": 10419,
+  "teacher_padding_discarded": {
+    "val": 0,
+    "test": 13
+  },
+  "calibration_params": {
+    "num_bins": 20,
+    "smooth_shrinkage": 0.55,
+    "num_time_bins": 96,
+    "time_shrinkage": 0.35,
+    "slices_per_day": 288
+  },
+  "student_prior_exactly_reproduced": true,
+  "rows": [
+    {
+      "lead": 3,
+      "teacher_raw_mae": 1.3087780898799894,
+      "teacher_matched_calibrated_mae": 1.2954006821991364,
+      "student_raw_mae": 1.3099673369850509,
+      "student_calibrated_mae": 1.2966958199259133,
+      "teacher_cal_minus_student_cal": -0.0012951377267769182
+    },
+    {
+      "lead": 6,
+      "teacher_raw_mae": 1.6348955016842537,
+      "teacher_matched_calibrated_mae": 1.6147109327967388,
+      "student_raw_mae": 1.6364213259117,
+      "student_calibrated_mae": 1.6162616690854321,
+      "teacher_cal_minus_student_cal": -0.0015507362886932885
+    },
+    {
+      "lead": 12,
+      "teacher_raw_mae": 1.9017074769538638,
+      "teacher_matched_calibrated_mae": 1.8745492307232372,
+      "student_raw_mae": 1.9053902343915774,
+      "student_calibrated_mae": 1.8774340070383482,
+      "teacher_cal_minus_student_cal": -0.0028847763151109707
+    }
+  ]
+}

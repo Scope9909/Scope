@@ -1,0 +1,832 @@
+{
+ "rule_id": "fcl-rule-v1",
+ "gate": 0.01,
+ "ladders": {
+  "T": [
+   {
+    "codec": "off"
+   },
+   {
+    "codec": "qint",
+    "bits": 4
+   },
+   {
+    "codec": "qint",
+    "bits": 6
+   },
+   {
+    "codec": "qint",
+    "bits": 8
+   },
+   {
+    "codec": "f16"
+   }
+  ],
+  "E": [
+   {
+    "codec": "off"
+   },
+   {
+    "codec": "qint",
+    "bits": 8
+   },
+   {
+    "codec": "sparse"
+   }
+  ],
+  "fd": [
+   {
+    "codec": "off"
+   },
+   {
+    "codec": "log",
+    "bits": 2
+   },
+   {
+    "codec": "log",
+    "bits": 4
+   },
+   {
+    "codec": "log",
+    "bits": 6
+   },
+   {
+    "codec": "log",
+    "bits": 8
+   },
+   {
+    "codec": "f16"
+   }
+  ],
+  "hd": [
+   {
+    "codec": "off"
+   },
+   {
+    "codec": "qint",
+    "bits": 2
+   },
+   {
+    "codec": "qint",
+    "bits": 4
+   },
+   {
+    "codec": "qint",
+    "bits": 6
+   },
+   {
+    "codec": "qint",
+    "bits": 8
+   },
+   {
+    "codec": "qint",
+    "bits": 16
+   }
+  ]
+ },
+ "backoff_order": [
+  "fd",
+  "hd",
+  "T",
+  "E"
+ ],
+ "rule_sha256": "27e2a9dfc5e3f0e18dd624230777589bedfa2f440a4c41a4973f1811039fff84",
+ "frozen_utc": "2026-10-20T11:54:01+00:00",
+ "selection": {
+  "PEMS08": {
+   "C0_val": 13.24612245128439,
+   "gate": 0.01,
+   "ladder": {
+    "T": [
+     {
+      "rung": "off",
+      "delta": 4.950585018958048,
+      "MB": 0.90933,
+      "pass_": false
+     },
+     {
+      "rung": "qint4",
+      "delta": 0.25145719849298054,
+      "MB": 4.55481,
+      "pass_": false
+     },
+     {
+      "rung": "qint6",
+      "delta": 0.021569904542943164,
+      "MB": 6.37347,
+      "pass_": false
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.0016749666837565513,
+      "MB": 8.19213,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 1.2555972141115035e-05,
+      "MB": 15.45861,
+      "pass_": true
+     }
+    ],
+    "E": [
+     {
+      "rung": "off",
+      "delta": 23.680052431968267,
+      "MB": 0.90933,
+      "pass_": false
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.023639128751964833,
+      "MB": 8.19213,
+      "pass_": false
+     },
+     {
+      "rung": "sparse",
+      "delta": -2.511194429288821e-06,
+      "MB": 4.154406,
+      "pass_": true
+     }
+    ],
+    "fd": [
+     {
+      "rung": "off",
+      "delta": 0.0007257351898122266,
+      "MB": 0.90933,
+      "pass_": true
+     },
+     {
+      "rung": "log2",
+      "delta": 4.2690305283699104e-05,
+      "MB": 2.73615,
+      "pass_": true
+     },
+     {
+      "rung": "log4",
+      "delta": 0.0,
+      "MB": 4.55481,
+      "pass_": true
+     },
+     {
+      "rung": "log6",
+      "delta": 2.5111944275124642e-06,
+      "MB": 6.37347,
+      "pass_": true
+     },
+     {
+      "rung": "log8",
+      "delta": 0.0,
+      "MB": 8.19213,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 0.0,
+      "MB": 15.45861,
+      "pass_": true
+     }
+    ],
+    "hd": [
+     {
+      "rung": "off",
+      "delta": 0.07627250837450994,
+      "MB": 0.90933,
+      "pass_": false
+     },
+     {
+      "rung": "qint2",
+      "delta": 0.028581159387101707,
+      "MB": 1.061565,
+      "pass_": false
+     },
+     {
+      "rung": "qint4",
+      "delta": 0.0012756867696381846,
+      "MB": 1.21312,
+      "pass_": true
+     },
+     {
+      "rung": "qint6",
+      "delta": 7.910262449506433e-05,
+      "MB": 1.364675,
+      "pass_": true
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.0,
+      "MB": 1.51623,
+      "pass_": true
+     },
+     {
+      "rung": "qint16",
+      "delta": 0.0,
+      "MB": 2.12245,
+      "pass_": true
+     }
+    ]
+   },
+   "knee": {
+    "T": "qint8",
+    "E": "sparse",
+    "fd": "off",
+    "hd": "qint4"
+   },
+   "joint_val_delta": 0.003655043490569554,
+   "backoff_steps": [],
+   "plan": {
+    "T": {
+     "codec": "qint",
+     "bits": 8
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "off"
+    },
+    "hd": {
+     "codec": "qint",
+     "bits": 4
+    }
+   },
+   "plan_keep": {
+    "T": {
+     "codec": "qint",
+     "bits": 8
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "log",
+     "bits": 2
+    },
+    "hd": {
+     "codec": "qint",
+     "bits": 4
+    }
+   },
+   "keep_val_delta": 0.0029745098004667625,
+   "package_MB": {
+    "val": 4.127828,
+    "test": 4.089212
+   },
+   "package_keep_MB": {
+    "val": 4.81674,
+    "test": 4.752896
+   }
+  },
+  "PEMS04": {
+   "C0_val": 17.852024704101243,
+   "gate": 0.01,
+   "ladder": {
+    "T": [
+     {
+      "rung": "off",
+      "delta": 3.1323419588355605,
+      "MB": 1.562937,
+      "pass_": false
+     },
+     {
+      "rung": "qint4",
+      "delta": 0.04555727784329022,
+      "MB": 7.829421,
+      "pass_": false
+     },
+     {
+      "rung": "qint6",
+      "delta": 0.003058250551305264,
+      "MB": 10.955295,
+      "pass_": true
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.0001653968056878341,
+      "MB": 14.081169,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 7.951769504188633e-06,
+      "MB": 26.569929,
+      "pass_": true
+     }
+    ],
+    "E": [
+     {
+      "rung": "off",
+      "delta": 10.610698094512443,
+      "MB": 1.562937,
+      "pass_": false
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.03556190357654643,
+      "MB": 14.081169,
+      "pass_": false
+     },
+     {
+      "rung": "sparse",
+      "delta": 0.0009160438468818199,
+      "MB": 3.934089,
+      "pass_": true
+     }
+    ],
+    "fd": [
+     {
+      "rung": "off",
+      "delta": -0.0057236836891014775,
+      "MB": 1.562937,
+      "pass_": true
+     },
+     {
+      "rung": "log2",
+      "delta": -2.3855308512565898e-05,
+      "MB": 4.703547,
+      "pass_": true
+     },
+     {
+      "rung": "log4",
+      "delta": -4.771061700381551e-06,
+      "MB": 7.829421,
+      "pass_": true
+     },
+     {
+      "rung": "log6",
+      "delta": 3.1807078038070813e-06,
+      "MB": 10.955295,
+      "pass_": true
+     },
+     {
+      "rung": "log8",
+      "delta": -1.5903539001271838e-06,
+      "MB": 14.081169,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 0.0,
+      "MB": 26.569929,
+      "pass_": true
+     }
+    ],
+    "hd": [
+     {
+      "rung": "off",
+      "delta": -0.001315222675987826,
+      "MB": 1.562937,
+      "pass_": true
+     },
+     {
+      "rung": "qint2",
+      "delta": -0.0019275089278103508,
+      "MB": 1.824655,
+      "pass_": true
+     },
+     {
+      "rung": "qint4",
+      "delta": -0.0003276129035718611,
+      "MB": 2.085144,
+      "pass_": true
+     },
+     {
+      "rung": "qint6",
+      "delta": -1.5903539001271838e-06,
+      "MB": 2.345634,
+      "pass_": true
+     },
+     {
+      "rung": "qint8",
+      "delta": -6.361415600508735e-06,
+      "MB": 2.606123,
+      "pass_": true
+     },
+     {
+      "rung": "qint16",
+      "delta": 0.0,
+      "MB": 3.648081,
+      "pass_": true
+     }
+    ]
+   },
+   "knee": {
+    "T": "qint6",
+    "E": "sparse",
+    "fd": "off",
+    "hd": "off"
+   },
+   "joint_val_delta": -0.00199112308384386,
+   "backoff_steps": [],
+   "plan": {
+    "T": {
+     "codec": "qint",
+     "bits": 6
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "off"
+    },
+    "hd": {
+     "codec": "off"
+    }
+   },
+   "plan_keep": {
+    "T": {
+     "codec": "qint",
+     "bits": 6
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "log",
+     "bits": 2
+    },
+    "hd": {
+     "codec": "qint",
+     "bits": 2
+    }
+   },
+   "keep_val_delta": 0.001983171314339671,
+   "package_MB": {
+    "val": 6.308772,
+    "test": 6.259192
+   },
+   "package_keep_MB": {
+    "val": 7.678348,
+    "test": 7.574372
+   }
+  },
+  "PEMS03": {
+   "C0_val": 13.198728293025091,
+   "gate": 0.01,
+   "ladder": {
+    "T": [
+     {
+      "rung": "off",
+      "delta": 4.408579563342219,
+      "MB": 2.812269,
+      "pass_": false
+     },
+     {
+      "rung": "qint4",
+      "delta": 0.09342515628550707,
+      "MB": 14.078529,
+      "pass_": false
+     },
+     {
+      "rung": "qint6",
+      "delta": 0.012504604053463098,
+      "MB": 19.703067,
+      "pass_": false
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.0019107396790563058,
+      "MB": 25.327605,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 1.938197476647474e-05,
+      "MB": 47.808573,
+      "pass_": true
+     }
+    ],
+    "E": [
+     {
+      "rung": "off",
+      "delta": 5.4517659002073415,
+      "MB": 2.812269,
+      "pass_": false
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.015244730736062806,
+      "MB": 25.327605,
+      "pass_": false
+     },
+     {
+      "rung": "sparse",
+      "delta": 0.00035775895089784626,
+      "MB": 5.513325,
+      "pass_": true
+     }
+    ],
+    "fd": [
+     {
+      "rung": "off",
+      "delta": 0.0012452918787424494,
+      "MB": 2.812269,
+      "pass_": true
+     },
+     {
+      "rung": "log2",
+      "delta": 0.0002988054443164856,
+      "MB": 8.453991,
+      "pass_": true
+     },
+     {
+      "rung": "log4",
+      "delta": -5.653075971778776e-06,
+      "MB": 14.078529,
+      "pass_": true
+     },
+     {
+      "rung": "log6",
+      "delta": 1.1306151947110266e-05,
+      "MB": 19.703067,
+      "pass_": true
+     },
+     {
+      "rung": "log8",
+      "delta": 8.075822819364475e-07,
+      "MB": 25.327605,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 8.075822819364475e-07,
+      "MB": 47.808573,
+      "pass_": true
+     }
+    ],
+    "hd": [
+     {
+      "rung": "off",
+      "delta": 0.002421131681236588,
+      "MB": 2.812269,
+      "pass_": true
+     },
+     {
+      "rung": "qint2",
+      "delta": 0.001444764702380752,
+      "MB": 3.282413,
+      "pass_": true
+     },
+     {
+      "rung": "qint4",
+      "delta": -0.0003020357734442314,
+      "MB": 3.751124,
+      "pass_": true
+     },
+     {
+      "rung": "qint6",
+      "delta": -3.553362040520369e-05,
+      "MB": 4.219836,
+      "pass_": true
+     },
+     {
+      "rung": "qint8",
+      "delta": 3.23032912774579e-06,
+      "MB": 4.688547,
+      "pass_": true
+     },
+     {
+      "rung": "qint16",
+      "delta": 0.0,
+      "MB": 6.563393,
+      "pass_": true
+     }
+    ]
+   },
+   "knee": {
+    "T": "qint8",
+    "E": "sparse",
+    "fd": "off",
+    "hd": "off"
+   },
+   "joint_val_delta": 0.0070413099161807935,
+   "backoff_steps": [],
+   "plan": {
+    "T": {
+     "codec": "qint",
+     "bits": 8
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "off"
+    },
+    "hd": {
+     "codec": "off"
+    }
+   },
+   "plan_keep": {
+    "T": {
+     "codec": "qint",
+     "bits": 8
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "log",
+     "bits": 2
+    },
+    "hd": {
+     "codec": "qint",
+     "bits": 2
+    }
+   },
+   "keep_val_delta": 0.0038327855100579455,
+   "package_MB": {
+    "val": 14.205956,
+    "test": 14.003032
+   },
+   "package_keep_MB": {
+    "val": 16.39436,
+    "test": 16.187264
+   }
+  },
+  "PEMS07": {
+   "C0_val": 18.222244758939976,
+   "gate": 0.01,
+   "ladder": {
+    "T": [
+     {
+      "rung": "off",
+      "delta": 12.54459298542309,
+      "MB": 7.47018,
+      "pass_": false
+     },
+     {
+      "rung": "qint4",
+      "delta": 0.19600909134816646,
+      "MB": 37.393284,
+      "pass_": false
+     },
+     {
+      "rung": "qint6",
+      "delta": 0.022992777437711,
+      "MB": 52.333644,
+      "pass_": false
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.0032383072936355006,
+      "MB": 67.274004,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 5.7287008633721825e-05,
+      "MB": 126.99306,
+      "pass_": true
+     }
+    ],
+    "E": [
+     {
+      "rung": "off",
+      "delta": 37.831489153512706,
+      "MB": 7.47018,
+      "pass_": false
+     },
+     {
+      "rung": "qint8",
+      "delta": 0.12651676726313,
+      "MB": 67.274004,
+      "pass_": false
+     },
+     {
+      "rung": "sparse",
+      "delta": 0.003572481510673242,
+      "MB": 33.750314,
+      "pass_": true
+     }
+    ],
+    "fd": [
+     {
+      "rung": "off",
+      "delta": -0.0023678630235508535,
+      "MB": 7.47018,
+      "pass_": true
+     },
+     {
+      "rung": "log2",
+      "delta": -3.023481011155127e-05,
+      "MB": 22.452924,
+      "pass_": true
+     },
+     {
+      "rung": "log4",
+      "delta": 0.0,
+      "MB": 37.393284,
+      "pass_": true
+     },
+     {
+      "rung": "log6",
+      "delta": 0.0,
+      "MB": 52.333644,
+      "pass_": true
+     },
+     {
+      "rung": "log8",
+      "delta": -3.1826115893807128e-06,
+      "MB": 67.274004,
+      "pass_": true
+     },
+     {
+      "rung": "f16",
+      "delta": 1.5913057964667132e-06,
+      "MB": 126.99306,
+      "pass_": true
+     }
+    ],
+    "hd": [
+     {
+      "rung": "off",
+      "delta": 0.0354654322620398,
+      "MB": 7.47018,
+      "pass_": false
+     },
+     {
+      "rung": "qint2",
+      "delta": 0.022400811681819732,
+      "MB": 8.718742,
+      "pass_": false
+     },
+     {
+      "rung": "qint4",
+      "delta": 0.0012937316116605757,
+      "MB": 9.963772,
+      "pass_": true
+     },
+     {
+      "rung": "qint6",
+      "delta": 0.00019732191863042203,
+      "MB": 11.208802,
+      "pass_": true
+     },
+     {
+      "rung": "qint8",
+      "delta": 1.2730446364628278e-05,
+      "MB": 12.453832,
+      "pass_": true
+     },
+     {
+      "rung": "qint16",
+      "delta": 0.0,
+      "MB": 17.433952,
+      "pass_": true
+     }
+    ]
+   },
+   "knee": {
+    "T": "qint8",
+    "E": "sparse",
+    "fd": "off",
+    "hd": "qint4"
+   },
+   "joint_val_delta": 0.0044270127228003275,
+   "backoff_steps": [],
+   "plan": {
+    "T": {
+     "codec": "qint",
+     "bits": 8
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "off"
+    },
+    "hd": {
+     "codec": "qint",
+     "bits": 4
+    }
+   },
+   "plan_keep": {
+    "T": {
+     "codec": "qint",
+     "bits": 8
+    },
+    "E": {
+     "codec": "sparse"
+    },
+    "fd": {
+     "codec": "log",
+     "bits": 2
+    },
+    "hd": {
+     "codec": "qint",
+     "bits": 4
+    }
+   },
+   "keep_val_delta": 0.00681078880430519,
+   "package_MB": {
+    "val": 36.55368,
+    "test": 36.9535
+   },
+   "package_keep_MB": {
+    "val": 42.688764,
+    "test": 43.31288
+   }
+  }
+ },
+ "test_used": false
+}

@@ -1,0 +1,41 @@
+{
+  "protocol": "frozen_srm_online_test_once_v1",
+  "dataset": "PEMS04",
+  "seed_label": 3,
+  "mode": "backbone",
+  "selector": "actual_online_state_byte_capped_int8_s1",
+  "test_evaluated": true,
+  "test_evaluations": 1,
+  "test_based_selection": false,
+  "query_cache_loaded": false,
+  "memory_format": null,
+  "batch_size": 32,
+  "validation_samples": 3394,
+  "test_samples": 3394,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s3\\best.pth",
+  "checkpoint_sha256": "32d4c5a870306f3b239d76f60cc4efac6ce739208f3c3e21481ced9b89210da3",
+  "calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s3_valcal\\calibration.json",
+  "calibration_sha256": "f858c0e3211f86e061fc7d4a138bc65f4a16abbbb4927f91b9dc74d0207c8a74",
+  "validation_state": null,
+  "test_state": null,
+  "validation_state_sha256": null,
+  "test_state_sha256": null,
+  "test_state_bytes": 0,
+  "selected_nodes": 0,
+  "total_nodes": 307,
+  "validation_raw": {
+    "mae": 17.98604185259374,
+    "rmse": 30.066611171377925,
+    "mape": 0.12048685382785058
+  },
+  "test_raw": {
+    "mae": 17.84658913643265,
+    "rmse": 29.449433303719584,
+    "mape": 0.12170055030202205
+  },
+  "test_fixed_calibrated": {
+    "mae": 17.691400199592902,
+    "rmse": 29.234455891632262,
+    "mape": 0.12107322829991668
+  }
+}

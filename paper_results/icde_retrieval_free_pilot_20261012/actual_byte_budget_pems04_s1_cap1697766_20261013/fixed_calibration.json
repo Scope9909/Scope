@@ -1,0 +1,30 @@
+{
+  "protocol": "frozen_plan_expanding_time_validation_fixed_calibration",
+  "test_evaluated": false,
+  "selected_nodes": 32,
+  "physical_archive_bytes": 1687970,
+  "native_algebraic_parity": true,
+  "reference_calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1_valcal\\calibration.json",
+  "folds": [
+    {
+      "fit_end": 1866,
+      "eval_end": 2375,
+      "raw_mae": 17.31638110398747,
+      "fixed_calibrated_mae": 17.174420060121466
+    },
+    {
+      "fit_end": 2375,
+      "eval_end": 2884,
+      "raw_mae": 17.32997160744271,
+      "fixed_calibrated_mae": 17.113484263684658
+    },
+    {
+      "fit_end": 2884,
+      "eval_end": 3394,
+      "raw_mae": 18.377598083261294,
+      "fixed_calibrated_mae": 18.196474599699396
+    }
+  ],
+  "mean_raw_mae": 17.674650264897156,
+  "mean_fixed_calibrated_mae": 17.494792974501838
+}

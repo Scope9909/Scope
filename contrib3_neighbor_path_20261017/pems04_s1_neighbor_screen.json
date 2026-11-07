@@ -1,0 +1,395 @@
+{
+  "protocol": "Train-only node graph and probe fit; Validation prefix selects epochs; 12-origin embargo; suffix assessment; Test not evaluated",
+  "limitations": [
+    "Student was trained on Train, so Train residuals are in-sample rather than OOF.",
+    "Student checkpoint was selected on full Validation; suffix is a mechanism screen, not fresh confirmation.",
+    "Probe is a separate error-prediction model, not the proposed integrated Student mechanism.",
+    "The common data loader initializes Test arrays but Test loader is never iterated."
+  ],
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1\\best.pth",
+  "checkpoint_sha256": "44cca44fde140fa7c7d62784b0b5f72d1bc290d01a9add639b738982b76c21e0",
+  "train_sampled_origins": 2543,
+  "train_graph_delta_correlation": 0.19940479644967715,
+  "random_graph_delta_correlation": 0.0422996673290117,
+  "graph_k": 4,
+  "full_validation_student_mae": 17.833411480067387,
+  "selection_endpoint_range": [
+    10192,
+    11876
+  ],
+  "assessment_endpoint_range": [
+    11889,
+    13585
+  ],
+  "suffix_baseline_student_mae": 17.91839451093664,
+  "predeclared_gate": "Correlated-neighbor suffix improvement >=0.01, positive in >=2/3 chronological blocks, better than equal-width own and random-neighbor controls.",
+  "probes": {
+    "own": {
+      "parameters": 9612,
+      "selected_epoch": 0,
+      "selection_mae": 17.7998785841358,
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_mae": 16.273458249228113,
+          "selection_mae": 17.86602505723328
+        },
+        {
+          "epoch": 2,
+          "train_mae": 16.115767902872367,
+          "selection_mae": 17.864077290526556
+        },
+        {
+          "epoch": 3,
+          "train_mae": 16.09102904660106,
+          "selection_mae": 17.86699151172948
+        },
+        {
+          "epoch": 4,
+          "train_mae": 16.082794006558487,
+          "selection_mae": 17.870863800150843
+        },
+        {
+          "epoch": 5,
+          "train_mae": 16.07881417093849,
+          "selection_mae": 17.869660564323762
+        },
+        {
+          "epoch": 6,
+          "train_mae": 16.07342556741576,
+          "selection_mae": 17.866038514705608
+        },
+        {
+          "epoch": 7,
+          "train_mae": 16.070469547198588,
+          "selection_mae": 17.871907286974658
+        },
+        {
+          "epoch": 8,
+          "train_mae": 16.067848057884504,
+          "selection_mae": 17.872005110081517
+        }
+      ],
+      "assessment": {
+        "mae": 17.91839451093664,
+        "horizon_mae": [
+          16.613787121998197,
+          17.076893203633947,
+          17.401098294449262,
+          17.641833524212636,
+          17.816791808866174,
+          17.995391873831434,
+          18.12678897260045,
+          18.239159233882365,
+          18.358011603240993,
+          18.452512722261257,
+          18.56845937733611,
+          18.73000639492686
+        ],
+        "element_mae": 17.918369374641863,
+        "valid_counts": [
+          512667,
+          512659,
+          512650,
+          512644,
+          512639,
+          512635,
+          512630,
+          512620,
+          512612,
+          512608,
+          512603,
+          512597
+        ]
+      },
+      "mae_improvement": 0.0,
+      "three_block_improvements": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_day_blocks": [
+        {
+          "day_index": 41,
+          "origins": 207,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 42,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 43,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 44,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 45,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 46,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 47,
+          "origins": 50,
+          "mae_improvement": 0.0
+        }
+      ]
+    },
+    "correlated_neighbor": {
+      "parameters": 9612,
+      "selected_epoch": 0,
+      "selection_mae": 17.7998785841358,
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_mae": 16.26551947262481,
+          "selection_mae": 17.877915785774817
+        },
+        {
+          "epoch": 2,
+          "train_mae": 16.11345838283416,
+          "selection_mae": 17.8624491244974
+        },
+        {
+          "epoch": 3,
+          "train_mae": 16.0908475098592,
+          "selection_mae": 17.865933658054256
+        },
+        {
+          "epoch": 4,
+          "train_mae": 16.08229101176586,
+          "selection_mae": 17.86856196717924
+        },
+        {
+          "epoch": 5,
+          "train_mae": 16.078050522073273,
+          "selection_mae": 17.871881088572156
+        },
+        {
+          "epoch": 6,
+          "train_mae": 16.07264997169944,
+          "selection_mae": 17.86503504657536
+        },
+        {
+          "epoch": 7,
+          "train_mae": 16.06946689409613,
+          "selection_mae": 17.87081611581785
+        },
+        {
+          "epoch": 8,
+          "train_mae": 16.06693414799817,
+          "selection_mae": 17.87084859081147
+        }
+      ],
+      "assessment": {
+        "mae": 17.91839451093664,
+        "horizon_mae": [
+          16.613787121998197,
+          17.076893203633947,
+          17.401098294449262,
+          17.641833524212636,
+          17.816791808866174,
+          17.995391873831434,
+          18.12678897260045,
+          18.239159233882365,
+          18.358011603240993,
+          18.452512722261257,
+          18.56845937733611,
+          18.73000639492686
+        ],
+        "element_mae": 17.918369374641863,
+        "valid_counts": [
+          512667,
+          512659,
+          512650,
+          512644,
+          512639,
+          512635,
+          512630,
+          512620,
+          512612,
+          512608,
+          512603,
+          512597
+        ]
+      },
+      "mae_improvement": 0.0,
+      "three_block_improvements": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_day_blocks": [
+        {
+          "day_index": 41,
+          "origins": 207,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 42,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 43,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 44,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 45,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 46,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 47,
+          "origins": 50,
+          "mae_improvement": 0.0
+        }
+      ]
+    },
+    "random_neighbor": {
+      "parameters": 9612,
+      "selected_epoch": 0,
+      "selection_mae": 17.7998785841358,
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_mae": 16.27332755877604,
+          "selection_mae": 17.868058030860997
+        },
+        {
+          "epoch": 2,
+          "train_mae": 16.11365625703324,
+          "selection_mae": 17.8630300483346
+        },
+        {
+          "epoch": 3,
+          "train_mae": 16.090573054103025,
+          "selection_mae": 17.864887026571093
+        },
+        {
+          "epoch": 4,
+          "train_mae": 16.082397755734505,
+          "selection_mae": 17.86895918335231
+        },
+        {
+          "epoch": 5,
+          "train_mae": 16.079398900250116,
+          "selection_mae": 17.86993107283389
+        },
+        {
+          "epoch": 6,
+          "train_mae": 16.07387951596038,
+          "selection_mae": 17.86502238422489
+        },
+        {
+          "epoch": 7,
+          "train_mae": 16.071366616974668,
+          "selection_mae": 17.86945973889425
+        },
+        {
+          "epoch": 8,
+          "train_mae": 16.068638585403512,
+          "selection_mae": 17.87085310176447
+        }
+      ],
+      "assessment": {
+        "mae": 17.91839451093664,
+        "horizon_mae": [
+          16.613787121998197,
+          17.076893203633947,
+          17.401098294449262,
+          17.641833524212636,
+          17.816791808866174,
+          17.995391873831434,
+          18.12678897260045,
+          18.239159233882365,
+          18.358011603240993,
+          18.452512722261257,
+          18.56845937733611,
+          18.73000639492686
+        ],
+        "element_mae": 17.918369374641863,
+        "valid_counts": [
+          512667,
+          512659,
+          512650,
+          512644,
+          512639,
+          512635,
+          512630,
+          512620,
+          512612,
+          512608,
+          512603,
+          512597
+        ]
+      },
+      "mae_improvement": 0.0,
+      "three_block_improvements": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_day_blocks": [
+        {
+          "day_index": 41,
+          "origins": 207,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 42,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 43,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 44,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 45,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 46,
+          "origins": 288,
+          "mae_improvement": 0.0
+        },
+        {
+          "day_index": 47,
+          "origins": 50,
+          "mae_improvement": 0.0
+        }
+      ]
+    }
+  },
+  "integrated_student_pilot_warranted": false
+}

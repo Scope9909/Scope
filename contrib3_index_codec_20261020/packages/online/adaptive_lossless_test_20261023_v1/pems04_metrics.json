@@ -1,0 +1,30 @@
+{
+  "dataset": "PEMS04",
+  "seed": 1,
+  "selector": "actual_online_state_byte_capped_int8_s1",
+  "device": "cuda:0",
+  "test_raw_metrics": {
+    "mae": 17.700025844780416,
+    "rmse": 29.428938445185665,
+    "mape": 0.1207726410067058
+  },
+  "test_calibrated_metrics": {
+    "mae": 17.55115396149279,
+    "rmse": 29.21504864659642,
+    "mape": 0.11998939060599545
+  },
+  "validation_count": 3394,
+  "test_count": 3394,
+  "package_bytes": {
+    "selected": 38511,
+    "exact": 38511,
+    "generic": 46263
+  },
+  "legacy_baseline_bytes": 78718,
+  "source_sha256": "a6698b74319d5ebc1f73b73b8d3001b0227dc2d896e4621b2f4bb1615a78ea75",
+  "package_sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f",
+  "runtime_state_bitwise_equal": true,
+  "raw_mae_change_vs_previous": 0.0,
+  "calibrated_mae_change_vs_previous": 0.0,
+  "elapsed_seconds": 33.56176499999856
+}

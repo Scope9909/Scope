@@ -1,0 +1,31 @@
+{
+  "seed": 1,
+  "history96": 96,
+  "history720": 720,
+  "rank96": 4,
+  "rank720": 2,
+  "alpha96": 1.383778691291809,
+  "feature_dim720": 576,
+  "trainable_parameters720": 1190,
+  "train_samples": 9468,
+  "val_samples": 3394,
+  "best_epoch": 25,
+  "baseline_val_mae": 17.790571530659992,
+  "dualscale_val_mae": 17.782132784525555,
+  "val_improvement": 0.008438746134437736,
+  "minimum_required_val_improvement": 0.005,
+  "zero_init_identity_max_abs": 0.0,
+  "gradient_isolation_passed": true,
+  "test_evaluated": true,
+  "baseline_test": {
+    "mae": 17.599478403727215,
+    "rmse": 29.332035064697266,
+    "mape": 0.12005006584028403
+  },
+  "dualscale_test": {
+    "mae": 17.59517987569173,
+    "rmse": 29.327204704284668,
+    "mape": 0.11990213890870412
+  },
+  "test_improvement": 0.004298528035484139
+}

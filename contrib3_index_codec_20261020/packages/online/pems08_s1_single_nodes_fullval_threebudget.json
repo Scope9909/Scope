@@ -1,0 +1,217 @@
+{
+  "dataset": "PEMS08",
+  "seed": 1,
+  "scope": "Validation only; exploratory; no Test selection",
+  "gate": 0.02,
+  "max_candidates": 5,
+  "retrieval_k": 4,
+  "probe_batches": 1000,
+  "hit_weight": 2.0,
+  "same_layout_q0_val_bytes": 35325,
+  "same_layout_q0_val_mae": 13.154658311154428,
+  "raw_val_mae": 13.154658311310186,
+  "candidates": [
+    {
+      "node": 19,
+      "single_bytes": 34518,
+      "single_saving": 807,
+      "exact_hit_flips": 144,
+      "exact_hit_flip_rate": 0.0001682557487380819,
+      "mean_abs_retrieval_change": 2.9144155174621935e-05,
+      "topk_set_count": 71320,
+      "topk_set_flips": 107,
+      "topk_set_flip_rate": 0.0015002804262478969,
+      "mean_topk_overlap": 3.99826135726304,
+      "top1_flips": 10,
+      "top1_flip_rate": 0.00014021312394840157,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 16.76563571323858,
+      "risk": 0.00036565565265078573,
+      "single_val_delta": 0.00019817466118610128
+    },
+    {
+      "node": 14,
+      "single_bytes": 35149,
+      "single_saving": 176,
+      "exact_hit_flips": 42792,
+      "exact_hit_flip_rate": 0.05,
+      "mean_abs_retrieval_change": 0.0001584717883732101,
+      "topk_set_count": 71320,
+      "topk_set_flips": 119,
+      "topk_set_flip_rate": 0.0016685361749859786,
+      "mean_topk_overlap": 3.9982052720134607,
+      "top1_flips": 0,
+      "top1_flip_rate": 0.0,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 0.0,
+      "risk": 0.10015847178837321,
+      "single_val_delta": 0.008006106522865153
+    },
+    {
+      "node": 7,
+      "single_bytes": 35152,
+      "single_saving": 173,
+      "exact_hit_flips": 42792,
+      "exact_hit_flip_rate": 0.05,
+      "mean_abs_retrieval_change": 0.00016876237818984856,
+      "topk_set_count": 71320,
+      "topk_set_flips": 128,
+      "topk_set_flip_rate": 0.00179472798653954,
+      "mean_topk_overlap": 3.9981211441390916,
+      "top1_flips": 0,
+      "top1_flip_rate": 0.0,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 0.0,
+      "risk": 0.10016876237818985,
+      "single_val_delta": 0.009583402231280402
+    },
+    {
+      "node": 5,
+      "single_bytes": 35167,
+      "single_saving": 158,
+      "exact_hit_flips": 42792,
+      "exact_hit_flip_rate": 0.05,
+      "mean_abs_retrieval_change": 0.00017249632782079412,
+      "topk_set_count": 71320,
+      "topk_set_flips": 117,
+      "topk_set_flip_rate": 0.0016404935501962983,
+      "mean_topk_overlap": 3.9982753785754346,
+      "top1_flips": 0,
+      "top1_flip_rate": 0.0,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 0.0,
+      "risk": 0.1001724963278208,
+      "single_val_delta": 0.007694683013617976
+    },
+    {
+      "node": 6,
+      "single_bytes": 35167,
+      "single_saving": 158,
+      "exact_hit_flips": 42792,
+      "exact_hit_flip_rate": 0.05,
+      "mean_abs_retrieval_change": 0.00017249632782079412,
+      "topk_set_count": 71320,
+      "topk_set_flips": 117,
+      "topk_set_flip_rate": 0.0016404935501962983,
+      "mean_topk_overlap": 3.9982753785754346,
+      "top1_flips": 0,
+      "top1_flip_rate": 0.0,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 0.0,
+      "risk": 0.1001724963278208,
+      "single_val_delta": 0.007661597373258999
+    }
+  ],
+  "cost_only": {
+    "nodes": [
+      7,
+      14,
+      19
+    ],
+    "bytes": 32487,
+    "saving": 2838,
+    "val_delta": 0.017787683726842474,
+    "passed": true,
+    "retrieval_probe": {
+      "exact_hit_flips": 85728,
+      "exact_hit_flip_rate": 0.10016825574873808,
+      "mean_abs_retrieval_change": 0.0003563783217376806,
+      "topk_set_count": 71320,
+      "topk_set_flips": 354,
+      "topk_set_flip_rate": 0.004963544587773415,
+      "mean_topk_overlap": 3.9945877734155917,
+      "top1_flips": 10,
+      "top1_flip_rate": 0.00014021312394840157,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 5.067579156261379
+    },
+    "steps": [
+      {
+        "node": 19,
+        "accepted": true,
+        "bytes": 34518,
+        "val_delta": 0.00019817466118610128
+      },
+      {
+        "node": 14,
+        "accepted": true,
+        "bytes": 34337,
+        "val_delta": 0.008204281339805775
+      },
+      {
+        "node": 7,
+        "accepted": true,
+        "bytes": 32487,
+        "val_delta": 0.017787683726842474
+      },
+      {
+        "node": 5,
+        "accepted": false,
+        "reason": "not_smaller",
+        "bytes": 33614
+      },
+      {
+        "node": 6,
+        "accepted": false,
+        "reason": "not_smaller",
+        "bytes": 33614
+      }
+    ]
+  },
+  "retrieval_aware": {
+    "nodes": [
+      7,
+      14,
+      19
+    ],
+    "bytes": 32487,
+    "saving": 2838,
+    "val_delta": 0.017787683726842474,
+    "passed": true,
+    "retrieval_probe": {
+      "exact_hit_flips": 85728,
+      "exact_hit_flip_rate": 0.10016825574873808,
+      "mean_abs_retrieval_change": 0.0003563783217376806,
+      "topk_set_count": 71320,
+      "topk_set_flips": 354,
+      "topk_set_flip_rate": 0.004963544587773415,
+      "mean_topk_overlap": 3.9945877734155917,
+      "top1_flips": 10,
+      "top1_flip_rate": 0.00014021312394840157,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 5.067579156261379
+    },
+    "steps": [
+      {
+        "node": 19,
+        "accepted": true,
+        "bytes": 34518,
+        "val_delta": 0.00019817466118610128
+      },
+      {
+        "node": 14,
+        "accepted": true,
+        "bytes": 34337,
+        "val_delta": 0.008204281339805775
+      },
+      {
+        "node": 7,
+        "accepted": true,
+        "bytes": 32487,
+        "val_delta": 0.017787683726842474
+      },
+      {
+        "node": 5,
+        "accepted": false,
+        "reason": "not_smaller",
+        "bytes": 33614
+      },
+      {
+        "node": 6,
+        "accepted": false,
+        "reason": "not_smaller",
+        "bytes": 33614
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "dataset": "PEMS07",
+  "device": "cuda:0",
+  "test_queries": 5640,
+  "batch_size": 32,
+  "measured_path": "online retrieval + Student forward + output inverse scaling",
+  "excluded": "one-time Validation calibration fitting and file load/decode",
+  "seconds_by_run": {
+    "original": [
+      25.010108200003742,
+      25.142842400004156
+    ],
+    "best_lossless": [
+      26.162173199998506,
+      26.15285479999875
+    ],
+    "sensitivity": [
+      25.662132099998416,
+      25.635992100003932
+    ]
+  },
+  "median_seconds": {
+    "original": 25.07647530000395,
+    "best_lossless": 26.157513999998628,
+    "sensitivity": 25.649062100001174
+  }
+}

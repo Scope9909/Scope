@@ -1,0 +1,57 @@
+{
+  "teacher_source": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_parent_predictions_joint3_strict.npz",
+  "student_raw_source": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1\\selected_predictions.npz",
+  "student_calibrated_source": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1_valcal\\selected_predictions.npz",
+  "params": {
+    "num_bins": 20,
+    "smooth_shrinkage": 0.55,
+    "num_time_bins": 96,
+    "time_shrinkage": 0.35,
+    "slices_per_day": 288
+  },
+  "val_samples": 3394,
+  "test_samples": 3394,
+  "teacher_cache_padding_discarded": {
+    "val": 0,
+    "test": 0
+  },
+  "student_existing_calibrated_test_exactly_reproduced": true,
+  "teacher": {
+    "raw_test": {
+      "mae": 17.62965502937635,
+      "rmse": 29.361322974101512,
+      "mape": 0.11977094911433316
+    },
+    "matched_calibrated_test": {
+      "mae": 17.48028368826327,
+      "rmse": 29.14692920998047,
+      "mape": 0.1193483559251995
+    },
+    "table_values": 176832
+  },
+  "student": {
+    "raw_test": {
+      "mae": 17.656078665436173,
+      "rmse": 29.39737709674914,
+      "mape": 0.12048655554299863
+    },
+    "matched_calibrated_test": {
+      "mae": 17.50610254424201,
+      "rmse": 29.180139675819532,
+      "mape": 0.11975328924800886
+    },
+    "table_values": 176832
+  },
+  "paired_bootstrap": {
+    "difference": "Teacher+matched-ValCal minus Student+matched-ValCal",
+    "observed_mae_difference": -0.025818855978740746,
+    "block_length": 288,
+    "repeats": 5000,
+    "valid_block_starts": 3107,
+    "ci95": [
+      -0.03248531925188406,
+      -0.01778239149937239
+    ],
+    "probability_difference_le_zero": 1.0
+  }
+}

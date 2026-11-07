@@ -1,0 +1,7 @@
+run_id,seed,stage,valid_mae,test_mae,test_mape,test_rmse,trainable_parameters,checkpoint
+paper_pems07_s1_confidence,1,confidence,18.1307,18.864,0.078,32.9257,48,EXP_experiments\TLAST_improved\PEMS07\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_confidence\best.pth
+paper_pems07_s1_exact,1,exact,18.1309,18.8641,0.078,32.926,12,EXP_experiments\TLAST_improved\PEMS07\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_exact\best.pth
+paper_pems07_s1_final_joint,1,final_joint,18.0886,18.8438,0.0781,32.9525,16523,EXP_experiments\TLAST_improved\PEMS07\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_final_joint\best.pth
+paper_pems07_s1_head,1,head,18.1308,18.8641,0.078,32.9258,14114,EXP_experiments\TLAST_improved\PEMS07\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_head\best.pth
+paper_pems07_s1_lowrank,1,lowrank,18.4433,19.0977,0.0792,32.9155,1802,EXP_experiments\TLAST_improved\PEMS07\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_lowrank\best.pth
+paper_pems07_s1_reranker_lowrank,1,reranker_lowrank,18.1308,18.8641,0.078,32.9258,16331,EXP_experiments\TLAST_improved\PEMS07\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_reranker_lowrank\best.pth

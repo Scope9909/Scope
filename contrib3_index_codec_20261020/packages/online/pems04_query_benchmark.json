@@ -1,0 +1,13 @@
+{
+  "dataset": "PEMS04",
+  "batch_size": 32,
+  "measured_batches": 4,
+  "repeats": 5,
+  "lossless_outputs_exact": true,
+  "median_query_ms_per_batch": {
+    "original": 10.539324999626842,
+    "lossless": 10.862499999348074,
+    "sensitivity": 10.790824999276083
+  },
+  "caveat": "CPU retrieval only; excludes student model and calibration"
+}

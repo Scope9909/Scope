@@ -1,0 +1,239 @@
+{
+  "protocol": "chronological_validation_only_quantile_residual_v1",
+  "source_predictions": "D:\\lunwen\\June\\TLAST-main\\paper_results\\minist_dualscale_96_720_s1\\selected_predictions.npz",
+  "fit_fraction": 0.7,
+  "fit_samples": 2375,
+  "selection_samples": 1019,
+  "bin_candidates": [
+    2,
+    3,
+    4,
+    6,
+    8
+  ],
+  "shrinkage_candidates": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection_baseline": {
+    "mae": 17.779876265484358,
+    "rmse": 29.882801858801482,
+    "mape": 0.11839152420627601
+  },
+  "candidates": [
+    {
+      "num_bins": 2,
+      "shrinkage": 0.25,
+      "selection": {
+        "mae": 17.75760521880254,
+        "rmse": 29.83979985208748,
+        "mape": 0.11867058952694363
+      }
+    },
+    {
+      "num_bins": 2,
+      "shrinkage": 0.5,
+      "selection": {
+        "mae": 17.750439826694414,
+        "rmse": 29.82030725214831,
+        "mape": 0.11907751195211048
+      }
+    },
+    {
+      "num_bins": 2,
+      "shrinkage": 0.75,
+      "selection": {
+        "mae": 17.75816335697029,
+        "rmse": 29.82437643043372,
+        "mape": 0.11961409951263142
+      }
+    },
+    {
+      "num_bins": 2,
+      "shrinkage": 1.0,
+      "selection": {
+        "mae": 17.779676588333498,
+        "rmse": 29.851999229011884,
+        "mape": 0.12026037073644102
+      }
+    },
+    {
+      "num_bins": 3,
+      "shrinkage": 0.25,
+      "selection": {
+        "mae": 17.745051157453066,
+        "rmse": 29.822349111971715,
+        "mape": 0.11847435472537733
+      }
+    },
+    {
+      "num_bins": 3,
+      "shrinkage": 0.5,
+      "selection": {
+        "mae": 17.73016194358372,
+        "rmse": 29.792706983482272,
+        "mape": 0.11867367228072734
+      }
+    },
+    {
+      "num_bins": 3,
+      "shrinkage": 0.75,
+      "selection": {
+        "mae": 17.734563815214724,
+        "rmse": 29.793981800816653,
+        "mape": 0.11898217614601214
+      }
+    },
+    {
+      "num_bins": 3,
+      "shrinkage": 1.0,
+      "selection": {
+        "mae": 17.75667270929597,
+        "rmse": 29.82617477537926,
+        "mape": 0.1193914125396962
+      }
+    },
+    {
+      "num_bins": 4,
+      "shrinkage": 0.25,
+      "selection": {
+        "mae": 17.74022858019534,
+        "rmse": 29.813586062107863,
+        "mape": 0.11839068240576635
+      }
+    },
+    {
+      "num_bins": 4,
+      "shrinkage": 0.5,
+      "selection": {
+        "mae": 17.721736171537604,
+        "rmse": 29.778274053386074,
+        "mape": 0.11851275411704376
+      }
+    },
+    {
+      "num_bins": 4,
+      "shrinkage": 0.75,
+      "selection": {
+        "mae": 17.723934964532713,
+        "rmse": 29.777005392121527,
+        "mape": 0.11875199836414728
+      }
+    },
+    {
+      "num_bins": 4,
+      "shrinkage": 1.0,
+      "selection": {
+        "mae": 17.74593254405312,
+        "rmse": 29.809790145617555,
+        "mape": 0.11910568534412376
+      }
+    },
+    {
+      "num_bins": 6,
+      "shrinkage": 0.25,
+      "selection": {
+        "mae": 17.73321324697117,
+        "rmse": 29.80347440130295,
+        "mape": 0.11829342550672778
+      }
+    },
+    {
+      "num_bins": 6,
+      "shrinkage": 0.5,
+      "selection": {
+        "mae": 17.713432877810092,
+        "rmse": 29.766127048738582,
+        "mape": 0.1183448141975037
+      }
+    },
+    {
+      "num_bins": 6,
+      "shrinkage": 0.75,
+      "selection": {
+        "mae": 17.71989085270472,
+        "rmse": 29.770943047642405,
+        "mape": 0.11853787941466197
+      }
+    },
+    {
+      "num_bins": 6,
+      "shrinkage": 1.0,
+      "selection": {
+        "mae": 17.75179423424389,
+        "rmse": 29.817908639136252,
+        "mape": 0.11886844000708328
+      }
+    },
+    {
+      "num_bins": 8,
+      "shrinkage": 0.25,
+      "selection": {
+        "mae": 17.725244971840883,
+        "rmse": 29.78818148664165,
+        "mape": 0.1182167816446232
+      }
+    },
+    {
+      "num_bins": 8,
+      "shrinkage": 0.5,
+      "selection": {
+        "mae": 17.700629908598284,
+        "rmse": 29.740892787446686,
+        "mape": 0.11820691788465065
+      }
+    },
+    {
+      "num_bins": 8,
+      "shrinkage": 0.75,
+      "selection": {
+        "mae": 17.70533021957434,
+        "rmse": 29.74119482588795,
+        "mape": 0.11835975390159215
+      }
+    },
+    {
+      "num_bins": 8,
+      "shrinkage": 1.0,
+      "selection": {
+        "mae": 17.738297142558284,
+        "rmse": 29.78909524689034,
+        "mape": 0.11866863076019842
+      }
+    }
+  ],
+  "selected_num_bins": 8,
+  "selected_shrinkage": 0.5,
+  "selected_metrics": {
+    "mae": 17.700629908598284,
+    "rmse": 29.740892787446686,
+    "mape": 0.11820691788465065
+  },
+  "test_opened_after_selection": true,
+  "baseline_val": {
+    "mae": 17.782133102023792,
+    "rmse": 29.999447135856602,
+    "mape": 0.11903813521421842
+  },
+  "calibrated_val": {
+    "mae": 17.631356660218547,
+    "rmse": 29.738706716733436,
+    "mape": 0.1184428064943475
+  },
+  "baseline_test": {
+    "mae": 17.59517976146297,
+    "rmse": 29.327205017173398,
+    "mape": 0.11990213674440738
+  },
+  "calibrated_test": {
+    "mae": 17.5222659236731,
+    "rmse": 29.205941883272516,
+    "mape": 0.11977623130216664
+  },
+  "test_mae_improvement": 0.07291383778986926,
+  "table_parameters": 55260,
+  "mean_abs_test_correction": 1.201776232292211,
+  "max_abs_test_correction": 28.421981811523438
+}

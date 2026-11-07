@@ -1,0 +1,21 @@
+{
+  "protocol": "train_only_online_retrieval_validation_parity_audit",
+  "dataset": "PEMS04",
+  "test_evaluated": false,
+  "selected_nodes": 32,
+  "validation_queries": 3394,
+  "online_state_bytes": 238430,
+  "full_node_online_state_bytes_in_memory": 5016405,
+  "checkpoint_bytes": 2684405,
+  "calibration_bytes": 2976,
+  "partial_selected_deployment_bytes": 2925811,
+  "partial_full_deployment_bytes": 7703786,
+  "query_cache_in_deployment": false,
+  "index_definition": "Train endpoint and time-of-day arrays; exact scan, no approximate index",
+  "online_retrieval_seconds_for_all_validation_queries": 0.8048133000047528,
+  "retrieval_int8_mismatch_count": 0,
+  "exact_fp16_mismatch_count": 0,
+  "availability_mismatch_count": 0,
+  "exact_fp16_max_absolute_difference": 0.0,
+  "note": "Query histories supplied from observable Validation inputs; no Validation labels or query outputs stored. Timing is retrieval only, not model serving."
+}

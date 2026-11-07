@@ -1,0 +1,45 @@
+{
+  "protocol": "train_only_online_retrieval_validation_parity_audit",
+  "dataset": "PEMS04",
+  "test_evaluated": false,
+  "selected_nodes": 31,
+  "validation_queries": 3394,
+  "online_state_bytes": 218466,
+  "full_node_online_state_bytes_in_memory": 5016405,
+  "checkpoint_bytes": 2684405,
+  "calibration_bytes": 2976,
+  "partial_selected_deployment_bytes": 2905847,
+  "partial_full_deployment_bytes": 7703786,
+  "query_cache_in_deployment": false,
+  "index_definition": "Train endpoint and time-of-day arrays; exact scan, no approximate index",
+  "online_retrieval_seconds_for_all_validation_queries": 0.7051668999993126,
+  "selected_batch_retrieval_seconds_repeats": [
+    0.7051668999993126,
+    0.7043453000005684,
+    0.6933340999967186,
+    0.6997836000009556,
+    0.6915776999958325
+  ],
+  "selected_batch_retrieval_seconds_median": 0.6997836000009556,
+  "retrieval_int8_mismatch_count": 0,
+  "exact_fp16_mismatch_count": 0,
+  "availability_mismatch_count": 0,
+  "exact_fp16_max_absolute_difference": 0.0,
+  "note": "Query histories supplied from observable Validation inputs; no Validation labels or query outputs stored. Timing is retrieval only, not model serving.",
+  "full_node_online_retrieval_seconds_for_all_validation_queries": 8.621821299995645,
+  "full_batch_retrieval_seconds_repeats": [
+    8.621821299995645,
+    8.971842600003583,
+    7.731418700001086,
+    7.319440100000065,
+    7.296035199993639
+  ],
+  "full_batch_retrieval_seconds_median": 7.731418700001086,
+  "full_node_retrieval_mismatch_counts": [
+    0,
+    0,
+    0
+  ],
+  "selected_vs_full_retrieval_time_ratio_single_run": 0.08178862394186583,
+  "selected_vs_full_retrieval_time_ratio_median": 0.0905116676711426
+}

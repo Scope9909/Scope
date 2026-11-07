@@ -1,0 +1,20 @@
+{
+  "parent_source": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_lite_r256_predictions_s1.npz",
+  "reference_source": "D:\\lunwen\\June\\TLAST-main\\paper_results\\minist_dualscale_96_720_s1\\selected_predictions.npz",
+  "scaler_mean": 207.0983124604033,
+  "scaler_std": 156.4591821608409,
+  "val_samples": 3394,
+  "val_metrics": {
+    "mae": 17.84307020939602,
+    "rmse": 30.039326562579017,
+    "mape": 0.11928961339844611
+  },
+  "val_unused_parent_rows": 0,
+  "test_samples": 3394,
+  "test_metrics": {
+    "mae": 17.656535956090874,
+    "rmse": 29.37966836129678,
+    "mape": 0.1202133711433701
+  },
+  "test_unused_parent_rows": 30
+}

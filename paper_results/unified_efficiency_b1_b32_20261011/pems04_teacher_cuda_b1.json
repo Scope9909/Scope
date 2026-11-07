@@ -1,0 +1,118 @@
+{
+  "protocol": "hyperd_aligned_pems04_efficiency_v1",
+  "name": "PEMS04_teacher_joint3_cuda_b1_20261011",
+  "experiment_directory": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_latc_pca_r8_joint3",
+  "retrieval_cache_override": null,
+  "split": "test",
+  "logical_samples": 3394,
+  "batch_size": 1,
+  "warmup_batches": 10,
+  "repeats": 1,
+  "device": {
+    "requested": "cuda",
+    "torch_device": "cuda:0",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "platform": "Windows-10-10.0.22000-SP0",
+    "python": "3.11.0",
+    "torch": "2.0.0+cu117",
+    "cpu_threads": 1
+  },
+  "model": {
+    "parameters_total": 1011437,
+    "parameters_trainable_flag_at_load": 1011437,
+    "parameter_tensor_bytes_at_runtime": 4045748,
+    "parameter_tensor_mib_at_runtime": 3.858325958251953
+  },
+  "accuracy_first_trial": {
+    "mae_global_valid_elements": 17.629633782428442,
+    "rmse_global_valid_elements": 29.390449566205195,
+    "valid_elements": 12340883,
+    "warning": "This is a benchmark sanity metric. Official paper metrics may use horizon-wise aggregation; do not silently mix the two."
+  },
+  "timing": {
+    "loader_seconds_per_batch": {
+      "mean": 0.002598487477776409,
+      "std": 0.000336055786056066,
+      "p50": 0.002488199999788776,
+      "p95": 0.003277460004028398
+    },
+    "host_to_device_seconds_per_batch": {
+      "mean": 0.0006734084855957632,
+      "std": 0.0002687098828952231,
+      "p50": 0.0005707000018446706,
+      "p95": 0.0011656599966954671
+    },
+    "forward_seconds_per_batch": {
+      "mean": 0.008044917678300931,
+      "std": 0.001463309962705622,
+      "p50": 0.007659949998924276,
+      "p95": 0.01114379999708035
+    },
+    "end_to_end_seconds_per_batch": {
+      "mean": 0.011316813641673104,
+      "std": 0.001601875619236237,
+      "p50": 0.011015449999831617,
+      "p95": 0.014608460001545606
+    },
+    "forward_ms_per_physical_sample": {
+      "mean": 8.04491767830093,
+      "std": 1.4633099627056219,
+      "p50": 7.659949998924276,
+      "p95": 11.14379999708035
+    },
+    "end_to_end_ms_per_physical_sample": {
+      "mean": 11.316813641673104,
+      "std": 1.6018756192362371,
+      "p50": 11.015449999831617,
+      "p95": 14.608460001545605
+    },
+    "forward_throughput_samples_per_second": 124.30207989539028,
+    "end_to_end_throughput_samples_per_second": 88.36409537730603,
+    "physical_samples_all_trials": 3394
+  },
+  "memory": {
+    "process_rss_after_import_mib": 299.93359375,
+    "process_rss_after_dataset_mib": 1595.234375,
+    "process_rss_after_model_mib": 2449.50390625,
+    "process_peak_rss_observed_mib": 3721.23046875,
+    "peak_gpu_allocated_mib": 23.42041015625,
+    "peak_gpu_reserved_mib": 32.0
+  },
+  "storage": {
+    "files": [
+      {
+        "role": "fp32_checkpoint_used",
+        "path": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_latc_pca_r8_joint3\\best.pth",
+        "exists": true,
+        "bytes": 4073503,
+        "mib": 3.8847951889038086
+      },
+      {
+        "role": "retrieval_cache",
+        "path": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k8_exact_mean_latc_pca_r8_fp16.npz",
+        "exists": true,
+        "bytes": 252323634,
+        "mib": 240.63456916809082
+      },
+      {
+        "role": "candidate_cache",
+        "path": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k8_candidate_indices.npz",
+        "exists": true,
+        "bytes": 44312622,
+        "mib": 42.259809494018555
+      }
+    ],
+    "fp32_complete_deployment_bytes": 300709759,
+    "fp32_complete_deployment_mib": 286.7791738510132,
+    "external_assets_bytes": 296636256,
+    "external_assets_mib": 282.8943786621094,
+    "fp16_complete_deployment_bytes_if_available": null,
+    "fp16_complete_deployment_mib_if_available": null,
+    "warning": "Complete deployment storage includes only files discovered from this experiment config plus the explicitly supplied calibrator."
+  },
+  "flops": {
+    "status": "not_requested"
+  }
+}

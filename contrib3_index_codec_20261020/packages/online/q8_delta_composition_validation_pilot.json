@@ -1,0 +1,88 @@
+{
+  "scope": "Validation-only feasibility pilot; no Test data read",
+  "results": {
+    "pems03": {
+      "validation_source": "pems03_s1_val_fixed_22_idx.npz",
+      "q8_nodes": [
+        22
+      ],
+      "baseline_q8_bytes": 271187,
+      "composite_bytes": 222256,
+      "bytes_saved": 48931,
+      "saved_percent": 18.043269035757614,
+      "bitpacked_lossless_bytes": 223375,
+      "q8_composite_vs_bitpacked_lossless_bytes": -1119,
+      "frozen_strong_lossless_bytes": 275907,
+      "validation_cost_selected_codec": "Q8 + exact delta-bitpacking",
+      "validation_cost_selected_bytes": 222256,
+      "serialization_order": "F",
+      "decoded_state_bitwise_equal": true,
+      "runtime_decoded_state_bitwise_equal": true,
+      "test_data_read": false
+    },
+    "pems04": {
+      "validation_source": "pems04_s1_val_fixed_0_idx.npz",
+      "q8_nodes": [
+        0
+      ],
+      "baseline_q8_bytes": 77645,
+      "composite_bytes": 69773,
+      "bytes_saved": 7872,
+      "saved_percent": 10.138450640736686,
+      "bitpacked_lossless_bytes": 69028,
+      "q8_composite_vs_bitpacked_lossless_bytes": 745,
+      "frozen_strong_lossless_bytes": 79579,
+      "validation_cost_selected_codec": "strong-lossless + exact delta-bitpacking",
+      "validation_cost_selected_bytes": 69028,
+      "serialization_order": "F",
+      "decoded_state_bitwise_equal": true,
+      "runtime_decoded_state_bitwise_equal": true,
+      "test_data_read": false
+    },
+    "pems07": {
+      "validation_source": "pems07_s1_val_fixed_117_idx.npz",
+      "q8_nodes": [
+        117
+      ],
+      "baseline_q8_bytes": 351199,
+      "composite_bytes": 249156,
+      "bytes_saved": 102043,
+      "saved_percent": 29.055606650360623,
+      "bitpacked_lossless_bytes": 251199,
+      "q8_composite_vs_bitpacked_lossless_bytes": -2043,
+      "frozen_strong_lossless_bytes": 356299,
+      "validation_cost_selected_codec": "Q8 + exact delta-bitpacking",
+      "validation_cost_selected_bytes": 249156,
+      "serialization_order": "F",
+      "decoded_state_bitwise_equal": true,
+      "runtime_decoded_state_bitwise_equal": true,
+      "test_data_read": false
+    },
+    "pems08": {
+      "validation_source": "pems08_s1_val_fixed_zero_idx.npz",
+      "q8_nodes": [],
+      "baseline_q8_bytes": 35325,
+      "composite_bytes": 29880,
+      "bytes_saved": 5445,
+      "saved_percent": 15.414012738853502,
+      "bitpacked_lossless_bytes": 28343,
+      "q8_composite_vs_bitpacked_lossless_bytes": 1537,
+      "frozen_strong_lossless_bytes": 33803,
+      "validation_cost_selected_codec": "strong-lossless + exact delta-bitpacking",
+      "validation_cost_selected_bytes": 28343,
+      "serialization_order": "F",
+      "decoded_state_bitwise_equal": true,
+      "runtime_decoded_state_bitwise_equal": true,
+      "test_data_read": false
+    }
+  },
+  "total_baseline_bytes": 735356,
+  "total_composite_bytes": 571065,
+  "total_strong_lossless_bytes": 745588,
+  "total_bitpacked_lossless_bytes": 571945,
+  "total_validation_cost_selected_bytes": 568783,
+  "total_saved_bytes": 164291,
+  "total_saved_percent": 22.341695722887962,
+  "selected_saved_vs_strong_lossless_bytes": 176805,
+  "selected_saved_vs_strong_lossless_percent": 23.713498607810212
+}

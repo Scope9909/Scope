@@ -1,0 +1,46 @@
+{
+  "protocol": "single_checkpoint_six_cache_variants_validation_only_fixed_calibration",
+  "test_evaluated": false,
+  "selection": "sparse nodes fixed from first 55% of Validation",
+  "reference_calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal\\calibration.json",
+  "variants": {
+    "topk": {
+      "prediction_path": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\pems08_s1_temporal_robust_k17_20261013\\topk_native_predictions.npz",
+      "folds": [
+        {
+          "fit_end": 1961,
+          "eval_start": 1961,
+          "eval_end": 2496,
+          "raw_mae": 12.314458872763803,
+          "smooth_mae": 12.255487994266806,
+          "calibrated_mae": 12.216899984751931,
+          "smooth_gate": true,
+          "target_time_gate": true
+        },
+        {
+          "fit_end": 2496,
+          "eval_start": 2496,
+          "eval_end": 3031,
+          "raw_mae": 13.849112509717507,
+          "smooth_mae": 13.800127955736592,
+          "calibrated_mae": 13.681837320368553,
+          "smooth_gate": true,
+          "target_time_gate": true
+        },
+        {
+          "fit_end": 3031,
+          "eval_start": 3031,
+          "eval_end": 3566,
+          "raw_mae": 13.827105424415606,
+          "smooth_mae": 13.71061725751346,
+          "calibrated_mae": 13.550665362297865,
+          "smooth_gate": true,
+          "target_time_gate": true
+        }
+      ],
+      "mean_raw_mae": 13.330225602298972,
+      "mean_calibrated_mae": 13.149800889139449,
+      "all_gates_passed": true
+    }
+  }
+}

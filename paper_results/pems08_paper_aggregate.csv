@@ -1,0 +1,8 @@
+stage,runs,valid_mae_mean,valid_mae_std,test_mae_mean,test_mae_std,test_mape_mean,test_mape_std,test_rmse_mean,test_rmse_std
+backbone,1,13.252,,13.1676,,0.0865,,22.8316,
+confidence,1,13.0079,,12.9773,,0.0853,,22.9208,
+exact,1,13.008,,12.9775,,0.0853,,22.9234,
+final_joint,1,12.9793,,12.9798,,0.0855,,22.9042,
+head,1,13.008,,12.9775,,0.0853,,22.9234,
+lowrank,1,13.252,,13.1676,,0.0865,,22.8316,
+reranker_lowrank,1,13.008,,12.9775,,0.0853,,22.9234,

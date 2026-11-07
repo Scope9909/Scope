@@ -1,0 +1,50 @@
+{
+    "data_config": {
+        "dataset_name": "T-Drive",
+        "input_length": 6,
+        "predict_length": 1,
+        "scaler_type": "zscore",
+        "slice_size_per_day": 24,
+        "in_dim":2,
+        "pre_dim":2,
+        "train_ratio":0.7,
+        "test_ratio":0.2
+    },
+    "model_config": {
+        "modelid": "TLAST",
+        "hid_dim": 64,
+        "d_out": 512,
+        "n_heads": 4,
+        "M": 4,
+        "num_layers": 3,
+        "tau": 3,
+        "query_cross_time":1,
+        "enc_dropout": 0.1,
+        "att_dropout": 0.1,
+        "emb_dropout": 0,
+        "te_emb_dropout": 0,
+        "se_emb_dropout": 0,
+        "tle_emb_dropout": 0,
+        "return_att": 0,
+        "norm_flag":"none",
+        "att_type": "proxy",
+        "activation_data": "relu",
+        "activation_enc": "gelu",
+        "activation_dec": "gelu"
+    },
+    "training_config": {
+        "device": "cuda:0",
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "epochs": 100,
+        "print_every": 50,
+        "early_stop": false,
+        "early_stop_step": 20,
+        "lr_decay": 1,
+        "loss_type": "huber",
+        "huber_delta": 2,
+        "eval_mask": 10,
+        "lr_scheduler_type": "cosinelr"
+    }
+}

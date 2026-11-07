@@ -1,0 +1,177 @@
+{
+  "scope": "measured bytes only; cache priced after FCL using fieldwise_global_cross_val.json; index priced at int32/int16/6-bit packed, all lossless-verified",
+  "results": {
+    "PEMS03": {
+      "weights_MB": 4.089709,
+      "flow_MB": 37.529856,
+      "index_raw_MB": 299.97536,
+      "index_int16_MB": 149.98768,
+      "index_bit6_MB": 56.24538,
+      "index_meta_MB": 0.20948,
+      "cache_meta_MB": 0.209708,
+      "cache_raw_MB": 1499.8768,
+      "cache_fields_MB": {
+        "retrieval": 449.96304,
+        "history_distance": 37.49692,
+        "future_dispersion": 449.96304,
+        "exact_retrieval": 449.96304,
+        "exact_available": 112.49076
+      },
+      "fcl_saving": 0.719120740450149,
+      "cache_fcl_MB": 421.284285,
+      "chain_MB": {
+        "baseline": 1841.471725,
+        "fcl_only": 762.87921,
+        "fcl_index_int16": 612.89153,
+        "fcl_index_bit6": 519.14923,
+        "online_no_precompute": 41.619565
+      },
+      "reduction_vs_baseline": {
+        "fcl_only": 0.5857230933046229,
+        "fcl_index_int16": 0.667172989039514,
+        "fcl_index_bit6": 0.718079173873821,
+        "online_no_precompute": 0.9773987488186928
+      },
+      "shadowing_ratio": {
+        "cache_over_flow": 39.964896214896214,
+        "index_over_flow": 7.992979242979243,
+        "chain_over_online": 44.24533810000177,
+        "chain_over_online_after_bit6": 12.473682269384604
+      },
+      "index_share_of_chain": {
+        "baseline": 0.16289979146978215,
+        "after_fcl": 0.16289979146978215,
+        "after_bit6": 0.10834144933625348
+      }
+    },
+    "PEMS04": {
+      "weights_MB": 4.072621,
+      "flow_MB": 20.866176,
+      "index_raw_MB": 166.703456,
+      "index_int16_MB": 83.351728,
+      "index_bit6_MB": 31.256898,
+      "index_meta_MB": 0.135752,
+      "cache_meta_MB": 0.13598,
+      "cache_raw_MB": 833.51728,
+      "cache_fields_MB": {
+        "retrieval": 250.055184,
+        "history_distance": 20.837932,
+        "future_dispersion": 250.055184,
+        "exact_retrieval": 250.055184,
+        "exact_available": 62.513796
+      },
+      "fcl_saving": 0.7139020658702174,
+      "cache_fcl_MB": 238.46757186947553,
+      "chain_MB": {
+        "baseline": 1025.159533,
+        "fcl_only": 430.1098248694755,
+        "fcl_index_int16": 346.75809686947554,
+        "fcl_index_bit6": 294.66326686947554,
+        "online_no_precompute": 24.938797
+      },
+      "reduction_vs_baseline": {
+        "fcl_only": 0.5804459588735292,
+        "fcl_index_int16": 0.6617520632571872,
+        "fcl_index_bit6": 0.7125683784969734,
+        "online_no_precompute": 0.9756732526038949
+      },
+      "shadowing_ratio": {
+        "cache_over_flow": 39.945856873822976,
+        "index_over_flow": 7.989171374764595,
+        "chain_over_online": 41.107016228569485,
+        "chain_over_online_after_bit6": 11.815456329728958
+      },
+      "index_share_of_chain": {
+        "baseline": 0.16261220876731583,
+        "after_fcl": 0.16261220876731583,
+        "after_bit6": 0.10607666958992075
+      }
+    },
+    "PEMS07": {
+      "weights_MB": 4.266648,
+      "flow_MB": 99.687168,
+      "index_raw_MB": 796.847456,
+      "index_int16_MB": 398.423728,
+      "index_bit6_MB": 149.408898,
+      "index_meta_MB": 0.225608,
+      "cache_meta_MB": 0.226,
+      "cache_raw_MB": 3984.23732,
+      "cache_fields_MB": {
+        "retrieval": 1195.271184,
+        "history_distance": 99.605972,
+        "future_dispersion": 1195.271184,
+        "exact_retrieval": 1195.271184,
+        "exact_available": 298.817796
+      },
+      "fcl_saving": 0.6951436988466142,
+      "cache_fcl_MB": 1214.6198522924788,
+      "chain_MB": {
+        "baseline": 4885.038592,
+        "fcl_only": 2115.421124292479,
+        "fcl_index_int16": 1716.9973962924787,
+        "fcl_index_bit6": 1467.9825662924789,
+        "online_no_precompute": 103.953816
+      },
+      "reduction_vs_baseline": {
+        "fcl_only": 0.5669591786323234,
+        "fcl_index_int16": 0.6485191746275403,
+        "fcl_index_bit6": 0.6994941721245508,
+        "online_no_precompute": 0.9787199601308697
+      },
+      "shadowing_ratio": {
+        "cache_over_flow": 39.96740402937317,
+        "index_over_flow": 7.9934807256235825,
+        "chain_over_online": 46.99239316043963,
+        "chain_over_online_after_bit6": 14.121488010526509
+      },
+      "index_share_of_chain": {
+        "baseline": 0.1631199919904338,
+        "after_fcl": 0.1631199919904338,
+        "after_bit6": 0.1017783871761812
+      }
+    },
+    "PEMS08": {
+      "weights_MB": 4.026605,
+      "flow_MB": 12.14208,
+      "index_raw_MB": 97.01152,
+      "index_int16_MB": 48.50576,
+      "index_bit6_MB": 18.18966,
+      "index_meta_MB": 0.142664,
+      "cache_meta_MB": 0.142892,
+      "cache_raw_MB": 485.0576,
+      "cache_fields_MB": {
+        "retrieval": 145.51728,
+        "history_distance": 12.12644,
+        "future_dispersion": 145.51728,
+        "exact_retrieval": 145.51728,
+        "exact_available": 36.37932
+      },
+      "fcl_saving": 0.6946689526904424,
+      "cache_fcl_MB": 148.10314501346048,
+      "chain_MB": {
+        "baseline": 598.237805,
+        "fcl_only": 261.2833500134605,
+        "fcl_index_int16": 212.7775900134605,
+        "fcl_index_bit6": 182.4614900134605,
+        "online_no_precompute": 16.168685
+      },
+      "reduction_vs_baseline": {
+        "fcl_only": 0.5632450041945101,
+        "fcl_index_int16": 0.6443260719481603,
+        "fcl_index_bit6": 0.6950017392941917,
+        "online_no_precompute": 0.9729728130438029
+      },
+      "shadowing_ratio": {
+        "cache_over_flow": 39.94847670250896,
+        "index_over_flow": 7.989695340501792,
+        "chain_over_online": 36.999781058261696,
+        "chain_over_online_after_bit6": 11.284868869265527
+      },
+      "index_share_of_chain": {
+        "baseline": 0.1621621355073005,
+        "after_fcl": 0.1621621355073005,
+        "after_bit6": 0.09969040589692717
+      }
+    }
+  }
+}

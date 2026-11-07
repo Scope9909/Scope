@@ -1,0 +1,177 @@
+{
+  "module": "index_codec.TodIndexCodec",
+  "results": [
+    {
+      "dataset": "PEMS03",
+      "bits": 6,
+      "group_size_max": 55,
+      "splits": {
+        "train": {
+          "shape": [
+            15711,
+            8,
+            358
+          ],
+          "original_bytes": 179985216,
+          "offset8_bytes": 44996304,
+          "offset6_bytes": 33747228,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "val": {
+          "shape": [
+            5237,
+            8,
+            358
+          ],
+          "original_bytes": 59995072,
+          "offset8_bytes": 14998768,
+          "offset6_bytes": 11249076,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "test": {
+          "shape": [
+            5237,
+            8,
+            358
+          ],
+          "original_bytes": 59995072,
+          "offset8_bytes": 14998768,
+          "offset6_bytes": 11249076,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        }
+      }
+    },
+    {
+      "dataset": "PEMS04",
+      "bits": 6,
+      "group_size_max": 36,
+      "splits": {
+        "train": {
+          "shape": [
+            10181,
+            8,
+            307
+          ],
+          "original_bytes": 100018144,
+          "offset8_bytes": 25004536,
+          "offset6_bytes": 18753402,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "val": {
+          "shape": [
+            3394,
+            8,
+            307
+          ],
+          "original_bytes": 33342656,
+          "offset8_bytes": 8335664,
+          "offset6_bytes": 6251748,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "test": {
+          "shape": [
+            3394,
+            8,
+            307
+          ],
+          "original_bytes": 33342656,
+          "offset8_bytes": 8335664,
+          "offset6_bytes": 6251748,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        }
+      }
+    },
+    {
+      "dataset": "PEMS07",
+      "bits": 6,
+      "group_size_max": 59,
+      "splits": {
+        "train": {
+          "shape": [
+            16921,
+            8,
+            883
+          ],
+          "original_bytes": 478119776,
+          "offset8_bytes": 119529944,
+          "offset6_bytes": 89647458,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "val": {
+          "shape": [
+            5640,
+            8,
+            883
+          ],
+          "original_bytes": 159363840,
+          "offset8_bytes": 39840960,
+          "offset6_bytes": 29880720,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "test": {
+          "shape": [
+            5640,
+            8,
+            883
+          ],
+          "original_bytes": 159363840,
+          "offset8_bytes": 39840960,
+          "offset6_bytes": 29880720,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        }
+      }
+    },
+    {
+      "dataset": "PEMS08",
+      "bits": 6,
+      "group_size_max": 38,
+      "splits": {
+        "train": {
+          "shape": [
+            10700,
+            8,
+            170
+          ],
+          "original_bytes": 58208000,
+          "offset8_bytes": 14552000,
+          "offset6_bytes": 10914000,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "val": {
+          "shape": [
+            3566,
+            8,
+            170
+          ],
+          "original_bytes": 19399040,
+          "offset8_bytes": 4849760,
+          "offset6_bytes": 3637320,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        },
+        "test": {
+          "shape": [
+            3567,
+            8,
+            170
+          ],
+          "original_bytes": 19404480,
+          "offset8_bytes": 4851120,
+          "offset6_bytes": 3638340,
+          "offset8_lossless": true,
+          "offset6_lossless": true
+        }
+      }
+    }
+  ]
+}

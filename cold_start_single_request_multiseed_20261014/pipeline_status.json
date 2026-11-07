@@ -1,0 +1,12 @@
+{
+  "protocol": "four_dataset_three_seed_validation_pipeline_v1",
+  "stage": "complete",
+  "updated_at_local": "2026-10-14T17:34:20+08:00",
+  "test_evaluated": false,
+  "datasets": ["PEMS03", "PEMS04", "PEMS07", "PEMS08"],
+  "seeds": [1, 2, 3],
+  "modes": ["backbone", "sparse", "full"],
+  "validated_results": 36,
+  "summary": "four_dataset_three_seed_summary.json",
+  "report": "FOUR_DATASET_THREE_SEED_VALIDATION.md"
+}

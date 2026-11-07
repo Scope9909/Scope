@@ -1,0 +1,30 @@
+{
+  "protocol": "native_sparse_validation_forward_raw_uncalibrated",
+  "dataset": "PEMS08",
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS08\\TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth",
+  "test_evaluated": false,
+  "smoke_only": false,
+  "memory_disabled": false,
+  "samples": 3566,
+  "selected_nodes": 20,
+  "memory_format": "grouped_v1",
+  "mode_counts": {
+    "int8": 20
+  },
+  "retrieval_stored_dtype": "int8",
+  "exact_stored_dtype": "float16",
+  "quantized_train_only": true,
+  "lossy_cache_reference_comparison": true,
+  "cache_bytes": 690248,
+  "archive_load_and_model_init_seconds": 1.5825180000001637,
+  "forward_seconds": 7.308741400003328,
+  "forward_ms_per_sample": 2.0495629276509613,
+  "cpu_rss_after_load_bytes": 654757888,
+  "cpu_rss_peak_sampled_bytes": 1156612096,
+  "gpu_peak_allocated_bytes": 215031296,
+  "prediction_max_difference_vs_algebraic": null,
+  "prediction_mean_difference_vs_algebraic": null,
+  "raw_mae": 13.154658311310186,
+  "algebraic_raw_mae": null,
+  "passed_mean_prediction_and_mae_parity": null
+}

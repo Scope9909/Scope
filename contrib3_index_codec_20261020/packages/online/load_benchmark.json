@@ -1,0 +1,82 @@
+{
+  "PEMS03": {
+    "original": {
+      "bytes": 610182,
+      "median_load_ms": 55.92959999921732,
+      "peak_python_alloc_bytes": 5552549,
+      "repeats": 5
+    },
+    "best_lossless": {
+      "bytes": 275236,
+      "median_load_ms": 54.71189999661874,
+      "peak_python_alloc_bytes": 6672533,
+      "repeats": 5
+    },
+    "sensitivity": {
+      "bytes": 270255,
+      "median_load_ms": 55.511099999421276,
+      "peak_python_alloc_bytes": 8932218,
+      "repeats": 5
+    }
+  },
+  "PEMS04": {
+    "original": {
+      "bytes": 218466,
+      "median_load_ms": 43.312599998898804,
+      "peak_python_alloc_bytes": 4028751,
+      "repeats": 5
+    },
+    "best_lossless": {
+      "bytes": 78718,
+      "median_load_ms": 43.2379000048968,
+      "peak_python_alloc_bytes": 4649159,
+      "repeats": 5
+    },
+    "sensitivity": {
+      "bytes": 75904,
+      "median_load_ms": 45.04869999800576,
+      "peak_python_alloc_bytes": 5913514,
+      "repeats": 5
+    }
+  },
+  "PEMS07": {
+    "original": {
+      "bytes": 2061414,
+      "median_load_ms": 116.3931999981287,
+      "peak_python_alloc_bytes": 17730599,
+      "repeats": 5
+    },
+    "best_lossless": {
+      "bytes": 355339,
+      "median_load_ms": 112.19259999779752,
+      "peak_python_alloc_bytes": 21818843,
+      "repeats": 5
+    },
+    "sensitivity": {
+      "bytes": 348921,
+      "median_load_ms": 109.80320000089705,
+      "peak_python_alloc_bytes": 30014578,
+      "repeats": 5
+    }
+  },
+  "PEMS08": {
+    "original": {
+      "bytes": 134055,
+      "median_load_ms": 38.51389999908861,
+      "peak_python_alloc_bytes": 2846585,
+      "repeats": 5
+    },
+    "best_lossless": {
+      "bytes": 32901,
+      "median_load_ms": 45.16729999886593,
+      "peak_python_alloc_bytes": 3263373,
+      "repeats": 5
+    },
+    "sensitivity": {
+      "bytes": 31435,
+      "median_load_ms": 55.0305000069784,
+      "peak_python_alloc_bytes": 4098135,
+      "repeats": 5
+    }
+  }
+}

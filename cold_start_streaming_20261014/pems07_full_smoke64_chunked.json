@@ -1,0 +1,57 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS07",
+  "mode": "full",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth",
+  "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming_20261014\\pems07_full_cold_state.npz",
+  "state_bytes": 24644564,
+  "selected_nodes": 883,
+  "total_nodes": 883,
+  "cold_start_endpoint": 16932,
+  "pending_candidates_at_cold_start": 11,
+  "source_train_candidates": 16921,
+  "device": "cuda:0",
+  "batch_size": 32,
+  "warmup_passes": 0,
+  "repeats": 1,
+  "samples_per_pass": 64,
+  "load_and_init_seconds": 3.498225499999535,
+  "pass_wall_seconds": [
+    2.5186479999993026
+  ],
+  "pass_wall_median_seconds": 2.5186479999993026,
+  "pass_wall_p95_seconds": 2.5186479999993026,
+  "throughput_samples_per_second_at_median": 25.410458309385717,
+  "retrieval_seconds": [
+    1.7396572999987256
+  ],
+  "retrieval_median_seconds": 1.7396572999987256,
+  "model_and_transfer_seconds": [
+    0.7366336000013689
+  ],
+  "model_and_transfer_median_seconds": 0.7366336000013689,
+  "loader_batch_latency_ms_p50": 12.579250000271713,
+  "loader_batch_latency_ms_p95": 13.654435000171361,
+  "compute_batch_latency_ms_p50": 1239.868849999766,
+  "compute_batch_latency_ms_p95": 1918.6603249998368,
+  "end_to_end_batch_latency_ms_p50": 1252.4481000000378,
+  "end_to_end_batch_latency_ms_p95": 1932.3147600000084,
+  "batch_latency_scope": "one batch of at most 32; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 1264664576,
+  "cpu_rss_peak_sampled_bytes": 1833390080,
+  "gpu_peak_allocated_bytes": 1060894208,
+  "gpu_peak_reserved_bytes": 1866465280,
+  "raw_validation_metrics": {
+    "mae": 16.269126207079047,
+    "rmse": 27.209047197941747,
+    "mape": 0.09077853960268699
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": {
+    "reference": "D:\\lunwen\\June\\TLAST-main\\pems07_s1_hetero_budget_20261013\\int8_val_predictions.npz",
+    "max_absolute_difference": 0.0,
+    "mean_absolute_difference": 0.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "PEMS03",
+  "seed": 1,
+  "selector": "first55_three_block_stability_int8_topk36_budget",
+  "frozen_choice": "Q8 + exact delta-bitpacking",
+  "validation_package_bytes": 222256,
+  "test_package_bytes": 221315,
+  "validation_baseline_mae": 13.213318990612796,
+  "validation_final_mae": 13.213320993017035,
+  "validation_delta_mae": 2.0024042388655516e-06,
+  "test_raw_mae": 14.203832009637146,
+  "test_val_calibrated_mae": 13.972821004185853,
+  "validation_count": 5237,
+  "test_count": 5237,
+  "test_evaluated_once": true,
+  "test_state_roundtrip_bitwise_equal": true
+}

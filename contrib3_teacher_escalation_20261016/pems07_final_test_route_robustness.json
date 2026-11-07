@@ -1,0 +1,80 @@
+{
+  "protocol": "posthoc_PEMS07_Test_paired_moving_block_bootstrap_no_retuning",
+  "n_windows": 5640,
+  "online_teacher_calls": {
+    "gate": 455,
+    "volatility": 441,
+    "student_mean": 527
+  },
+  "online_mae": {
+    "gate": 19.07341484579868,
+    "volatility": 19.085345157390574,
+    "student_mean": 19.080413436293018
+  },
+  "offline_equal_call_count": {
+    "gate": {
+      "teacher_windows": 455,
+      "mae": 19.07341484579868
+    },
+    "volatility": {
+      "teacher_windows": 455,
+      "mae": 19.086090375726144
+    },
+    "student_mean": {
+      "teacher_windows": 455,
+      "mae": 19.083803322180252
+    }
+  },
+  "temporal_quarters": {
+    "1": {
+      "windows": 1410,
+      "gate_gain": 0.005076108603347507,
+      "gate_vs_student_mean": -0.009294024654650457
+    },
+    "2": {
+      "windows": 1410,
+      "gate_gain": 0.036914707815721925,
+      "gate_vs_student_mean": 0.010784546663412442
+    },
+    "3": {
+      "windows": 1410,
+      "gate_gain": 0.04658853353807402,
+      "gate_vs_student_mean": 0.01821817357049227
+    },
+    "4": {
+      "windows": 1410,
+      "gate_gain": 0.03493590719610751,
+      "gate_vs_student_mean": 0.008330652583133258
+    }
+  },
+  "bootstrap": {
+    "unit": "overlapping contiguous 288-endpoint blocks (one day)",
+    "block_length": 288,
+    "repeats": 3000,
+    "positive_advantage_means_gate_better": true,
+    "results": {
+      "gain_vs_student": {
+        "point": 0.030861766590970063,
+        "ci95": [
+          0.013583782055326399,
+          0.045803185186230874
+        ]
+      },
+      "advantage_vs_volatility": {
+        "point": 0.011930311591893172,
+        "ci95": [
+          -0.012379630510571449,
+          0.03051408414492327
+        ]
+      },
+      "advantage_vs_student_mean": {
+        "point": 0.0069985904943372645,
+        "ci95": [
+          -0.013922155089332566,
+          0.023214780262684358
+        ]
+      }
+    }
+  },
+  "caveat": "Test has previously been inspected in this project. Equal-call top-k is an offline diagnostic, not a deployable policy. Intervals condition on fixed checkpoints and gate; they do not measure training-seed uncertainty."
+}

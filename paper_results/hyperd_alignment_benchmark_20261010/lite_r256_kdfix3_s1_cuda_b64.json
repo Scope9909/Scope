@@ -1,0 +1,117 @@
+{
+  "protocol": "hyperd_aligned_pems04_efficiency_v1",
+  "name": "lite_r256_kdfix3_final_s1_20261010",
+  "experiment_directory": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_val_s1",
+  "retrieval_cache_override": null,
+  "split": "test",
+  "logical_samples": 3394,
+  "batch_size": 64,
+  "warmup_batches": 10,
+  "repeats": 5,
+  "device": {
+    "requested": "cuda",
+    "torch_device": "cuda:0",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "platform": "Windows-10-10.0.22000-SP0",
+    "python": "3.11.0",
+    "torch": "2.0.0+cu117",
+    "cpu_threads": 1
+  },
+  "model": {
+    "parameters_total": 665314,
+    "parameters_trainable_flag_at_load": 665314,
+    "parameter_tensor_bytes_at_runtime": 2661256,
+    "parameter_tensor_mib_at_runtime": 2.5379714965820312
+  },
+  "accuracy_first_trial": {
+    "mae_global_valid_elements": 17.656004694923368,
+    "rmse_global_valid_elements": 29.426712256251623,
+    "valid_elements": 12340883,
+    "warning": "This is a benchmark sanity metric. Official paper metrics may use horizon-wise aggregation; do not silently mix the two."
+  },
+  "timing": {
+    "loader_seconds_per_batch": {
+      "mean": 0.017598582592587196,
+      "std": 0.002229356915198605,
+      "p50": 0.017111799999952382,
+      "p95": 0.02182301999998799
+    },
+    "host_to_device_seconds_per_batch": {
+      "mean": 0.0015645759259314217,
+      "std": 0.00019187570204254204,
+      "p50": 0.0015166000000021995,
+      "p95": 0.001924490000010337
+    },
+    "forward_seconds_per_batch": {
+      "mean": 0.06424023037036646,
+      "std": 0.0007964340499620409,
+      "p50": 0.06429214999997157,
+      "p95": 0.06551482499997405
+    },
+    "end_to_end_seconds_per_batch": {
+      "mean": 0.08340338888888507,
+      "std": 0.002534129928791754,
+      "p50": 0.08314960000001292,
+      "p95": 0.08762574500000254
+    },
+    "forward_ms_per_physical_sample": {
+      "mean": 1.003753599536976,
+      "std": 0.012444282030656888,
+      "p50": 1.0045648437495558,
+      "p95": 1.0236691406245946
+    },
+    "end_to_end_ms_per_physical_sample": {
+      "mean": 1.303177951388829,
+      "std": 0.03959578013737116,
+      "p50": 1.299212500000202,
+      "p95": 1.3691522656250399
+    },
+    "forward_throughput_samples_per_second": 996.2604372839038,
+    "end_to_end_throughput_samples_per_second": 767.3549103054384,
+    "physical_samples_all_trials": 17280
+  },
+  "memory": {
+    "process_rss_after_import_mib": 299.3828125,
+    "process_rss_after_dataset_mib": 1200.69140625,
+    "process_rss_after_model_mib": 2054.02734375,
+    "process_peak_rss_observed_mib": 3336.44921875,
+    "peak_gpu_allocated_mib": 719.52880859375,
+    "peak_gpu_reserved_mib": 1200.0
+  },
+  "storage": {
+    "files": [
+      {
+        "role": "fp32_checkpoint_used",
+        "path": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_val_s1\\best.pth",
+        "exists": true,
+        "bytes": 2684405,
+        "mib": 2.5600481033325195
+      },
+      {
+        "role": "retrieval_cache",
+        "path": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k4_exact_mean.npz",
+        "exists": true,
+        "bytes": 105784863,
+        "mib": 100.88430690765381
+      }
+    ],
+    "fp32_complete_deployment_bytes": 108469268,
+    "fp32_complete_deployment_mib": 103.44435501098633,
+    "external_assets_bytes": 105784863,
+    "external_assets_mib": 100.88430690765381,
+    "fp16_complete_deployment_bytes_if_available": null,
+    "fp16_complete_deployment_mib_if_available": null,
+    "warning": "Complete deployment storage includes only files discovered from this experiment config plus the explicitly supplied calibrator."
+  },
+  "flops": {
+    "status": "ok",
+    "scope": "one_batch_supported_torch_ops_lower_bound",
+    "batch_size": 64,
+    "flops_per_batch_lower_bound": 80877830014,
+    "flops_per_sample_lower_bound": 1263716093.96875,
+    "macs_per_sample_approx_lower_bound": 631858046.984375,
+    "warning": "torch.profiler counts FLOPs only for supported operators; FFT, indexing, interpolation and custom operations may be omitted."
+  }
+}

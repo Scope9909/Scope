@@ -1,0 +1,23 @@
+{
+  "protocol": "PEMS07 dense Teacher base-only control; Validation-only calibration",
+  "scope_warning": "Not the full retrieval-augmented Hist2Res Teacher",
+  "dataset": "PEMS07",
+  "seed": 1,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_final_joint\\best.pth",
+  "checkpoint_sha256": "eafcb8bd6b4cd792247907159af20670188081dd896943005ba4bb46ea7bfd5a",
+  "checkpoint_bytes": 4266648,
+  "model_parameters": 1059821,
+  "validation_count": 5640,
+  "test_count": 5640,
+  "test_raw_metrics": {
+    "mae": 19.001248432962722,
+    "rmse": 32.07856099438923,
+    "mape": 0.07994662918830647
+  },
+  "test_calibrated_metrics": {
+    "mae": 18.753228730039552,
+    "rmse": 31.727891975146203,
+    "mape": 0.07845942479217292
+  },
+  "test_based_selection": false
+}

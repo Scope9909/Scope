@@ -1,0 +1,31 @@
+{
+  "protocol": "actual_grouped_archive_byte_capped_int8_validation_screen",
+  "test_evaluated": false,
+  "selection_prefix_samples": 1961,
+  "byte_budget": 672105,
+  "empty_archive_bytes": 25520,
+  "selected_archive_bytes_in_memory": 656804,
+  "budget_satisfied": true,
+  "selected_nodes": 19,
+  "candidate_nodes_examined": 158,
+  "selected_train_payload_proxy_bytes": 667891,
+  "folds": [
+    {
+      "eval_start": 1961,
+      "eval_end": 2496,
+      "selected_raw_mae": 12.35690122283465
+    },
+    {
+      "eval_start": 2496,
+      "eval_end": 3031,
+      "selected_raw_mae": 13.83007424453281
+    },
+    {
+      "eval_start": 3031,
+      "eval_end": 3566,
+      "selected_raw_mae": 13.814895123594498
+    }
+  ],
+  "mean_raw_mae": 13.333956863653986,
+  "note": "Byte cap excludes checkpoint, calibrator, candidate-history and online index"
+}

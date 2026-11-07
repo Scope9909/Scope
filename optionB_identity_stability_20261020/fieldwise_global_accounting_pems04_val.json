@@ -1,0 +1,83 @@
+{
+  "scope": "PEMS04 validation-only, zero training, no Test",
+  "acceptance": {
+    "reference": 17.85374864772975,
+    "recorded_canonical": 17.8537288
+  },
+  "arms": {
+    "R0_deployed_reference": 17.85374864772975,
+    "E_sparse_fp16_only": 17.854636065206414,
+    "fd_f16_only": 17.85374864772975,
+    "hd_f16_only": NaN,
+    "fd_i8_only": 17.85373751525244,
+    "hd_i8_only": 17.853739105606344,
+    "fd_i16_only": 17.85374864772975,
+    "hd_i16_only": 17.85374864772975,
+    "A1_conservative": 17.854636065206414,
+    "A2_aggressive": 17.854637655560314
+  },
+  "per_field_cost": {
+    "fd_f16_cost": 0.0,
+    "hd_f16_cost": NaN,
+    "fd_i8_cost": -1.1132477307995714e-05,
+    "hd_i8_cost": -9.542123404315817e-06,
+    "fd_i16_cost": 0.0,
+    "hd_i16_cost": 0.0
+  },
+  "accounting": {
+    "deployed_now": {
+      "parts_MB": {
+        "T_r8_fp16": 16.67,
+        "E_f32": 50.01,
+        "fd_f32": 50.01,
+        "hd_f32": 4.17,
+        "mask": 12.5
+      },
+      "total_MB": 133.37,
+      "reduction_vs_all_raw": 0.19999999999999996,
+      "reduction_vs_deployed_now": 0.0
+    },
+    "A1_conservative": {
+      "parts_MB": {
+        "T_r8_fp16": 16.67,
+        "E_sparse_fp16": 2.37,
+        "fd_f16": 25.01,
+        "hd_f16": 2.08,
+        "mask": 1.56
+      },
+      "total_MB": 47.7,
+      "reduction_vs_all_raw": 0.7139020658702174,
+      "reduction_vs_deployed_now": 0.6423775823377718
+    },
+    "A2_aggressive": {
+      "parts_MB": {
+        "T_r8_fp16": 16.67,
+        "E_sparse_fp16": 2.37,
+        "fd_i8": 12.5,
+        "hd_i8": 1.04,
+        "mask": 1.56
+      },
+      "total_MB": 34.15,
+      "reduction_vs_all_raw": 0.7951373339904295,
+      "reduction_vs_deployed_now": 0.7439216674880369
+    },
+    "reference_all_raw": {
+      "parts_MB": {
+        "T_f32": 50.01,
+        "E_exact_retrieval_f32": 50.01,
+        "future_dispersion_f32": 50.01,
+        "exact_available_bool": 12.5,
+        "history_distance_f32": 4.17
+      },
+      "total_MB": 166.71
+    }
+  },
+  "verdict": {
+    "G1_equal_accuracy_le_0.01": true,
+    "G2_reduction_ge_50pct": true,
+    "best_arm": "A1_conservative",
+    "best_arm_cost": 0.0008874174766653198,
+    "best_arm_reduction_vs_all_raw": 0.7139020658702174,
+    "route": "CANDIDATE"
+  }
+}

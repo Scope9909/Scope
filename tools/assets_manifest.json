@@ -1,0 +1,612 @@
+{
+ "groups": {
+  "checkpoints": [
+   66,
+   268930135
+  ],
+  "teacher_predictions": [
+   1,
+   225958629
+  ],
+  "srm_states": [
+   32,
+   892993474
+  ]
+ },
+ "files": [
+  {
+   "path": "EXP_experiments/TLAST_improved/METRLA/TLAST_improved_METRLA_12to12_exppaper_metrla_s1_backbone/best.pth",
+   "size": 4014797,
+   "group": "checkpoints",
+   "sha256": "df2ce4f1e4aefc1fa9fcedfb84fdc81fceb032e3744b7cef36b34849d46193ab"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/METRLA/TLAST_improved_METRLA_12to12_exppaper_metrla_s1_confidence/best.pth",
+   "size": 4036025,
+   "group": "checkpoints",
+   "sha256": "e267f9b984e3d9bd0f145c3df3b06cc5b69871bd1986da822d6080bd62e543e4"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/METRLA/TLAST_improved_METRLA_12to12_exppaper_metrla_s1_exact/best.pth",
+   "size": 4017845,
+   "group": "checkpoints",
+   "sha256": "f81aaae70151c78dbc0ef53126c509657016fdfda114ed2cad8dd60280bc9c43"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/METRLA/TLAST_improved_METRLA_12to12_exppaper_metrla_s1_head/best.pth",
+   "size": 4035205,
+   "group": "checkpoints",
+   "sha256": "c3652630afab0307159cb4c4433523139059b99969bf6701edad7b7450f6d990"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/METRLA/TLAST_improved_METRLA_12to12_exppaper_metrla_s1_lowrank/best.pth",
+   "size": 4017467,
+   "group": "checkpoints",
+   "sha256": "64e52f2c55057ec95fa93262e2e250bfa5040a02edc4ada7435239e924bbae46"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/METRLA/TLAST_improved_METRLA_12to12_exppaper_metrla_s1_reranker_lowrank/best.pth",
+   "size": 4035205,
+   "group": "checkpoints",
+   "sha256": "18f12758631ce080319358d14b4577455920a47ed36832d3be15e8d127592405"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_backbone/best.pth",
+   "size": 4053453,
+   "group": "checkpoints",
+   "sha256": "2608816c6afe17609f7682d0c87b8c7f9fd49d9ae5af2db1bd5b25541bfed1b6"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_confidence/best.pth",
+   "size": 4085561,
+   "group": "checkpoints",
+   "sha256": "cfcde78b6416ad34c964551b317b1070147ced15efe15ffe6be474a3f32cffff"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_exact/best.pth",
+   "size": 4057717,
+   "group": "checkpoints",
+   "sha256": "0e30f7bc30c396bebce7974a91c456a3e7274e7e04619920872e95e997249843"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_exact_k4/best.pth",
+   "size": 4057717,
+   "group": "checkpoints",
+   "sha256": "dfc2d4af72148c43a9a2313838e4852c6dfc82e0d02db8bae3efb0d11ec6cf7d"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_head/best.pth",
+   "size": 4084741,
+   "group": "checkpoints",
+   "sha256": "55c7d1bea7bb8bfdc7e973fff8a1441ce123bedc219515ec73a019dc132cb4b9"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_lowrank/best.pth",
+   "size": 4057339,
+   "group": "checkpoints",
+   "sha256": "c960b629e71900799f2123c427473211d97cee15538cd0924bb8fafc2b0a7578"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_lowrank_k4/best.pth",
+   "size": 4057339,
+   "group": "checkpoints",
+   "sha256": "d784154f4bb5a3511b82c4ca34141c4c12083102009657a4c115366615185bb0"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_reranker_lowrank/best.pth",
+   "size": 4084741,
+   "group": "checkpoints",
+   "sha256": "ca87d3c67f9bb2a1ee6f3755f0d1336ab414cb5616c12be5616fcb29a1ab3b75"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exp07131820_s1/best.pth",
+   "size": 4368515,
+   "group": "checkpoints",
+   "sha256": "5f6e1b5985bc79eae4f2c0e3d68ec8a4525f56801af3a26512321bc8c8150851"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exp07170128_s1/best.pth",
+   "size": 4040397,
+   "group": "checkpoints",
+   "sha256": "804d1b28a673044715935cea398e1adf5fbbc042463d1d095c4d72c919c1641b"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exp07181357_s1/best.pth",
+   "size": 4044277,
+   "group": "checkpoints",
+   "sha256": "a04f130293f6acae7d2542dcf1f6403638978c5a1d108d6ba2569fbf6be8b08a"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exp07181424_s2/best.pth",
+   "size": 4040397,
+   "group": "checkpoints",
+   "sha256": "7a1fa91b5d6fa1b78ad40d0da8bed38f0f16b8b39fea1710b904f0d33e703bfe"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exp07181621_s3/best.pth",
+   "size": 4040397,
+   "group": "checkpoints",
+   "sha256": "6a25397785fab759d4d3f8a31d7847a6028c2b15bffc046e51277a2e362abd5f"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_confidence/best.pth",
+   "size": 4068857,
+   "group": "checkpoints",
+   "sha256": "a1241327e6914c30e5d2dc74087bbb1855594b4c2d511031d5a4a06598c2c920"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_exact/best.pth",
+   "size": 4044277,
+   "group": "checkpoints",
+   "sha256": "cf76eaf96fc7623d46402200b260c1b1b6acea9b83f5e3d11b741199f49cb21c"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_final_joint/best.pth",
+   "size": 4072621,
+   "group": "checkpoints",
+   "sha256": "0eb693aeae557df9c31903c1587dc1c64af458d6ddffdd7c6aee162a85ed7a7f"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_head/best.pth",
+   "size": 4068037,
+   "group": "checkpoints",
+   "sha256": "0787981ad3859da94f841c5cd02065947e186827d265e41751f6df6ea7dd171e"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_lowrank/best.pth",
+   "size": 4043899,
+   "group": "checkpoints",
+   "sha256": "8f516227e3d633949b209616763532f1f464fb1c9134ec0dca2d26c85c24e03f"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_reranker_lowrank/best.pth",
+   "size": 4068037,
+   "group": "checkpoints",
+   "sha256": "4f56407c92a27f6bba64c990940e9932fb59479acf3e34e28198c70fe5bd6726"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_wo_head_confidence/best.pth",
+   "size": 4068857,
+   "group": "checkpoints",
+   "sha256": "b8e51ebfb576d9dd68aeb47ef4fe4625e058192e752682b05042c3b745d7a1a2"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_wo_reranker_confidence/best.pth",
+   "size": 4045161,
+   "group": "checkpoints",
+   "sha256": "74e2b968972dcfd3046133e3d7cc3543c21458b4fdcd784c127577d853bec863"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_wo_reranker_head/best.pth",
+   "size": 4044277,
+   "group": "checkpoints",
+   "sha256": "9408cd2bc68efae393b1bca12ef2d11acce2e6a62c3968041d7aedae34ea4ff8"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s2_confidence/best.pth",
+   "size": 4068857,
+   "group": "checkpoints",
+   "sha256": "1246fe48021cb96f5c6615da9a3984d43be93917164f4b205797d7ec2cf3716c"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s2_exact/best.pth",
+   "size": 4044277,
+   "group": "checkpoints",
+   "sha256": "176e7088b71428dc286f24475b35715b4dd2d116d7c79a9d8a4bd8e3841d858e"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s2_head/best.pth",
+   "size": 4068037,
+   "group": "checkpoints",
+   "sha256": "a0532c91be9dd86d9dfa0aaec82d92c5b58d5c492bc09c23a959e48c9ca1ade6"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s2_lowrank/best.pth",
+   "size": 4043899,
+   "group": "checkpoints",
+   "sha256": "7e08c89927b163e25e144bf9e4063c34a707f1b5d174b8c8bb83237192b522fe"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s2_reranker_lowrank/best.pth",
+   "size": 4068037,
+   "group": "checkpoints",
+   "sha256": "8a54356303432e271526ad30d4f835decb8bd31cccb62a53a0d076840a26963f"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s3_confidence/best.pth",
+   "size": 4068857,
+   "group": "checkpoints",
+   "sha256": "66892bfda1dc36cdef8a7d4b916da3310c5740ed94e417621daaf92ef42bc212"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s3_exact/best.pth",
+   "size": 4044277,
+   "group": "checkpoints",
+   "sha256": "7b21f032302bc80444648359e3a4cc69dcdcf8f3f86b5b7e3ccf40f9abc4fff1"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s3_head/best.pth",
+   "size": 4068037,
+   "group": "checkpoints",
+   "sha256": "3ed9e7c33b2ab4347e57ff4ebc19d1b7f3271e8d2831d0f7509e76f506bc03a4"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s3_lowrank/best.pth",
+   "size": 4043899,
+   "group": "checkpoints",
+   "sha256": "10a0a5d1bbbbf8c837fd4dd5e8b5c698d61c76e2f6696ccc6a90c90e29dc14fb"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppaper_pems04_s3_reranker_lowrank/best.pth",
+   "size": 4068037,
+   "group": "checkpoints",
+   "sha256": "e7818f32a438a1aa71c09612bf86e06e2e201be52dc1617e87958c9b52119bb3"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_backbone/best.pth",
+   "size": 4188671,
+   "group": "checkpoints",
+   "sha256": "051075651a1065f8dc0d93453886da2507700b21a220a9ee5e2cc813e2b9f9a6"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_confidence/best.pth",
+   "size": 4258276,
+   "group": "checkpoints",
+   "sha256": "6441beecf664808fec0363b38772c13862a78fb115c7d9c9ea2b6adbc3496b1f"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_exact/best.pth",
+   "size": 4196768,
+   "group": "checkpoints",
+   "sha256": "c1765d21da5ff741496ca7a605805411b4e078a9d6491ead8e5670e65aa54c86"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_exact_k4/best.pth",
+   "size": 4196768,
+   "group": "checkpoints",
+   "sha256": "23076733a1f2881373bbe8d5462f42c57874cb7e93aed85d8f699afb6534de2d"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_head/best.pth",
+   "size": 4257392,
+   "group": "checkpoints",
+   "sha256": "4aa3a86ca885382a0214e60c4f8c64a8422faf90dcd97fc7b934bfb38cffaa5c"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_lowrank/best.pth",
+   "size": 4196390,
+   "group": "checkpoints",
+   "sha256": "2144c01d604b8ff6d4d2f3829a6c83a7e3a7bd48c337281c64a82be9c2ef7691"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_lowrank_k4/best.pth",
+   "size": 4196390,
+   "group": "checkpoints",
+   "sha256": "2e233e80fef6cfdd063361636ad3cf43ddeca9b034cc55377bd9b83b22c7a84e"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_reranker_lowrank/best.pth",
+   "size": 4257392,
+   "group": "checkpoints",
+   "sha256": "4aa3a86ca885382a0214e60c4f8c64a8422faf90dcd97fc7b934bfb38cffaa5c"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_backbone/best.pth",
+   "size": 4005325,
+   "group": "checkpoints",
+   "sha256": "aba6ff863b596f4c53d79c56e957464ba11b72b114ef59a94cf70e44900deb18"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_confidence/best.pth",
+   "size": 4023929,
+   "group": "checkpoints",
+   "sha256": "9324f1563bdb6499c26aec48176e7d1030bbe167a2bd4ef473c22dac1019ebf6"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_exact/best.pth",
+   "size": 4008117,
+   "group": "checkpoints",
+   "sha256": "a8ad66821d4607a9c4617e526635a8778d07cf3173f2f51cfc3fe3781796449b"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_exact_k4/best.pth",
+   "size": 4008117,
+   "group": "checkpoints",
+   "sha256": "e8267f4b6a8c28c71984cca43e0e2ed94896e9c8fb1044b857effe9a7e53e7d2"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_head/best.pth",
+   "size": 4023109,
+   "group": "checkpoints",
+   "sha256": "8e8876ce0f16fdd82a726d6eabe3db39cdba148ad7127683bafbb8cd228fe6cc"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_lowrank/best.pth",
+   "size": 4007739,
+   "group": "checkpoints",
+   "sha256": "ad3b99370410df689ec8ef2dc2599cd1e460348a2d2de71c2f20aed36785d6e3"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_lowrank_k4/best.pth",
+   "size": 4007739,
+   "group": "checkpoints",
+   "sha256": "7f79f3823744b44b24e07a6b3e3c764fd942b92d0f09071f7c12eb9fd802e280"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_reranker_lowrank/best.pth",
+   "size": 4023109,
+   "group": "checkpoints",
+   "sha256": "8e8876ce0f16fdd82a726d6eabe3db39cdba148ad7127683bafbb8cd228fe6cc"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay712_s1_backbone/best.pth",
+   "size": 4045005,
+   "group": "checkpoints",
+   "sha256": "a7c82667045d1ab4052f592b6644e39a39cae4a7a6023169d5ff24136bec0db9"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay712_s1_confidence/best.pth",
+   "size": 4074745,
+   "group": "checkpoints",
+   "sha256": "011b3b528bb90feba650fe96d38d9f454f4b5314ab6bfd9a9aacab6bad794772"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay712_s1_exact/best.pth",
+   "size": 4049013,
+   "group": "checkpoints",
+   "sha256": "15cbc086b12492bb5f4a97268dbf3a75712e0ff5283ecbb8697fa3f3a207e61d"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay712_s1_head/best.pth",
+   "size": 4073925,
+   "group": "checkpoints",
+   "sha256": "a3643e7eb65cd3b1cb29b95e86e92bbb5d49b1f549dfc92d569a5bfbe58ff2f6"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay712_s1_lowrank/best.pth",
+   "size": 4048635,
+   "group": "checkpoints",
+   "sha256": "abf6774ae7f04066441ef9ee3e5d3cfcbb82882023a1f332c78e75e607cd7798"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay712_s1_reranker_lowrank/best.pth",
+   "size": 4073925,
+   "group": "checkpoints",
+   "sha256": "e95713c014938b34291ce8372dc2a5e0ddbbc08e3e61555cc0a735b4e43491f4"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay_s1_backbone/best.pth",
+   "size": 4045823,
+   "group": "checkpoints",
+   "sha256": "628bba1bd7179ba84f45ef915171b172746f68bf70dcdb09b92315b8b298b8ff"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay_s1_confidence/best.pth",
+   "size": 4075627,
+   "group": "checkpoints",
+   "sha256": "0a0c9494558c48d84a1f7ff44eadee2758d1705b1e3fd9f8263cb1c6d6fe13c7"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay_s1_exact/best.pth",
+   "size": 4049831,
+   "group": "checkpoints",
+   "sha256": "9e7a0313202a93c4d388ba6990f5437f04c870a7e39446f6b24fa8eb26c04653"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay_s1_head/best.pth",
+   "size": 4074743,
+   "group": "checkpoints",
+   "sha256": "5de9d8bb8ac61a927626b795402cb23e7336120a740c9eb3d2861641c400ad11"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay_s1_lowrank/best.pth",
+   "size": 4049517,
+   "group": "checkpoints",
+   "sha256": "83a71a62c6679493a098e947f8dc9bfc2fcac223e4554ceff9cb7310ef2a095d"
+  },
+  {
+   "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppaper_pemsbay_s1_reranker_lowrank/best.pth",
+   "size": 4074743,
+   "group": "checkpoints",
+   "sha256": "b2d0a42026d25a9d4f932862070b78425da0de5a2bccec7f943c20d2b1e1a6e9"
+  },
+  {
+   "path": "paper_results/icde_generality/pems04_agcrn_teacher_predictions_s1.npz",
+   "size": 225958629,
+   "group": "teacher_predictions",
+   "sha256": "327f0f7d11ec5ad58aabbe13218840b969166de44d0bfd9771e7d1d8c65cc58a"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/parent_without_retrieval_adapters_s1.pth",
+   "size": 4029101,
+   "group": "srm_states",
+   "sha256": "4240e117fdd352e1233de2ed5c8087d3a3bd1fa0ff3918b0a638fd7efb2cdd0c"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems07_sparse_memory_177nodes.npz",
+   "size": 32823967,
+   "group": "srm_states",
+   "sha256": "a45070345032134b2bb0f399eae0949a0feffac74c0b46894ac001ab0b56378b"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/actual_byte_budget_pems04_s1_cap1697766_20261013/baseline_near_online_train_state.npz",
+   "size": 218466,
+   "group": "srm_states",
+   "sha256": "2e9f038115f0f42428a5e3ada0199aa980fd7597af463381d01eb79499819d47"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/actual_byte_budget_pems04_s1_cap1697766_20261013/grouped_cache.npz",
+   "size": 1687970,
+   "group": "srm_states",
+   "sha256": "e25e240b24e0a1ae63d37e1f521096581096e9087e62c0657948022c0f74f078"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/actual_byte_budget_pems04_s1_cap1697766_20261013/online_train_state.npz",
+   "size": 238430,
+   "group": "srm_states",
+   "sha256": "3a501a09ba560e9d86ac93c8dedc53dff7b984c5e5a472a8595a3cdcc2fc54fb"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/actual_byte_budget_pems08_s1_cap672105_20261013/baseline_plain_online_train_state.npz",
+   "size": 143577,
+   "group": "srm_states",
+   "sha256": "7946244cf75271422a5926e15b43eeb73296abc75f8feea2e033afd2949e02b9"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/actual_byte_budget_pems08_s1_cap672105_20261013/baseline_robust_online_train_state.npz",
+   "size": 134055,
+   "group": "srm_states",
+   "sha256": "4bb82e5d2ad380d16167b125062fe1e6abfc0a9f829226a7918539925d48762b"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/actual_byte_budget_pems08_s1_cap672105_20261013/grouped_cache.npz",
+   "size": 656804,
+   "group": "srm_states",
+   "sha256": "842ba064d92622daf7281f031522a412ff3bac1faeb71eb63fe6a5c64adf70ce"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/actual_byte_budget_pems08_s1_cap672105_20261013/online_train_state.npz",
+   "size": 139703,
+   "group": "srm_states",
+   "sha256": "ffd99ceb2a552273e0bdfb061e9247e5610664b343d8a4e6ef68065bb822baa2"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/node_budget_s1/sparse_memory_123nodes.npz",
+   "size": 37638494,
+   "group": "srm_states",
+   "sha256": "149c9b20f3bb319390c200e30f1ed08213a7f980df71ce5203eacebd55170edb"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/node_budget_s1/sparse_memory_184nodes.npz",
+   "size": 59144321,
+   "group": "srm_states",
+   "sha256": "782f14a3bcf7dbda703fd1460301b1d4c8fa406a7df9322baa3a1df8b46b7d64"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/node_budget_s1/sparse_memory_246nodes.npz",
+   "size": 82321073,
+   "group": "srm_states",
+   "sha256": "ef309321e85fd685ffe60cd674f90091509dbe3ad1d76cdf93d089b73aeeeccb"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/node_budget_s1/sparse_memory_61nodes.npz",
+   "size": 15003816,
+   "group": "srm_states",
+   "sha256": "13275cba0a5bd86b5e15624309c9f344e479198532d44f298537047215e1edd8"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/node_budget_s1_no_memory/no_memory_validation_predictions.npz",
+   "size": 46283184,
+   "group": "srm_states",
+   "sha256": "7972b16dede81b205d4eb1052d02f2a8b425aa4e120929e8b71ac7d3e892fab8"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/node_budget_s2_no_memory/no_memory_validation_predictions.npz",
+   "size": 46286279,
+   "group": "srm_states",
+   "sha256": "dd64a05af768faca9b5603df781b246676068a032fefcb367d130ef59a1eda70"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/node_budget_s3_no_memory/no_memory_validation_predictions.npz",
+   "size": 46285511,
+   "group": "srm_states",
+   "sha256": "9433f73326d04916c6885a6425b2bc393533a22d3fda47a3abb506117a2a3d2e"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/online_state_budget_pems04_s1_cap2905847_20261013/online_train_state.npz",
+   "size": 218466,
+   "group": "srm_states",
+   "sha256": "2e9f038115f0f42428a5e3ada0199aa980fd7597af463381d01eb79499819d47"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/online_state_budget_pems08_s1_cap2785289_20261013/online_train_state.npz",
+   "size": 134055,
+   "group": "srm_states",
+   "sha256": "cfd5a1844074505019e9209026d86282d6deca17709fecd92c9afbb7cc8495c6"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/online_state_budget_pems08_s1_cap2785289_20261013/validation_grouped_cache.npz",
+   "size": 690248,
+   "group": "srm_states",
+   "sha256": "e4c9bffaa1e00c3956bc5589483c3005c8a29461b19c83ba2f7a9b4ebf42ff66"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems04_s1_temporal_robust_native_audit_20261013/plain_near_byte_cache.npz",
+   "size": 1555801,
+   "group": "srm_states",
+   "sha256": "f0dc5b10e7d6044ed9bc9809dd0379f479ab58348090e3d29708d9b914817492"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems07_node_budget_s1_no_memory/no_memory_validation_predictions.npz",
+   "size": 308572717,
+   "group": "srm_states",
+   "sha256": "f67121b198d8b97b8f5413a9d07430dd6629b7c4f7f7a7666f795ee8dd152fd5"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems07_online_state_audit_s1_20261013/robust_train_state.npz",
+   "size": 2061414,
+   "group": "srm_states",
+   "sha256": "04906da66e2049de6b480a9b88f347b33917ec11f883163abb76392d3eddad11"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/backbone_native_predictions.npz",
+   "size": 26785116,
+   "group": "srm_states",
+   "sha256": "291e714a71be055e1c0c71cb9cfc25e8e45058814f8a918ecd45cbaa99840a1b"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/full_int8_native_predictions.npz",
+   "size": 26325950,
+   "group": "srm_states",
+   "sha256": "3249c50387ea8d5cc6eef8d1bfbaf7d49b2400cd9d6ad274436f6bbff11dc8f8"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/full_int8_valonly.npz",
+   "size": 25142417,
+   "group": "srm_states",
+   "sha256": "f200987a0b14966e254575037e65e7e46c34c45d6d39099ed1e20bf0c1a07747"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/plain_ratio_grouped.npz",
+   "size": 684149,
+   "group": "srm_states",
+   "sha256": "bcd5bf5253b59fd00d3b9fbcc151178b0c350b2416d05b08f51c97b49265a24d"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/plain_ratio_native_predictions.npz",
+   "size": 26519211,
+   "group": "srm_states",
+   "sha256": "42272f5762dc08c862c7435ec1921bb8cd9eee456cdb77d71fd780d311702c0b"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/robust_grouped.npz",
+   "size": 672105,
+   "group": "srm_states",
+   "sha256": "0026630705edf86bd351303c0c9296fdf3eee69203bc73f851608ce769672acd"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/robust_native_predictions.npz",
+   "size": 26518587,
+   "group": "srm_states",
+   "sha256": "6d09ac9d7c0f4ac48283c4b359880d13db3fcaee44b3d287dd9e7ab9037a4327"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/topk_grouped.npz",
+   "size": 1154799,
+   "group": "srm_states",
+   "sha256": "2cdc317b98a07e7e3ff7eb2bcf29444297e738a51b7a17202cd6bbdc4b5174af"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/pems08_s1_temporal_robust_k17_20261013/topk_native_predictions.npz",
+   "size": 26639277,
+   "group": "srm_states",
+   "sha256": "8ef71ff9765786a3ab55044476aedf15a6792ab0b18c5e65ab391989c308fdcd"
+  },
+  {
+   "path": "paper_results/icde_retrieval_free_pilot_20261012/valcal_s1/validation_predictions.npz",
+   "size": 46284411,
+   "group": "srm_states",
+   "sha256": "af58146c269c72ea4e6726c4fb4512000eb51a34e7e08e69f11eb3d9ebbc6fdc"
+  }
+ ]
+}

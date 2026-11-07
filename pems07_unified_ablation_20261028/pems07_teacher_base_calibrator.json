@@ -1,0 +1,38 @@
+{
+  "stage": "teacher_base",
+  "dataset": "PEMS07",
+  "seed": 1,
+  "fitted_on": "Validation",
+  "validation_count": 5640,
+  "validation_raw_metrics": {
+    "mae": 18.56687712609258,
+    "rmse": 31.5243531138252,
+    "mape": 0.08139671777728459
+  },
+  "validation_fitted_metrics": {
+    "mae": 18.031699012789247,
+    "rmse": 30.829015301861688,
+    "mape": 0.07866768044391535
+  },
+  "checkpoint_sha256": "eafcb8bd6b4cd792247907159af20670188081dd896943005ba4bb46ea7bfd5a",
+  "state_sha256": null,
+  "calibrator_sha256": "297cf423f5a3650e558112e0d019a0e092eeb70676211402e77f7e99333d549a",
+  "calibrator_bytes": 2293093,
+  "table_shapes": [
+    [
+      20,
+      12,
+      883
+    ],
+    [
+      20,
+      12,
+      883
+    ],
+    [
+      96,
+      883
+    ]
+  ],
+  "test_not_evaluated": true
+}

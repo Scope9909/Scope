@@ -1,0 +1,30 @@
+{
+  "dataset": "PEMS03",
+  "seed": 1,
+  "selector": "first55_three_block_stability_int8_topk36_budget",
+  "device": "cuda:0",
+  "test_raw_metrics": {
+    "mae": 14.203832009637146,
+    "rmse": 24.153384418043625,
+    "mape": 0.14439219439968304
+  },
+  "test_calibrated_metrics": {
+    "mae": 13.972821004185853,
+    "rmse": 23.88195140531958,
+    "mape": 0.1405171815066493
+  },
+  "validation_count": 5237,
+  "test_count": 5237,
+  "package_bytes": {
+    "selected": 166067,
+    "exact": 166400,
+    "generic": 190096
+  },
+  "legacy_baseline_bytes": 275236,
+  "source_sha256": "dbc74084386a28d209f622414c6e38d48279ba27a0a6a1667c617fd88338ab48",
+  "package_sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15",
+  "runtime_state_bitwise_equal": true,
+  "raw_mae_change_vs_previous": 0.0,
+  "calibrated_mae_change_vs_previous": 0.0,
+  "elapsed_seconds": 68.45681039999909
+}

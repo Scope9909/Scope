@@ -1,0 +1,85 @@
+{
+  "protocol": "fixed_3_expanding_validation_folds_no_test_access",
+  "source_predictions": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1\\selected_predictions.npz",
+  "bias_estimator": "median residual on valid labels (round(truth)>0)",
+  "folds": [
+    {
+      "fit_samples": 1866,
+      "eval_samples": 509,
+      "network_only": {
+        "mae": 17.310517344390984,
+        "rmse": 29.20953933591795,
+        "mape": 0.12158198343896552
+      },
+      "global_median_bias": {
+        "mae": 17.31051725375626,
+        "rmse": 29.209538164902924,
+        "mape": 0.12158295047022616
+      },
+      "horizon_median_bias": {
+        "mae": 17.310516445882097,
+        "rmse": 29.20953691436534,
+        "mape": 0.12158311419968475
+      },
+      "node_horizon_median_bias": {
+        "mae": 17.326812444217467,
+        "rmse": 29.194243099551084,
+        "mape": 0.12598234928890337
+      }
+    },
+    {
+      "fit_samples": 2375,
+      "eval_samples": 509,
+      "network_only": {
+        "mae": 17.305052829267186,
+        "rmse": 29.08311393379554,
+        "mape": 0.11871676437960621
+      },
+      "global_median_bias": {
+        "mae": 17.30504894189013,
+        "rmse": 29.08310944016075,
+        "mape": 0.1187175294374503
+      },
+      "horizon_median_bias": {
+        "mae": 17.305047208512807,
+        "rmse": 29.08310723334692,
+        "mape": 0.11871762288258987
+      },
+      "node_horizon_median_bias": {
+        "mae": 17.28854217652491,
+        "rmse": 29.02967707723715,
+        "mape": 0.12144966736275951
+      }
+    },
+    {
+      "fit_samples": 2884,
+      "eval_samples": 510,
+      "network_only": {
+        "mae": 18.37125873612992,
+        "rmse": 30.77288770656782,
+        "mape": 0.11841245426646267
+      },
+      "global_median_bias": {
+        "mae": 18.37125444591021,
+        "rmse": 30.77288611860259,
+        "mape": 0.11841316332714218
+      },
+      "horizon_median_bias": {
+        "mae": 18.3712529303654,
+        "rmse": 30.772884545962242,
+        "mape": 0.11841330305083657
+      },
+      "node_horizon_median_bias": {
+        "mae": 18.351273457391397,
+        "rmse": 30.748243044365818,
+        "mape": 0.12056242306493059
+      }
+    }
+  ],
+  "mean_fold_mae": {
+    "network_only": 17.662276303262697,
+    "global_median_bias": 17.662273547185535,
+    "horizon_median_bias": 17.662272194920103,
+    "node_horizon_median_bias": 17.65554269271126
+  }
+}

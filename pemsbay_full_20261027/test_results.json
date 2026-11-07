@@ -1,0 +1,64 @@
+{
+  "protocol": "pemsbay_sparse_float32_exact_test_once_v1",
+  "dataset": "PEMSBAY",
+  "selected_nodes": 260,
+  "test_samples": 10419,
+  "test_evaluations": 1,
+  "test_based_selection": false,
+  "checkpoint_sha256": "c86405da6363039d78ed077e6d3febef4538c8336dc80c343794883f7449c32c",
+  "state_sha256": "d6c4239634207368a4686bb4820213197fe78b3c6d09ff94eec44a1d71203c12",
+  "validation_screen_sha256": "1ae0ff6a8e3bf71dd6f835cd4d5579cf0e727a7acddb75ef5fb5d24bec8d1c56",
+  "legacy_test_archive_difference_not_used_for_selection": {
+    "max_abs": 0.07831573486328125,
+    "mean_abs": 0.00035147916059941053,
+    "compare_start": 0
+  },
+  "test_raw": {
+    "mae": 1.5640129227752293,
+    "rmse": 3.518557950839941,
+    "mape": 0.035115192208768436
+  },
+  "test_calibrated": {
+    "mae": 1.5459136468813501,
+    "rmse": 3.4971891616005792,
+    "mape": 0.03464407971054287
+  },
+  "horizons": {
+    "3": {
+      "raw": {
+        "mae": 1.3076796924522145,
+        "rmse": 2.7901421593518836,
+        "mape": 0.027637898986949818
+      },
+      "calibrated": {
+        "mae": 1.2955120924572208,
+        "rmse": 2.7776939030322794,
+        "mape": 0.027331426602304518
+      }
+    },
+    "6": {
+      "raw": {
+        "mae": 1.6347473037395344,
+        "rmse": 3.7491413851702884,
+        "mape": 0.036873327170331066
+      },
+      "calibrated": {
+        "mae": 1.6153433629514544,
+        "rmse": 3.7278071558741863,
+        "mape": 0.03640424075429126
+      }
+    },
+    "12": {
+      "raw": {
+        "mae": 1.904053356689713,
+        "rmse": 4.408910767755301,
+        "mape": 0.044591351301075915
+      },
+      "calibrated": {
+        "mae": 1.8767170388872012,
+        "rmse": 4.3744751100290005,
+        "mape": 0.04380390960680124
+      }
+    }
+  }
+}

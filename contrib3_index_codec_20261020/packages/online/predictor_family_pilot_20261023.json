@@ -1,0 +1,194 @@
+{
+  "title": "Additional exact predictor-family pilot",
+  "date": "2026-10-23",
+  "scope": "s1 Validation online states only; no labels or Test used",
+  "new_predictors": [
+    "second-order linear extrapolation",
+    "daily seasonal value plus recent trend"
+  ],
+  "per_node_selector": "Select among lag1, linear2, and seasonal_trend288 using per-node compressed residual bytes; include one-byte mode id in local screening, then measure complete package.",
+  "losslessness": "Serialized NPZ readback; raw reconstructed elementwise; all other state fields checked elementwise.",
+  "not_evaluated": [
+    "Test",
+    "runtime decode latency",
+    "production cold-start loader"
+  ],
+  "results": [
+    {
+      "dataset": "PEMS03",
+      "baseline_npz_bytes": 275907,
+      "baseline_npz_xz_bytes": 270000,
+      "already_tested_fixed_lag1": {
+        "npz_bytes": 242554,
+        "npz_xz_bytes": 236492,
+        "best_array_order": "F",
+        "saved_vs_baseline_npz_bytes": 33353,
+        "saved_vs_baseline_xz_bytes": 33508,
+        "exact_roundtrip": true
+      },
+      "new_fixed_predictors": {
+        "lag1": {
+          "npz_bytes": 242565,
+          "npz_xz_bytes": 236496,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "linear2": {
+          "npz_bytes": 265004,
+          "npz_xz_bytes": 258852,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "seasonal_trend288": {
+          "npz_bytes": 263640,
+          "npz_xz_bytes": 257728,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        }
+      },
+      "new_per_node_predictor": {
+        "npz_bytes": 242414,
+        "npz_xz_bytes": 236548,
+        "best_array_order": "F",
+        "selected_modes": {
+          "lag1": 36,
+          "linear2": 0,
+          "seasonal_trend288": 0
+        },
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "dataset": "PEMS04",
+      "baseline_npz_bytes": 79579,
+      "baseline_npz_xz_bytes": 73980,
+      "already_tested_fixed_lag1": {
+        "npz_bytes": 68600,
+        "npz_xz_bytes": 62852,
+        "best_array_order": "F",
+        "saved_vs_baseline_npz_bytes": 10979,
+        "saved_vs_baseline_xz_bytes": 11128,
+        "exact_roundtrip": true
+      },
+      "new_fixed_predictors": {
+        "lag1": {
+          "npz_bytes": 68611,
+          "npz_xz_bytes": 62848,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "linear2": {
+          "npz_bytes": 73528,
+          "npz_xz_bytes": 67804,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "seasonal_trend288": {
+          "npz_bytes": 79536,
+          "npz_xz_bytes": 74044,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        }
+      },
+      "new_per_node_predictor": {
+        "npz_bytes": 68471,
+        "npz_xz_bytes": 62896,
+        "best_array_order": "F",
+        "selected_modes": {
+          "lag1": 31,
+          "linear2": 0,
+          "seasonal_trend288": 0
+        },
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "dataset": "PEMS07",
+      "baseline_npz_bytes": 356299,
+      "baseline_npz_xz_bytes": 322560,
+      "already_tested_fixed_lag1": {
+        "npz_bytes": 297312,
+        "npz_xz_bytes": 268900,
+        "best_array_order": "F",
+        "saved_vs_baseline_npz_bytes": 58987,
+        "saved_vs_baseline_xz_bytes": 53660,
+        "exact_roundtrip": true
+      },
+      "new_fixed_predictors": {
+        "lag1": {
+          "npz_bytes": 297323,
+          "npz_xz_bytes": 268900,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "linear2": {
+          "npz_bytes": 313537,
+          "npz_xz_bytes": 285676,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "seasonal_trend288": {
+          "npz_bytes": 324961,
+          "npz_xz_bytes": 297384,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        }
+      },
+      "new_per_node_predictor": {
+        "npz_bytes": 297241,
+        "npz_xz_bytes": 267088,
+        "best_array_order": "F",
+        "selected_modes": {
+          "lag1": 121,
+          "linear2": 0,
+          "seasonal_trend288": 0
+        },
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "dataset": "PEMS08",
+      "baseline_npz_bytes": 33803,
+      "baseline_npz_xz_bytes": 28452,
+      "already_tested_fixed_lag1": {
+        "npz_bytes": 31085,
+        "npz_xz_bytes": 25912,
+        "best_array_order": "F",
+        "saved_vs_baseline_npz_bytes": 2718,
+        "saved_vs_baseline_xz_bytes": 2540,
+        "exact_roundtrip": true
+      },
+      "new_fixed_predictors": {
+        "lag1": {
+          "npz_bytes": 31096,
+          "npz_xz_bytes": 25916,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "linear2": {
+          "npz_bytes": 32995,
+          "npz_xz_bytes": 27720,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        },
+        "seasonal_trend288": {
+          "npz_bytes": 37144,
+          "npz_xz_bytes": 31896,
+          "best_array_order": "F",
+          "exact_roundtrip": true
+        }
+      },
+      "new_per_node_predictor": {
+        "npz_bytes": 30906,
+        "npz_xz_bytes": 25824,
+        "best_array_order": "F",
+        "selected_modes": {
+          "lag1": 20,
+          "linear2": 0,
+          "seasonal_trend288": 0
+        },
+        "exact_roundtrip": true
+      }
+    }
+  ]
+}

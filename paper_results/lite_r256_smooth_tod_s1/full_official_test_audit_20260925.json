@@ -1,0 +1,43 @@
+{
+  "audit_date": "2026-09-25",
+  "verdict": "the existing 3394-row calibration result already covers the complete official PEMS04 12-to-12 test split",
+  "official_index_source": "datasets/PEMS04/PEMS04_12to12_index_scaler.npz",
+  "official_unique_test_samples": 3394,
+  "prediction_cache_source": "datasets/PEMS04/PEMS04_12to12_lite_r256_predictions_s1.npz",
+  "prediction_cache_test_rows": 3424,
+  "padding_rows": 30,
+  "padding_rule": "test_loader pad_last_sample=True at batch_size=32",
+  "all_padding_rows_equal_last_unique_prediction": true,
+  "aligned_input_source": "paper_results/lite_r256_aligned_for_calibration_s1/selected_predictions.npz",
+  "aligned_test_samples": 3394,
+  "test_endpoints_equal_official_idx_test": true,
+  "test_truth_equal_raw_data_reconstruction": true,
+  "test_truth_max_abs_difference": 0.0,
+  "fixed_calibrator_source": "paper_results/lite_r256_smooth_tod_s1/calibrator.npz",
+  "calibration_protocol": "validation_only_smooth_level_target_time_v1",
+  "hyperparameters_changed_for_this_audit": false,
+  "recomputed_metrics": {
+    "uncalibrated": {
+      "mae": 17.656535952860455,
+      "rmse": 29.37966835991322,
+      "mape": 0.12021337113058632
+    },
+    "smooth_level_only": {
+      "mae": 17.557242543265847,
+      "rmse": 29.22143002652246,
+      "mape": 0.11985332480839757
+    },
+    "smooth_level_plus_target_time": {
+      "mae": 17.502776383106024,
+      "rmse": 29.160334206008557,
+      "mape": 0.11962264959108253
+    }
+  },
+  "mae_improvement": 0.15375956975443117,
+  "paper_rounding": {
+    "mae_two_decimals": 17.50,
+    "rmse_two_decimals": 29.16,
+    "mape_percent_two_decimals": 11.96
+  },
+  "warning": "Do not evaluate or report all 3424 cache rows: the final 30 rows are duplicate batch padding and would overweight the last test endpoint."
+}

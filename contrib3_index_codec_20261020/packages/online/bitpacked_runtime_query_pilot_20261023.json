@@ -1,0 +1,105 @@
+{
+  "title": "Delta-bitpacked state runtime query compatibility pilot",
+  "date": "2026-10-23",
+  "scope": "s1 Validation state archives; no labels or Test used",
+  "query": "Actual OnlineResidualMemory.query; four candidate-derived query histories per dataset, including zero masking and a one-value perturbation.",
+  "results": [
+    {
+      "dataset": "PEMS03",
+      "source_npz_bytes": 507546,
+      "strong_lossless_same_layout_npz_bytes": 275907,
+      "bitpacked_npz_bytes": 223134,
+      "saved_bytes": 52773,
+      "saved_fraction": 0.1912709717404778,
+      "query_count": 4,
+      "query_cases": [
+        "exact",
+        "zero-masked",
+        "one-value-perturbed",
+        "exact"
+      ],
+      "raw_elementwise_exact": true,
+      "all_other_fields_exact": true,
+      "retrieval_outputs_bitwise_equal": true,
+      "baseline_memory_init_seconds": 0.027351499998985673,
+      "packed_decode_seconds": 0.05722770000102173,
+      "decoded_memory_init_seconds": 0.02491370000097959,
+      "baseline_query_seconds": 0.0034292000000277767,
+      "decoded_query_seconds": 0.0019236000007367693
+    },
+    {
+      "dataset": "PEMS04",
+      "source_npz_bytes": 168734,
+      "strong_lossless_same_layout_npz_bytes": 79579,
+      "bitpacked_npz_bytes": 68787,
+      "saved_bytes": 10792,
+      "saved_fraction": 0.1356136669221779,
+      "query_count": 4,
+      "query_cases": [
+        "exact",
+        "zero-masked",
+        "one-value-perturbed",
+        "exact"
+      ],
+      "raw_elementwise_exact": true,
+      "all_other_fields_exact": true,
+      "retrieval_outputs_bitwise_equal": true,
+      "baseline_memory_init_seconds": 0.01866659999905096,
+      "packed_decode_seconds": 0.04314119999980903,
+      "decoded_memory_init_seconds": 0.018212400000265916,
+      "baseline_query_seconds": 0.0015643999995518243,
+      "decoded_query_seconds": 0.001283999999941443
+    },
+    {
+      "dataset": "PEMS07",
+      "source_npz_bytes": 1840841,
+      "strong_lossless_same_layout_npz_bytes": 356299,
+      "bitpacked_npz_bytes": 250958,
+      "saved_bytes": 105341,
+      "saved_fraction": 0.2956533697821212,
+      "query_count": 4,
+      "query_cases": [
+        "exact",
+        "zero-masked",
+        "one-value-perturbed",
+        "exact"
+      ],
+      "raw_elementwise_exact": true,
+      "all_other_fields_exact": true,
+      "retrieval_outputs_bitwise_equal": true,
+      "baseline_memory_init_seconds": 0.06910349999998289,
+      "packed_decode_seconds": 0.107186899998851,
+      "decoded_memory_init_seconds": 0.07024540000020352,
+      "baseline_query_seconds": 0.004514599999311031,
+      "decoded_query_seconds": 0.004072600000654347
+    },
+    {
+      "dataset": "PEMS08",
+      "source_npz_bytes": 108241,
+      "strong_lossless_same_layout_npz_bytes": 33803,
+      "bitpacked_npz_bytes": 28103,
+      "saved_bytes": 5700,
+      "saved_fraction": 0.16862408661953077,
+      "query_count": 4,
+      "query_cases": [
+        "exact",
+        "zero-masked",
+        "one-value-perturbed",
+        "exact"
+      ],
+      "raw_elementwise_exact": true,
+      "all_other_fields_exact": true,
+      "retrieval_outputs_bitwise_equal": true,
+      "baseline_memory_init_seconds": 0.015111099999558064,
+      "packed_decode_seconds": 0.032204299999648356,
+      "decoded_memory_init_seconds": 0.01593250000041735,
+      "baseline_query_seconds": 0.0014711000003444497,
+      "decoded_query_seconds": 0.0011697000009007752
+    }
+  ],
+  "limitations": [
+    "No full Student prediction/MAE rerun",
+    "Small query sample; latency is diagnostic only",
+    "Temporary NPZ candidate is deleted after each dataset"
+  ]
+}

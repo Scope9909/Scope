@@ -1,0 +1,158 @@
+{
+  "dataset": "PEMS07",
+  "checkpoint_seed": 1,
+  "validation_prefix_count": 3102,
+  "validation_total_count": 5640,
+  "valid_nodes": 883,
+  "positive_nodes": 651,
+  "positive_fraction": 0.7372593431483578,
+  "negative_nodes": 232,
+  "negative_fraction": 0.2627406568516421,
+  "zero_gain_nodes": 0,
+  "gain_min": -86.59668005068738,
+  "gain_median": 0.04706209397126315,
+  "gain_max": 19.06302469713878,
+  "gain_quantiles": {
+    "0.1": -0.056409036211062615,
+    "0.25": -0.0014811519292399211,
+    "0.75": 0.321072744651941,
+    "0.9": 2.035912330704506
+  },
+  "selection_rule": {
+    "positive_p90": 2.674984454596245,
+    "negative_p10": -0.6647220687817031,
+    "a_pool": "positive nodes with <95% exact seven-day repetition and >=10% relative MAE reduction",
+    "a_pool_size": 12
+  },
+  "window_selection": {
+    "valid_common_candidates": 1429,
+    "selected_range_percentiles": [
+      10.0,
+      90.0
+    ],
+    "rule": "same sample; all 12 targets valid; A positive and C negative window gains; window gain, base MAE, and retrieval MAE in their non-extreme ranges; minimize standardized distance to three node-wise gains",
+    "base_mae": [
+      29.476287841796875,
+      17.352333068847656,
+      14.575815836588541
+    ],
+    "retrieval_mae": [
+      26.94360860188802,
+      17.392501831054688,
+      14.877212524414062
+    ],
+    "gain": [
+      2.5326792399088554,
+      -0.04016876220703125,
+      -0.3013966878255214
+    ],
+    "valid_count": [
+      12,
+      12,
+      12
+    ]
+  },
+  "selected_nodes": [
+    {
+      "role": "A_high",
+      "node_id": 490,
+      "base_mae": "20.2470311563",
+      "retrieval_mae": "17.3598329047",
+      "gain": "2.8871982516",
+      "valid_count": 37224,
+      "srm_selected": false,
+      "seven_day_exact_repeat_rate": "0.1487311275"
+    },
+    {
+      "role": "B_near_zero",
+      "node_id": 544,
+      "base_mae": "19.0413239334",
+      "retrieval_mae": "19.0413035227",
+      "gain": "0.0000204106",
+      "valid_count": 37224,
+      "srm_selected": false,
+      "seven_day_exact_repeat_rate": "0.0147767427"
+    },
+    {
+      "role": "C_negative",
+      "node_id": 792,
+      "base_mae": "17.4488992550",
+      "retrieval_mae": "18.1177964390",
+      "gain": "-0.6688971840",
+      "valid_count": 37224,
+      "srm_selected": false,
+      "seven_day_exact_repeat_rate": "0.0189527787"
+    }
+  ],
+  "selected_windows": [
+    {
+      "role": "A_high",
+      "node_id": 490,
+      "val_sample_index_0based": 2464,
+      "input_endpoint_index_0based": 19396,
+      "forecast_start": "2017-07-07 08:25:00",
+      "forecast_end": "2017-07-07 09:20:00",
+      "window_base_mae": "29.4762878418",
+      "window_retrieval_mae": "26.9436086019",
+      "window_gain": "2.5326792399",
+      "window_valid_count": 12,
+      "node_validation_gain": "2.8871982516"
+    },
+    {
+      "role": "B_near_zero",
+      "node_id": 544,
+      "val_sample_index_0based": 2464,
+      "input_endpoint_index_0based": 19396,
+      "forecast_start": "2017-07-07 08:25:00",
+      "forecast_end": "2017-07-07 09:20:00",
+      "window_base_mae": "17.3523330688",
+      "window_retrieval_mae": "17.3925018311",
+      "window_gain": "-0.0401687622",
+      "window_valid_count": 12,
+      "node_validation_gain": "0.0000204106"
+    },
+    {
+      "role": "C_negative",
+      "node_id": 792,
+      "val_sample_index_0based": 2464,
+      "input_endpoint_index_0based": 19396,
+      "forecast_start": "2017-07-07 08:25:00",
+      "forecast_end": "2017-07-07 09:20:00",
+      "window_base_mae": "14.5758158366",
+      "window_retrieval_mae": "14.8772125244",
+      "window_gain": "-0.3013966878",
+      "window_valid_count": 12,
+      "node_validation_gain": "-0.6688971840"
+    }
+  ],
+  "srm_node_count": 121,
+  "panel_y_scales": [
+    [
+      500,
+      650
+    ],
+    [
+      400,
+      550
+    ],
+    [
+      300,
+      400
+    ]
+  ],
+  "nodes_with_weekly_repeat_ge_95pct": 187,
+  "srm_nodes_with_weekly_repeat_ge_95pct": 121,
+  "srm_min_weekly_repeat": 0.9996787664632187,
+  "source_sha256": {
+    "datasets\\PEMS07\\data.npz": "f0523989cc048d98bb1cf6d16ce57bb78325dd58bafc4528182558f97235b1cf",
+    "datasets\\PEMS07\\PEMS07_time.npz": "928186d801c269bfffd582b419f83e24bdba8dbbc1dc92009d45f020aab0ce32",
+    "datasets\\PEMS07\\PEMS07_12to12_index_scaler.npz": "32922c741731e603d30145ae5878b697be5a077460b52494828c945e7d9017f2",
+    "paper_results\\icde_retrieval_free_pilot_20261012\\pems07_node_budget_s1_no_memory\\no_memory_validation_predictions.npz": "f67121b198d8b97b8f5413a9d07430dd6629b7c4f7f7a7666f795ee8dd152fd5",
+    "paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only\\selected_predictions.npz": "2286656efa438c03594d9daf6e58894911fb939cb3fc81d47635cfdd838f6196",
+    "EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth": "19f3a9a81f8942d3a869aa1baa8f035bb015d8da612db60941b84879ad578349",
+    "cold_start_streaming_20261014\\pems07_sparse_cold_state.npz": "8da1ae2d70c6d286a561a24e9c041e44138dbb0492ac8c97a5c1ba020bbb0bb0"
+  },
+  "new_inference_run": false,
+  "calibration_used": false,
+  "test_labels_read": false
+}

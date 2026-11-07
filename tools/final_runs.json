@@ -1,0 +1,7 @@
+{
+  "PEMS03": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exp10101500_s1",
+  "PEMS04": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1",
+  "PEMS07": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1",
+  "PEMS08": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1",
+  "PEMSBAY": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1"
+}

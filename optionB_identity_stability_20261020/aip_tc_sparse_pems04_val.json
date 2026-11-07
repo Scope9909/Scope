@@ -1,0 +1,42 @@
+{
+  "scope": "PEMS04 validation-only, zero training, no Test",
+  "arms": {
+    "C0_T_r8_E_f32_dense": 17.853611877294274,
+    "C0b_T_raw_E_f32_dense": 17.851883162604068,
+    "S_sparse_f32": 17.853611877294274,
+    "SQ_sparse_fp16": 17.854508836894347,
+    "R8_dense": 17.974752314628596,
+    "SR8_sparse": 17.974752314628596,
+    "X_exact_channel_off": 18.182686316100916
+  },
+  "accounting": {
+    "slots": 12503496,
+    "fired_slots": 1185576,
+    "fire_rate": 0.09481956086521721,
+    "bits_per_element": {
+      "E_dense_f32": 32.0,
+      "E_sparse_f32_plus_bitmap": 4.034225947686951,
+      "E_sparse_f16_plus_bitmap": 2.5171129738434757,
+      "T_deployed_r8_f16": 10.666666666666666
+    },
+    "E_storage_saving_vs_dense_f32": {
+      "sparse_f32": 0.8739304391347827,
+      "sparse_f16": 0.9213402195673914
+    },
+    "note": "T is priced as the deployed fp16 r8 code (8 codes per 12 steps per node); the bitmap is priced at 1 bit per slot."
+  },
+  "exact_channel_contribution": {
+    "mae_without_exact_channel": 18.182686316100916,
+    "exact_channel_total_gain": 0.3290744388066429,
+    "fire_rate": 0.09481956086521721,
+    "gain_per_fired_slot": 3.4705332507752384,
+    "note": "gain_per_fired_slot is the MAE-equivalent contribution attributable to the exact channel divided by the fraction of slots on which it fires; it is an aggregate density, not a per-slot causal estimate."
+  },
+  "verdict": {
+    "criterion_MAE_cost_le_0.01": true,
+    "best_arm_cost": 0.0,
+    "low_rank_cost": 0.12114043733432212,
+    "sparse_beats_low_rank_by": 0.12114043733432212,
+    "route": "CANDIDATE"
+  }
+}

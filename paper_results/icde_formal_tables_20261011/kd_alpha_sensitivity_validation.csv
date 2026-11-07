@@ -1,0 +1,4 @@
+﻿kd_alpha,rank,parameters,anchor_val_mae,best_epoch,best_val_mae,best_val_rmse,training_finished,test_skipped
+0.1,256,665314,17.8542,4,17.8394,30.0607,True,True
+0.2,256,665314,17.8542,20,17.8331,30.0553,True,True
+0.3,256,665314,17.8542,15,17.8332,30.0461,True,True

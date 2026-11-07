@@ -1,0 +1,37 @@
+{
+  "title": "Bitpacked runtime compatibility checks",
+  "date": "2026-10-23",
+  "checks": [
+    {
+      "format": "new_delta_bitpacked",
+      "dataset": "PEMS03",
+      "fields_exact": true
+    },
+    {
+      "format": "new_delta_bitpacked",
+      "dataset": "PEMS04",
+      "fields_exact": true
+    },
+    {
+      "format": "new_delta_bitpacked",
+      "dataset": "PEMS07",
+      "fields_exact": true
+    },
+    {
+      "format": "new_delta_bitpacked",
+      "dataset": "PEMS08",
+      "fields_exact": true
+    },
+    {
+      "format": "legacy",
+      "archive": "pems08_s1_val_u16.npz",
+      "decoded": true
+    },
+    {
+      "format": "legacy",
+      "archive": "pems08_s1_val_fixed_19_idx.npz",
+      "decoded": true
+    }
+  ],
+  "corrupt_checksum_rejected": true
+}

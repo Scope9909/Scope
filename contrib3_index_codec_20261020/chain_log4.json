@@ -1,0 +1,46 @@
+{
+ "PEMS03": {
+  "cache_base": 151.863516,
+  "cache_log4": 45.858404,
+  "idx_base": 25.133,
+  "idx_6bit": 18.45,
+  "both_xz": 176.996516,
+  "both_new": 64.308404,
+  "raw_both": 719.94072,
+  "saving_vs_xz": 0.6366685319387869,
+  "saving_vs_raw": 0.9106754178316236
+ },
+ "PEMS04": {
+  "cache_base": 82.35030400000001,
+  "cache_log4": 25.411108,
+  "idx_base": 12.561,
+  "idx_6bit": 8.94,
+  "both_xz": 94.911304,
+  "both_new": 34.351107999999996,
+  "raw_both": 400.11156,
+  "saving_vs_xz": 0.6380714777662311,
+  "saving_vs_raw": 0.9141461746318952
+ },
+ "PEMS07": {
+  "cache_base": 390.77259599999996,
+  "cache_log4": 114.78252,
+  "idx_base": 65.074,
+  "idx_6bit": 42.325,
+  "both_xz": 455.846596,
+  "both_new": 157.10752000000002,
+  "raw_both": 1912.3664,
+  "saving_vs_xz": 0.6553500204266085,
+  "saving_vs_raw": 0.9178465381947727
+ },
+ "PEMS08": {
+  "cache_base": 43.606296,
+  "cache_log4": 13.515836,
+  "idx_base": 7.544,
+  "idx_6bit": 4.664,
+  "both_xz": 51.150296,
+  "both_new": 18.179836,
+  "raw_both": 232.82160000000002,
+  "saving_vs_xz": 0.6445800430949608,
+  "saving_vs_raw": 0.9219151659468022
+ }
+}

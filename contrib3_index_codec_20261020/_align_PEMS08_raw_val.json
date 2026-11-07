@@ -1,0 +1,40 @@
+{
+  "scope": "PEMS08_val_only_no_training",
+  "mode": "baseline",
+  "split": "val",
+  "reranker": "as-trained",
+  "query_count": 3566,
+  "candidate_payload_shape_first_batch": [
+    32,
+    8,
+    12,
+    170,
+    1
+  ],
+  "metrics": {
+    "mae": 12.979351074764319,
+    "rmse": 23.66866230074345
+  },
+  "timing_seconds": {
+    "retrieval_loader_total": 4.89255939999839,
+    "retrieval_loader_mean_batch": 0.0436835660714142,
+    "model_end_to_end_total": 5.346970699999019,
+    "model_end_to_end_mean_batch": 0.047740809821419816,
+    "model_end_to_end_p50_batch": 0.031077099999947677,
+    "model_end_to_end_p95_batch": 0.03463391499994941,
+    "code_decode_total": 0.0,
+    "code_decode_mean_batch": 0.0,
+    "code_aggregate_total": 0.0,
+    "code_aggregate_mean_batch": 0.0,
+    "final_decode_total": 0.0,
+    "final_decode_mean_batch": 0.0,
+    "candidate_decode_count_total": 0,
+    "final_decode_count_total": 0
+  },
+  "peak_process_rss_bytes": 3351859200,
+  "peak_process_rss_mib": 3196.58203125,
+  "peak_gpu_allocated_bytes": 235103232,
+  "peak_gpu_allocated_mib": 224.2119140625,
+  "peak_gpu_reserved_bytes": 358612992,
+  "peak_gpu_reserved_mib": 342.0
+}

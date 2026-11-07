@@ -1,0 +1,356 @@
+{
+  "PEMS03": {
+    "exp_dir": "TLAST_improved_PEMS03_12to12_exppaper_pems03_s1_final_joint",
+    "num_nodes": 358,
+    "T_basis_fit_s": 2.1159398999989207,
+    "per_split_file_MB": {
+      "train": {
+        "all_f32": 327.311625,
+        "deployed": 275.787584,
+        "fcl": 198.88546,
+        "index6": 30.195557
+      },
+      "val": {
+        "all_f32": 109.018526,
+        "deployed": 92.075445,
+        "fcl": 66.377946,
+        "index6": 10.119837
+      },
+      "test": {
+        "all_f32": 108.334879,
+        "deployed": 91.766801,
+        "fcl": 66.317308,
+        "index6": 10.106879
+      }
+    },
+    "total_file_MB": {
+      "all_f32": 544.66503,
+      "deployed": 459.62983,
+      "fcl": 331.580714,
+      "index6": 50.422273,
+      "fcl_index6": 382.002987
+    },
+    "shipped_reference_MB": {
+      "cache_file_MB": 544.708483,
+      "index_file_MB": 88.082489,
+      "total_MB": 632.790972
+    },
+    "saving_vs_all_f32": 0.29864601918724243,
+    "saving_vs_deployed_form": 0.16888991517369534,
+    "saving_vs_shipped_files": 0.39632042190386996,
+    "saving_vs_shipped_deployed": null,
+    "verify": {
+      "train": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.9253838062286377,
+        "decode_ms": {
+          "T": 1641.1865999980364,
+          "E": 86.3177999999607,
+          "fd": 961.2680999998702,
+          "hd": 81.85320000120555,
+          "all": 2770.625699999073
+        }
+      },
+      "val": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.8379334211349487,
+        "decode_ms": {
+          "T": 530.8330000007118,
+          "E": 26.86109999922337,
+          "fd": 302.0689000004495,
+          "hd": 25.75570000044536,
+          "all": 885.51870000083
+        },
+        "val_MAE_C0_raw": 13.198728293025091,
+        "val_MAE_from_artifact": 13.206608680932202,
+        "val_MAE_delta": 0.007880387907110986
+      },
+      "test": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.8250700831413269,
+        "decode_ms": {
+          "T": 561.8877000015345,
+          "E": 24.489300001732772,
+          "fd": 309.26309999995283,
+          "hd": 31.26469999915571,
+          "all": 926.9048000023759
+        }
+      }
+    }
+  },
+  "PEMS04": {
+    "exp_dir": "TLAST_improved_PEMS04_12to12_exppaper_pems04_s1_latc_pca_r8_joint3",
+    "num_nodes": 307,
+    "T_basis_fit_s": 1.2520256000025256,
+    "per_split_file_MB": {
+      "train": {
+        "all_f32": 176.500553,
+        "deployed": 149.457764,
+        "fcl": 105.960999,
+        "index6": 14.895463
+      },
+      "val": {
+        "all_f32": 60.455706,
+        "deployed": 50.762486,
+        "fcl": 35.950289,
+        "index6": 5.111311
+      },
+      "test": {
+        "all_f32": 58.826098,
+        "deployed": 49.840621,
+        "fcl": 35.459352,
+        "index6": 5.001252
+      }
+    },
+    "total_file_MB": {
+      "all_f32": 295.782357,
+      "deployed": 250.060871,
+      "fcl": 177.37064,
+      "index6": 25.008026,
+      "fcl_index6": 202.378666
+    },
+    "shipped_reference_MB": {
+      "cache_file_MB": 295.811951,
+      "index_file_MB": 44.312622,
+      "deployed_cache_file_MB": 252.323634,
+      "total_deployed_MB": 296.636256,
+      "total_MB": 340.124573
+    },
+    "saving_vs_all_f32": 0.31578520080560446,
+    "saving_vs_deployed_form": 0.19068239188849334,
+    "saving_vs_shipped_files": 0.4049866370578288,
+    "saving_vs_shipped_deployed": 0.3177547858478904,
+    "verify": {
+      "train": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.6441453695297241,
+        "decode_ms": {
+          "T": 810.8991000008245,
+          "E": 48.96039999948698,
+          "fd": 449.40200000201,
+          "hd": 42.69589999967138,
+          "all": 1351.957400001993
+        }
+      },
+      "val": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.5540506839752197,
+        "decode_ms": {
+          "T": 300.57899999883375,
+          "E": 18.47540000017034,
+          "fd": 191.17570000162232,
+          "hd": 15.031999999337131,
+          "all": 525.2620999999635
+        },
+        "val_MAE_C0_raw": 17.852024704101243,
+        "val_MAE_from_artifact": 17.854644016975918,
+        "val_MAE_delta": 0.002619312874674762
+      },
+      "test": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.6254323720932007,
+        "decode_ms": {
+          "T": 298.28839999754564,
+          "E": 19.05530000294675,
+          "fd": 164.9963999989268,
+          "hd": 14.733399999386165,
+          "all": 497.07349999880535
+        }
+      }
+    }
+  },
+  "PEMS07": {
+    "exp_dir": "TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_final_joint",
+    "num_nodes": 883,
+    "T_basis_fit_s": 6.7068655999974,
+    "per_split_file_MB": {
+      "train": {
+        "all_f32": 1054.388043,
+        "deployed": 839.889138,
+        "fcl": 489.517163,
+        "index6": 72.180975
+      },
+      "val": {
+        "all_f32": 346.851823,
+        "deployed": 276.061931,
+        "fcl": 160.461275,
+        "index6": 23.995013
+      },
+      "test": {
+        "all_f32": 346.31458,
+        "deployed": 275.170581,
+        "fcl": 161.39015,
+        "index6": 24.177207
+      }
+    },
+    "total_file_MB": {
+      "all_f32": 1747.554446,
+      "deployed": 1391.12165,
+      "fcl": 811.368588,
+      "index6": 120.353195,
+      "fcl_index6": 931.721783
+    },
+    "shipped_reference_MB": {
+      "cache_file_MB": 1747.602149,
+      "index_file_MB": 225.948642,
+      "total_MB": 1973.5507910000001
+    },
+    "saving_vs_all_f32": 0.4668424865773825,
+    "saving_vs_deployed_form": 0.33023701917082526,
+    "saving_vs_shipped_files": 0.5278957160621665,
+    "saving_vs_shipped_deployed": null,
+    "verify": {
+      "train": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 1.439988136291504,
+        "decode_ms": {
+          "T": 3882.523200001742,
+          "E": 476.70730000027106,
+          "fd": 2297.7109999992535,
+          "hd": 218.94009999959962,
+          "all": 6875.8816000008665
+        }
+      },
+      "val": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 1.6503403186798096,
+        "decode_ms": {
+          "T": 1197.0567999997002,
+          "E": 155.4816000025312,
+          "fd": 719.8242999984359,
+          "hd": 63.84020000041346,
+          "all": 2136.2029000010807
+        },
+        "val_MAE_C0_raw": 18.222244758939976,
+        "val_MAE_from_artifact": 18.22511388328908,
+        "val_MAE_delta": 0.002869124349103913
+      },
+      "test": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 1.6503403186798096,
+        "decode_ms": {
+          "T": 1226.6094999977213,
+          "E": 162.31340000013006,
+          "fd": 745.4776000013226,
+          "hd": 67.0377999995253,
+          "all": 2201.438299998699
+        }
+      }
+    }
+  },
+  "PEMS08": {
+    "exp_dir": "TLAST_improved_PEMS08_12to12_exppaper_pems08_s1_final_joint",
+    "num_nodes": 170,
+    "T_basis_fit_s": 0.7335587999987183,
+    "per_split_file_MB": {
+      "train": {
+        "all_f32": 98.487164,
+        "deployed": 82.457771,
+        "fcl": 58.254373,
+        "index6": 8.065223
+      },
+      "val": {
+        "all_f32": 32.603027,
+        "deployed": 27.306485,
+        "fcl": 19.478962,
+        "index6": 2.690825
+      },
+      "test": {
+        "all_f32": 32.282702,
+        "deployed": 27.144842,
+        "fcl": 19.400277,
+        "index6": 2.676559
+      }
+    },
+    "total_file_MB": {
+      "all_f32": 163.372893,
+      "deployed": 136.909098,
+      "fcl": 97.133612,
+      "index6": 13.432607,
+      "fcl_index6": 110.566219
+    },
+    "shipped_reference_MB": {
+      "cache_file_MB": 163.403801,
+      "index_file_MB": 26.824673,
+      "total_MB": 190.22847399999998
+    },
+    "saving_vs_all_f32": 0.32322788089453736,
+    "saving_vs_deployed_form": 0.19241145683393512,
+    "saving_vs_shipped_files": 0.41877145584419706,
+    "saving_vs_shipped_deployed": null,
+    "verify": {
+      "train": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.9676806926727295,
+        "decode_ms": {
+          "T": 518.9465999974345,
+          "E": 61.7156000007526,
+          "fd": 290.49700000177836,
+          "hd": 27.258499998424668,
+          "all": 898.4176999983902
+        }
+      },
+      "val": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.7869712114334106,
+        "decode_ms": {
+          "T": 166.39040000154637,
+          "E": 18.762199997581774,
+          "fd": 104.44320000169682,
+          "hd": 8.813399999780813,
+          "all": 298.4092000006058
+        },
+        "val_MAE_C0_raw": 13.24612245128439,
+        "val_MAE_from_artifact": 13.2641113925724,
+        "val_MAE_delta": 0.017988941288010096
+      },
+      "test": {
+        "mask_bit_identical": true,
+        "E_bit_identical": true,
+        "fd_bit_identical": true,
+        "hd_bit_identical": true,
+        "T_max_abs_error_vs_raw": 0.7869712114334106,
+        "decode_ms": {
+          "T": 170.8878999997978,
+          "E": 18.19180000165943,
+          "fd": 100.95879999789759,
+          "hd": 8.929800002078991,
+          "all": 298.9683000014338
+        }
+      }
+    }
+  }
+}

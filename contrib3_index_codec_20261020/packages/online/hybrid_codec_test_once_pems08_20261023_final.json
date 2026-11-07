@@ -1,0 +1,17 @@
+{
+  "dataset": "PEMS08",
+  "seed": 1,
+  "selector": "actual_online_state_byte_capped_int8_s1",
+  "frozen_choice": "strong-lossless + exact delta-bitpacking",
+  "validation_package_bytes": 28343,
+  "test_package_bytes": 27442,
+  "validation_baseline_mae": 13.154658311310186,
+  "validation_final_mae": 13.154658311310186,
+  "validation_delta_mae": 0.0,
+  "test_raw_mae": 13.100968681001655,
+  "test_val_calibrated_mae": 12.876735252774017,
+  "validation_count": 3566,
+  "test_count": 3567,
+  "test_evaluated_once": true,
+  "test_state_roundtrip_bitwise_equal": true
+}

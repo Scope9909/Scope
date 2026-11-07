@@ -1,0 +1,604 @@
+{
+  "scope": "Validation frozen-beam state re-costing",
+  "test_used": false,
+  "labels_loaded": false,
+  "search_rerun": false,
+  "new_exact_bytes": 83452,
+  "states": [
+    {
+      "nodes": [
+        1
+      ],
+      "val_delta": 0.0021581032975390713,
+      "topk_flip_rate": 0.0003047886993728386,
+      "exact_flip_rate": 0.008264462809917356,
+      "old_package_bytes": 355841,
+      "new_package_bytes": 85774,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15
+      ],
+      "val_delta": 0.006537116789644415,
+      "topk_flip_rate": 0.0005377762147588067,
+      "exact_flip_rate": 0.008264462809917356,
+      "old_package_bytes": 353405,
+      "new_package_bytes": 83581,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        35
+      ],
+      "val_delta": 0.003558450017703052,
+      "topk_flip_rate": 0.0009026434558349452,
+      "exact_flip_rate": 0.008264462809917356,
+      "old_package_bytes": 355453,
+      "new_package_bytes": 83211,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": true
+    },
+    {
+      "nodes": [
+        42
+      ],
+      "val_delta": 0.0011605543930635065,
+      "topk_flip_rate": 0.0002710861028075728,
+      "exact_flip_rate": 0.008260066819061017,
+      "old_package_bytes": 355984,
+      "new_package_bytes": 84455,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        91
+      ],
+      "val_delta": 0.0007264007784257842,
+      "topk_flip_rate": 0.00021540355196061193,
+      "exact_flip_rate": 0.008264462809917356,
+      "old_package_bytes": 356283,
+      "new_package_bytes": 85887,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        93
+      ],
+      "val_delta": 0.003731577955385035,
+      "topk_flip_rate": 0.000232987515385968,
+      "exact_flip_rate": 0.00810620713908915,
+      "old_package_bytes": 356205,
+      "new_package_bytes": 84475,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        105
+      ],
+      "val_delta": 0.0008135922965912812,
+      "topk_flip_rate": 0.00040296582849774337,
+      "exact_flip_rate": 0.008264462809917356,
+      "old_package_bytes": 356271,
+      "new_package_bytes": 85714,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        117
+      ],
+      "val_delta": 0.006067530493975681,
+      "topk_flip_rate": 0.0012147588066350155,
+      "exact_flip_rate": 0.008211710919641287,
+      "old_package_bytes": 351199,
+      "new_package_bytes": 81756,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": true
+    },
+    {
+      "nodes": [
+        1,
+        15
+      ],
+      "val_delta": 0.008695220087179933,
+      "topk_flip_rate": 0.0008425649141316452,
+      "exact_flip_rate": 0.01652892561983471,
+      "old_package_bytes": 349968,
+      "new_package_bytes": 84636,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        117
+      ],
+      "val_delta": 0.008225633791507647,
+      "topk_flip_rate": 0.001519547506007854,
+      "exact_flip_rate": 0.016476173729558643,
+      "old_package_bytes": 348443,
+      "new_package_bytes": 82830,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        35
+      ],
+      "val_delta": 0.010095566807347467,
+      "topk_flip_rate": 0.0014404196705937518,
+      "exact_flip_rate": 0.01652892561983471,
+      "old_package_bytes": 349762,
+      "new_package_bytes": 82023,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        42
+      ],
+      "val_delta": 0.007697671182707921,
+      "topk_flip_rate": 0.0008088623175663795,
+      "exact_flip_rate": 0.016524529628978372,
+      "old_package_bytes": 350302,
+      "new_package_bytes": 83295,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        91
+      ],
+      "val_delta": 0.007263517568073752,
+      "topk_flip_rate": 0.0007531797667194185,
+      "exact_flip_rate": 0.01652892561983471,
+      "old_package_bytes": 350408,
+      "new_package_bytes": 84712,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        93
+      ],
+      "val_delta": 0.01026869474502945,
+      "topk_flip_rate": 0.0007707637301447747,
+      "exact_flip_rate": 0.016370669949006506,
+      "old_package_bytes": 350229,
+      "new_package_bytes": 83305,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        105
+      ],
+      "val_delta": 0.0073507090862428015,
+      "topk_flip_rate": 0.00094074204325655,
+      "exact_flip_rate": 0.01652892561983471,
+      "old_package_bytes": 350063,
+      "new_package_bytes": 84252,
+      "smaller_than_new_exact": false,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        117
+      ],
+      "val_delta": 0.012604647283620096,
+      "topk_flip_rate": 0.0017525350213938222,
+      "exact_flip_rate": 0.016476173729558643,
+      "old_package_bytes": 345898,
+      "new_package_bytes": 80625,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        35,
+        117
+      ],
+      "val_delta": 0.00962598051167518,
+      "topk_flip_rate": 0.0021174022624699607,
+      "exact_flip_rate": 0.016476173729558643,
+      "old_package_bytes": 348080,
+      "new_package_bytes": 80268,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        42,
+        117
+      ],
+      "val_delta": 0.007228084887035635,
+      "topk_flip_rate": 0.0014858449094425883,
+      "exact_flip_rate": 0.016471777738702304,
+      "old_package_bytes": 348669,
+      "new_package_bytes": 81506,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        91,
+        117
+      ],
+      "val_delta": 0.0067939312724014655,
+      "topk_flip_rate": 0.0014301623585956274,
+      "exact_flip_rate": 0.016476173729558643,
+      "old_package_bytes": 348851,
+      "new_package_bytes": 82937,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        93,
+        117
+      ],
+      "val_delta": 0.009799108449367822,
+      "topk_flip_rate": 0.0014477463220209836,
+      "exact_flip_rate": 0.016317918058730438,
+      "old_package_bytes": 348539,
+      "new_package_bytes": 81501,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        105,
+        117
+      ],
+      "val_delta": 0.006881122790570515,
+      "topk_flip_rate": 0.001617724635132759,
+      "exact_flip_rate": 0.016476173729558643,
+      "old_package_bytes": 348843,
+      "new_package_bytes": 82766,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        15,
+        117
+      ],
+      "val_delta": 0.014762750581159167,
+      "topk_flip_rate": 0.002057323720766661,
+      "exact_flip_rate": 0.024740636539476,
+      "old_package_bytes": 342210,
+      "new_package_bytes": 81685,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        35,
+        117
+      ],
+      "val_delta": 0.011784083809214252,
+      "topk_flip_rate": 0.0024221909618427993,
+      "exact_flip_rate": 0.024740636539476,
+      "old_package_bytes": 344690,
+      "new_package_bytes": 81316,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        35,
+        117
+      ],
+      "val_delta": 0.016163097301319596,
+      "topk_flip_rate": 0.0026551784772287676,
+      "exact_flip_rate": 0.024740636539476,
+      "old_package_bytes": 342448,
+      "new_package_bytes": 79112,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        42,
+        117
+      ],
+      "val_delta": 0.01376520167668005,
+      "topk_flip_rate": 0.002023621124201395,
+      "exact_flip_rate": 0.02473624054861966,
+      "old_package_bytes": 342519,
+      "new_package_bytes": 80369,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        91,
+        117
+      ],
+      "val_delta": 0.013331048062049433,
+      "topk_flip_rate": 0.001967938573354434,
+      "exact_flip_rate": 0.024740636539476,
+      "old_package_bytes": 342650,
+      "new_package_bytes": 81734,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        93,
+        117
+      ],
+      "val_delta": 0.016336225239008684,
+      "topk_flip_rate": 0.0019855225367797903,
+      "exact_flip_rate": 0.024582380868647793,
+      "old_package_bytes": 342573,
+      "new_package_bytes": 80325,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        105,
+        117
+      ],
+      "val_delta": 0.013418239580211377,
+      "topk_flip_rate": 0.0021555008498915654,
+      "exact_flip_rate": 0.024740636539476,
+      "old_package_bytes": 342412,
+      "new_package_bytes": 81285,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        35,
+        42,
+        117
+      ],
+      "val_delta": 0.01078653490474224,
+      "topk_flip_rate": 0.0023884883652775337,
+      "exact_flip_rate": 0.02473624054861966,
+      "old_package_bytes": 345085,
+      "new_package_bytes": 79951,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        35,
+        91,
+        117
+      ],
+      "val_delta": 0.010352381290100965,
+      "topk_flip_rate": 0.0023328058144305728,
+      "exact_flip_rate": 0.024740636539476,
+      "old_package_bytes": 345286,
+      "new_package_bytes": 81432,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        35,
+        93,
+        117
+      ],
+      "val_delta": 0.01335755846706732,
+      "topk_flip_rate": 0.0023503897778559286,
+      "exact_flip_rate": 0.024582380868647793,
+      "old_package_bytes": 345043,
+      "new_package_bytes": 80027,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        35,
+        105,
+        117
+      ],
+      "val_delta": 0.010439572808273567,
+      "topk_flip_rate": 0.002520368090967704,
+      "exact_flip_rate": 0.024740636539476,
+      "old_package_bytes": 345346,
+      "new_package_bytes": 81297,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        15,
+        35,
+        117
+      ],
+      "val_delta": 0.018321200598858667,
+      "topk_flip_rate": 0.002959967176601606,
+      "exact_flip_rate": 0.03300509934939335,
+      "old_package_bytes": 338967,
+      "new_package_bytes": 80119,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        15,
+        42,
+        117
+      ],
+      "val_delta": 0.01592330497421912,
+      "topk_flip_rate": 0.0023284098235742336,
+      "exact_flip_rate": 0.03300070335853701,
+      "old_package_bytes": 339359,
+      "new_package_bytes": 81386,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        15,
+        91,
+        117
+      ],
+      "val_delta": 0.015489151359584952,
+      "topk_flip_rate": 0.0022727272727272726,
+      "exact_flip_rate": 0.03300509934939335,
+      "old_package_bytes": 338858,
+      "new_package_bytes": 82418,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        15,
+        93,
+        117
+      ],
+      "val_delta": 0.018494328536544202,
+      "topk_flip_rate": 0.002290311236152629,
+      "exact_flip_rate": 0.03284684367856515,
+      "old_package_bytes": 338185,
+      "new_package_bytes": 80860,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        1,
+        15,
+        105,
+        117
+      ],
+      "val_delta": 0.015576342877754001,
+      "topk_flip_rate": 0.0024602895492644044,
+      "exact_flip_rate": 0.03300509934939335,
+      "old_package_bytes": 338744,
+      "new_package_bytes": 82345,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        35,
+        105,
+        117
+      ],
+      "val_delta": 0.016976689597917982,
+      "topk_flip_rate": 0.0030581443057265106,
+      "exact_flip_rate": 0.03300509934939335,
+      "old_package_bytes": 339315,
+      "new_package_bytes": 79743,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        42,
+        105,
+        117
+      ],
+      "val_delta": 0.014578793973274884,
+      "topk_flip_rate": 0.0024265869526991384,
+      "exact_flip_rate": 0.03300070335853701,
+      "old_package_bytes": 339272,
+      "new_package_bytes": 81050,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        91,
+        105,
+        117
+      ],
+      "val_delta": 0.014144640358644267,
+      "topk_flip_rate": 0.0023709044018521775,
+      "exact_flip_rate": 0.03300509934939335,
+      "old_package_bytes": 339273,
+      "new_package_bytes": 82405,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    },
+    {
+      "nodes": [
+        15,
+        93,
+        105,
+        117
+      ],
+      "val_delta": 0.017149817535603518,
+      "topk_flip_rate": 0.0023884883652775337,
+      "exact_flip_rate": 0.03284684367856515,
+      "old_package_bytes": 339423,
+      "new_package_bytes": 80971,
+      "smaller_than_new_exact": true,
+      "mae_feasible": true,
+      "threebudget_feasible": false
+    }
+  ]
+}

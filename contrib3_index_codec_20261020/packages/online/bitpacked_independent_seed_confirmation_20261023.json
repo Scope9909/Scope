@@ -1,0 +1,67 @@
+{
+  "title": "Delta-bitpacked full Validation independent-checkpoint confirmation",
+  "date": "2026-10-23",
+  "scope": "Only distinct PEMS04/PEMS07 s2/s3 checkpoints; Test not loaded/evaluated.",
+  "results": [
+    {
+      "dataset": "PEMS04",
+      "seed": 2,
+      "validation_samples": 3394,
+      "baseline_val_mae": 17.848884696985824,
+      "bitpacked_val_mae": 17.848884696985824,
+      "delta_mae": 0.0,
+      "prediction_arrays_bitwise_equal": true,
+      "bitpacked_state_bytes": 68787,
+      "decode_seconds": 0.036426300001039635,
+      "baseline_full_val_seconds": 6.264934200000425,
+      "bitpacked_full_val_seconds": 5.631233500000235,
+      "test_evaluated": false
+    },
+    {
+      "dataset": "PEMS04",
+      "seed": 3,
+      "validation_samples": 3394,
+      "baseline_val_mae": 17.84939741427107,
+      "bitpacked_val_mae": 17.84939741427107,
+      "delta_mae": 0.0,
+      "prediction_arrays_bitwise_equal": true,
+      "bitpacked_state_bytes": 68787,
+      "decode_seconds": 0.03695460000017192,
+      "baseline_full_val_seconds": 5.665999300001204,
+      "bitpacked_full_val_seconds": 5.652885100000276,
+      "test_evaluated": false
+    },
+    {
+      "dataset": "PEMS07",
+      "seed": 2,
+      "validation_samples": 5640,
+      "baseline_val_mae": 18.167085554206587,
+      "bitpacked_val_mae": 18.167085554206587,
+      "delta_mae": 0.0,
+      "prediction_arrays_bitwise_equal": true,
+      "bitpacked_state_bytes": 250958,
+      "decode_seconds": 0.10438530000101309,
+      "baseline_full_val_seconds": 25.0526260000006,
+      "bitpacked_full_val_seconds": 24.996977400000105,
+      "test_evaluated": false
+    },
+    {
+      "dataset": "PEMS07",
+      "seed": 3,
+      "validation_samples": 5640,
+      "baseline_val_mae": 18.168329139180866,
+      "bitpacked_val_mae": 18.168329139180866,
+      "delta_mae": 0.0,
+      "prediction_arrays_bitwise_equal": true,
+      "bitpacked_state_bytes": 250958,
+      "decode_seconds": 0.11082619999979215,
+      "baseline_full_val_seconds": 25.234131799999886,
+      "bitpacked_full_val_seconds": 24.98693060000005,
+      "test_evaluated": false
+    }
+  ],
+  "limitations": [
+    "Single full Validation pass per checkpoint",
+    "Runtime seconds are single-run diagnostics"
+  ]
+}

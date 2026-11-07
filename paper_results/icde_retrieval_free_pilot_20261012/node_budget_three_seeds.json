@@ -1,0 +1,174 @@
+{
+  "protocol": "PEMS04_three_seed_validation_prefix_sensor_utility_selection",
+  "test_evaluated": false,
+  "sparse_cache_real_forward_and_storage_measured_for_seed_1_only": true,
+  "seeds_2_and_3_are_algebraic_sensor_mixes_from_frozen_outputs": true,
+  "random_trials_per_seed_budget": 1000,
+  "seeds": [
+    {
+      "seed": 1,
+      "selection_prefix_samples": 1866,
+      "evaluation_suffix_samples": 1528,
+      "no_memory_suffix_mae": 17.81871307161423,
+      "full_memory_suffix_mae": 17.663424547635653,
+      "budgets": [
+        {
+          "selected_nodes": 61,
+          "fraction": 0.1986970684039088,
+          "selected_suffix_mae": 17.669854560501523,
+          "selected_minus_full_suffix_mae": 0.006430012865870083,
+          "random_mean_suffix_mae": 17.787706593092857,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 123,
+          "fraction": 0.4006514657980456,
+          "selected_suffix_mae": 17.657848086800538,
+          "selected_minus_full_suffix_mae": -0.0055764608351154266,
+          "random_mean_suffix_mae": 17.75643263466153,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 184,
+          "fraction": 0.5993485342019544,
+          "selected_suffix_mae": 17.652558580178084,
+          "selected_minus_full_suffix_mae": -0.01086596745756907,
+          "random_mean_suffix_mae": 17.725756253212808,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 246,
+          "fraction": 0.8013029315960912,
+          "selected_suffix_mae": 17.649440775663397,
+          "selected_minus_full_suffix_mae": -0.01398377197225642,
+          "random_mean_suffix_mae": 17.694272160306905,
+          "random_fraction_beating_selected": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "selection_prefix_samples": 1866,
+      "evaluation_suffix_samples": 1528,
+      "no_memory_suffix_mae": 17.815361800567157,
+      "full_memory_suffix_mae": 17.660546359166837,
+      "budgets": [
+        {
+          "selected_nodes": 61,
+          "fraction": 0.1986970684039088,
+          "selected_suffix_mae": 17.666865112045787,
+          "selected_minus_full_suffix_mae": 0.006318752878950562,
+          "random_mean_suffix_mae": 17.78474135104171,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 123,
+          "fraction": 0.4006514657980456,
+          "selected_suffix_mae": 17.654933530192544,
+          "selected_minus_full_suffix_mae": -0.005612828974292938,
+          "random_mean_suffix_mae": 17.752756948553134,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 184,
+          "fraction": 0.5993485342019544,
+          "selected_suffix_mae": 17.64986242370023,
+          "selected_minus_full_suffix_mae": -0.010683935466605732,
+          "random_mean_suffix_mae": 17.721884231763564,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 246,
+          "fraction": 0.8013029315960912,
+          "selected_suffix_mae": 17.646551897320936,
+          "selected_minus_full_suffix_mae": -0.013994461845900474,
+          "random_mean_suffix_mae": 17.690914211899457,
+          "random_fraction_beating_selected": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "selection_prefix_samples": 1866,
+      "evaluation_suffix_samples": 1528,
+      "no_memory_suffix_mae": 17.816286821042823,
+      "full_memory_suffix_mae": 17.661157959175643,
+      "budgets": [
+        {
+          "selected_nodes": 61,
+          "fraction": 0.1986970684039088,
+          "selected_suffix_mae": 17.66753742797088,
+          "selected_minus_full_suffix_mae": 0.006379468795238097,
+          "random_mean_suffix_mae": 17.785130166446148,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 123,
+          "fraction": 0.4006514657980456,
+          "selected_suffix_mae": 17.655778253891043,
+          "selected_minus_full_suffix_mae": -0.005379705284600078,
+          "random_mean_suffix_mae": 17.754893863233256,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 184,
+          "fraction": 0.5993485342019544,
+          "selected_suffix_mae": 17.65046978285545,
+          "selected_minus_full_suffix_mae": -0.010688176320194032,
+          "random_mean_suffix_mae": 17.723207327231012,
+          "random_fraction_beating_selected": 0.0
+        },
+        {
+          "selected_nodes": 246,
+          "fraction": 0.8013029315960912,
+          "selected_suffix_mae": 17.647170750086406,
+          "selected_minus_full_suffix_mae": -0.013987209089236785,
+          "random_mean_suffix_mae": 17.69131829500407,
+          "random_fraction_beating_selected": 0.0
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "selected_nodes": 61,
+      "selected_minus_full_mae_mean": 0.00637607818001958,
+      "selected_minus_full_mae_sample_std": 5.570743555399951e-05,
+      "individual_differences": [
+        0.006430012865870083,
+        0.006318752878950562,
+        0.006379468795238097
+      ]
+    },
+    {
+      "selected_nodes": 123,
+      "selected_minus_full_mae_mean": -0.005522998364669481,
+      "selected_minus_full_mae_sample_std": 0.0001254206541349587,
+      "individual_differences": [
+        -0.0055764608351154266,
+        -0.005612828974292938,
+        -0.005379705284600078
+      ]
+    },
+    {
+      "selected_nodes": 184,
+      "selected_minus_full_mae_mean": -0.010746026414789611,
+      "selected_minus_full_mae_sample_std": 0.00010389363078195578,
+      "individual_differences": [
+        -0.01086596745756907,
+        -0.010683935466605732,
+        -0.010688176320194032
+      ]
+    },
+    {
+      "selected_nodes": 246,
+      "selected_minus_full_mae_mean": -0.013988480969131226,
+      "selected_minus_full_mae_sample_std": 5.4572528327789885e-06,
+      "individual_differences": [
+        -0.01398377197225642,
+        -0.013994461845900474,
+        -0.013987209089236785
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+ "PEMS03": {
+  "rec": {
+   "val": {
+    "package": "packages\\PEMS03__rec__val.fcz",
+    "size_MB": 23.301576,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 13.198728293025091,
+    "MAE": 13.200829622122683,
+    "delta": 0.002101329097591531,
+    "raw_MB": 299.97536
+   },
+   "test": {
+    "package": "packages\\PEMS03__rec__test.fcz",
+    "size_MB": 23.080492,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 14.205262460757002,
+    "MAE": 14.207218217717356,
+    "delta": 0.001955756960354549,
+    "raw_MB": 299.97536
+   }
+  },
+  "ext": {
+   "val": {
+    "package": "packages\\PEMS03__ext__val.fcz",
+    "size_MB": 14.295948,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 13.198728293025091,
+    "MAE": 13.20201030741887,
+    "delta": 0.0032820143937790647,
+    "raw_MB": 299.97536
+   },
+   "test": {
+    "package": "packages\\PEMS03__ext__test.fcz",
+    "size_MB": 14.088292,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 14.205262460757002,
+    "MAE": 14.213499268583414,
+    "delta": 0.008236807826412118,
+    "raw_MB": 299.97536
+   }
+  }
+ },
+ "PEMS08": {
+  "rec": {
+   "val": {
+    "package": "packages\\PEMS08__rec__val.fcz",
+    "size_MB": 6.944556,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 13.24612245128439,
+    "MAE": 13.247774817218291,
+    "delta": 0.0016523659339018337,
+    "raw_MB": 96.9952
+   },
+   "test": {
+    "package": "packages\\PEMS08__rec__test.fcz",
+    "size_MB": 6.893412,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 13.258645355186344,
+    "MAE": 13.26021891467458,
+    "delta": 0.0015735594882357873,
+    "raw_MB": 97.0224
+   }
+  },
+  "ext": {
+   "val": {
+    "package": "packages\\PEMS08__ext__val.fcz",
+    "size_MB": 4.127392,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 13.24612245128439,
+    "MAE": 13.249777494774959,
+    "delta": 0.003655043490569554,
+    "raw_MB": 96.9952
+   },
+   "test": {
+    "package": "packages\\PEMS08__ext__test.fcz",
+    "size_MB": 4.087936,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 13.258645355186344,
+    "MAE": 13.261601739679392,
+    "delta": 0.0029563844930482475,
+    "raw_MB": 97.0224
+   }
+  }
+ },
+ "PEMS07": {
+  "rec": {
+   "val": {
+    "package": "packages\\PEMS07__rec__val.fcz",
+    "size_MB": 60.956472,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 18.222244758939976,
+    "MAE": 18.22780796400069,
+    "delta": 0.005563205060713727,
+    "raw_MB": 796.8192
+   },
+   "test": {
+    "package": "packages\\PEMS07__rec__test.fcz",
+    "size_MB": 62.267704,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 18.959548024072454,
+    "MAE": 18.965048084377045,
+    "delta": 0.005500060304591159,
+    "raw_MB": 796.8192
+   }
+  },
+  "ext": {
+   "val": {
+    "package": "packages\\PEMS07__ext__val.fcz",
+    "size_MB": 36.551496,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 18.222244758939976,
+    "MAE": 18.226671771662776,
+    "delta": 0.0044270127228003275,
+    "raw_MB": 796.8192
+   },
+   "test": {
+    "package": "packages\\PEMS07__ext__test.fcz",
+    "size_MB": 36.952464,
+    "exact": {
+     "T": true,
+     "E": true,
+     "fd": true,
+     "hd": true,
+     "B": true
+    },
+    "C0": 18.959548024072454,
+    "MAE": 18.96415691518566,
+    "delta": 0.004608891113207392,
+    "raw_MB": 796.8192
+   }
+  }
+ }
+}

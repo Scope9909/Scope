@@ -1,0 +1,118 @@
+{
+  "PEMS03": {
+    "val": {
+      "xz_only": 76.229,
+      "A_full": 57.567,
+      "B_Tfd": 59.451,
+      "C_Tfd_hd": 57.645,
+      "D_law": 57.567
+    },
+    "test": {
+      "xz_only": 75.636,
+      "A_full": 55.806,
+      "B_Tfd": 57.793,
+      "C_Tfd_hd": 55.886,
+      "D_law": 55.806
+    },
+    "_total": {
+      "xz_only": 151.865,
+      "A_full": 113.373,
+      "B_Tfd": 117.244,
+      "C_Tfd_hd": 113.531,
+      "D_law": 113.373,
+      "gain_A_full": 0.2535,
+      "gain_B_Tfd": 0.228,
+      "gain_C_Tfd_hd": 0.2524,
+      "gain_D_law": 0.2535,
+      "drop": []
+    }
+  },
+  "PEMS04": {
+    "val": {
+      "xz_only": 41.843,
+      "A_full": 29.896,
+      "B_Tfd": 30.953,
+      "C_Tfd_hd": 29.944,
+      "D_law": 29.896
+    },
+    "test": {
+      "xz_only": 40.507,
+      "A_full": 29.207,
+      "B_Tfd": 30.302,
+      "C_Tfd_hd": 29.26,
+      "D_law": 29.207
+    },
+    "_total": {
+      "xz_only": 82.35,
+      "A_full": 59.103,
+      "B_Tfd": 61.255,
+      "C_Tfd_hd": 59.204,
+      "D_law": 59.103,
+      "gain_A_full": 0.2823,
+      "gain_B_Tfd": 0.2562,
+      "gain_C_Tfd_hd": 0.2811,
+      "gain_D_law": 0.2823,
+      "drop": []
+    }
+  },
+  "PEMS07": {
+    "val": {
+      "xz_only": 193.851,
+      "A_full": 131.211,
+      "B_Tfd": 137.04,
+      "C_Tfd_hd": 132.002,
+      "D_law": 131.208
+    },
+    "test": {
+      "xz_only": 196.923,
+      "A_full": 132.257,
+      "B_Tfd": 137.955,
+      "C_Tfd_hd": 133.034,
+      "D_law": 132.255
+    },
+    "_total": {
+      "xz_only": 390.774,
+      "A_full": 263.468,
+      "B_Tfd": 274.995,
+      "C_Tfd_hd": 265.036,
+      "D_law": 263.463,
+      "gain_A_full": 0.3258,
+      "gain_B_Tfd": 0.2963,
+      "gain_C_Tfd_hd": 0.3218,
+      "gain_D_law": 0.3258,
+      "drop": [
+        "B"
+      ]
+    }
+  },
+  "PEMS08": {
+    "val": {
+      "xz_only": 21.966,
+      "A_full": 15.26,
+      "B_Tfd": 15.856,
+      "C_Tfd_hd": 15.316,
+      "D_law": 17.538
+    },
+    "test": {
+      "xz_only": 21.639,
+      "A_full": 14.889,
+      "B_Tfd": 15.455,
+      "C_Tfd_hd": 14.942,
+      "D_law": 17.22
+    },
+    "_total": {
+      "xz_only": 43.605,
+      "A_full": 30.149,
+      "B_Tfd": 31.311,
+      "C_Tfd_hd": 30.258,
+      "D_law": 34.758,
+      "gain_A_full": 0.3086,
+      "gain_B_Tfd": 0.2819,
+      "gain_C_Tfd_hd": 0.3061,
+      "gain_D_law": 0.2029,
+      "drop": [
+        "T"
+      ]
+    }
+  }
+}

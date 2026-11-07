@@ -1,0 +1,383 @@
+{
+  "scope": "four datasets, all splits, lossless round-trip gate",
+  "codecs": {
+    "T0": "int32 global endpoints (-1 = unavailable)",
+    "T1": "int16 order-preserving narrowing",
+    "T2": "uint8 TOD-group offset (255 = unavailable), group rebuilt from idx_train + time_data at zero cost",
+    "T3": "T2 offsets bit-packed at ceil(log2(G_max+1)) bits"
+  },
+  "datasets": {
+    "PEMS03": {
+      "dataset": "PEMS03",
+      "num_steps": 26208,
+      "num_train": 15711,
+      "num_tod_groups": 288,
+      "group_size_min": 54,
+      "group_size_max": 55,
+      "group_size_mean": 54.552083333333336,
+      "bits_per_offset": 6,
+      "k_meta": 8,
+      "splits": {
+        "train": {
+          "shape": [
+            15711,
+            8,
+            358
+          ],
+          "queries": 15711,
+          "slots": 44996304,
+          "unavailable_slots": 156941,
+          "unavailable_fraction": 0.003487864247694655,
+          "endpoint_min": -1,
+          "endpoint_max": 15721,
+          "distinct_endpoints": 15711,
+          "t0_bytes": 179985216,
+          "t1_bytes": 89992608,
+          "t2_bytes": 44996304,
+          "t3_bytes": 33747228,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "val": {
+          "shape": [
+            5237,
+            8,
+            358
+          ],
+          "queries": 5237,
+          "slots": 14998768,
+          "unavailable_slots": 50882,
+          "unavailable_fraction": 0.00339241196343593,
+          "endpoint_min": -1,
+          "endpoint_max": 15721,
+          "distinct_endpoints": 15711,
+          "t0_bytes": 59995072,
+          "t1_bytes": 29997536,
+          "t2_bytes": 14998768,
+          "t3_bytes": 11249076,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "test": {
+          "shape": [
+            5237,
+            8,
+            358
+          ],
+          "queries": 5237,
+          "slots": 14998768,
+          "unavailable_slots": 58418,
+          "unavailable_fraction": 0.0038948532306120076,
+          "endpoint_min": -1,
+          "endpoint_max": 15721,
+          "distinct_endpoints": 15711,
+          "t0_bytes": 59995072,
+          "t1_bytes": 29997536,
+          "t2_bytes": 14998768,
+          "t3_bytes": 11249076,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        }
+      },
+      "gate": {
+        "all_lossless": true
+      },
+      "totals_bytes": {
+        "t0": 299975360,
+        "t1": 149987680,
+        "t2": 74993840,
+        "t3": 56245380
+      },
+      "reduction_vs_t0": {
+        "t1": 0.5,
+        "t2": 0.75,
+        "t3": 0.8125
+      }
+    },
+    "PEMS04": {
+      "dataset": "PEMS04",
+      "num_steps": 16992,
+      "num_train": 10181,
+      "num_tod_groups": 288,
+      "group_size_min": 35,
+      "group_size_max": 36,
+      "group_size_mean": 35.35069444444444,
+      "bits_per_offset": 6,
+      "k_meta": 8,
+      "splits": {
+        "train": {
+          "shape": [
+            10181,
+            8,
+            307
+          ],
+          "queries": 10181,
+          "slots": 25004536,
+          "unavailable_slots": 451300,
+          "unavailable_fraction": 0.018048725239292584,
+          "endpoint_min": -1,
+          "endpoint_max": 10191,
+          "distinct_endpoints": 10181,
+          "t0_bytes": 100018144,
+          "t1_bytes": 50009072,
+          "t2_bytes": 25004536,
+          "t3_bytes": 18753402,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "val": {
+          "shape": [
+            3394,
+            8,
+            307
+          ],
+          "queries": 3394,
+          "slots": 8335664,
+          "unavailable_slots": 148775,
+          "unavailable_fraction": 0.017848008269047314,
+          "endpoint_min": -1,
+          "endpoint_max": 10191,
+          "distinct_endpoints": 10181,
+          "t0_bytes": 33342656,
+          "t1_bytes": 16671328,
+          "t2_bytes": 8335664,
+          "t3_bytes": 6251748,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "test": {
+          "shape": [
+            3394,
+            8,
+            307
+          ],
+          "queries": 3394,
+          "slots": 8335664,
+          "unavailable_slots": 127386,
+          "unavailable_fraction": 0.015282045917397822,
+          "endpoint_min": -1,
+          "endpoint_max": 10191,
+          "distinct_endpoints": 10181,
+          "t0_bytes": 33342656,
+          "t1_bytes": 16671328,
+          "t2_bytes": 8335664,
+          "t3_bytes": 6251748,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        }
+      },
+      "gate": {
+        "all_lossless": true
+      },
+      "totals_bytes": {
+        "t0": 166703456,
+        "t1": 83351728,
+        "t2": 41675864,
+        "t3": 31256898
+      },
+      "reduction_vs_t0": {
+        "t1": 0.5,
+        "t2": 0.75,
+        "t3": 0.8125
+      }
+    },
+    "PEMS07": {
+      "dataset": "PEMS07",
+      "num_steps": 28224,
+      "num_train": 16921,
+      "num_tod_groups": 288,
+      "group_size_min": 58,
+      "group_size_max": 59,
+      "group_size_mean": 58.75347222222222,
+      "bits_per_offset": 6,
+      "k_meta": 8,
+      "splits": {
+        "train": {
+          "shape": [
+            16921,
+            8,
+            883
+          ],
+          "queries": 16921,
+          "slots": 119529944,
+          "unavailable_slots": 519205,
+          "unavailable_fraction": 0.004343723276570764,
+          "endpoint_min": -1,
+          "endpoint_max": 16931,
+          "distinct_endpoints": 16921,
+          "t0_bytes": 478119776,
+          "t1_bytes": 239059888,
+          "t2_bytes": 119529944,
+          "t3_bytes": 89647458,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "val": {
+          "shape": [
+            5640,
+            8,
+            883
+          ],
+          "queries": 5640,
+          "slots": 39840960,
+          "unavailable_slots": 136144,
+          "unavailable_fraction": 0.0034171867344561977,
+          "endpoint_min": -1,
+          "endpoint_max": 16931,
+          "distinct_endpoints": 16921,
+          "t0_bytes": 159363840,
+          "t1_bytes": 79681920,
+          "t2_bytes": 39840960,
+          "t3_bytes": 29880720,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "test": {
+          "shape": [
+            5640,
+            8,
+            883
+          ],
+          "queries": 5640,
+          "slots": 39840960,
+          "unavailable_slots": 211117,
+          "unavailable_fraction": 0.0052989937993462004,
+          "endpoint_min": -1,
+          "endpoint_max": 16931,
+          "distinct_endpoints": 16921,
+          "t0_bytes": 159363840,
+          "t1_bytes": 79681920,
+          "t2_bytes": 39840960,
+          "t3_bytes": 29880720,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        }
+      },
+      "gate": {
+        "all_lossless": true
+      },
+      "totals_bytes": {
+        "t0": 796847456,
+        "t1": 398423728,
+        "t2": 199211864,
+        "t3": 149408898
+      },
+      "reduction_vs_t0": {
+        "t1": 0.5,
+        "t2": 0.75,
+        "t3": 0.8125
+      }
+    },
+    "PEMS08": {
+      "dataset": "PEMS08",
+      "num_steps": 17856,
+      "num_train": 10700,
+      "num_tod_groups": 288,
+      "group_size_min": 37,
+      "group_size_max": 38,
+      "group_size_mean": 37.15277777777778,
+      "bits_per_offset": 6,
+      "k_meta": 8,
+      "splits": {
+        "train": {
+          "shape": [
+            10700,
+            8,
+            170
+          ],
+          "queries": 10700,
+          "slots": 14552000,
+          "unavailable_slots": 38029,
+          "unavailable_fraction": 0.002613317757009346,
+          "endpoint_min": -1,
+          "endpoint_max": 10710,
+          "distinct_endpoints": 10700,
+          "t0_bytes": 58208000,
+          "t1_bytes": 29104000,
+          "t2_bytes": 14552000,
+          "t3_bytes": 10914000,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "val": {
+          "shape": [
+            3566,
+            8,
+            170
+          ],
+          "queries": 3566,
+          "slots": 4849760,
+          "unavailable_slots": 13972,
+          "unavailable_fraction": 0.0028809673055986275,
+          "endpoint_min": -1,
+          "endpoint_max": 10710,
+          "distinct_endpoints": 10700,
+          "t0_bytes": 19399040,
+          "t1_bytes": 9699520,
+          "t2_bytes": 4849760,
+          "t3_bytes": 3637320,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        },
+        "test": {
+          "shape": [
+            3567,
+            8,
+            170
+          ],
+          "queries": 3567,
+          "slots": 4851120,
+          "unavailable_slots": 13860,
+          "unavailable_fraction": 0.00285707218126948,
+          "endpoint_min": -1,
+          "endpoint_max": 10710,
+          "distinct_endpoints": 10700,
+          "t0_bytes": 19404480,
+          "t1_bytes": 9702240,
+          "t2_bytes": 4851120,
+          "t3_bytes": 3638340,
+          "t1_lossless": true,
+          "t2_lossless": true,
+          "t3_lossless": true,
+          "t3_end_to_end_lossless": true
+        }
+      },
+      "gate": {
+        "all_lossless": true
+      },
+      "totals_bytes": {
+        "t0": 97011520,
+        "t1": 48505760,
+        "t2": 24252880,
+        "t3": 18189660
+      },
+      "reduction_vs_t0": {
+        "t1": 0.5,
+        "t2": 0.75,
+        "t3": 0.8125
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Frozen confirmation protocol: exact delta-bitpacked online state",
+  "frozen_at": "2026-10-23",
+  "method": {
+    "codec_id": 1,
+    "history_transform": "first-order temporal difference on integer train_raw",
+    "residual_mapping": "signed zig-zag",
+    "residual_storage": "per-node minimum exact bit width; node streams byte-padded independently",
+    "integrity": "SHA-256 of canonical little-endian uint16 train_raw",
+    "container": "self-describing NPZ; choose smaller complete C/F array layout; compact contiguous idx_train to start/count",
+    "fallback": "strong lossless package if encoding is not smaller"
+  },
+  "test_scope": {
+    "datasets": ["PEMS03", "PEMS04", "PEMS07", "PEMS08"],
+    "seed": 1,
+    "selection_data": "Validation only",
+    "test_role": "one-time confirmation only; no method, width, predictor, threshold, or dataset choice after Test results",
+    "metrics": ["test raw MAE", "ValCal test MAE", "prediction-array exact equality", "actual state-package bytes", "decode integrity"],
+    "prohibited_after_test": ["retuning codec based on Test", "selecting nodes/widths from Test", "repeating Test after changing the method"]
+  }
+}

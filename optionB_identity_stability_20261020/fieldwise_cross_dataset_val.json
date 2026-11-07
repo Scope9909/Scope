@@ -1,0 +1,149 @@
+{
+  "results": {
+    "PEMS03": {
+      "nodes": 358,
+      "val_samples": 5237,
+      "fire_rate": 0.060028396999006854,
+      "exact_gate_mean_abs_w": 0.9737372994422913,
+      "baseline_C0": 13.198728293025091,
+      "arms": {
+        "C0_raw": 0.0,
+        "S_sparse_f32": 0.0,
+        "SQ_sparse_fp16": 0.00035775895089784626,
+        "E_lowrank_r8": 0.06303583501634158,
+        "T_lowrank_r8": 0.007849699780395625,
+        "both_lowrank_r8": 0.07245951266422423,
+        "exact_channel_off": 0.037776276402015085
+      },
+      "exact_channel_gain": 0.037776276402015085,
+      "gain_per_fired_slot": 0.6293067663066212,
+      "futures_pca_energy_rank8": 0.9884417527697285,
+      "self_consistency": {
+        "recon_mae_z_fired": 0.008987093344330788,
+        "naive_expected_cost": 0.0758505632261776,
+        "measured_cost": 0.06303583501634158
+      },
+      "E_bits_per_slot": {
+        "dense_f32": 32.0,
+        "sparse_f32_plus_bitmap": 2.9209087039682196,
+        "sparse_f16_plus_bitmap": 1.9604543519841098
+      },
+      "E_saving_vs_dense_f32": {
+        "sparse_f32": 0.9087216030009931,
+        "sparse_f16": 0.9387358015004965
+      }
+    },
+    "PEMS04": {
+      "nodes": 307,
+      "val_samples": 3394,
+      "fire_rate": 0.09481956086521721,
+      "exact_gate_mean_abs_w": 0.9247520565986633,
+      "baseline_C0": 17.852024704101243,
+      "arms": {
+        "C0_raw": 0.0,
+        "S_sparse_f32": 0.0,
+        "SQ_sparse_fp16": 0.0009160438468818199,
+        "E_lowrank_r8": 0.12221392621738048,
+        "T_lowrank_r8": 0.0020133880384562985,
+        "both_lowrank_r8": 0.12293912759615822,
+        "exact_channel_off": 0.31305957502524606
+      },
+      "exact_channel_gain": 0.31305957502524606,
+      "gain_per_fired_slot": 3.301634938704785,
+      "futures_pca_energy_rank8": 0.9851931438056077,
+      "self_consistency": {
+        "recon_mae_z_fired": 0.008855602703988552,
+        "naive_expected_cost": 0.1214905296677944,
+        "measured_cost": 0.12221392621738048
+      },
+      "E_bits_per_slot": {
+        "dense_f32": 32.0,
+        "sparse_f32_plus_bitmap": 4.03422594768695,
+        "sparse_f16_plus_bitmap": 2.517112973843475
+      },
+      "E_saving_vs_dense_f32": {
+        "sparse_f32": 0.8739304391347829,
+        "sparse_f16": 0.9213402195673914
+      }
+    },
+    "PEMS07": {
+      "nodes": 883,
+      "val_samples": 5640,
+      "fire_rate": 0.21987534102257242,
+      "exact_gate_mean_abs_w": 0.9789796471595764,
+      "baseline_C0": 18.222244758939976,
+      "arms": {
+        "C0_raw": 0.0,
+        "S_sparse_f32": 0.0,
+        "SQ_sparse_fp16": 0.003572481510673242,
+        "E_lowrank_r8": 0.36431673141003884,
+        "T_lowrank_r8": 0.0007956528977004496,
+        "both_lowrank_r8": 0.3656852543940836,
+        "exact_channel_off": 0.28958264603496175
+      },
+      "exact_channel_gain": 0.28958264603496175,
+      "gain_per_fired_slot": 1.31703102625425,
+      "futures_pca_energy_rank8": 0.9923084875811724,
+      "self_consistency": {
+        "recon_mae_z_fired": 0.009501627646386623,
+        "naive_expected_cost": 0.3876038575389054,
+        "measured_cost": 0.36431673141003884
+      },
+      "E_bits_per_slot": {
+        "dense_f32": 32.0,
+        "sparse_f32_plus_bitmap": 8.036010912722318,
+        "sparse_f16_plus_bitmap": 4.518005456361159
+      },
+      "E_saving_vs_dense_f32": {
+        "sparse_f32": 0.7488746589774276,
+        "sparse_f16": 0.8588123294887138
+      }
+    },
+    "PEMS08": {
+      "nodes": 170,
+      "val_samples": 3566,
+      "fire_rate": 0.22304031539705058,
+      "exact_gate_mean_abs_w": 0.9284046292304993,
+      "baseline_C0": 13.24612245128439,
+      "arms": {
+        "C0_raw": 0.0,
+        "S_sparse_f32": 0.0,
+        "SQ_sparse_fp16": -2.511194429288821e-06,
+        "E_lowrank_r8": 0.2902664527870531,
+        "T_lowrank_r8": 0.01881261306053439,
+        "both_lowrank_r8": 0.3407125820624408,
+        "exact_channel_off": 0.10273547526123572
+      },
+      "exact_channel_gain": 0.10273547526123572,
+      "gain_per_fired_slot": 0.4606139256858057,
+      "futures_pca_energy_rank8": 0.9871937238084857,
+      "self_consistency": {
+        "recon_mae_z_fired": 0.017718322575092316,
+        "naive_expected_cost": 0.5342108789209953,
+        "measured_cost": 0.2902664527870531
+      },
+      "E_bits_per_slot": {
+        "dense_f32": 32.0,
+        "sparse_f32_plus_bitmap": 8.13729009270562,
+        "sparse_f16_plus_bitmap": 4.56864504635281
+      },
+      "E_saving_vs_dense_f32": {
+        "sparse_f32": 0.7457096846029494,
+        "sparse_f16": 0.8572298423014747
+      }
+    }
+  },
+  "verdict": {
+    "E1_sparsity_lossless_everywhere": true,
+    "E2_lowrank_prohibitive_everywhere": true,
+    "E3_exact_channel_matters_everywhere": false,
+    "datasets_completed": [
+      "PEMS03",
+      "PEMS04",
+      "PEMS07",
+      "PEMS08"
+    ],
+    "datasets_failed": [],
+    "fieldwise_law_generalises": false
+  }
+}

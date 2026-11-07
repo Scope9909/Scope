@@ -1,0 +1,72 @@
+{
+  "scope": "Frozen final Test retrieval stability audit",
+  "test_labels_used": false,
+  "test_predictions_used": false,
+  "selection_or_tuning_from_test": false,
+  "definitions": {
+    "topk": "Unordered top-k candidate set per query and node",
+    "exact": "Exact-history availability per query, horizon and node"
+  },
+  "rows": [
+    {
+      "dataset": "PEMS03",
+      "test_queries": 5237,
+      "nodes": 36,
+      "changed_local_node_indices": [
+        22
+      ],
+      "changed_global_node_ids": [
+        180
+      ],
+      "topk_set_flips": 666,
+      "topk_set_denominator": 188532,
+      "topk_set_flip_rate": 0.0035325568073324423,
+      "exact_availability_flips": 0,
+      "exact_availability_denominator": 2262384,
+      "exact_availability_flip_rate": 0.0
+    },
+    {
+      "dataset": "PEMS04",
+      "test_queries": 3394,
+      "nodes": 31,
+      "changed_local_node_indices": [],
+      "topk_set_flips": 0,
+      "topk_set_denominator": 105214,
+      "topk_set_flip_rate": 0.0,
+      "exact_availability_flips": 0,
+      "exact_availability_denominator": 1262568,
+      "exact_availability_flip_rate": 0.0,
+      "reason": "Decoded exact and selected runtime states are identical"
+    },
+    {
+      "dataset": "PEMS07",
+      "test_queries": 5640,
+      "nodes": 121,
+      "changed_local_node_indices": [
+        117
+      ],
+      "changed_global_node_ids": [
+        854
+      ],
+      "topk_set_flips": 993,
+      "topk_set_denominator": 682440,
+      "topk_set_flip_rate": 0.0014550729734482152,
+      "exact_availability_flips": 32976,
+      "exact_availability_denominator": 8189280,
+      "exact_availability_flip_rate": 0.004026727624406541
+    },
+    {
+      "dataset": "PEMS08",
+      "test_queries": 3567,
+      "nodes": 20,
+      "changed_local_node_indices": [],
+      "topk_set_flips": 0,
+      "topk_set_denominator": 71340,
+      "topk_set_flip_rate": 0.0,
+      "exact_availability_flips": 0,
+      "exact_availability_denominator": 856080,
+      "exact_availability_flip_rate": 0.0,
+      "reason": "Decoded exact and selected runtime states are identical"
+    }
+  ]
+}

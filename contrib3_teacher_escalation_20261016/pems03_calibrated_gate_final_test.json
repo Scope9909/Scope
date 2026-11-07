@@ -1,0 +1,130 @@
+{
+  "dataset": "PEMS03",
+  "protocol": "frozen_validation_calibration_gate_threshold_evaluated_once_on_test",
+  "test_endpoints": [
+    20959,
+    26195
+  ],
+  "test_windows": 5237,
+  "validation_protocol_file": "pems03_calibrated_gate_chronological.json",
+  "student_mae": 14.228104032608927,
+  "teacher_mae": 14.219511019013895,
+  "teacher_always_gain": 0.008593013595032062,
+  "teacher_better_fraction": 0.5421042581630705,
+  "methods": {
+    "calibrated_utility_gate": {
+      "0.05": {
+        "selection_target_budget": 0.05,
+        "score_threshold": 0.5958327293396014,
+        "teacher_windows": 244,
+        "realized_evaluation_budget": 0.04659156005346572,
+        "mae": 14.23248352867425,
+        "gain_vs_student": -0.004379496065322286
+      },
+      "0.1": {
+        "selection_target_budget": 0.1,
+        "score_threshold": 0.26856922507286074,
+        "teacher_windows": 501,
+        "realized_evaluation_budget": 0.09566545732289479,
+        "mae": 14.229718880871715,
+        "gain_vs_student": -0.0016148482627880156
+      },
+      "0.2": {
+        "selection_target_budget": 0.2,
+        "score_threshold": 0.050253131240606194,
+        "teacher_windows": 1041,
+        "realized_evaluation_budget": 0.19877792629367957,
+        "mae": 14.22748662812477,
+        "gain_vs_student": 0.0006174044841564807
+      }
+    },
+    "historical_volatility": {
+      "0.05": {
+        "selection_target_budget": 0.05,
+        "score_threshold": 21.9064998626709,
+        "teacher_windows": 133,
+        "realized_evaluation_budget": 0.02539621920947107,
+        "mae": 14.227156238801456,
+        "gain_vs_student": 0.0009477938074713421
+      },
+      "0.1": {
+        "selection_target_budget": 0.1,
+        "score_threshold": 20.97465744018555,
+        "teacher_windows": 355,
+        "realized_evaluation_budget": 0.06778690089746038,
+        "mae": 14.227121671642502,
+        "gain_vs_student": 0.000982360966425233
+      },
+      "0.2": {
+        "selection_target_budget": 0.2,
+        "score_threshold": 19.941950225830077,
+        "teacher_windows": 754,
+        "realized_evaluation_budget": 0.1439755585258736,
+        "mae": 14.225182956391428,
+        "gain_vs_student": 0.002921076217498708
+      }
+    },
+    "calibrated_student_prediction_mean": {
+      "0.05": {
+        "selection_target_budget": 0.05,
+        "score_threshold": 291.2871049013597,
+        "teacher_windows": 163,
+        "realized_evaluation_budget": 0.031124689707848003,
+        "mae": 14.226862898411104,
+        "gain_vs_student": 0.0012411341978229018
+      },
+      "0.1": {
+        "selection_target_budget": 0.1,
+        "score_threshold": 282.0361845395631,
+        "teacher_windows": 352,
+        "realized_evaluation_budget": 0.06721405384762269,
+        "mae": 14.22564068932803,
+        "gain_vs_student": 0.0024633432808975897
+      },
+      "0.2": {
+        "selection_target_budget": 0.2,
+        "score_threshold": 261.84166593408776,
+        "teacher_windows": 941,
+        "realized_evaluation_budget": 0.17968302463242314,
+        "mae": 14.224237196799942,
+        "gain_vs_student": 0.0038668358089850585
+      }
+    },
+    "calibrated_utility_gate_safe_abstain": {
+      "0.05": {
+        "maximum_budget": 0.05,
+        "selection_chosen_windows": 6,
+        "selection_chosen_budget": 0.004626060138781804,
+        "selection_gain": 0.0014963078942465378,
+        "score_threshold": 3.3652844429016113,
+        "teacher_windows": 10,
+        "realized_evaluation_budget": 0.0019094901661256445,
+        "mae": 14.228669845169968,
+        "gain_vs_student": -0.0005658125610406017
+      },
+      "0.1": {
+        "maximum_budget": 0.1,
+        "selection_chosen_windows": 6,
+        "selection_chosen_budget": 0.004626060138781804,
+        "selection_gain": 0.0014963078942465378,
+        "score_threshold": 3.3652844429016113,
+        "teacher_windows": 10,
+        "realized_evaluation_budget": 0.0019094901661256445,
+        "mae": 14.228669845169968,
+        "gain_vs_student": -0.0005658125610406017
+      },
+      "0.2": {
+        "maximum_budget": 0.2,
+        "selection_chosen_windows": 6,
+        "selection_chosen_budget": 0.004626060138781804,
+        "selection_gain": 0.0014963078942465378,
+        "score_threshold": 3.3652844429016113,
+        "teacher_windows": 10,
+        "realized_evaluation_budget": 0.0019094901661256445,
+        "mae": 14.228669845169968,
+        "gain_vs_student": -0.0005658125610406017
+      }
+    }
+  },
+  "caveat": "Teacher test cache prefix alignment follows official idx_test and prior project cache convention; no Test values were used for tuning."
+}

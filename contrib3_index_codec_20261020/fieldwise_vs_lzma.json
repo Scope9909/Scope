@@ -1,0 +1,178 @@
+{
+  "PEMS04": {
+    "val": {
+      "T": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 50.01,
+        "zlib_MB": 24.82,
+        "lzma_MB": 17.46,
+        "fcl_MB": 16.8,
+        "vs_lzma": 0.03764070335585101,
+        "lzma_dec_ms": 702.0,
+        "fcl_dec_ms": 177.8,
+        "max_abs_err": 0.5540506839752197
+      },
+      "E": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 50.01,
+        "zlib_MB": 0.57,
+        "lzma_MB": 0.08,
+        "fcl_MB": 2.37,
+        "vs_lzma": -28.483139361384662,
+        "lzma_dec_ms": 60.9,
+        "fcl_dec_ms": 13.1,
+        "max_abs_err": 1.3236571550369263,
+        "payload_slots": 1185576,
+        "fired": 1185576
+      },
+      "fd": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 50.01,
+        "zlib_MB": 31.81,
+        "lzma_MB": 21.68,
+        "fcl_MB": 25.01,
+        "vs_lzma": -0.15342350152679796,
+        "lzma_dec_ms": 817.6,
+        "fcl_dec_ms": 21.1,
+        "max_abs_err": 0.0624847412109375
+      },
+      "hd": {
+        "shape": [
+          3394,
+          307
+        ],
+        "raw_MB": 4.17,
+        "zlib_MB": 3.17,
+        "lzma_MB": 2.62,
+        "fcl_MB": 2.09,
+        "vs_lzma": 0.20365232907014397,
+        "lzma_dec_ms": 119.4,
+        "fcl_dec_ms": 2.5,
+        "max_abs_err": 1.45654296875,
+        "raw_absmax": 95520.7109375
+      },
+      "B": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 12.5,
+        "zlib_MB": 0.09,
+        "lzma_MB": 0.0,
+        "fcl_MB": 1.56,
+        "vs_lzma": -592.8210486322189,
+        "lzma_dec_ms": 15.4,
+        "fcl_dec_ms": 9.4,
+        "exact": false
+      },
+      "_total": {
+        "raw_MB": 166.7,
+        "zlib_MB": 60.46000000000001,
+        "lzma_MB": 41.839999999999996,
+        "fcl_MB": 47.83000000000001,
+        "lzma_dec_ms": 1715.3000000000002,
+        "fcl_dec_ms": 223.9
+      }
+    },
+    "test": {
+      "T": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 50.01,
+        "zlib_MB": 24.11,
+        "lzma_MB": 16.82,
+        "fcl_MB": 16.8,
+        "vs_lzma": 0.0009167999851601438,
+        "lzma_dec_ms": 671.4,
+        "fcl_dec_ms": 175.4,
+        "max_abs_err": 0.6254323720932007
+      },
+      "E": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 50.01,
+        "zlib_MB": 0.5,
+        "lzma_MB": 0.08,
+        "fcl_MB": 2.39,
+        "vs_lzma": -27.293499858075506,
+        "lzma_dec_ms": 59.4,
+        "fcl_dec_ms": 14.6,
+        "max_abs_err": 1.3236571550369263,
+        "payload_slots": 1196136,
+        "fired": 1196136
+      },
+      "fd": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 50.01,
+        "zlib_MB": 30.94,
+        "lzma_MB": 20.96,
+        "fcl_MB": 25.01,
+        "vs_lzma": -0.19298264361641748,
+        "lzma_dec_ms": 804.3,
+        "fcl_dec_ms": 20.3,
+        "max_abs_err": 0.0624847412109375
+      },
+      "hd": {
+        "shape": [
+          3394,
+          307
+        ],
+        "raw_MB": 4.17,
+        "zlib_MB": 3.18,
+        "lzma_MB": 2.64,
+        "fcl_MB": 2.09,
+        "vs_lzma": 0.20986385587093137,
+        "lzma_dec_ms": 119.5,
+        "fcl_dec_ms": 2.6,
+        "max_abs_err": 1.959716796875,
+        "raw_absmax": 128467.5
+      },
+      "B": {
+        "shape": [
+          3394,
+          12,
+          307
+        ],
+        "raw_MB": 12.5,
+        "zlib_MB": 0.09,
+        "lzma_MB": 0.0,
+        "fcl_MB": 1.56,
+        "vs_lzma": -661.2614406779661,
+        "lzma_dec_ms": 15.8,
+        "fcl_dec_ms": 9.4,
+        "exact": false
+      },
+      "_total": {
+        "raw_MB": 166.7,
+        "zlib_MB": 58.82,
+        "lzma_MB": 40.5,
+        "fcl_MB": 47.85000000000001,
+        "lzma_dec_ms": 1670.3999999999999,
+        "fcl_dec_ms": 222.3
+      }
+    }
+  }
+}

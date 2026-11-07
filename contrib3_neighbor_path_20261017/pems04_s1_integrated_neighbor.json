@@ -1,0 +1,317 @@
+{
+  "protocol": "Train-only fixed neighbor graph; same Student checkpoint and 8-epoch MAE fine-tune for both arms; Validation prefix selects epoch; 12-origin embargo; suffix assesses; Test not evaluated",
+  "limits": [
+    "Source Student selected on full Validation, so suffix is a mechanism screen only.",
+    "Only one seed and one learning rate were tested; novelty and multi-dataset generality are not established."
+  ],
+  "source_checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1\\best.pth",
+  "source_checkpoint_sha256": "44cca44fde140fa7c7d62784b0b5f72d1bc290d01a9add639b738982b76c21e0",
+  "train_graph_k": 4,
+  "train_graph_delta_correlation": 0.19940479644967715,
+  "source_full_validation": {
+    "mae": 17.833411484085147,
+    "horizon_mae": [
+      16.488670209815375,
+      16.960679921208904,
+      17.296729962108127,
+      17.549987221445342,
+      17.736957175903584,
+      17.91224101706298,
+      18.0520053193501,
+      18.171010741680348,
+      18.289974601781275,
+      18.387011566848848,
+      18.501261728375702,
+      18.654408343441194
+    ],
+    "element_mae": 17.833387732926013,
+    "valid_counts": [
+      1024860,
+      1024847,
+      1024834,
+      1024820,
+      1024807,
+      1024795,
+      1024784,
+      1024771,
+      1024759,
+      1024752,
+      1024745,
+      1024739
+    ]
+  },
+  "source_selection_mae": 17.79987858319911,
+  "source_assessment_mae": 17.918394519578865,
+  "selection_endpoints": [
+    10192,
+    11876
+  ],
+  "assessment_endpoints": [
+    11889,
+    13585
+  ],
+  "arms": {
+    "predictor_control": {
+      "selected_epoch": 0,
+      "selection_mae": 17.7998785841358,
+      "assessment": {
+        "mae": 17.95314098305523,
+        "horizon_mae": [
+          16.639725958551768,
+          17.12057715254803,
+          17.444173970655456,
+          17.681908714093282,
+          17.852103337260647,
+          18.03017848083841,
+          18.168376997899752,
+          18.274558499476033,
+          18.38692800354219,
+          18.496325795231808,
+          18.59009887456698,
+          18.75273601199843
+        ],
+        "element_mae": 17.95311598155045,
+        "valid_counts": [
+          512667,
+          512659,
+          512650,
+          512644,
+          512639,
+          512635,
+          512630,
+          512620,
+          512612,
+          512608,
+          512603,
+          512597
+        ]
+      },
+      "full_validation": {
+        "mae": 17.86198077458789,
+        "horizon_mae": [
+          16.512471722293775,
+          16.995963827794057,
+          17.3322468291906,
+          17.583046847504043,
+          17.76657306773243,
+          17.941175819935864,
+          18.086377846135452,
+          18.200425323679095,
+          18.31375955731901,
+          18.42234960588759,
+          18.51700446668978,
+          18.672374380892993
+        ],
+        "element_mae": 17.861957142736994,
+        "valid_counts": [
+          1024860,
+          1024847,
+          1024834,
+          1024820,
+          1024807,
+          1024795,
+          1024784,
+          1024771,
+          1024759,
+          1024752,
+          1024745,
+          1024739
+        ]
+      },
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_batch_mae": 16.075430648827627,
+          "selection_mae": 17.808398762393068,
+          "full_validation_mae": 17.84619399980079
+        },
+        {
+          "epoch": 2,
+          "train_batch_mae": 16.042347432677648,
+          "selection_mae": 17.81214826872561,
+          "full_validation_mae": 17.849752038231838
+        },
+        {
+          "epoch": 3,
+          "train_batch_mae": 16.0432240985404,
+          "selection_mae": 17.811276399951186,
+          "full_validation_mae": 17.848169170714435
+        },
+        {
+          "epoch": 4,
+          "train_batch_mae": 16.044879282529823,
+          "selection_mae": 17.81115604739683,
+          "full_validation_mae": 17.847514121813962
+        },
+        {
+          "epoch": 5,
+          "train_batch_mae": 16.05485932580356,
+          "selection_mae": 17.81654212233142,
+          "full_validation_mae": 17.855384751362
+        },
+        {
+          "epoch": 6,
+          "train_batch_mae": 16.0422435599061,
+          "selection_mae": 17.82237861002635,
+          "full_validation_mae": 17.86108958683303
+        },
+        {
+          "epoch": 7,
+          "train_batch_mae": 16.03920188592893,
+          "selection_mae": 17.824933707873395,
+          "full_validation_mae": 17.86243984025007
+        },
+        {
+          "epoch": 8,
+          "train_batch_mae": 16.03494943122505,
+          "selection_mae": 17.82242022797217,
+          "full_validation_mae": 17.86198077458789
+        }
+      ],
+      "trainable_parameters": 472076,
+      "neighbor_parameters": 0,
+      "checkpoint": null,
+      "gate_magnitude": 0.0,
+      "assessment_improvement_vs_original": -0.034746463476366785,
+      "three_chronological_block_improvements": [
+        -0.031355110628627614,
+        -0.026242032364113044,
+        -0.04664996723608894
+      ]
+    },
+    "neighbor": {
+      "selected_epoch": 0,
+      "selection_mae": 17.7998785841358,
+      "assessment": {
+        "mae": 17.951798748975794,
+        "horizon_mae": [
+          16.637178548947958,
+          17.119405952914317,
+          17.443521727191104,
+          17.680282125048056,
+          17.850894939549725,
+          18.02855307547703,
+          18.167186104078127,
+          18.27319965174277,
+          18.385546832957452,
+          18.4960005167711,
+          18.588858794039325,
+          18.750956718992505
+        ],
+        "element_mae": 17.951773740990507,
+        "valid_counts": [
+          512667,
+          512659,
+          512650,
+          512644,
+          512639,
+          512635,
+          512630,
+          512620,
+          512612,
+          512608,
+          512603,
+          512597
+        ]
+      },
+      "full_validation": {
+        "mae": 17.860285789215755,
+        "horizon_mae": [
+          16.510084482608423,
+          16.994332170002608,
+          17.33084066809213,
+          17.580969859504933,
+          17.764746149975455,
+          17.93930215626419,
+          18.084665557030064,
+          18.198730457485752,
+          18.31209454559597,
+          18.42147924520838,
+          18.515579755857804,
+          18.67060442296339
+        ],
+        "element_mae": 17.860262150270884,
+        "valid_counts": [
+          1024860,
+          1024847,
+          1024834,
+          1024820,
+          1024807,
+          1024795,
+          1024784,
+          1024771,
+          1024759,
+          1024752,
+          1024745,
+          1024739
+        ]
+      },
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_batch_mae": 16.07528956183072,
+          "selection_mae": 17.807907828494347,
+          "full_validation_mae": 17.845961475223017
+        },
+        {
+          "epoch": 2,
+          "train_batch_mae": 16.042059563544104,
+          "selection_mae": 17.810799994570065,
+          "full_validation_mae": 17.848779430278952
+        },
+        {
+          "epoch": 3,
+          "train_batch_mae": 16.04282995301728,
+          "selection_mae": 17.810071661988342,
+          "full_validation_mae": 17.847511994644506
+        },
+        {
+          "epoch": 4,
+          "train_batch_mae": 16.044373775350635,
+          "selection_mae": 17.80942498214434,
+          "full_validation_mae": 17.846168949611503
+        },
+        {
+          "epoch": 5,
+          "train_batch_mae": 16.054258472119752,
+          "selection_mae": 17.81471375778708,
+          "full_validation_mae": 17.854045450397614
+        },
+        {
+          "epoch": 6,
+          "train_batch_mae": 16.041588708524795,
+          "selection_mae": 17.820520546853945,
+          "full_validation_mae": 17.859751922858177
+        },
+        {
+          "epoch": 7,
+          "train_batch_mae": 16.038446429381175,
+          "selection_mae": 17.822848240775965,
+          "full_validation_mae": 17.86082470784675
+        },
+        {
+          "epoch": 8,
+          "train_batch_mae": 16.034119184488038,
+          "selection_mae": 17.820365482825128,
+          "full_validation_mae": 17.860285789215755
+        }
+      ],
+      "trainable_parameters": 472332,
+      "neighbor_parameters": 256,
+      "checkpoint": null,
+      "gate_magnitude": 0.11380504816770554,
+      "assessment_improvement_vs_original": -0.033404229396929,
+      "three_chronological_block_improvements": [
+        -0.030712529440823033,
+        -0.023939111280895986,
+        -0.04557156119717476
+      ]
+    }
+  },
+  "optimizer": {
+    "predictor_learning_rate": 2e-05,
+    "neighbor_path_learning_rate": 0.001
+  },
+  "predeclared_gate": "Neighbor improves original and matched predictor-control suffix MAE by >=0.01, with positive gains in >=2/3 chronological blocks.",
+  "passed": false
+}

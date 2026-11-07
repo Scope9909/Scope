@@ -1,0 +1,88 @@
+{
+  "dataset": "PEMS08",
+  "seed": 1,
+  "scope": "Validation only; exploratory; no Test selection",
+  "gate": 0.01,
+  "max_candidates": 1,
+  "probe_batches": 1000,
+  "hit_weight": 2.0,
+  "same_layout_q0_val_bytes": 35325,
+  "same_layout_q0_val_mae": 13.154658311154428,
+  "raw_val_mae": 13.154658311310186,
+  "candidates": [
+    {
+      "node": 19,
+      "single_bytes": 34518,
+      "single_saving": 807,
+      "exact_hit_flips": 144,
+      "mean_abs_retrieval_change": 2.9144155174621935e-05,
+      "topk_set_count": 71320,
+      "topk_set_flips": 107,
+      "topk_set_flip_rate": 0.0015002804262478969,
+      "mean_topk_overlap": 3.99826135726304,
+      "top1_flips": 10,
+      "top1_flip_rate": 0.00014021312394840157,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 16.76563571323858,
+      "risk": 0.00036565565265078573
+    }
+  ],
+  "cost_only": {
+    "nodes": [
+      19
+    ],
+    "bytes": 34518,
+    "saving": 807,
+    "val_delta": 0.00019817466118610128,
+    "passed": true,
+    "retrieval_probe": {
+      "exact_hit_flips": 144,
+      "mean_abs_retrieval_change": 2.9144155174621935e-05,
+      "topk_set_count": 71320,
+      "topk_set_flips": 107,
+      "topk_set_flip_rate": 0.0015002804262478969,
+      "mean_topk_overlap": 3.99826135726304,
+      "top1_flips": 10,
+      "top1_flip_rate": 0.00014021312394840157,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 16.76563571323858
+    },
+    "steps": [
+      {
+        "node": 19,
+        "accepted": true,
+        "bytes": 34518,
+        "val_delta": 0.00019817466118610128
+      }
+    ]
+  },
+  "retrieval_aware": {
+    "nodes": [
+      19
+    ],
+    "bytes": 34518,
+    "saving": 807,
+    "val_delta": 0.00019817466118610128,
+    "passed": true,
+    "retrieval_probe": {
+      "exact_hit_flips": 144,
+      "mean_abs_retrieval_change": 2.9144155174621935e-05,
+      "topk_set_count": 71320,
+      "topk_set_flips": 107,
+      "topk_set_flip_rate": 0.0015002804262478969,
+      "mean_topk_overlap": 3.99826135726304,
+      "top1_flips": 10,
+      "top1_flip_rate": 0.00014021312394840157,
+      "mean_base_k_boundary_margin": 27.043869490393554,
+      "mean_flipped_base_k_boundary_margin": 16.76563571323858
+    },
+    "steps": [
+      {
+        "node": 19,
+        "accepted": true,
+        "bytes": 34518,
+        "val_delta": 0.00019817466118610128
+      }
+    ]
+  }
+}

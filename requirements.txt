@@ -1,0 +1,12 @@
+# Core training / evaluation (tested with Python 3.11, CUDA 11.7)
+torch==2.0.0
+numpy>=1.24,<2.0
+einops>=0.8,<0.9
+pandas>=1.5,<3.0
+
+# Figures and report generation (only needed for paper_figures / pdf export)
+matplotlib>=3.7
+reportlab>=4.0
+
+# System monitoring used by runtime benchmarks (optional but recommended)
+psutil>=5.9

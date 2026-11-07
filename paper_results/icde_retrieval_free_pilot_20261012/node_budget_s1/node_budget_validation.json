@@ -1,0 +1,87 @@
+{
+  "protocol": "same_checkpoint_sensor_utility_budget_pilot",
+  "selection": "top sensor MAE gain on first 55% of Validation only",
+  "evaluation": "last 45% of Validation, no Test metric",
+  "full_cache": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k4_exact_mean.npz",
+  "full_cache_bytes": 105784863,
+  "sample_count": 3394,
+  "selection_prefix_end": 1866,
+  "test_evaluated": false,
+  "no_memory_suffix": {
+    "mae": 17.81871307161423,
+    "rmse": 29.720060919678787,
+    "mape": 0.12103396730537914
+  },
+  "full_memory_suffix": {
+    "mae": 17.663424547635653,
+    "rmse": 29.70072506827633,
+    "mape": 0.11956659510752266
+  },
+  "budgets": [
+    {
+      "selected_nodes": 61,
+      "fraction": 0.1986970684039088,
+      "cache_path": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\node_budget_s1\\sparse_memory_61nodes.npz",
+      "cache_bytes": 15003816,
+      "cache_mib": 14.308753967285156,
+      "suffix_metrics": {
+        "mae": 17.6698488786204,
+        "rmse": 29.69954213518918,
+        "mape": 0.11963816493022673
+      },
+      "suffix_mae_over_full_memory": 0.006424330984746263
+    },
+    {
+      "selected_nodes": 123,
+      "fraction": 0.4006514657980456,
+      "cache_path": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\node_budget_s1\\sparse_memory_123nodes.npz",
+      "cache_bytes": 37638494,
+      "cache_mib": 35.89486503601074,
+      "suffix_metrics": {
+        "mae": 17.65783811311943,
+        "rmse": 29.686573675526958,
+        "mape": 0.11952151924027384
+      },
+      "suffix_mae_over_full_memory": -0.00558643451622487
+    },
+    {
+      "selected_nodes": 184,
+      "fraction": 0.5993485342019544,
+      "cache_path": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\node_budget_s1\\sparse_memory_184nodes.npz",
+      "cache_bytes": 59144321,
+      "cache_mib": 56.404419898986816,
+      "suffix_metrics": {
+        "mae": 17.65254383890658,
+        "rmse": 29.68070171421355,
+        "mape": 0.11948616241680825
+      },
+      "suffix_mae_over_full_memory": -0.010880708729072097
+    },
+    {
+      "selected_nodes": 246,
+      "fraction": 0.8013029315960912,
+      "cache_path": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\node_budget_s1\\sparse_memory_246nodes.npz",
+      "cache_bytes": 82321073,
+      "cache_mib": 78.507493019104,
+      "suffix_metrics": {
+        "mae": 17.649416287362943,
+        "rmse": 29.675400281798975,
+        "mape": 0.11946433159502472
+      },
+      "suffix_mae_over_full_memory": -0.014008260272710515
+    },
+    {
+      "selected_nodes": 307,
+      "fraction": 1.0,
+      "cache_path": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS04\\PEMS04_12to12_analog_k4_exact_mean.npz",
+      "cache_bytes": 105784863,
+      "cache_mib": 100.88430690765381,
+      "suffix_metrics": {
+        "mae": 17.663424547635653,
+        "rmse": 29.70072506827633,
+        "mape": 0.11956659510752266
+      },
+      "suffix_mae_over_full_memory": 0.0
+    }
+  ]
+}

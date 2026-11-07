@@ -1,0 +1,285 @@
+{
+  "protocol": "PEMS04_60percent_sensor_sparse_memory_fixed_ValCal_three_seeds_three_folds",
+  "selected_nodes": 184,
+  "selection_and_calibration_fit_on_prior_Validation_only": true,
+  "test_evaluated": false,
+  "seeds_2_and_3_sparse_predictions_are_algebraic_sensor_mixes": true,
+  "seed_1_sparse_forward_algebraic_equivalence_audited_separately": true,
+  "folds": [
+    {
+      "seed": 1,
+      "folds": [
+        {
+          "selection_samples": 1866,
+          "evaluation_start": 1866,
+          "evaluation_end": 2375,
+          "raw": {
+            "mae": 17.280756195122233,
+            "rmse": 29.16454419971289,
+            "mape": 0.12134945432023982
+          },
+          "smooth": {
+            "mae": 17.20434016090835,
+            "rmse": 29.011138017604978,
+            "mape": 0.12089853614053746
+          },
+          "calibrated": {
+            "mae": 17.143504884501994,
+            "rmse": 28.946630792723166,
+            "mape": 0.12050736944788394
+          },
+          "full_memory_calibrated": {
+            "mae": 17.15838767845251,
+            "rmse": 28.966705505651504,
+            "mape": 0.12073684801675343
+          },
+          "calibrated_mae_minus_full_memory": -0.01488279395051606,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        },
+        {
+          "selection_samples": 2375,
+          "evaluation_start": 2375,
+          "evaluation_end": 2884,
+          "raw": {
+            "mae": 17.30107477817157,
+            "rmse": 29.071568658922285,
+            "mape": 0.1187720967927406
+          },
+          "smooth": {
+            "mae": 17.19540978895153,
+            "rmse": 28.897883797620306,
+            "mape": 0.11791180006973451
+          },
+          "calibrated": {
+            "mae": 17.088512253097814,
+            "rmse": 28.764301912150188,
+            "mape": 0.11729197873458852
+          },
+          "full_memory_calibrated": {
+            "mae": 17.093175116457296,
+            "rmse": 28.771295907886017,
+            "mape": 0.11733464787098298
+          },
+          "calibrated_mae_minus_full_memory": -0.004662863359481406,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        },
+        {
+          "selection_samples": 2884,
+          "evaluation_start": 2884,
+          "evaluation_end": 3394,
+          "raw": {
+            "mae": 18.360002773614717,
+            "rmse": 30.755541750410483,
+            "mape": 0.11832467224408554
+          },
+          "smooth": {
+            "mae": 18.2453503478166,
+            "rmse": 30.591398451039613,
+            "mape": 0.1175490240729728
+          },
+          "calibrated": {
+            "mae": 18.182954260529034,
+            "rmse": 30.53379817480024,
+            "mape": 0.11709158343038174
+          },
+          "full_memory_calibrated": {
+            "mae": 18.190422292219214,
+            "rmse": 30.546470681880553,
+            "mape": 0.1172094202528678
+          },
+          "calibrated_mae_minus_full_memory": -0.00746803169018051,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "folds": [
+        {
+          "selection_samples": 1866,
+          "evaluation_start": 1866,
+          "evaluation_end": 2375,
+          "raw": {
+            "mae": 17.278884549530492,
+            "rmse": 29.166482082477824,
+            "mape": 0.12094475668286662
+          },
+          "smooth": {
+            "mae": 17.20173245040388,
+            "rmse": 29.011776533592997,
+            "mape": 0.12072903030876363
+          },
+          "calibrated": {
+            "mae": 17.141793196620238,
+            "rmse": 28.948322727722765,
+            "mape": 0.1203983193486927
+          },
+          "full_memory_calibrated": {
+            "mae": 17.156200662335294,
+            "rmse": 28.967349605603967,
+            "mape": 0.12062843281240747
+          },
+          "calibrated_mae_minus_full_memory": -0.014407465715056134,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        },
+        {
+          "selection_samples": 2375,
+          "evaluation_start": 2375,
+          "evaluation_end": 2884,
+          "raw": {
+            "mae": 17.29741201465688,
+            "rmse": 29.066330723624503,
+            "mape": 0.11841090091099854
+          },
+          "smooth": {
+            "mae": 17.192619729142404,
+            "rmse": 28.8947460822782,
+            "mape": 0.11774949139274189
+          },
+          "calibrated": {
+            "mae": 17.086575129788645,
+            "rmse": 28.762168890606418,
+            "mape": 0.11717895596590953
+          },
+          "full_memory_calibrated": {
+            "mae": 17.090649321288918,
+            "rmse": 28.767894828614214,
+            "mape": 0.11722169253402302
+          },
+          "calibrated_mae_minus_full_memory": -0.004074191500272661,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        },
+        {
+          "selection_samples": 2884,
+          "evaluation_start": 2884,
+          "evaluation_end": 3394,
+          "raw": {
+            "mae": 18.357533627976466,
+            "rmse": 30.747892933902133,
+            "mape": 0.11804815780644047
+          },
+          "smooth": {
+            "mae": 18.242967954309098,
+            "rmse": 30.582677494589333,
+            "mape": 0.11740812019152709
+          },
+          "calibrated": {
+            "mae": 18.180869100383035,
+            "rmse": 30.525581192289454,
+            "mape": 0.11698993163978515
+          },
+          "full_memory_calibrated": {
+            "mae": 18.188873301528382,
+            "rmse": 30.539620522256058,
+            "mape": 0.11711032855505683
+          },
+          "calibrated_mae_minus_full_memory": -0.008004201145347167,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "folds": [
+        {
+          "selection_samples": 1866,
+          "evaluation_start": 1866,
+          "evaluation_end": 2375,
+          "raw": {
+            "mae": 17.279276923349844,
+            "rmse": 29.167451695562164,
+            "mape": 0.12099381278917136
+          },
+          "smooth": {
+            "mae": 17.201435855004604,
+            "rmse": 29.01168845384208,
+            "mape": 0.12074182062408066
+          },
+          "calibrated": {
+            "mae": 17.141361184154075,
+            "rmse": 28.948252658742536,
+            "mape": 0.12040094595190759
+          },
+          "full_memory_calibrated": {
+            "mae": 17.156004378590303,
+            "rmse": 28.967610058682308,
+            "mape": 0.12063294254320152
+          },
+          "calibrated_mae_minus_full_memory": -0.014643194436228413,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        },
+        {
+          "selection_samples": 2375,
+          "evaluation_start": 2375,
+          "evaluation_end": 2884,
+          "raw": {
+            "mae": 17.2964684593254,
+            "rmse": 29.065322707686523,
+            "mape": 0.1184581043513257
+          },
+          "smooth": {
+            "mae": 17.19210453314364,
+            "rmse": 28.894842915457644,
+            "mape": 0.11777436982039574
+          },
+          "calibrated": {
+            "mae": 17.085963164834936,
+            "rmse": 28.761979153417613,
+            "mape": 0.11719421323197977
+          },
+          "full_memory_calibrated": {
+            "mae": 17.090188240996515,
+            "rmse": 28.7682218967548,
+            "mape": 0.11723162524853074
+          },
+          "calibrated_mae_minus_full_memory": -0.004225076161578301,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        },
+        {
+          "selection_samples": 2884,
+          "evaluation_start": 2884,
+          "evaluation_end": 3394,
+          "raw": {
+            "mae": 18.35969348612266,
+            "rmse": 30.75098335217659,
+            "mape": 0.11811101574900347
+          },
+          "smooth": {
+            "mae": 18.24473957419418,
+            "rmse": 30.585601120374037,
+            "mape": 0.11745135142005288
+          },
+          "calibrated": {
+            "mae": 18.1820845952484,
+            "rmse": 30.52726603591648,
+            "mape": 0.11702571334056522
+          },
+          "full_memory_calibrated": {
+            "mae": 18.189597787427548,
+            "rmse": 30.540874699976417,
+            "mape": 0.11714165382025259
+          },
+          "calibrated_mae_minus_full_memory": -0.007513192179146699,
+          "smooth_gate_passed": true,
+          "target_time_gate_passed": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "calibrated_mae_minus_full_memory_mean": -0.008875667793089705,
+    "calibrated_mae_minus_full_memory_sample_std": 0.004568613686398082,
+    "improved_fold_seed_count": 9,
+    "total_fold_seed_count": 9,
+    "all_smooth_gates_passed": true,
+    "all_target_time_gates_passed": true
+  }
+}

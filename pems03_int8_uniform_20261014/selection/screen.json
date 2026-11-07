@@ -1,0 +1,42 @@
+{
+  "protocol": "first55_validation_three_block_stability_int8_screen",
+  "test_evaluated": false,
+  "blocks": 3,
+  "stability_penalty": 1.0,
+  "topk_nodes": 36,
+  "train_payload_budget_bytes": 2646208,
+  "mode_counts": {
+    "topk": 36,
+    "plain_ratio": 37,
+    "robust": 36
+  },
+  "train_payload_spent_bytes": {
+    "plain_ratio": 2643177,
+    "robust": 2590424
+  },
+  "selected_overlap": 33,
+  "folds": [
+    {
+      "eval_start": 2880,
+      "eval_end": 3665,
+      "topk_raw_mae": 13.089815329943114,
+      "plain_ratio_raw_mae": 13.090100284343555,
+      "robust_raw_mae": 13.110074669277196
+    },
+    {
+      "eval_start": 3665,
+      "eval_end": 4451,
+      "topk_raw_mae": 14.678195117065926,
+      "plain_ratio_raw_mae": 14.677711750519626,
+      "robust_raw_mae": 14.690146325551957
+    },
+    {
+      "eval_start": 4451,
+      "eval_end": 5237,
+      "topk_raw_mae": 13.020224108379475,
+      "plain_ratio_raw_mae": 13.021200446287317,
+      "robust_raw_mae": 13.023479992212883
+    }
+  ],
+  "mean_robust_minus_plain_ratio": 0.011562835297179793
+}

@@ -1,0 +1,15 @@
+{
+  "protocol": "validation_only_physical_grouped_memory",
+  "test_evaluated": false,
+  "mode_counts": {
+    "off": 150,
+    "int8": 20,
+    "fp16": 0,
+    "fp32": 0
+  },
+  "cache_bytes": 672105,
+  "cache_mib": 0.6409692764282227,
+  "plan": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\pems08_s1_temporal_robust_k17_20261013\\screen\\robust_plan.json",
+  "cache": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\pems08_s1_temporal_robust_k17_20261013\\robust_grouped.npz",
+  "topk_int8_baseline": false
+}

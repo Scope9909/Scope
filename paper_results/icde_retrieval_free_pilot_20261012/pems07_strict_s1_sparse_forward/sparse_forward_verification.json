@@ -1,0 +1,20 @@
+{
+  "test_evaluated": false,
+  "selected_nodes": 177,
+  "sparse_cache": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot_20261012\\pems07_sparse_memory_177nodes.npz",
+  "sparse_cache_bytes": 32823967,
+  "sparse_cache_mib": 31.30337429046631,
+  "physical_sparse_suffix": {
+    "mae": 18.06170223853523,
+    "rmse": 31.80442314214677,
+    "mape": 0.07732193248514409
+  },
+  "algebraic_sparse_suffix": {
+    "mae": 18.061702227642677,
+    "rmse": 31.804423044433364,
+    "mape": 0.077321932471788
+  },
+  "physical_minus_algebraic_suffix_mae": 1.0892552637642439e-08,
+  "prediction_maximum_absolute_difference": 0.07086181640625,
+  "prediction_mean_absolute_difference": 4.364720496141672e-07
+}
