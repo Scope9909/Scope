@@ -1,6 +1,6 @@
 """PEMS07 dense Teacher base forecast under the frozen Student evaluation split.
 
-This is a base-forecast control, not the full Hist2Res Teacher (whose K and
+This is a base-forecast control, not the full retrieval-augmented Teacher (whose K and
 retrieval modules differ from the final Student). No Test-based fitting occurs.
 """
 from __future__ import annotations
@@ -83,7 +83,7 @@ def main() -> None:
         val_pred, val_truth, val_idx, test_pred, test_idx, **kwargs)
     result = {
         "protocol": "PEMS07 dense Teacher base-only control; Validation-only calibration",
-        "scope_warning": "Not the full retrieval-augmented Hist2Res Teacher",
+        "scope_warning": "Not the full retrieval-augmented Teacher",
         "dataset": "PEMS07", "seed": 1,
         "checkpoint": str(checkpoint), "checkpoint_sha256": sha256(checkpoint),
         "checkpoint_bytes": checkpoint.stat().st_size,

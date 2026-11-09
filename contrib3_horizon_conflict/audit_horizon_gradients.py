@@ -39,7 +39,7 @@ def parse_args() -> argparse.Namespace:
         help=(
             "predictor_shared audits the factorized predictor trunk only; "
             "core_shared additionally audits the lightweight backbone while "
-            "excluding horizon heads and all Hist2Res memory modules"
+            "excluding horizon heads and all retrieval-memory modules"
         ),
     )
     return parser.parse_args()
@@ -171,7 +171,7 @@ def main() -> None:
             for name, parameter in predictor.predict_unit.named_parameters()
         )
     else:
-        # The proposed contribution must remain independent of Hist2Res, so
+        # This analysis must remain independent of the retrieval-memory path, so
         # every analog-memory module stays frozen.  Horizon-specific readouts
         # are also excluded because they do not share parameters and hence
         # cannot exhibit multi-task gradient conflict.

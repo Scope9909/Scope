@@ -1,6 +1,6 @@
 # PEMS07 同协议分阶段资源与精度核算（seed 1）
 
-本表使用相同的 PEMS07 12→12 划分、batch 32、验证集拟合校准表、测试集评价和冻结 Student checkpoint。状态文件均按包含索引与解码信息的完整文件计字节。Teacher 行仅是**基础预测参考**，不是最终 Hist2Res Teacher 的完整检索链路；不能把 Teacher→Student 的全部差异归因于低秩投影。
+本表使用相同的 PEMS07 12→12 划分、batch 32、验证集拟合校准表、测试集评价和冻结 Student checkpoint。状态文件均按包含索引与解码信息的完整文件计字节。Teacher 行仅是**基础预测参考**，不是最终检索增强 Teacher 的完整检索链路；不能把 Teacher→Student 的全部差异归因于低秩投影。
 
 | 配置 | 参数量 | Test raw MAE | Test 校准后 MAE | checkpoint (B) | 检索状态 (B) | 校准表 (B) | 三资产合计 (B) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |

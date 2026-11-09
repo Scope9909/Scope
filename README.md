@@ -42,7 +42,7 @@ stage-specific commands and their limitations.
 
 ## Paper pipeline
 
-1. Train the retrieval-augmented Teacher (Hist2Res prediction chain).
+1. Train the retrieval-augmented Teacher.
 2. Compute the **uncentered Train second moment**, initialize a low-rank
    Student, and distill from a frozen Teacher.
 3. Freeze the Student; select a fixed SRM node set using Validation.

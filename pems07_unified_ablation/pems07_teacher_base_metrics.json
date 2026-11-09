@@ -1,6 +1,6 @@
 {
   "protocol": "PEMS07 dense Teacher base-only control; Validation-only calibration",
-  "scope_warning": "Not the full retrieval-augmented Hist2Res Teacher",
+  "scope_warning": "Not the full retrieval-augmented Teacher",
   "dataset": "PEMS07",
   "seed": 1,
   "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppaper_pems07_s1_final_joint\\best.pth",

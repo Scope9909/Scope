@@ -1,4 +1,4 @@
-"""Align the frozen Hist2Res parent cache to a selected-prediction archive.
+"""Align the frozen retrieval-augmented parent cache to a selected-prediction archive.
 
 The parent cache is stored in normalized space and may contain unused trailing
 rows.  This utility uses an already-audited reference archive solely for its

@@ -8,7 +8,7 @@ The experiment deliberately separates three artifacts:
 3. labels from the official training split supply the supervised objective.
 
 The selected teacher is the existing PEMS04 AGCRN-spatial checkpoint. It has
-no Hist2Res retrieval, exact-history, or reranker branch. Validation selects
+no retrieval-based residual, exact-history, or reranker branch. Validation selects
 the student checkpoint; Test is evaluated once by the standard runner.
 """
 

@@ -3584,7 +3584,7 @@ def main():
     # needs an architecture-compatible dense checkpoint, while the latter
     # consumes predictions from any teacher through the cache contract.
     # Optional retrieval adapters are retained only for backward-compatible
-    # Hist2Res experiments. Strict loading and an epoch-0 Validation anchor
+    # retrieval-based experiments. Strict loading and an epoch-0 Validation anchor
     # prevent silent initialization drift or Test-driven selection.
     if _retrieval_aware_head_finetune:
         _parent_ckpt = getattr(args, 'student_init_ckpt', 'none')
