@@ -9,20 +9,36 @@ This repository contains historical experiment implementations as well as the
 frozen paper configuration. A clean-machine, end-to-end reproduction has
 **not yet been certified**.
 
-## Repository map
+## Start here
 
-| Area | Purpose |
+For the final paper configuration, first identify the frozen run in
+[`tools/final_runs.json`](tools/final_runs.json), then follow the matching
+module entry below. The table links to source code, not to a single command
+that reproduces every experiment.
+
+| Scope component | Main source entry |
 |---|---|
-| `models/Scope.py`, `layers/`, `utils/` | Forecasting model and shared components. |
-| `run.py`, `scope.py` | Training entry and read-only verification commands. |
-| `configurations/`, `EXP_experiments/Scope/` | Experiment configurations and frozen run metadata. |
-| `contrib3_index_codec/`, `pemsbay_full/` | State coding and the separate exact-float PEMS-BAY workflow. |
-| `tools/` | Asset manifests, installation, and preflight checks. |
-| `paper_results/`, `paper_figures/` | Paper evidence and figure sources; some scripts read these files. |
+| Reference Forecast Branch / Teacher | [`models/Scope.py`](models/Scope.py), [`run.py`](run.py) |
+| Input-Aware Student Compression (ISC) | [`compute_predictor_activation_covariance.py`](compute_predictor_activation_covariance.py), [`run_lite_r256_valcal_pipeline.py`](run_lite_r256_valcal_pipeline.py) |
+| Sparse Residual Memory (SRM) | [`paper_results/icde_retrieval_free_pilot/`](paper_results/icde_retrieval_free_pilot/) |
+| Validation-Constrained State Coding (ValSC) | [`contrib3_index_codec/`](contrib3_index_codec/) |
+| Post-Compression Calibration | [`export_frozen_calibrators.py`](contrib3_index_codec/export_frozen_calibrators.py) |
+| Frozen evaluation | [`eval_adaptive_lossless_test.py`](contrib3_index_codec/eval_adaptive_lossless_test.py) (PEMS03/04/07/08); [`pemsbay_full/`](pemsbay_full/) (PEMS-BAY) |
 
-Historical experiments remain separate from the final five-dataset path.
-Their public file and directory names omit creation dates; frozen binary
-identifiers and reported numerical results have not been regenerated.
+The five frozen run configurations are:
+
+| Dataset | Run configuration |
+|---|---|
+| PEMS03 | [`config.json`](EXP_experiments/Scope/PEMS03/Scope_PEMS03_12to12_exp10101500_s1/config.json) |
+| PEMS04 | [`config.json`](EXP_experiments/Scope/PEMS04/Scope_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1/config.json) |
+| PEMS07 | [`config.json`](EXP_experiments/Scope/PEMS07/Scope_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.json) |
+| PEMS08 | [`config.json`](EXP_experiments/Scope/PEMS08/Scope_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.json) |
+| PEMS-BAY | [`config.json`](EXP_experiments/Scope/PEMSBAY/Scope_PEMSBAY_12to12_exppemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.json) |
+
+Raw datasets, prepared caches, and the final frozen asset bundle are not
+provided by a Git clone. See [Data and assets](#data-and-assets) before
+attempting a replay, and [Source entry points](#source-entry-points) for
+stage-specific commands and their limitations.
 
 ## Paper pipeline
 
@@ -157,6 +173,10 @@ runtime comparison, not the recommended final-system reproduction entry.
 
 Keep final metrics, ablations, calibration, frozen node sets and field recipes.
 Do not delete `paper_results/` wholesale: scripts read inputs from it.
+Figure-generation scripts and derived figure data are omitted from this
+code-focused release; the experiment evidence needed by source scripts remains.
+Historical `EXP_results/` CSVs are omitted; `run.py` creates new result files
+when experiments are run.
 The proposed method is **Scope**. The active model module is
 `models/Scope.py`, and `tools/final_runs.json` points to the five frozen
 `EXP_experiments/Scope/` runs. Historical `TLAST_improved` model identifiers
