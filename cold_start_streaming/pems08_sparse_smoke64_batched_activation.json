@@ -1,0 +1,57 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS08",
+  "mode": "sparse",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS08\\TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth",
+  "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems08_sparse_cold_state.npz",
+  "state_bytes": 134855,
+  "selected_nodes": 20,
+  "total_nodes": 170,
+  "cold_start_endpoint": 10711,
+  "pending_candidates_at_cold_start": 11,
+  "source_train_candidates": 10700,
+  "device": "cuda:0",
+  "batch_size": 32,
+  "warmup_passes": 0,
+  "repeats": 1,
+  "samples_per_pass": 64,
+  "load_and_init_seconds": 1.5251446000002034,
+  "pass_wall_seconds": [
+    0.7305428999998185
+  ],
+  "pass_wall_median_seconds": 0.7305428999998185,
+  "pass_wall_p95_seconds": 0.7305428999998185,
+  "throughput_samples_per_second_at_median": 87.60608035478259,
+  "retrieval_seconds": [
+    0.05905749999965337
+  ],
+  "retrieval_median_seconds": 0.05905749999965337,
+  "model_and_transfer_seconds": [
+    0.6364159000004292
+  ],
+  "model_and_transfer_median_seconds": 0.6364159000004292,
+  "loader_batch_latency_ms_p50": 11.213450000013836,
+  "loader_batch_latency_ms_p95": 12.73890500001471,
+  "compute_batch_latency_ms_p50": 347.8842499998791,
+  "compute_batch_latency_ms_p95": 629.8995650001416,
+  "end_to_end_batch_latency_ms_p50": 359.09769999989294,
+  "end_to_end_batch_latency_ms_p95": 642.6384700001563,
+  "batch_latency_scope": "one batch of at most 32; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 654692352,
+  "cpu_rss_peak_sampled_bytes": 1104441344,
+  "gpu_peak_allocated_bytes": 214962176,
+  "gpu_peak_reserved_bytes": 385875968,
+  "raw_validation_metrics": {
+    "mae": 10.320044251600942,
+    "rmse": 17.201669333649644,
+    "mape": 0.09073822034862017
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": {
+    "reference": "D:\\lunwen\\June\\TLAST-main\\online_end_to_end\\pems08_sparse_cache_reference_predictions.npz",
+    "max_absolute_difference": 0.0,
+    "mean_absolute_difference": 0.0
+  }
+}

@@ -7,7 +7,7 @@ import csv
 from torch import nn
 import torch.optim as optim
 from models import TLAST
-from models import TLAST_improved
+from models import Scope
 
 import os
 import sys
@@ -1226,7 +1226,8 @@ class trainer():
         self.lr_scheduler = self._build_lr_scheduler()
 
     def _build_model(self, modelid):
-        model_dict = {"TLAST":TLAST, "TLAST_improved":TLAST_improved}
+        model_dict = {"TLAST": TLAST, "TLAST_improved": Scope,
+                      "Scope": Scope}
         if modelid in model_dict.keys():
             model = model_dict[modelid].Model(self.args) 
         else:
@@ -2551,7 +2552,7 @@ def main():
             args.ftle_mode = model_config.get('ftle_mode', 'full')
             args.single_tle_mode = model_config.get('single_tle_mode', 'last')
             args.use_mapa = model_config.get(
-                'use_mapa', 1 if args.modelid == 'TLAST_improved' else 0
+                'use_mapa', 1 if args.modelid in ('TLAST_improved', 'Scope') else 0
             )
             args.lambda_ortho = model_config.get('lambda_ortho', 0.01)
             args.num_prototypes = model_config.get('num_prototypes', 16)
@@ -2634,7 +2635,7 @@ def main():
             ))
             args.spatial_type = model_config.get(
                 'spatial_type',
-                'mapa' if args.modelid == 'TLAST_improved' else 'original_spa',
+                'mapa' if args.modelid in ('TLAST_improved', 'Scope') else 'original_spa',
             )
             args.original_spa_dynamic_proxy = bool(
                 model_config.get('original_spa_dynamic_proxy', True)
@@ -3635,7 +3636,7 @@ def main():
             'time_wise_predictor.predict_unit.1.weight'
         )
         _same_factorized_parent = (
-            isinstance(_predictor, TLAST_improved.factorized_richer_predictor)
+            isinstance(_predictor, Scope.factorized_richer_predictor)
             and _factorized_parent_key in _parent_sd
             and tuple(_parent_sd[_factorized_parent_key].shape)
             == tuple(_predictor.predict_unit[1].weight.shape)
@@ -3667,7 +3668,7 @@ def main():
                 if bool(getattr(args, 'use_elastic_rank_router', 0)) else 0,
             )
         elif isinstance(
-            _predictor, TLAST_improved.factorized_richer_predictor
+            _predictor, Scope.factorized_richer_predictor
         ):
             # Load every non-predictor tensor strictly, then migrate the
             # legacy richer head through truncated SVD and exact step-bias

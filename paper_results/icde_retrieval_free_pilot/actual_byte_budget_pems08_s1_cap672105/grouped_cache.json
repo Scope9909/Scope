@@ -1,0 +1,15 @@
+{
+  "protocol": "validation_only_physical_grouped_memory",
+  "test_evaluated": false,
+  "mode_counts": {
+    "off": 151,
+    "int8": 19,
+    "fp16": 0,
+    "fp32": 0
+  },
+  "cache_bytes": 656804,
+  "cache_mib": 0.6263771057128906,
+  "plan": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot\\actual_byte_budget_pems08_s1_cap672105\\plan.json",
+  "cache": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot\\actual_byte_budget_pems08_s1_cap672105\\grouped_cache.npz",
+  "topk_int8_baseline": false
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Validation-only, raw pre-calibration predictions, seed 1",
+  "retrieval_free_predictions": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot\\valcal_s1\\validation_predictions.npz",
+  "retrieval_enabled_predictions": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1\\selected_predictions.npz",
+  "test_evaluated": false,
+  "samples": 3394,
+  "nodes": 307,
+  "sample_mean_mae_gain_from_retrieval": 0.11266752501860848,
+  "retrieval_better_sample_fraction": 0.9475545079552151,
+  "top_20_percent_samples_share_of_positive_gain": 0.40096055083127696,
+  "retrieval_better_node_fraction": 0.8273615635179153,
+  "top_20_percent_nodes_share_of_positive_gain": 0.860771416070391,
+  "interpretation_limit": "Two separately trained models; concentration is diagnostic and does not prove a deployable routing or cache-reduction method."
+}

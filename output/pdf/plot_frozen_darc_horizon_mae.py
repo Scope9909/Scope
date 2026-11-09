@@ -16,10 +16,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 RESULTS = (
     ROOT
-    / "contrib3_index_codec_20261020"
+    / "contrib3_index_codec"
     / "packages"
     / "online"
-    / "adaptive_lossless_test_20261023_v1"
+    / "adaptive_lossless_test_v1"
 )
 DATASETS = ("PEMS03", "PEMS04", "PEMS07", "PEMS08")
 
@@ -48,7 +48,7 @@ def horizon_mae(prediction, truth):
 def collect(output: Path):
     import numpy as np
 
-    sys.path.insert(0, str(ROOT / "contrib3_index_codec_20261020"))
+    sys.path.insert(0, str(ROOT / "contrib3_index_codec"))
     import eval_adaptive_lossless_test as evaluator
 
     published = {

@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('PEMS03', 'PEMS07', 'PEMS08', 'PEMSBAY', 'METRLA')]
+    [ValidateSet('PEMS03', 'PEMS07', 'PEMS08', 'PEMSBAY')]
     [string[]]$Datasets = @('PEMS03', 'PEMS07', 'PEMS08'),
     [int]$Seed = 1,
     [string]$PythonExe = 'python'

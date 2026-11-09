@@ -1,0 +1,54 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS03",
+  "mode": "full",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS03\\TLAST_improved_PEMS03_12to12_exp10101500_s1\\best.pth",
+  "state": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\full_cold_state.npz",
+  "state_bytes": 8883925,
+  "selected_nodes": 358,
+  "retrieval_format": "int8",
+  "total_nodes": 358,
+  "cold_start_endpoint": 15722,
+  "pending_candidates_at_cold_start": 11,
+  "source_train_candidates": 15711,
+  "device": "cpu",
+  "batch_size": 32,
+  "warmup_passes": 1,
+  "repeats": 1,
+  "samples_per_pass": 5237,
+  "load_and_init_seconds": 1.8893927999999995,
+  "pass_wall_seconds": [
+    67.212332
+  ],
+  "pass_wall_median_seconds": 67.212332,
+  "pass_wall_p95_seconds": 67.212332,
+  "throughput_samples_per_second_at_median": 77.91724887629252,
+  "retrieval_seconds": [
+    14.790046199999935
+  ],
+  "retrieval_median_seconds": 14.790046199999935,
+  "model_and_transfer_seconds": [
+    51.43430729999989
+  ],
+  "model_and_transfer_median_seconds": 51.43430729999989,
+  "loader_batch_latency_ms_p50": 5.572700000001873,
+  "loader_batch_latency_ms_p95": 6.082100000010371,
+  "compute_batch_latency_ms_p50": 404.013649999996,
+  "compute_batch_latency_ms_p95": 423.09133499999945,
+  "end_to_end_batch_latency_ms_p50": 409.7083499999883,
+  "end_to_end_batch_latency_ms_p95": 428.49369999999846,
+  "batch_latency_scope": "one batch of at most 32; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 562294784,
+  "cpu_rss_peak_sampled_bytes": 2552283136,
+  "gpu_peak_allocated_bytes": null,
+  "gpu_peak_reserved_bytes": null,
+  "raw_validation_metrics": {
+    "mae": 13.20669900476345,
+    "rmse": 21.462930005852723,
+    "mape": 0.1267756084177024
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": null
+}

@@ -18,7 +18,7 @@ from compute_analog_retrieval_cache import (
     _retrieve_split,
     _training_fallbacks,
 )
-from models import TLAST_improved
+from models import Scope
 from utils import datasets_utils
 
 
@@ -134,7 +134,7 @@ def main():
     model_args.num_nodes = num_nodes
 
     device = torch.device(args.device)
-    model = TLAST_improved.Model(model_args).to(device)
+    model = Scope.Model(model_args).to(device)
     new_state = torch.load(checkpoint_path, map_location=device)
     missing, unexpected = model.load_state_dict(new_state, strict=False)
     if missing or unexpected:

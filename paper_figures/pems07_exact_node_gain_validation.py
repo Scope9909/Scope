@@ -18,14 +18,14 @@ import numpy as np
 import torch
 
 ROOT = Path(__file__).resolve().parents[1]
-CODEC_DIR = ROOT / "contrib3_index_codec_20261020"
+CODEC_DIR = ROOT / "contrib3_index_codec"
 sys.path.insert(0, str(CODEC_DIR))
 import adaptive_lossless_state_codec as codec  # noqa: E402
 import eval_hybrid_codec_test_once as previous  # noqa: E402
 
 OUT = Path(__file__).resolve().parent / "pems07_exact_node_gain_validation.json"
 DATASET = "PEMS07"
-FULL_STATE = ROOT / "pems07_unified_ablation_20261028" / "pems07_full_exact_val.alsc"
+FULL_STATE = ROOT / "pems07_unified_ablation" / "pems07_full_exact_val.alsc"
 SPARSE_STATE = CODEC_DIR / "packages" / "online" / "pems07_s1_val_u16.npz"
 
 

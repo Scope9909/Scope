@@ -6,13 +6,16 @@ The source layer is intentionally raster. The overlay elements remain native SVG
 from __future__ import annotations
 
 import base64
+import os
 from pathlib import Path
 from xml.sax.saxutils import escape
 
 from PIL import Image
 
 
-SOURCE = Path(r"C:\Users\16495\Downloads")
+SOURCE = Path(os.environ.get(
+    "SCOPE_ORIGINAL_FIGURES_DIR", str(Path(__file__).resolve().parent / "source")
+))
 OUTPUT = Path(__file__).resolve().parent / "original_based"
 
 

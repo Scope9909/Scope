@@ -1,0 +1,11 @@
+{
+  "protocol": "train_only_online_memory_state_export",
+  "dataset": "PEMS03",
+  "test_evaluated": false,
+  "selection": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\selection\\robust_plan.json",
+  "nodes": 36,
+  "total_nodes": 358,
+  "state_bytes": 610182,
+  "retrieval_format": "int8",
+  "query_outputs_serialized": false
+}

@@ -1,0 +1,30 @@
+{
+  "dataset": "PEMS04",
+  "seed": 1,
+  "scope": "Student+ValCal+SRM online state, not Teacher cache",
+  "selector": "actual_online_state_byte_capped_int8_s1",
+  "gate": 0.02,
+  "val_raw_mae": 17.85061605505963,
+  "val_u16_mae": 17.85061605505963,
+  "val_u16_scalef16_mae": 17.850570913150005,
+  "val_scalef16_delta": -4.5141909623680476e-05,
+  "val_fixed_mae": 17.857276027917077,
+  "val_fixed_delta": 0.006659972857448793,
+  "selected": "fixed_0_idx",
+  "q8_val_mae": null,
+  "q8_val_delta": null,
+  "test_raw_mae": 17.714434674155523,
+  "test_calibrated_mae": 17.56523256695951,
+  "test_state_original_bytes": 218466,
+  "test_state_encoded_bytes": 76587,
+  "test_state_saving_fraction": 0.6494328636950373,
+  "sizes": {
+    "val_u16": 168734,
+    "val_u16_scalef16": 168663,
+    "test_u16": 167960,
+    "test_u16_scalef16": 167889,
+    "same_layout_lossless_test": 80081,
+    "same_layout_lossless_val": 81133
+  },
+  "encoded_test_state": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems04_s1_test_fixed_0_idx.npz"
+}

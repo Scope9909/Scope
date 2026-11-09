@@ -1,0 +1,20 @@
+{
+  "protocol": "causal_cold_start_streaming_state_v1",
+  "dataset": "PEMS03",
+  "test_evaluated": false,
+  "source_state": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\sparse_online_state.npz",
+  "source_state_bytes": 610182,
+  "state_bytes": 610603,
+  "first_validation_query_endpoint": 15722,
+  "snapshot_observed_through": 15722,
+  "source_raw_observed_through": 15733,
+  "unobservable_future_frames_removed": 11,
+  "original_candidates": 15711,
+  "active_candidates_at_cold_start": 15700,
+  "pending_candidate_metadata_only": 11,
+  "max_active_future_endpoint": 15722,
+  "min_pending_future_endpoint": 15723,
+  "raw_pending_futures_serialized": false,
+  "query_outputs_serialized": false,
+  "validation_labels_serialized": false
+}

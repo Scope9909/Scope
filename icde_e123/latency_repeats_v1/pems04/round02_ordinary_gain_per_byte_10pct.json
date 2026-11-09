@@ -1,0 +1,54 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS04",
+  "mode": "sparse",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1\\best.pth",
+  "state": "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\ordinary_gain_per_byte_10pct_cold_state.npz",
+  "state_bytes": 489917,
+  "selected_nodes": 44,
+  "retrieval_format": "int8",
+  "total_nodes": 307,
+  "cold_start_endpoint": 10192,
+  "pending_candidates_at_cold_start": 11,
+  "source_train_candidates": 10181,
+  "device": "cuda:0",
+  "batch_size": 1,
+  "warmup_passes": 1,
+  "repeats": 1,
+  "samples_per_pass": 3394,
+  "load_and_init_seconds": 1.8112330000003567,
+  "pass_wall_seconds": [
+    23.848962900003244
+  ],
+  "pass_wall_median_seconds": 23.848962900003244,
+  "pass_wall_p95_seconds": 23.848962900003244,
+  "throughput_samples_per_second_at_median": 142.31226801059506,
+  "retrieval_seconds": [
+    2.5384467999610933
+  ],
+  "retrieval_median_seconds": 2.5384467999610933,
+  "model_and_transfer_seconds": [
+    17.71518800004924
+  ],
+  "model_and_transfer_median_seconds": 17.71518800004924,
+  "loader_batch_latency_ms_p50": 0.6781499996577622,
+  "loader_batch_latency_ms_p95": 1.1931900000490712,
+  "compute_batch_latency_ms_p50": 5.583199999819044,
+  "compute_batch_latency_ms_p95": 8.599890002187749,
+  "end_to_end_batch_latency_ms_p50": 6.331549997412367,
+  "end_to_end_batch_latency_ms_p95": 9.352245003719872,
+  "batch_latency_scope": "one batch of at most 1; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 710332416,
+  "cpu_rss_peak_sampled_bytes": 1346830336,
+  "gpu_peak_allocated_bytes": 21748224,
+  "gpu_peak_reserved_bytes": 31457280,
+  "raw_validation_metrics": {
+    "mae": 17.84603811739542,
+    "rmse": 30.04591210660912,
+    "mape": 0.1195850439843093
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": null
+}

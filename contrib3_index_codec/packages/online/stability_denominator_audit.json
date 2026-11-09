@@ -1,0 +1,57 @@
+{
+  "scope": "Validation stability denominator audit",
+  "test_used": false,
+  "labels_used": false,
+  "conclusion": "availability and retrieval arrays share (query,horizon,node,1); the old retrieved_count variable is therefore the exact element denominator",
+  "artificial_case": {
+    "exact_flips": 1,
+    "exact_count": 12,
+    "topk_flips": 1,
+    "topk_count": 4
+  },
+  "frozen_records": [
+    {
+      "dataset": "PEMS03",
+      "nodes": [
+        22
+      ],
+      "retrieval_k": 4,
+      "topk_set_flips": 724,
+      "topk_set_count": 188532,
+      "topk_set_flip_rate": 0.003840196889652685,
+      "exact_flips": 0,
+      "exact_element_count": 2262384,
+      "exact_flip_rate": 0.0,
+      "source": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems03_s1_beam_threebudget.json"
+    },
+    {
+      "dataset": "PEMS04",
+      "nodes": [
+        0
+      ],
+      "retrieval_k": 4,
+      "topk_set_flips": 385,
+      "topk_set_count": 105214,
+      "topk_set_flip_rate": 0.003659208850533199,
+      "exact_flips": 7380,
+      "exact_element_count": 1262568,
+      "exact_flip_rate": 0.0058452297222803045,
+      "source": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems04_s1_beam_threebudget.json"
+    },
+    {
+      "dataset": "PEMS07",
+      "nodes": [
+        117
+      ],
+      "retrieval_k": 4,
+      "topk_set_flips": 829,
+      "topk_set_count": 682440,
+      "topk_set_flip_rate": 0.0012147588066350155,
+      "exact_flips": 67248,
+      "exact_element_count": 8189280,
+      "exact_flip_rate": 0.008211710919641287,
+      "source": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems07_s1_beam_threebudget.json"
+    }
+  ],
+  "pems08_final": "exact fallback: both flip rates are zero by identity"
+}

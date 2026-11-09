@@ -1,0 +1,39 @@
+{
+  "protocol": "E2_frozen_seed1_online_state_same_byte_budget_v1",
+  "split": "Validation only",
+  "test_evaluated": false,
+  "budget_fractions": [
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "selection": "first 55% Validation; pre-fixed top-gain, ordinary positive-gain/byte and ten random seeds",
+  "calibration": "same expanding-time folds; model-specific per-node smooth and target-time fit",
+  "accuracy": "full and backbone live replay; per-node composition checked against independent live sparse replay",
+  "timing": "batch=1 full Validation at 10% and 40% for top-gain and gain/byte; baseline/full endpoints",
+  "datasets": {
+    "PEMS04": {
+      "accuracy_bytes": "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\accuracy_bytes.json",
+      "timing_results": [
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\backbone_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\full_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\ordinary_gain_per_byte_10pct_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\ordinary_gain_per_byte_40pct_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\top_gain_10pct_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\top_gain_40pct_b1.json"
+      ]
+    },
+    "PEMS08": {
+      "accuracy_bytes": "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems08\\accuracy_bytes.json",
+      "timing_results": [
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems08\\backbone_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems08\\full_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems08\\ordinary_gain_per_byte_10pct_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems08\\ordinary_gain_per_byte_40pct_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems08\\top_gain_10pct_b1.json",
+        "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems08\\top_gain_40pct_b1.json"
+      ]
+    }
+  }
+}

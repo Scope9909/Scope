@@ -1,0 +1,28 @@
+{
+  "dataset": "PEMS07",
+  "seed": 2,
+  "selection_split": "Validation",
+  "previous_test_seen_in_project": true,
+  "new_blind_test": false,
+  "selector": "first55_three_block_stability_int8_s1",
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s2\\best.pth",
+  "validation_raw": {
+    "mae": 18.173162114892484,
+    "rmse": 31.45369409219816,
+    "mape": 0.07963317116959968
+  },
+  "test_raw": {
+    "mae": 18.735522821728694,
+    "rmse": 32.229993694483376,
+    "mape": 0.07864263471143422
+  },
+  "test_val_calibrated": {
+    "mae": 18.509896518200783,
+    "rmse": 31.877584758740696,
+    "mape": 0.0772687606278993
+  },
+  "validation_count": 5640,
+  "test_count": 5640,
+  "val_state": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\adaptive_lossless_val_v2\\pems07_val_selected.alsc",
+  "test_state": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\adaptive_lossless_test_v1\\pems07_test_selected.alsc"
+}

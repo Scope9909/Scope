@@ -27,9 +27,9 @@ _runtime_deps/
 *.log
 
 # --- whitelisted in-repo paper artifacts (small, config/manifest-referenced) ---
-!contrib3_index_codec_20261020/**/*.npz
-!contrib3_index_codec_20261020/**/*.alsc
-!contrib3_neighbor_path_20261017/*.npz
+!contrib3_index_codec/**/*.npz
+!contrib3_index_codec/**/*.alsc
+!contrib3_neighbor_path/*.npz
 !paper_results/*second_moment*.npz
 !paper_results/**/*second_moment*.npz
 !datasets/PEMSBAY/PEMSBAY_12to12_index_scaler_712.npz

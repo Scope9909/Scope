@@ -8,13 +8,13 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT / "paper_results" / "icde_four_model_efficiency_20261011"
+OUT = ROOT / "paper_results" / "icde_four_model_efficiency"
 
 SOURCES = (
     ("ICASSP/Base Parent", "paper_results/hyperd_alignment_benchmark/base_parent_cuda_b64.json"),
-    ("Joint3 Teacher", "paper_results/hyperd_alignment_benchmark_20261010/joint3_teacher_cuda_b64.json"),
-    ("Lite-R256 network-only", "paper_results/hyperd_alignment_benchmark_20261010/lite_r256_kdfix3_s1_cuda_b64.json"),
-    ("Lite-R256 + ValCal", "paper_results/hyperd_alignment_benchmark_20261010/lite_r256_kdfix3_valcal_s1_cuda_b64.json"),
+    ("Joint3 Teacher", "paper_results/hyperd_alignment_benchmark_legacy/joint3_teacher_cuda_b64.json"),
+    ("Lite-R256 network-only", "paper_results/hyperd_alignment_benchmark_legacy/lite_r256_kdfix3_s1_cuda_b64.json"),
+    ("Lite-R256 + ValCal", "paper_results/hyperd_alignment_benchmark_legacy/lite_r256_kdfix3_valcal_s1_cuda_b64.json"),
 )
 
 OFFICIAL_MAE = {

@@ -1,0 +1,73 @@
+{
+  "protocol": "hybrid_q8_delta_validation_frozen_test_once_v1",
+  "frozen_before_test": true,
+  "selection_data": "Validation package bytes and frozen Validation error gate only",
+  "test_role": "one-time final confirmation; no post-Test selection or tuning",
+  "test_passes_per_dataset": 1,
+  "batch_size": 32,
+  "method_source_sha256": "5c34c663749f96a7d70de6bb6a5327523bfd909668bac5554774878dc1322f68",
+  "codec_source_sha256": "b52f4db1d270c4240abdba96690cd0b0881fad6444ae0e972bc031a7693f61f5",
+  "delta_codec_source_sha256": "431e5def1365c062b0a16808b18dfa05af5bcf02980bdc13595fb27b7b50f6bb",
+  "jobs": [
+    {
+      "dataset": "PEMS03",
+      "seed": 1,
+      "frozen_choice": "Q8 + exact delta-bitpacking",
+      "validation_package": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems03_s1_val_q8_delta_pilot.npz",
+      "validation_package_sha256": "1c098b5e0e89aecc137dd4f5139a3a1c8f904e853d5a42c9e8fec6277d8c9d63",
+      "test_state_source": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems03_s1_test_fixed_22_idx.npz",
+      "test_package_output": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems03_s1_test_hybrid_q8_delta_once.npz",
+      "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS03\\TLAST_improved_PEMS03_12to12_exp10101500_s1\\best.pth",
+      "checkpoint_sha256": "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0",
+      "calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems03_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal\\calibration.json",
+      "calibration_sha256": "2d19dc24748dd10c56d7244868edc19916fabc3bb0f6d57eed178c8e034a2b9f",
+      "validation_state": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\sparse_cold_state.npz",
+      "test_state_reference": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\sparse_online_state.npz"
+    },
+    {
+      "dataset": "PEMS04",
+      "seed": 1,
+      "frozen_choice": "strong-lossless + exact delta-bitpacking",
+      "validation_package": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\bitpacked_val\\pems04_s1_val_delta_bitpacked.npz",
+      "validation_package_sha256": "7125658477efdcb2e581af79be98d7a09483062116b9981ab29c6d0ae73d194d",
+      "test_state_source": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems04_s1_test_u16.npz",
+      "test_package_output": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems04_s1_test_delta_bitpacked_once.npz",
+      "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1\\best.pth",
+      "checkpoint_sha256": "44cca44fde140fa7c7d62784b0b5f72d1bc290d01a9add639b738982b76c21e0",
+      "calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_generality\\pems04_joint3_lite_r256_strictalign_s1_valcal\\calibration.json",
+      "calibration_sha256": "21a7bde5367022089df72173095b6589fc0fbc493d1681b50c6816e7a162c17b",
+      "validation_state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems04_sparse_cold_state.npz",
+      "test_state_reference": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot\\online_state_budget_pems04_s1_cap2905847\\online_train_state.npz"
+    },
+    {
+      "dataset": "PEMS07",
+      "seed": 1,
+      "frozen_choice": "Q8 + exact delta-bitpacking",
+      "validation_package": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems07_s1_val_q8_delta_pilot.npz",
+      "validation_package_sha256": "9997ab8d7477e3c984f57d6bee799dd01fab2afd6edcfc5eabe4a8adcde49c66",
+      "test_state_source": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems07_s1_test_fixed_117_idx.npz",
+      "test_package_output": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems07_s1_test_hybrid_q8_delta_once.npz",
+      "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth",
+      "checkpoint_sha256": "19f3a9a81f8942d3a869aa1baa8f035bb015d8da612db60941b84879ad578349",
+      "calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal\\calibration.json",
+      "calibration_sha256": "4898411cfdb75df57b39bd1b5b37c09373be52dd46c0f0c84a9c8f03771b6b45",
+      "validation_state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems07_sparse_cold_state.npz",
+      "test_state_reference": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot\\pems07_online_state_audit_s1\\robust_train_state.npz"
+    },
+    {
+      "dataset": "PEMS08",
+      "seed": 1,
+      "frozen_choice": "strong-lossless + exact delta-bitpacking",
+      "validation_package": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\bitpacked_val\\pems08_s1_val_delta_bitpacked.npz",
+      "validation_package_sha256": "b76bc0c366482719b97bb411922ddb193ef5808941c945d18b21554db7049204",
+      "test_state_source": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems08_s1_test_u16.npz",
+      "test_package_output": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems08_s1_test_delta_bitpacked_once.npz",
+      "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS08\\TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1\\best.pth",
+      "checkpoint_sha256": "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18",
+      "calibration": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal\\calibration.json",
+      "calibration_sha256": "35efa2d169d925aa64fe434d7ce33d2e9ddf41110c2ec2fa570ea8be62f0aced",
+      "validation_state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems08_sparse_cold_state.npz",
+      "test_state_reference": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot\\online_state_budget_pems08_s1_cap2785289\\online_train_state.npz"
+    }
+  ]
+}

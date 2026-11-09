@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "PEMS03",
+    "original_bytes": 610182,
+    "lossless_bytes": 275236,
+    "layout": "F",
+    "all_fields_exact": true,
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems03_s1_test_best_lossless.npz"
+  },
+  {
+    "dataset": "PEMS04",
+    "original_bytes": 218466,
+    "lossless_bytes": 78718,
+    "layout": "F",
+    "all_fields_exact": true,
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems04_s1_test_best_lossless.npz"
+  },
+  {
+    "dataset": "PEMS07",
+    "original_bytes": 2061414,
+    "lossless_bytes": 355339,
+    "layout": "F",
+    "all_fields_exact": true,
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems07_s1_test_best_lossless.npz"
+  },
+  {
+    "dataset": "PEMS08",
+    "original_bytes": 134055,
+    "lossless_bytes": 32901,
+    "layout": "F",
+    "all_fields_exact": true,
+    "path": "D:\\lunwen\\June\\TLAST-main\\contrib3_index_codec\\packages\\online\\pems08_s1_test_best_lossless.npz"
+  }
+]

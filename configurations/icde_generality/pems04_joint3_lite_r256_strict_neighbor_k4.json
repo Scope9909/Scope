@@ -67,7 +67,7 @@
     "teacher_predictions_strict_alignment": 1,
     "kd_alpha": 0.3,
     "use_sparse_neighbor_innovation": 1,
-    "neighbor_graph_path": "contrib3_neighbor_path_20261017/pems04_train_only_neighbor_k4.npz"
+    "neighbor_graph_path": "contrib3_neighbor_path/pems04_train_only_neighbor_k4.npz"
   },
   "training_config": {
     "device": "cuda:0",

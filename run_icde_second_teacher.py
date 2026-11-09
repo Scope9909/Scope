@@ -22,9 +22,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_PYTHON = Path(
-    r"C:\Users\16495\AppData\Local\Programs\Python\Python311\python.exe"
-)
+DEFAULT_PYTHON = Path(sys.executable)
 TEACHER_EXP = (
     ROOT / "EXP_experiments" / "TLAST_improved" / "PEMS04"
     / "TLAST_improved_PEMS04_12to12_exp07131820_s1"

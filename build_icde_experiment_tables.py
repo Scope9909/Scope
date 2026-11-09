@@ -65,7 +65,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 
 def main() -> None:
-    out = ROOT / "paper_results" / "icde_formal_tables_20261011"
+    out = ROOT / "paper_results" / "icde_formal_tables"
     out.mkdir(parents=True, exist_ok=True)
 
     calibrations = {
@@ -101,9 +101,9 @@ def main() -> None:
     write_csv(out / "formal_ablation.csv", ablation_rows)
 
     rank_dirs = {
-        128: "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_explite_r128_kdfix3_a30_lr1e4_val_s1_strict_20261011",
+        128: "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_explite_r128_kdfix3_a30_lr1e4_val_s1_strict",
         256: "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_explite_r256_kdfix3_a30_lr1e4_val_s1",
-        384: "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_explite_r384_kdfix3_a30_lr1e4_val_s1_strict_20261011",
+        384: "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_explite_r384_kdfix3_a30_lr1e4_val_s1_strict",
     }
     rank_rows = [log_stats(rank_dirs[rank]) for rank in (128, 256, 384)]
     write_csv(out / "rank_sensitivity_validation.csv", rank_rows)
@@ -121,14 +121,14 @@ def main() -> None:
     write_csv(out / "kd_alpha_sensitivity_validation.csv", kd_rows)
 
     efficiency_sources = (
-        ("PEMS04", "Teacher", "paper_results/unified_efficiency_b1_b32_20261011/pems04_teacher_cuda_b1.json"),
-        ("PEMS04", "Teacher", "paper_results/unified_efficiency_b1_b32_20261011/pems04_teacher_cuda_b32.json"),
-        ("PEMS04", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32_20261011/pems04_lite_r256_valcal_cuda_b1.json"),
-        ("PEMS04", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32_20261011/pems04_lite_r256_valcal_cuda_b32.json"),
-        ("PEMS07", "Teacher", "paper_results/unified_efficiency_b1_b32_20261011/pems07_teacher_cuda_b1.json"),
-        ("PEMS07", "Teacher", "paper_results/unified_efficiency_b1_b32_20261011/pems07_teacher_cuda_b32.json"),
-        ("PEMS07", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32_20261011/pems07_lite_r256_valcal_cuda_b1.json"),
-        ("PEMS07", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32_20261011/pems07_lite_r256_valcal_cuda_b32.json"),
+        ("PEMS04", "Teacher", "paper_results/unified_efficiency_b1_b32/pems04_teacher_cuda_b1.json"),
+        ("PEMS04", "Teacher", "paper_results/unified_efficiency_b1_b32/pems04_teacher_cuda_b32.json"),
+        ("PEMS04", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32/pems04_lite_r256_valcal_cuda_b1.json"),
+        ("PEMS04", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32/pems04_lite_r256_valcal_cuda_b32.json"),
+        ("PEMS07", "Teacher", "paper_results/unified_efficiency_b1_b32/pems07_teacher_cuda_b1.json"),
+        ("PEMS07", "Teacher", "paper_results/unified_efficiency_b1_b32/pems07_teacher_cuda_b32.json"),
+        ("PEMS07", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32/pems07_lite_r256_valcal_cuda_b1.json"),
+        ("PEMS07", "Lite-R256+ValCal", "paper_results/unified_efficiency_b1_b32/pems07_lite_r256_valcal_cuda_b32.json"),
     )
     efficiency_rows = []
     for dataset, model, source in efficiency_sources:
@@ -150,8 +150,8 @@ def main() -> None:
         })
     write_csv(out / "unified_efficiency.csv", efficiency_rows)
 
-    horizon = load_json("paper_results/icde_core_horizon_bootstrap_20261011/summary.json")
-    quantization = load_json("paper_results/pems07_valcal_quantization_20261011/quantization_report.json")
+    horizon = load_json("paper_results/icde_core_horizon_bootstrap/summary.json")
+    quantization = load_json("paper_results/pems07_valcal_quantization/quantization_report.json")
     summary = {
         "ablation": ablation_rows,
         "rank_sensitivity": rank_rows,

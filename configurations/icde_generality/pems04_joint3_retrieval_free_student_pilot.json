@@ -57,7 +57,7 @@
     "analog_exact_min_valid_history": 6,
     "analog_retrieval_cache": "none",
     "lowrank_student_finetune": 1,
-    "student_init_ckpt": "paper_results/icde_retrieval_free_pilot_20261012/parent_without_retrieval_adapters_s1.pth",
+    "student_init_ckpt": "paper_results/icde_retrieval_free_pilot/parent_without_retrieval_adapters_s1.pth",
     "student_train_scope": "predictor",
     "student_include_retrieval_adapters": 0,
     "parent_lite_head_only": 1,

@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parent
 COMMANDS={
     'preflight':'tools/preflight.py',
     'check-models':'tools/check_models.py',
-    'test-codec':'contrib3_index_codec_20261020/test_adaptive_lossless_state_codec.py',
+    'test-codec':'contrib3_index_codec/test_adaptive_lossless_state_codec.py',
     'test-lowrank':'test_factorized_lite_predictor.py',
 }
 

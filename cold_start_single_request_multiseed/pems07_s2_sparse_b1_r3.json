@@ -1,0 +1,87 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS07",
+  "mode": "sparse",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS07\\TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s2\\best.pth",
+  "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems07_sparse_cold_state.npz",
+  "state_bytes": 2060904,
+  "selected_nodes": 121,
+  "retrieval_format": "int8",
+  "total_nodes": 883,
+  "cold_start_endpoint": 16932,
+  "pending_candidates_at_cold_start": 11,
+  "source_train_candidates": 16921,
+  "device": "cuda:0",
+  "batch_size": 1,
+  "warmup_passes": 1,
+  "repeats": 3,
+  "samples_per_pass": 5640,
+  "load_and_init_seconds": 2.2794479000003776,
+  "pass_wall_seconds": [
+    48.85329319999801,
+    47.716867700000876,
+    48.697878499999206
+  ],
+  "pass_wall_median_seconds": 48.697878499999206,
+  "pass_wall_p95_seconds": 48.837751729998125,
+  "throughput_samples_per_second_at_median": 115.81613355087104,
+  "retrieval_seconds": [
+    8.82136920000994,
+    9.177727300033439,
+    9.320542099951126
+  ],
+  "retrieval_median_seconds": 9.177727300033439,
+  "model_and_transfer_seconds": [
+    33.33203059991865,
+    33.3236395999993,
+    34.05793090010047
+  ],
+  "model_and_transfer_median_seconds": 33.33203059991865,
+  "loader_batch_latency_ms_p50": 0.7315499988180818,
+  "loader_batch_latency_ms_p95": 1.1909149987332055,
+  "compute_batch_latency_ms_p50": 7.358599999861326,
+  "compute_batch_latency_ms_p95": 9.63813000016671,
+  "end_to_end_batch_latency_ms_p50": 8.154799999829265,
+  "end_to_end_batch_latency_ms_p95": 10.476729997753864,
+  "batch_latency_scope": "one batch of at most 1; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 1196929024,
+  "cpu_rss_peak_sampled_bytes": 2647756800,
+  "gpu_peak_allocated_bytes": 41595392,
+  "gpu_peak_reserved_bytes": 60817408,
+  "raw_validation_metrics": {
+    "mae": 18.167085593860243,
+    "rmse": 31.452702883576745,
+    "mape": 0.07960488364998192
+  },
+  "fixed_validation_calibration": {
+    "reference": "D:\\lunwen\\June\\TLAST-main\\paper_results\\pems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s2_valcal\\calibration.json",
+    "folds": [
+      {
+        "fit_end": 3102,
+        "eval_start": 3102,
+        "eval_end": 3947,
+        "raw_mae": 17.928009756145805,
+        "fixed_calibrated_mae": 17.718028131129984
+      },
+      {
+        "fit_end": 3947,
+        "eval_start": 3947,
+        "eval_end": 4794,
+        "raw_mae": 18.663375817126873,
+        "fixed_calibrated_mae": 18.37864369837376
+      },
+      {
+        "fit_end": 4794,
+        "eval_start": 4794,
+        "eval_end": 5640,
+        "raw_mae": 18.00406735053987,
+        "fixed_calibrated_mae": 17.802692328875807
+      }
+    ],
+    "mean_raw_mae": 18.198484307937516,
+    "mean_fixed_calibrated_mae": 17.96645471945985
+  },
+  "prediction_parity": null
+}

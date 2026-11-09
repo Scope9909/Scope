@@ -40,7 +40,7 @@ STAGES = (
     "confidence",
     "final_joint",
 )
-SUPPORTED_DATASETS = ("PEMS03", "PEMS07", "PEMS08", "PEMSBAY", "METRLA")
+SUPPORTED_DATASETS = ("PEMS03", "PEMS07", "PEMS08", "PEMSBAY")
 
 
 def run_id(dataset: str, seed: int, stage: str) -> str:

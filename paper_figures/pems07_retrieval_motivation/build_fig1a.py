@@ -29,13 +29,13 @@ CACHE = ROOT / "datasets/PEMS07/PEMS07_12to12_analog_k4_exact_mean.npz"
 EXP = ROOT / ("EXP_experiments/TLAST_improved/PEMS07/"
               "TLAST_improved_PEMS07_12to12_exppems07_lite_r256_"
               "kdfix3_a30_lr1e4_fixedteacher_s1")
-BASE = ROOT / ("paper_results/icde_retrieval_free_pilot_20261012/"
+BASE = ROOT / ("paper_results/icde_retrieval_free_pilot/"
                "pems07_node_budget_s1_no_memory/no_memory_validation_predictions.npz")
 RETR = ROOT / ("paper_results/pems07_lite_r256_kdfix3_a30_lr1e4_"
                "fixedteacher_s1_network_only/selected_predictions.npz")
-PROV = ROOT / ("paper_results/icde_retrieval_free_pilot_20261012/"
+PROV = ROOT / ("paper_results/icde_retrieval_free_pilot/"
                "pems07_node_budget_s1_validation_screen.json")
-SRM = ROOT / "cold_start_streaming_20261014/pems07_sparse_cold_state.npz"
+SRM = ROOT / "cold_start_streaming/pems07_sparse_cold_state.npz"
 START = datetime(2017, 5, 1)  # utils/datasets_utils.py, meta_info_dict
 P = Q = 12
 N = 883

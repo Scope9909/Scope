@@ -15,7 +15,7 @@ def main():
     parser.add_argument('--datasets', nargs='+', choices=('PEMS03','PEMS04','PEMS07','PEMS08','PEMSBAY'))
     args = parser.parse_args()
     import torch
-    from models.TLAST_improved import Model
+    from models.Scope import Model
     torch.set_num_threads(2)
     torch.manual_seed(0)
     runs = json.loads((ROOT/'tools/final_runs.json').read_text())

@@ -1,0 +1,12 @@
+{
+  "protocol": "pems03_train_only_int8_payload_v1",
+  "source": "D:\\lunwen\\June\\TLAST-main\\datasets\\PEMS03\\PEMS03_12to12_analog_k4_exact_mean.npz",
+  "output": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\train_only_int8_cost_cache.npz",
+  "output_bytes": 61406664,
+  "fit_split": "train_only",
+  "read_validation_retrieval": false,
+  "read_test": false,
+  "test_evaluated": false,
+  "train_queries": 15711,
+  "nodes": 358
+}

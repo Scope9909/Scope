@@ -1,0 +1,548 @@
+{
+  "status": "complete",
+  "completed_at": "2026-10-15T12:15:48.590458+08:00",
+  "protocol": "frozen_srm_memory_ledger_reusing_existing_metrics_v1",
+  "rows": [
+    {
+      "dataset": "PEMS03",
+      "mode": "sparse",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS03",
+        "mode": "sparse",
+        "state": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\sparse_cold_state.npz",
+        "state_file_bytes": 610603,
+        "nodes": 36,
+        "active_candidates": 15700,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 406626304,
+        "rss_after_state_load_bytes": 413130752,
+        "rss_increase_after_load_bytes": 6504448,
+        "rss_peak_during_load_sampled_bytes": 413130752,
+        "rss_peak_increase_sampled_bytes": 6504448,
+        "rss_samples": 4,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 2264112,
+          "candidate_indices": 282710,
+          "scales_and_nodes": 2032,
+          "fallback_statistics": 2498688,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 5047734,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 610182,
+      "deployment_disk_bytes": 3311444,
+      "checkpoint_disk_bytes": 2698272,
+      "calibration_disk_bytes": 2990,
+      "validation_raw_mae": 13.213318990612796,
+      "test_fixed_calibrated_mae_mean": 13.972830812460545,
+      "test_checkpoint_hashes": [
+        "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0",
+        "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0",
+        "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0"
+      ],
+      "retrieval_seconds": [
+        2.64040159999999,
+        2.6474171000000553,
+        2.6396716999998873,
+        2.6675875999999334,
+        2.6331533000001244
+      ],
+      "retrieval_median_seconds": 2.64040159999999,
+      "wall_seconds": [
+        55.076565900000006,
+        54.45367149999999,
+        53.9374634,
+        54.64534319999999,
+        54.7406423
+      ],
+      "wall_median_seconds": 54.64534319999999,
+      "maintenance_seconds_existing_run": 0.0111472,
+      "validation_array_payload_start_existing_run": 2423254
+    },
+    {
+      "dataset": "PEMS03",
+      "mode": "full",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS03",
+        "mode": "full",
+        "state": "D:\\lunwen\\June\\TLAST-main\\pems03_int8_uniform\\full_cold_state.npz",
+        "state_file_bytes": 8883925,
+        "nodes": 358,
+        "active_candidates": 15700,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 406544384,
+        "rss_after_state_load_bytes": 457322496,
+        "rss_increase_after_load_bytes": 50778112,
+        "rss_peak_during_load_sampled_bytes": 457322496,
+        "rss_peak_increase_sampled_bytes": 50778112,
+        "rss_samples": 22,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 22515336,
+          "candidate_indices": 282710,
+          "scales_and_nodes": 20064,
+          "fallback_statistics": 24848064,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 47666366,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 8889759,
+      "deployment_disk_bytes": 11591021,
+      "checkpoint_disk_bytes": 2698272,
+      "calibration_disk_bytes": 2990,
+      "validation_raw_mae": 13.206678034348139,
+      "test_fixed_calibrated_mae_mean": 13.949459620747335,
+      "test_checkpoint_hashes": [
+        "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0",
+        "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0",
+        "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0"
+      ],
+      "retrieval_seconds": [
+        14.707247200000054,
+        14.821382500000041,
+        14.801142899999917,
+        14.790046199999935,
+        15.229031000000049
+      ],
+      "retrieval_median_seconds": 14.801142899999917,
+      "wall_seconds": [
+        67.49431030000001,
+        67.0174958,
+        67.02659820000001,
+        67.212332,
+        68.8593037
+      ],
+      "wall_median_seconds": 67.212332,
+      "maintenance_seconds_existing_run": 0.0581555,
+      "validation_array_payload_start_existing_run": 22692510
+    },
+    {
+      "dataset": "PEMS04",
+      "mode": "sparse",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS04",
+        "mode": "sparse",
+        "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems04_sparse_cold_state.npz",
+        "state_file_bytes": 219184,
+        "nodes": 31,
+        "active_candidates": 10170,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 406056960,
+        "rss_after_state_load_bytes": 411054080,
+        "rss_increase_after_load_bytes": 4997120,
+        "rss_peak_during_load_sampled_bytes": 411054080,
+        "rss_peak_increase_sampled_bytes": 4997120,
+        "rss_samples": 2,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 1263932,
+          "candidate_indices": 183170,
+          "scales_and_nodes": 1752,
+          "fallback_statistics": 2151648,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 3600694,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 218466,
+      "deployment_disk_bytes": 2905847,
+      "checkpoint_disk_bytes": 2684405,
+      "calibration_disk_bytes": 2976,
+      "validation_raw_mae": 17.85061605505963,
+      "test_fixed_calibrated_mae_mean": 17.549835212472328,
+      "test_checkpoint_hashes": [
+        "44cca44fde140fa7c7d62784b0b5f72d1bc290d01a9add639b738982b76c21e0",
+        "f8c95e6fb5653d02675bd8cdedcbc43a3103e478aa7719509dd782b5661ec7b7",
+        "32d4c5a870306f3b239d76f60cc4efac6ce739208f3c3e21481ced9b89210da3"
+      ],
+      "retrieval_seconds": [
+        1.2168124000000518,
+        1.240503600000011,
+        1.2370519999999985,
+        1.235115699999973,
+        1.2755029999999792
+      ],
+      "retrieval_median_seconds": 1.2370519999999985,
+      "wall_seconds": [
+        29.1417862,
+        29.874071100000002,
+        30.323366599999993,
+        33.6093784,
+        32.82713389999999
+      ],
+      "wall_median_seconds": 30.323366599999993,
+      "maintenance_seconds_existing_run": 0.0080938,
+      "validation_array_payload_start_existing_run": 1367494
+    },
+    {
+      "dataset": "PEMS04",
+      "mode": "full",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS04",
+        "mode": "full",
+        "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems04_full_cold_state.npz",
+        "state_file_bytes": 5011665,
+        "nodes": 307,
+        "active_candidates": 10170,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 406388736,
+        "rss_after_state_load_bytes": 443002880,
+        "rss_increase_after_load_bytes": 36614144,
+        "rss_peak_during_load_sampled_bytes": 443002880,
+        "rss_peak_increase_sampled_bytes": 36614144,
+        "rss_samples": 13,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 12517004,
+          "candidate_indices": 183170,
+          "scales_and_nodes": 17208,
+          "fallback_statistics": 21308256,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 34025830,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 5016405,
+      "deployment_disk_bytes": 7703786,
+      "checkpoint_disk_bytes": 2684405,
+      "calibration_disk_bytes": 2976,
+      "validation_raw_mae": 17.83617189921093,
+      "test_fixed_calibrated_mae_mean": 17.507557566865852,
+      "test_checkpoint_hashes": [
+        "44cca44fde140fa7c7d62784b0b5f72d1bc290d01a9add639b738982b76c21e0",
+        "f8c95e6fb5653d02675bd8cdedcbc43a3103e478aa7719509dd782b5661ec7b7",
+        "32d4c5a870306f3b239d76f60cc4efac6ce739208f3c3e21481ced9b89210da3"
+      ],
+      "retrieval_seconds": [
+        5.63804979999999,
+        5.890894599999967,
+        5.6015931000000165,
+        5.9133221000000304,
+        5.5835879999999705
+      ],
+      "retrieval_median_seconds": 5.63804979999999,
+      "wall_seconds": [
+        34.97426900000001,
+        36.1769941,
+        33.4835289,
+        36.4126899,
+        34.106793800000005
+      ],
+      "wall_median_seconds": 34.97426900000001,
+      "maintenance_seconds_existing_run": 0.035111,
+      "validation_array_payload_start_existing_run": 12636022
+    },
+    {
+      "dataset": "PEMS07",
+      "mode": "sparse",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS07",
+        "mode": "sparse",
+        "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems07_sparse_cold_state.npz",
+        "state_file_bytes": 2060904,
+        "nodes": 121,
+        "active_candidates": 16910,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 407318528,
+        "rss_after_state_load_bytes": 426565632,
+        "rss_increase_after_load_bytes": 19247104,
+        "rss_peak_during_load_sampled_bytes": 426565632,
+        "rss_peak_increase_sampled_bytes": 19247104,
+        "rss_samples": 7,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 8195572,
+          "candidate_indices": 304490,
+          "scales_and_nodes": 6792,
+          "fallback_statistics": 8398368,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 16905414,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 2061414,
+      "deployment_disk_bytes": 4900860,
+      "checkpoint_disk_bytes": 2836469,
+      "calibration_disk_bytes": 2977,
+      "validation_raw_mae": 18.16951884658928,
+      "test_fixed_calibrated_mae_mean": 18.50846155193821,
+      "test_checkpoint_hashes": [
+        "19f3a9a81f8942d3a869aa1baa8f035bb015d8da612db60941b84879ad578349",
+        "1ce76d8513f1f8fe59143124a2deddfe8747e7cf499d50c660ab8ac3734cea97",
+        "3c4b8092cfc1db2e3e1d1d41f16ec57b9d6a1b0a1dfcc782e7a44ad453e17e8e"
+      ],
+      "retrieval_seconds": [
+        6.6451203999998825,
+        6.144094500000108,
+        6.213008000000002,
+        6.145616500000102,
+        6.176919099999566
+      ],
+      "retrieval_median_seconds": 6.176919099999566,
+      "wall_seconds": [
+        155.63115690000004,
+        148.4556881,
+        148.6389976,
+        148.1805498,
+        149.11654539999998
+      ],
+      "wall_median_seconds": 148.6389976,
+      "maintenance_seconds_existing_run": 0.0237856,
+      "validation_array_payload_start_existing_run": 8371574
+    },
+    {
+      "dataset": "PEMS07",
+      "mode": "full",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS07",
+        "mode": "full",
+        "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems07_full_cold_state.npz",
+        "state_file_bytes": 24644564,
+        "nodes": 883,
+        "active_candidates": 16910,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 406077440,
+        "rss_after_state_load_bytes": 530595840,
+        "rss_increase_after_load_bytes": 124518400,
+        "rss_peak_during_load_sampled_bytes": 530595840,
+        "rss_peak_increase_sampled_bytes": 124518400,
+        "rss_samples": 63,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 59807356,
+          "candidate_indices": 304490,
+          "scales_and_nodes": 49464,
+          "fallback_statistics": 61287264,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 121448766,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 24660129,
+      "deployment_disk_bytes": 27499575,
+      "checkpoint_disk_bytes": 2836469,
+      "calibration_disk_bytes": 2977,
+      "validation_raw_mae": 18.30295486816334,
+      "test_fixed_calibrated_mae_mean": 18.74551205889849,
+      "test_checkpoint_hashes": [
+        "19f3a9a81f8942d3a869aa1baa8f035bb015d8da612db60941b84879ad578349",
+        "1ce76d8513f1f8fe59143124a2deddfe8747e7cf499d50c660ab8ac3734cea97",
+        "3c4b8092cfc1db2e3e1d1d41f16ec57b9d6a1b0a1dfcc782e7a44ad453e17e8e"
+      ],
+      "retrieval_seconds": [
+        66.44276719999982,
+        59.67567090000031,
+        59.84164010000018,
+        63.97916069999974,
+        59.785396200000605
+      ],
+      "retrieval_median_seconds": 59.84164010000018,
+      "wall_seconds": [
+        211.57923409999998,
+        200.9619657,
+        201.04267889999997,
+        207.2997723,
+        202.047118
+      ],
+      "wall_median_seconds": 202.047118,
+      "maintenance_seconds_existing_run": 0.1354558,
+      "validation_array_payload_start_existing_run": 60026030
+    },
+    {
+      "dataset": "PEMS08",
+      "mode": "sparse",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS08",
+        "mode": "sparse",
+        "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems08_sparse_cold_state.npz",
+        "state_file_bytes": 134855,
+        "nodes": 20,
+        "active_candidates": 10689,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 406192128,
+        "rss_after_state_load_bytes": 410181632,
+        "rss_increase_after_load_bytes": 3989504,
+        "rss_peak_during_load_sampled_bytes": 410181632,
+        "rss_peak_increase_sampled_bytes": 3989504,
+        "rss_samples": 3,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 856960,
+          "candidate_indices": 192512,
+          "scales_and_nodes": 1136,
+          "fallback_statistics": 1388160,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 2438960,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 134055,
+      "deployment_disk_bytes": 2785289,
+      "checkpoint_disk_bytes": 2648245,
+      "calibration_disk_bytes": 2989,
+      "validation_raw_mae": 13.154658311310186,
+      "test_fixed_calibrated_mae_mean": 12.876735252774017,
+      "test_checkpoint_hashes": [
+        "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18",
+        "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18",
+        "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18"
+      ],
+      "retrieval_seconds": [
+        1.155328000000008,
+        1.0880820000000178,
+        1.086824700000026,
+        1.0911578000000262,
+        1.0943583999999937
+      ],
+      "retrieval_median_seconds": 1.0911578000000262,
+      "wall_seconds": [
+        19.4049408,
+        17.739366299999997,
+        17.925213900000003,
+        17.6370366,
+        17.590091599999997
+      ],
+      "wall_median_seconds": 17.739366299999997,
+      "maintenance_seconds_existing_run": 0.0051283,
+      "validation_array_payload_start_existing_run": 965096
+    },
+    {
+      "dataset": "PEMS08",
+      "mode": "full",
+      "memory": {
+        "protocol": "frozen_srm_cold_start_memory_ledger_v1",
+        "dataset": "PEMS08",
+        "mode": "full",
+        "state": "D:\\lunwen\\June\\TLAST-main\\cold_start_streaming\\pems08_full_cold_state.npz",
+        "state_file_bytes": 2912518,
+        "nodes": 170,
+        "active_candidates": 10689,
+        "pending_candidates": 11,
+        "rss_before_state_load_bytes": 406777856,
+        "rss_after_state_load_bytes": 428077056,
+        "rss_increase_after_load_bytes": 21299200,
+        "rss_peak_during_load_sampled_bytes": 428077056,
+        "rss_peak_increase_sampled_bytes": 21299200,
+        "rss_samples": 7,
+        "retained_numpy_payload_by_group_bytes": {
+          "observations": 7284160,
+          "candidate_indices": 192512,
+          "scales_and_nodes": 9536,
+          "fallback_statistics": 11799360,
+          "offsets": 192
+        },
+        "retained_numpy_arrays_by_group": {
+          "observations": 1,
+          "candidate_indices": 292,
+          "scales_and_nodes": 4,
+          "fallback_statistics": 867,
+          "offsets": 2
+        },
+        "retained_numpy_payload_total_bytes": 19285760,
+        "tod_index_buckets": 288,
+        "tod_index_dict_shallow_bytes": 9304,
+        "note": "RSS is a process working set, sampled during cold-start load. It includes Python/runtime allocations and is not SRM-exclusive RAM. NumPy payload deduplicates shared base arrays and excludes transient buffers."
+      },
+      "test_state_bytes": 2914282,
+      "deployment_disk_bytes": 5565516,
+      "checkpoint_disk_bytes": 2648245,
+      "calibration_disk_bytes": 2989,
+      "validation_raw_mae": 13.018823640915526,
+      "test_fixed_calibrated_mae_mean": 12.770873776765193,
+      "test_checkpoint_hashes": [
+        "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18",
+        "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18",
+        "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18"
+      ],
+      "retrieval_seconds": [
+        3.7195468000000496,
+        4.54576969999999,
+        3.7478146000000443,
+        3.708946799999996,
+        3.6988952999999896
+      ],
+      "retrieval_median_seconds": 3.7195468000000496,
+      "wall_seconds": [
+        20.9295226,
+        22.403456199999997,
+        20.836490599999998,
+        20.768423600000002,
+        20.663196300000003
+      ],
+      "wall_median_seconds": 20.836490599999998,
+      "maintenance_seconds_existing_run": 0.0226777,
+      "validation_array_payload_start_existing_run": 7400696
+    }
+  ],
+  "sources": [
+    "srm_validation_diagnostics/results.json",
+    "srm_followup_validation/status.json",
+    "srm_test_once/frozen_manifest.json"
+  ]
+}

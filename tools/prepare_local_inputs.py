@@ -26,23 +26,23 @@ def required_paths():
     for ds in ('PEMS03', 'PEMS04', 'PEMS07', 'PEMS08', 'PEMSBAY'):
         index = ds + '_12to12_index_scaler' + ('_712' if ds == 'PEMSBAY' else '') + '.npz'
         paths.update('datasets/' + ds + '/' + n for n in ('data.npz', ds + '_time.npz', index))
-    configs = literal('CONFIGS', ROOT / 'srm_test_once_20261014/run_frozen_srm_test_once.py')
+    configs = literal('CONFIGS', ROOT / 'srm_test_once/run_frozen_srm_test_once.py')
     for ds, c in configs.items():
         paths.add(c['calibration'].format(seed=1))
         paths.add(c['validation_state_root'] + '/' + c['validation_state_pattern'].format(mode='sparse'))
         paths.add(c['test_states']['sparse'] if 'test_states' in c else
                   c['test_state_root'] + '/' + c['test_state_pattern'].format(mode='sparse'))
-    base = 'contrib3_index_codec_20261020/packages/online/'
-    cases = literal('CASES', ROOT / 'contrib3_index_codec_20261020/eval_hybrid_codec_test_once.py')
+    base = 'contrib3_index_codec/packages/online/'
+    cases = literal('CASES', ROOT / 'contrib3_index_codec/eval_hybrid_codec_test_once.py')
     for ds, c in cases.items():
         paths.add(base + ds.lower() + '_s1_test_u16.npz')
         paths.update(base + c[k] for k in ('test_source', 'test_package', 'roundtrip_test_source'))
     paths.update((
         'paper_results/pemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_valcal/calibration.json',
-        'paper_results/pemsbay712_srm_validation_pilot_20261027/validation_screen.json',
+        'paper_results/pemsbay712_srm_validation_pilot/validation_screen.json',
         'paper_results/pemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1_network_only/selected_predictions.npz',
-        'pemsbay_full_20261027/full_validation_replayed.npz',
-        'pemsbay_full_20261027/validation_predictions.npz',
+        'pemsbay_full/full_validation_replayed.npz',
+        'pemsbay_full/validation_predictions.npz',
     ))
     return sorted(paths)
 

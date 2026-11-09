@@ -1,0 +1,47 @@
+{
+  "status": "verified_local_candidates_not_hosted",
+  "scope": "Frozen final assets and retrieval caches only; no raw data or legacy replay inputs",
+  "bundle": {
+    "filename": "scope_final_frozen_assets_v2.zip",
+    "size_bytes": 65255511,
+    "sha256": "0aa0b1e8ca8c30d4941320659b626d6160867e0d9d9827388964d02b9e1b8005",
+    "file_count": 44
+  },
+  "retrieval_caches": [
+    {
+      "dataset": "PEMS03",
+      "filename": "PEMS03_12to12_analog_k4_exact_mean.npz",
+      "install_path": "datasets/PEMS03/PEMS03_12to12_analog_k4_exact_mean.npz",
+      "size_bytes": 457397078,
+      "sha256": "e823e87f95004118cf8cc378eab1a64997fc7d6b974499267e783fbab4ce9336"
+    },
+    {
+      "dataset": "PEMS04",
+      "filename": "PEMS04_12to12_analog_k4_exact_mean.npz",
+      "install_path": "datasets/PEMS04/PEMS04_12to12_analog_k4_exact_mean.npz",
+      "size_bytes": 105784863,
+      "sha256": "8ac206cc6b06f17db3b03f01080d15344b6b15aabd530f229ffb37930193ca3c"
+    },
+    {
+      "dataset": "PEMS07",
+      "filename": "PEMS07_12to12_analog_k4_exact_mean.npz",
+      "install_path": "datasets/PEMS07/PEMS07_12to12_analog_k4_exact_mean.npz",
+      "size_bytes": 1520187832,
+      "sha256": "4b367e040afc195f3fcdb1768d7f2fc806b46be70f59cccbd36327912de9c691"
+    },
+    {
+      "dataset": "PEMS08",
+      "filename": "PEMS08_12to12_analog_k4_exact_mean.npz",
+      "install_path": "datasets/PEMS08/PEMS08_12to12_analog_k4_exact_mean.npz",
+      "size_bytes": 132507872,
+      "sha256": "dce3109555b2bdca8bdd6439d4bf82f5cde5e15b5df53f5ccc8bca446799bfa5"
+    },
+    {
+      "dataset": "PEMSBAY",
+      "filename": "PEMSBAY_12to12_analog_k8_exact_mean_712.npz",
+      "install_path": "datasets/PEMSBAY/PEMSBAY_12to12_analog_k8_exact_mean_712.npz",
+      "size_bytes": 1121167609,
+      "sha256": "1c415048c6e603ce2326dfa62cfb9abc06221a0f23dd8680d4bba5ef9fd27693"
+    }
+  ]
+}

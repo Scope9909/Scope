@@ -1,0 +1,54 @@
+{
+  "protocol": "train_only_online_memory_end_to_end_validation_v1",
+  "dataset": "PEMS04",
+  "mode": "sparse",
+  "test_evaluated": false,
+  "query_cache_loaded": false,
+  "checkpoint": "D:\\lunwen\\June\\TLAST-main\\EXP_experiments\\TLAST_improved\\PEMS04\\TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1\\best.pth",
+  "state": "D:\\lunwen\\June\\TLAST-main\\icde_e123\\e2\\pems04\\top_gain_40pct_cold_state.npz",
+  "state_bytes": 1999413,
+  "selected_nodes": 130,
+  "retrieval_format": "int8",
+  "total_nodes": 307,
+  "cold_start_endpoint": 10192,
+  "pending_candidates_at_cold_start": 11,
+  "source_train_candidates": 10181,
+  "device": "cuda:0",
+  "batch_size": 1,
+  "warmup_passes": 1,
+  "repeats": 1,
+  "samples_per_pass": 3394,
+  "load_and_init_seconds": 1.8554489000016474,
+  "pass_wall_seconds": [
+    29.826164099999005
+  ],
+  "pass_wall_median_seconds": 29.826164099999005,
+  "pass_wall_p95_seconds": 29.826164099999005,
+  "throughput_samples_per_second_at_median": 113.79270859708417,
+  "retrieval_seconds": [
+    4.615551099963341
+  ],
+  "retrieval_median_seconds": 4.615551099963341,
+  "model_and_transfer_seconds": [
+    21.015409800078487
+  ],
+  "model_and_transfer_median_seconds": 21.015409800078487,
+  "loader_batch_latency_ms_p50": 0.7740500004729256,
+  "loader_batch_latency_ms_p95": 1.315584999611019,
+  "compute_batch_latency_ms_p50": 7.44460000169056,
+  "compute_batch_latency_ms_p95": 10.797539999475703,
+  "end_to_end_batch_latency_ms_p50": 8.274350000647246,
+  "end_to_end_batch_latency_ms_p95": 11.65560500103311,
+  "batch_latency_scope": "one batch of at most 1; end-to-end includes loader assembly, online retrieval, host-to-device transfer, model forward, and sparse correction",
+  "cpu_rss_after_load_bytes": 719212544,
+  "cpu_rss_peak_sampled_bytes": 1386860544,
+  "gpu_peak_allocated_bytes": 21749248,
+  "gpu_peak_reserved_bytes": 31457280,
+  "raw_validation_metrics": {
+    "mae": 17.828281070418235,
+    "rmse": 30.02647881696461,
+    "mape": 0.11941442351476017
+  },
+  "fixed_validation_calibration": null,
+  "prediction_parity": null
+}

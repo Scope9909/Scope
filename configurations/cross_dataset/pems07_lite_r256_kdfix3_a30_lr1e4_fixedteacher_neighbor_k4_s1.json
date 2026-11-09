@@ -35,7 +35,7 @@
     "teacher_predictions_path": "datasets/PEMS07/PEMS07_12to12_parent_predictions_joint3.npz",
     "kd_alpha": 0.3,
     "use_sparse_neighbor_innovation": 1,
-    "neighbor_graph_path": "contrib3_neighbor_path_20261017/pems07_train_only_neighbor_k4.npz"
+    "neighbor_graph_path": "contrib3_neighbor_path/pems07_train_only_neighbor_k4.npz"
   },
   "training_config": {
     "device": "cuda:0", "batch_size": 32, "learning_rate": 0.0001,

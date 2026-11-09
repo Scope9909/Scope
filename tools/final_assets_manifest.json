@@ -2,222 +2,222 @@
   "status": "locally_verified_not_uploaded_by_this_step",
   "files": [
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exp10101500_s1/best.pth",
+      "path": "EXP_experiments/Scope/PEMS03/Scope_PEMS03_12to12_exp10101500_s1/best.pth",
       "sha256": "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0",
       "size": 2698272
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS03/TLAST_improved_PEMS03_12to12_exp10101500_s1/config.pkl",
-      "sha256": "aeb50cb7cb7f3dd7123fd3803c63ae5319486ceb365c3544814c507991199f78",
-      "size": 6419
+      "path": "EXP_experiments/Scope/PEMS03/Scope_PEMS03_12to12_exp10101500_s1/config.pkl",
+      "sha256": "65b99fe9f91b392ac2fc4585191fba9068439506fbcadea2c60ed724ec510b55",
+      "size": 6392
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1/best.pth",
+      "path": "EXP_experiments/Scope/PEMS04/Scope_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1/best.pth",
       "sha256": "44cca44fde140fa7c7d62784b0b5f72d1bc290d01a9add639b738982b76c21e0",
       "size": 2684405
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS04/TLAST_improved_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1/config.pkl",
-      "sha256": "c33aec8b2569641825fea732ac72b0716e43df6cecec7dbe51a59027099d9e15",
-      "size": 6687
+      "path": "EXP_experiments/Scope/PEMS04/Scope_PEMS04_12to12_exppems04_joint3_lite_r256_strictalign_s1/config.pkl",
+      "sha256": "1dad07c5148813a395264f67816a781f1c12d1fa71991df62992915deb7cc6e8",
+      "size": 6660
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/best.pth",
+      "path": "EXP_experiments/Scope/PEMS07/Scope_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/best.pth",
       "sha256": "19f3a9a81f8942d3a869aa1baa8f035bb015d8da612db60941b84879ad578349",
       "size": 2836469
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS07/TLAST_improved_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.pkl",
-      "sha256": "48dff6301b549aace94177c3b4b5efab2044b6f038ecba4cada03b7a180ea564",
-      "size": 6470
+      "path": "EXP_experiments/Scope/PEMS07/Scope_PEMS07_12to12_exppems07_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.pkl",
+      "sha256": "b24d36ce71f4a84809a5d9e462038f8907b9b0dcf66b9a2de6ad339600f82d60",
+      "size": 6443
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/best.pth",
+      "path": "EXP_experiments/Scope/PEMS08/Scope_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/best.pth",
       "sha256": "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18",
       "size": 2648245
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMS08/TLAST_improved_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.pkl",
-      "sha256": "6f67103c3d3dcc9098bb0009b4dbde6d594d2d75d7a97bb952550ba6ec23bfe0",
-      "size": 6470
+      "path": "EXP_experiments/Scope/PEMS08/Scope_PEMS08_12to12_exppems08_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.pkl",
+      "sha256": "13cc7c191a997de430eedab0fc72f5c08ed49efb1aa7d7cbf7782c9f18120fc4",
+      "size": 6443
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/best.pth",
+      "path": "EXP_experiments/Scope/PEMSBAY/Scope_PEMSBAY_12to12_exppemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/best.pth",
       "sha256": "c86405da6363039d78ed077e6d3febef4538c8336dc80c343794883f7449c32c",
       "size": 2689141
     },
     {
-      "path": "EXP_experiments/TLAST_improved/PEMSBAY/TLAST_improved_PEMSBAY_12to12_exppemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.pkl",
-      "sha256": "efb293b0be16f307efde4d7a9bc5086019f5296bfdd618bb0ab9376dcf314070",
-      "size": 6561
+      "path": "EXP_experiments/Scope/PEMSBAY/Scope_PEMSBAY_12to12_exppemsbay712_lite_r256_kdfix3_a30_lr1e4_fixedteacher_s1/config.pkl",
+      "sha256": "3737dd157aaf756042fe75c25d3d53e8840a06ea0f8c20c0d624a2afc8503363",
+      "size": 6534
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems03_test_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems03_test_exact.alsc",
       "sha256": "8d4302de3f2bf25b98f9be359655286ade160384bf071b254efbb8fd54b1400c",
       "size": 166400
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems03_test_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems03_test_generic.alsc",
       "sha256": "1011313ab77ee6956e6eabaf20209669e4a57853773f46fa462853a89af4209c",
       "size": 190096
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems03_test_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems03_test_selected.alsc",
       "sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15",
       "size": 166067
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems04_test_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems04_test_exact.alsc",
       "sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f",
       "size": 38511
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems04_test_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems04_test_generic.alsc",
       "sha256": "e66d610fbddfa3094ac6d6ca661a7e1ea37be110efcc1cc5024809230d418136",
       "size": 46263
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems04_test_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems04_test_selected.alsc",
       "sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f",
       "size": 38511
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems07_test_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems07_test_exact.alsc",
       "sha256": "3cbc702cccc94d36b48cf786c68996bf1f93c0596e2fd122c274e7ad5b8ba26e",
       "size": 83063
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems07_test_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems07_test_generic.alsc",
       "sha256": "c1de48d95daf9b1c7679797beabaefb9764f696b28e39bfa3d7382bd74faf32b",
       "size": 95082
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems07_test_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems07_test_selected.alsc",
       "sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956",
       "size": 80752
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems08_test_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems08_test_exact.alsc",
       "sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2",
       "size": 14984
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems08_test_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems08_test_generic.alsc",
       "sha256": "a14185bfa7e93a232b988928ffdff61f893b57dadc37da643a441652d3be8cfe",
       "size": 18058
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_test_20261023_v1/pems08_test_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_test_v1/pems08_test_selected.alsc",
       "sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2",
       "size": 14984
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems03_val_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems03_val_exact.alsc",
       "sha256": "a4da3886095e93b6f23b78bd172312be0660ab85043a981bcbdcd7e411dc3a47",
       "size": 166572
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems03_val_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems03_val_generic.alsc",
       "sha256": "c4d5394845f34097ac37e125d279cb6026572b7e582a8d94e912db679ee7f949",
       "size": 190305
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems03_val_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems03_val_selected.alsc",
       "sha256": "e94d11809c1258d65f9c69e1f5b60169cbaecc1672a289059655fb9621dbe3a1",
       "size": 166481
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems04_val_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems04_val_exact.alsc",
       "sha256": "a3f392586cd7cfb800450451b4cb4b7f536176d68cdcbe35bf17760b1a26549c",
       "size": 38782
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems04_val_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems04_val_generic.alsc",
       "sha256": "eb7b9dc06e4b63ca2a6a0db72a1502bfe8db121762992559e57eb787d5ec1b83",
       "size": 46535
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems04_val_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems04_val_selected.alsc",
       "sha256": "a3f392586cd7cfb800450451b4cb4b7f536176d68cdcbe35bf17760b1a26549c",
       "size": 38782
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems07_val_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems07_val_exact.alsc",
       "sha256": "484b5bfae3f2ee61c7d812276766aeaaca2b39fb8af2c613188146a4a5c873a3",
       "size": 83452
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems07_val_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems07_val_generic.alsc",
       "sha256": "4919d43531e63d55cb9035c1cd5aeaa2cd6c2906406066a5ee673f3068129af3",
       "size": 95460
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems07_val_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems07_val_selected.alsc",
       "sha256": "48ed9443afcfcacca16aef5f04f8fb895cb51fba090eedc1692d6bdded4c13b3",
       "size": 81756
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems08_val_exact.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems08_val_exact.alsc",
       "sha256": "0810b0b67e234b75c4830db9b713dda799855e35daf2a7f37f50e236b12bd166",
       "size": 15330
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems08_val_generic.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems08_val_generic.alsc",
       "sha256": "0c47a50e88793e8eb16d5dbbb1a7cbd64211b0f6174a284724f74c11fcca4725",
       "size": 18350
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/adaptive_lossless_val_20261023_v2/pems08_val_selected.alsc",
+      "path": "contrib3_index_codec/packages/online/adaptive_lossless_val_v2/pems08_val_selected.alsc",
       "sha256": "0810b0b67e234b75c4830db9b713dda799855e35daf2a7f37f50e236b12bd166",
       "size": 15330
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/frozen_calibrators_20261024_v3/pems03_calibrator.npz",
+      "path": "contrib3_index_codec/packages/online/frozen_calibrators_v3/pems03_calibrator.npz",
       "sha256": "80c6edfb2fd2254645e9eb69878b1e1407c1a55c6d21d5239b4745d6a6005fa0",
       "size": 926015
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/frozen_calibrators_20261024_v3/pems04_calibrator.npz",
+      "path": "contrib3_index_codec/packages/online/frozen_calibrators_v3/pems04_calibrator.npz",
       "sha256": "f3af4e5b02a96f8da6e5098ea776ae7618afddd5cd11c014237548529b0cdd3d",
       "size": 788135
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/frozen_calibrators_20261024_v3/pems07_calibrator.npz",
+      "path": "contrib3_index_codec/packages/online/frozen_calibrators_v3/pems07_calibrator.npz",
       "sha256": "5a08820b1a7f07889d6ce9d6ca646b1747526dc5871806520b37644c46d1c78a",
       "size": 2218527
     },
     {
-      "path": "contrib3_index_codec_20261020/packages/online/frozen_calibrators_20261024_v3/pems08_calibrator.npz",
+      "path": "contrib3_index_codec/packages/online/frozen_calibrators_v3/pems08_calibrator.npz",
       "sha256": "ea8daf1bf05ad0fc1706270f34def3fc92551a0799b46e7f8ad4b2c5fa6786e9",
       "size": 438910
     },
     {
-      "path": "pemsbay_full_20261027/full_train_state.alsc",
+      "path": "pemsbay_full/full_train_state.alsc",
       "sha256": "5a1d5d827dd74a7febf7b175f1a31dd3c6d270e2870ceabee52bb8c2426f6dda",
       "size": 9041563
     },
     {
-      "path": "pemsbay_full_20261027/full_train_state_direct.alsc",
+      "path": "pemsbay_full/full_train_state_direct.alsc",
       "sha256": "704e240dd5681caf5b1dcbadb13712fe3697d6b341fc86edff536a9f6e63ea67",
       "size": 9052278
     },
     {
-      "path": "pemsbay_full_20261027/selected_train_state.alsc",
+      "path": "pemsbay_full/selected_train_state.alsc",
       "sha256": "d6c4239634207368a4686bb4820213197fe78b3c6d09ff94eec44a1d71203c12",
       "size": 7181814
     },
     {
-      "path": "pemsbay_full_20261027/selected_train_state_direct.alsc",
+      "path": "pemsbay_full/selected_train_state_direct.alsc",
       "sha256": "e22bf2ff4159470abbc978fbde5494ef462bf9171a736a1159383f0041cfdad4",
       "size": 7192529
     },
     {
-      "path": "pemsbay_full_20261027/selected_val_cold_state.alsc",
+      "path": "pemsbay_full/selected_val_cold_state.alsc",
       "sha256": "bfcac6d18df6d935959fdb5e80343372b51a81500d2c8ac22cc47a6b6b2b3076",
       "size": 7178171
     },
     {
-      "path": "pemsbay_full_20261027/selected_val_cold_state_direct.alsc",
+      "path": "pemsbay_full/selected_val_cold_state_direct.alsc",
       "sha256": "0f3d92f39f858ed3de0abf945ebaaef9af63859db9fc77224878222ff344bc27",
       "size": 7188850
     }

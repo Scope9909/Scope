@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 CONFIG_ROOT = ROOT / "configurations"
 OUTPUT_DIR = CONFIG_ROOT / "cross_dataset"
-SUPPORTED_DATASETS = ("PEMS03", "PEMS07", "PEMS08", "PEMSBAY", "METRLA")
+SUPPORTED_DATASETS = ("PEMS03", "PEMS07", "PEMS08", "PEMSBAY")
 STAGES = (
     "backbone",
     "lowrank",

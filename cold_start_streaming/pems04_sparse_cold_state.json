@@ -1,0 +1,20 @@
+{
+  "protocol": "causal_cold_start_streaming_state_v1",
+  "dataset": "PEMS04",
+  "test_evaluated": false,
+  "source_state": "D:\\lunwen\\June\\TLAST-main\\paper_results\\icde_retrieval_free_pilot\\online_state_budget_pems04_s1_cap2905847\\online_train_state.npz",
+  "source_state_bytes": 218466,
+  "state_bytes": 219184,
+  "first_validation_query_endpoint": 10192,
+  "snapshot_observed_through": 10192,
+  "source_raw_observed_through": 10203,
+  "unobservable_future_frames_removed": 11,
+  "original_candidates": 10181,
+  "active_candidates_at_cold_start": 10170,
+  "pending_candidate_metadata_only": 11,
+  "max_active_future_endpoint": 10192,
+  "min_pending_future_endpoint": 10193,
+  "raw_pending_futures_serialized": false,
+  "query_outputs_serialized": false,
+  "validation_labels_serialized": false
+}
