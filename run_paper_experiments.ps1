@@ -1,7 +1,7 @@
 param(
     [ValidateSet('core', 'ablations', 'wo', 'all')]
     [string]$Mode = 'core',
-    [int[]]$Seeds = @(1, 2, 3),
+    [int[]]$Seeds = @(1),
     [string]$PythonExe = 'python'
 )
 

@@ -341,7 +341,7 @@ def parse_args() -> argparse.Namespace:
         "--seeds",
         type=int,
         nargs="+",
-        default=[1, 2, 3],
+        default=[1],
         choices=sorted(BACKBONE_BY_SEED),
     )
     return parser.parse_args()

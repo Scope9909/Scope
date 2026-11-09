@@ -90,7 +90,7 @@ def main() -> None:
         "--datasets", nargs="+", default=["PEMS03", "PEMS07"],
         choices=("PEMS03", "PEMS07", "PEMS08"),
     )
-    parser.add_argument("--seeds", nargs="+", type=int, default=[1, 2, 3])
+    parser.add_argument("--seeds", nargs="+", type=int, default=[1])
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 

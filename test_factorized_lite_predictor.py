@@ -4,7 +4,7 @@ import unittest
 
 import torch
 
-from models.TLAST_improved import (
+from models.Scope import (
     factorized_richer_predictor,
     richer_predictor,
 )
