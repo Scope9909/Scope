@@ -1,6 +1,6 @@
 """Generate a reproducible PEMS04 paper experiment pipeline.
 
-The generated configs reuse the already trained seed-specific TLAST backbone
+The generated Scope configs reuse the already trained seed-specific baseline
 checkpoints, then rebuild every retrieval stage with one declared protocol.
 No training is started by this script.
 """

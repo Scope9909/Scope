@@ -13,7 +13,7 @@ from layers.GraphConv import AdaptiveGraphConv, MultiScaleGraphConv
 
 
 
-# ========================= 原有类定义（从 TLAST.py 复制）=========================
+# ========================= Scope 模型中保留的上游 TLAST 基础层 =========================
 # 包含：MultiHeadsAttention, AttentionLayer, DIFFormer_EncoderLayer, 
 #       Full_Prob_EncoderLayer, EncoderLayer, time_wise_predictor,
 #       getTimeLagEmbedding, getTimeEmbedding, getSpatialEmbedding, DataEncoding

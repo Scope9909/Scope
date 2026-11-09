@@ -9,6 +9,26 @@ This repository contains historical experiment implementations as well as the
 frozen paper configuration. A clean-machine, end-to-end reproduction has
 **not yet been certified**.
 
+## Scope names and compatibility
+
+**Scope is the project name and the default model for new runs.** Start from
+[`models/Scope.py`](models/Scope.py), [`scope.py`](scope.py), and the five
+frozen seed-1 configurations listed below.
+
+| Path or name | Meaning | How to use it |
+|---|---|---|
+| `models/Scope.py` | Current Scope model implementation | Use for official Scope workflows |
+| `EXP_experiments/Scope/` | Five frozen Scope seed-1 run records | Start here for final-run verification |
+| `models/TLAST.py` | Retained upstream baseline implementation | Keep for explicit historical baseline runs |
+| `EXP_experiments/TLAST/` and `EXP_experiments/TLAST_improved/` | Historical experiment IDs and saved paths | Do not rename: existing configs and checkpoints may refer to them |
+| `TLAST_improved` in old configs | Compatibility identifier mapped to `models/Scope.py` by `run.py` | Preserve for old experiments, not as the public project name |
+| `README_UPSTREAM_TLAST.md` and `LICENSE` | Upstream attribution and license | Preserve when redistributing |
+
+The seed-1 cleanup is a repository organization choice, **not** proof that
+historical multi-seed reproduction is supported after deleting its outputs.
+Do not rewrite frozen file paths or checkpoint identifiers solely to remove
+the word `TLAST`.
+
 ## Start here
 
 For the final paper configuration, first identify the frozen run in

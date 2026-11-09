@@ -1,4 +1,4 @@
-"""Generate retrieval-augmented TLAST cross-dataset configs.
+"""Generate Scope retrieval-augmented cross-dataset experiment configs.
 
 The generated dependency chain is:
 backbone -> lowrank -> exact -> reranker_lowrank -> head -> confidence

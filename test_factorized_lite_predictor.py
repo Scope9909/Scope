@@ -1,4 +1,4 @@
-"""Focused correctness checks for the Lite factorized TLAST predictor."""
+"""Focused correctness checks for the Scope factorized Lite predictor."""
 
 import unittest
 
