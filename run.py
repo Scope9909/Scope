@@ -44,7 +44,7 @@ parser.add_argument(
 )
 
 # the hyper-parameter-setting in the model
-parser.add_argument('--modelid', type=str, default='Scope')
+parser.add_argument('--modelid', type=str, default='TLAST')
 parser.add_argument('--hid_dim', type=int, default=-1) # d in the paper
 parser.add_argument('--d_out', type=int, default=-1) # d'
 parser.add_argument(
@@ -829,7 +829,7 @@ parser.add_argument(
         'time_wise_predictor instead of only its final readouts (0/1)'
     ),
 )
-parser.add_argument('--note', type=str, default='Scope')
+parser.add_argument('--note', type=str, default='TLAST')
 parser.add_argument('--load_expid', type=str, default=None)
 parser.add_argument(
     '--run_id',

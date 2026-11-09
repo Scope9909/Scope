@@ -11,7 +11,9 @@ frozen paper configuration. A clean-machine, end-to-end reproduction has
 
 ## Scope names and compatibility
 
-**Scope is the project name and the default model for new runs.** Start from
+**Scope is the project name, developed on the TLAST_improved codebase.**
+The original TLAST baseline and improved-model experiment lineage are retained.
+Start from
 [`models/Scope.py`](models/Scope.py), [`scope.py`](scope.py), and the five
 frozen seed-1 configurations listed below.
 
@@ -21,7 +23,7 @@ frozen seed-1 configurations listed below.
 | `EXP_experiments/Scope/` | Five frozen Scope seed-1 run records | Start here for final-run verification |
 | `models/TLAST.py` | Retained upstream baseline implementation | Keep for explicit historical baseline runs |
 | `EXP_experiments/TLAST/` and `EXP_experiments/TLAST_improved/` | Historical experiment IDs and saved paths | Do not rename: existing configs and checkpoints may refer to them |
-| `TLAST_improved` in old configs | Compatibility identifier mapped to `models/Scope.py` by `run.py` | Preserve for old experiments, not as the public project name |
+| `TLAST_improved` in old configs | Improved-model lineage and compatibility identifier mapped to `models/Scope.py` by `run.py` | Preserve to reproduce the original model and experiments |
 | `README_UPSTREAM_TLAST.md` and `LICENSE` | Upstream attribution and license | Preserve when redistributing |
 
 The seed-1 cleanup is a repository organization choice, **not** proof that
