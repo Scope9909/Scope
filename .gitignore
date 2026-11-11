@@ -1,0 +1,34 @@
+
+# Local preparation records, generated outputs, and private data
+_preparation/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+_runtime_deps/
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.npz
+*.npy
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.fcz
+*.zip
+*.log
+
+# The immutable replay assets are intentionally tracked.
+!assets/checkpoints/**/best.pth
+!assets/checkpoints/**/config.pkl
+!assets/states/**/*.alsc
+
+# Prepared dataset arrays remain local and are never whitelisted here.
+release/staging/

@@ -1,0 +1,28 @@
+{
+  "scope": "Five-dataset frozen Validation/Test replay only",
+  "files": [
+    {"path": "assets/checkpoints/PEMS03/best.pth", "sha256": "8a8e7049c1ed374c31e507b9db14c25a278a29956a21eb01e51656c12c2963c0"},
+    {"path": "assets/checkpoints/PEMS03/config.pkl", "sha256": "65b99fe9f91b392ac2fc4585191fba9068439506fbcadea2c60ed724ec510b55"},
+    {"path": "assets/checkpoints/PEMS04/best.pth", "sha256": "44cca44fde140fa7c7d62784b0b5f72d1bc290d01a9add639b738982b76c21e0"},
+    {"path": "assets/checkpoints/PEMS04/config.pkl", "sha256": "1dad07c5148813a395264f67816a781f1c12d1fa71991df62992915deb7cc6e8"},
+    {"path": "assets/checkpoints/PEMS07/best.pth", "sha256": "19f3a9a81f8942d3a869aa1baa8f035bb015d8da612db60941b84879ad578349"},
+    {"path": "assets/checkpoints/PEMS07/config.pkl", "sha256": "b24d36ce71f4a84809a5d9e462038f8907b9b0dcf66b9a2de6ad339600f82d60"},
+    {"path": "assets/checkpoints/PEMS08/best.pth", "sha256": "1f155b406351e1ad62360bb5cfea421cc805ca592900a5c770e01b1f31207a18"},
+    {"path": "assets/checkpoints/PEMS08/config.pkl", "sha256": "13cc7c191a997de430eedab0fc72f5c08ed49efb1aa7d7cbf7782c9f18120fc4"},
+    {"path": "assets/checkpoints/PEMSBAY/best.pth", "sha256": "c86405da6363039d78ed077e6d3febef4538c8336dc80c343794883f7449c32c"},
+    {"path": "assets/checkpoints/PEMSBAY/config.pkl", "sha256": "3737dd157aaf756042fe75c25d3d53e8840a06ea0f8c20c0d624a2afc8503363"},
+    {"path": "assets/states/PEMS03/validation.alsc", "sha256": "e94d11809c1258d65f9c69e1f5b60169cbaecc1672a289059655fb9621dbe3a1"},
+    {"path": "assets/states/PEMS03/test.alsc", "sha256": "9a075ced5c128ad936db4a112bf892bf96b8f0919aa8248fe20e6de6ae744b15"},
+    {"path": "assets/states/PEMS04/validation.alsc", "sha256": "a3f392586cd7cfb800450451b4cb4b7f536176d68cdcbe35bf17760b1a26549c"},
+    {"path": "assets/states/PEMS04/test.alsc", "sha256": "83ae04ebcec5ea6da640e571333f0de7f2446c133f475bc7e46dafcaa56b794f"},
+    {"path": "assets/states/PEMS07/validation.alsc", "sha256": "48ed9443afcfcacca16aef5f04f8fb895cb51fba090eedc1692d6bdded4c13b3"},
+    {"path": "assets/states/PEMS07/test.alsc", "sha256": "e433e6a7eae8e7bc5ced5154f7f661fdaeb6f1b4a90fecb28e68916294f7f956"},
+    {"path": "assets/states/PEMS08/validation.alsc", "sha256": "0810b0b67e234b75c4830db9b713dda799855e35daf2a7f37f50e236b12bd166"},
+    {"path": "assets/states/PEMS08/test.alsc", "sha256": "1643221a9ca235aa3df4a2a8e6bbd583554b6e68acc7b204fd2a1641fc657fd2"},
+    {"path": "assets/states/PEMSBAY/validation.alsc", "sha256": "bfcac6d18df6d935959fdb5e80343372b51a81500d2c8ac22cc47a6b6b2b3076"},
+    {"path": "assets/states/PEMSBAY/test.alsc", "sha256": "d6c4239634207368a4686bb4820213197fe78b3c6d09ff94eec44a1d71203c12"},
+    {"path": "assets/states/PEMSBAY/freeze_manifest.json", "sha256": "e0bfcbd041214b92d62f79e2281bd4f08ca51fd9d47ee5aebfdc65afad3ee0ea"},
+    {"path": "configs/frozen_calibration.json", "sha256": "9bbc08a70c0c89c2693d4d6e250dae3f57e7540c342f56d20a406af441386c45"},
+    {"path": "assets/states/PEMSBAY/validation_screen.json", "sha256": "1ae0ff6a8e3bf71dd6f835cd4d5579cf0e727a7acddb75ef5fb5d24bec8d1c56"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "protocol": "validation_only_smooth_level_target_time_v1",
+  "num_bins": 20,
+  "smooth_shrinkage": 0.55,
+  "num_time_bins": 96,
+  "time_shrinkage": 0.35,
+  "slices_per_day": 288
+}
