@@ -1,6 +1,6 @@
-
 # Local preparation records, generated outputs, and private data
 _preparation/
+outputs/
 __pycache__/
 *.py[cod]
 .venv/
@@ -30,5 +30,5 @@ _runtime_deps/
 !assets/checkpoints/**/config.pkl
 !assets/states/**/*.alsc
 
-# Prepared dataset arrays remain local and are never whitelisted here.
+# Prepared datasets and derived training assets remain local.
 release/staging/

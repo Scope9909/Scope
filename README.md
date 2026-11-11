@@ -1,33 +1,31 @@
-# Scope frozen replay package
+# Scope reproducibility package
 
-This repository is the public replay package for the frozen PEMS03, PEMS04,
-PEMS07, PEMS08, and PEMS-BAY results. It contains no training workflow,
-hyperparameter search, state/encoding selection, multi-seed study, ablation
-archive, or historical experiment output.
+This repository contains the frozen Validation/Test replay for PEMS03,
+PEMS04, PEMS07, PEMS08, and PEMS-BAY, plus a focused PEMS04 Student-training
+workflow. It does not contain hyperparameter search, state/encoding selection,
+multi-seed studies, ablation archives, or historical experiment outputs.
 
 ## Repository layout
 
 ```text
 assets/checkpoints/   frozen checkpoint and its exact configuration
 assets/states/        frozen Validation/Test retrieval states
-configs/              active paths, calibration, and SHA-256 inventory
-datasets/             prepared local inputs (not redistributed)
-DATA.md               public data sources and exact local file contract
-layers/, models/      model definition required for inference
-replay/               the two supported replay entries and their runtime
+configs/              active replay paths, calibration, and SHA-256 inventory
+datasets/             prepared local inputs and training assets (not redistributed)
+layers/, models/      model definition shared by training and inference
+replay/               frozen Validation/Test replay entries
+training/             scoped PEMS04 four-stage training entry and configuration
 tests/                small structural and numerical-unit tests
 tools/                preflight and local-input preparation utilities
 utils/                dataset loader and frozen-state query runtime
 ```
 
-This combines a small research repository's clear top-level layout with an
-explicit data and command contract. Generated replay output does not belong in
-the repository.
+Generated replay and training output does not belong in the repository.
 
 ## What can be reproduced
 
-With the prepared dataset files and hash-verified frozen assets, the package
-replays:
+With the prepared dataset files and hash-verified frozen assets, the replay
+package reproduces:
 
 - Validation inference from each frozen checkpoint and Validation state;
 - Test inference from each frozen checkpoint and Test state;
@@ -38,6 +36,15 @@ The replay does not retrain or select anything and does not change a paper
 metric. It is a reproducibility check of configurations frozen before Test,
 not a new independent blind Test experiment.
 
+The PEMS04 training entry separately exposes the actual four-stage path used
+for the retained Student: 100-epoch dense base, 20-epoch low-rank adapter,
+20-epoch exact-match adapter, and at most 30 epochs of rank-256 Student KD.
+It selects checkpoints using Validation only and contains no Test evaluation.
+The workflow requires four hash-pinned derived training assets that are not in
+Git. In particular, the Teacher prediction cache is a fixed prerequisite; the
+separate Teacher-training pipeline is not claimed to be public. See
+[`TRAINING.md`](TRAINING.md) for the exact boundary.
+
 ## Environment and checks
 
 Python 3.11 is recommended. The completed numerical verification used Python
@@ -47,6 +54,7 @@ Python 3.11 is recommended. The completed numerical verification used Python
 pip install -r requirements.txt
 python -B replay/four_datasets.py --help
 python -B replay/pemsbay.py --help
+python -B training/pems04.py --help
 python -B tools/preflight.py
 python -B tests/test_preflight.py
 python -B tests/test_state_codec.py
@@ -54,8 +62,9 @@ python -B tests/test_calibration.py
 python -B tests/test_factorized_lite_predictor.py
 ```
 
-`tools/preflight.py` verifies the active asset hashes and required prepared
-files. It is not a numerical reproduction check.
+`tools/preflight.py` verifies the frozen replay assets and required prepared
+files. The training entry performs its own stage-specific hash and dependency
+checks. Neither preflight is a numerical reproduction by itself.
 
 ## Required data and assets
 
@@ -76,11 +85,12 @@ paper splits. PEMS-BAY has 5,209 Validation and 10,419 effective Test windows;
 the entry removes loader padding using the official indices.
 
 The checkpoints, binary configurations, selected states, calibration JSON,
-and PEMS-BAY selection record are immutable inputs. Their required hashes are
-in `configs/replay_assets_manifest.json`. Do not load pickle or checkpoint
-files from an untrusted source.
+and PEMS-BAY selection record are immutable replay inputs. Their required
+hashes are in `configs/replay_assets_manifest.json`. Do not load pickle or
+checkpoint files from an untrusted source.
 
-To copy only the 15 prepared files from a trusted workspace, preview first:
+To copy only the 15 prepared replay files from a trusted workspace, preview
+first:
 
 ```bash
 python -B tools/prepare_local_inputs.py --source <trusted-workspace>
@@ -88,7 +98,7 @@ python -B tools/prepare_local_inputs.py --source <trusted-workspace> --apply
 python -B tools/preflight.py
 ```
 
-## Replay commands
+## Frozen replay commands
 
 Use new output directories and complete Validation before Test.
 
@@ -103,13 +113,30 @@ python -B replay/pemsbay.py       --split test --output-dir outputs/pemsbay
 The output directories contain generated predictions and reports. They may be
 deleted after verification and are not frozen inputs or release assets.
 
+## PEMS04 training commands
+
+After supplying the four derived assets listed in `TRAINING.md`:
+
+```bash
+python -B training/pems04.py --stage all --preflight-only --device cuda:0
+python -B training/pems04.py --stage all --device cuda:0
+```
+
+This does not overwrite the retained checkpoint. New checkpoints go under
+`outputs/training/pems04/` and must be reported as new runs.
+
 ## Verification status
 
 The 2026-11-10 CUDA replay completed Validation and Test for all five datasets.
 All sample counts matched. Test metrics agreed with the retained reference to
 a maximum absolute difference of `1.18e-4`; this is numerical, not bitwise,
 agreement. Exact values and later environment limitations are recorded in
-`PROJECT_STATUS.md`.
+[`PROJECT_STATUS.md`](PROJECT_STATUS.md).
+
+The new PEMS04 training entry has passed help, asset/hash preflight, strict
+checkpoint initialization, and one-batch CUDA forward/backward smoke tests for
+all four stages. A fresh 170-epoch end-to-end retraining has not been run and
+no new training result is claimed.
 
 ## Provenance and license
 
