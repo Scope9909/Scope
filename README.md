@@ -11,7 +11,7 @@ multi-seed studies, ablation archives, or historical experiment outputs.
 assets/checkpoints/   frozen checkpoint and its exact configuration
 assets/states/        frozen Validation/Test retrieval states
 configs/              active replay paths, calibration, and SHA-256 inventory
-datasets/             prepared local inputs and training assets (not redistributed)
+datasets/             prepared local inputs (not tracked in Git)
 layers/, models/      model definition shared by training and inference
 replay/               frozen Validation/Test replay entries
 training/             scoped PEMS04 four-stage training entry and configuration
@@ -40,8 +40,9 @@ The PEMS04 training entry separately exposes the actual four-stage path used
 for the retained Student: 100-epoch dense base, 20-epoch low-rank adapter,
 20-epoch exact-match adapter, and at most 30 epochs of rank-256 Student KD.
 It selects checkpoints using Validation only and contains no Test evaluation.
-The workflow requires four hash-pinned derived training assets that are not in
-Git. In particular, the Teacher prediction cache is a fixed prerequisite; the
+The workflow requires four hash-pinned derived training assets supplied in the
+[PEMS04 training-assets release](https://github.com/Scope9909/Scope/releases/tag/pems04-repro-assets-v1),
+not in Git. In particular, the Teacher prediction cache is a fixed prerequisite; the
 separate Teacher-training pipeline is not claimed to be public. See
 [`TRAINING.md`](TRAINING.md) for the exact boundary.
 
@@ -133,10 +134,12 @@ a maximum absolute difference of `1.18e-4`; this is numerical, not bitwise,
 agreement. Exact values and later environment limitations are recorded in
 [`PROJECT_STATUS.md`](PROJECT_STATUS.md).
 
-The new PEMS04 training entry has passed help, asset/hash preflight, strict
-checkpoint initialization, and one-batch CUDA forward/backward smoke tests for
-all four stages. A fresh 170-epoch end-to-end retraining has not been run and
-no new training result is claimed.
+The PEMS04 training entry passed help, asset/hash preflight, strict checkpoint
+initialization, and one-batch CUDA forward/backward smoke tests for all four
+stages. A full 100 + 20 + 20 + 30 epoch run then completed. Its best new
+Student checkpoint was selected at epoch 26 (Validation MAE 17.785667, RMSE
+29.949529, MAPE 0.118980). This is a separate run, not the retained paper
+checkpoint or a replacement for its frozen replay metric.
 
 ## Provenance and license
 

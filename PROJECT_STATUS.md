@@ -1,6 +1,6 @@
 # Current repository status
 
-Updated 2026-11-11 from the actual files in this directory.
+Updated 2026-11-13 from the actual files in this directory.
 
 ## Scope
 
@@ -77,8 +77,11 @@ The new `training/pems04.py` entry passed:
 - strict Teacher prediction alignment for Train/Validation/Test;
 - one GPU forward/backward batch and one Validation batch for every stage.
 
-The smoke tests wrote no checkpoint or result file. No fresh 170-epoch
-end-to-end training was run, so no newly trained metric is claimed.
+The smoke tests wrote no checkpoint or result file. Subsequently a full
+100 + 20 + 20 + 30 epoch run completed. The new Student's best checkpoint was
+selected at epoch 26 (Validation MAE 17.785667, RMSE 29.949529, MAPE
+0.118980). All stage histories record `test_used=false`. This is a separate
+run, not the retained paper checkpoint or a revised paper metric.
 
 ## Asset correction and exclusions
 
@@ -107,10 +110,10 @@ for Git.
   scalers still have to be supplied from a trusted preparation or release
   asset.
 - The four derived PEMS04 training assets total about 432 MB (about 412 MiB)
-  and are not in
-  Git. Three exceed GitHub's ordinary per-file size limit. A GitHub Release or
-  archival download URL still needs to be published and added to
-  `TRAINING.md`.
+  and are not in Git. They are published as one hash-verified archive in the
+  [PEMS04 training-assets release](https://github.com/Scope9909/Scope/releases/tag/pems04-repro-assets-v1).
+  The frozen paper checkpoint and config are already tracked in Git and are
+  intentionally not duplicated in that release.
 - The fixed KD Teacher prediction cache is available to the Student workflow,
   but the separate Teacher-training and retrieval-cache construction pipeline
   is not public. Therefore raw-data-only exact regeneration is not claimed.
@@ -120,5 +123,6 @@ for Git.
   is not claimed. Asset hashes were unchanged.
 - The inherited implementation has an upstream licensing limitation described
   in `LICENSE`; legal attribution is the sole intentional old-name exception.
-- The frozen replay repository was pushed previously. The new training files
-  and documentation changes in this status update remain local and unpushed.
+- The public repository and PEMS04 training-assets release are available on
+  GitHub. Locally generated training checkpoints remain ignored and are not
+  published as paper checkpoints.

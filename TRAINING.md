@@ -36,19 +36,28 @@ additional derived training assets are also required:
 | `teacher_predictions_joint3.npz` | 221,631,252 | aligned normalized Teacher predictions for KD |
 
 Their SHA-256 values are pinned in `training/pems04.json` and checked before
-use. They are ignored by Git and are not in the repository. The three large
-files exceed GitHub's ordinary 100 MiB per-file limit, so they should be
-distributed as release assets or through an archival data service, not
-committed to `main`.
+use. They are ignored by Git and are not in the repository. Download the
+single [PEMS04 training-assets release archive](https://github.com/Scope9909/Scope/releases/tag/pems04-repro-assets-v1)
+and extract it from the repository root:
+
+```bash
+tar -xf scope-pems04-training-assets-v1.tar
+```
+
+The archive SHA-256 is
+`2757bcdbc378b105c7b39b53dcfbb1b15aed3492a852aa3e058d9fae111fb221`.
+The frozen paper Student checkpoint and config are already tracked in Git at
+`assets/checkpoints/PEMS04/`; they are not duplicated in the release.
 
 The Teacher prediction cache is a fixed prerequisite. This repository does
 not yet expose the separate multi-stage Teacher-training and retrieval-cache
 construction pipeline. Consequently, the workflow is a faithful training
 path for the published Student given frozen training assets; it is not a
 claim that the exact Student can currently be regenerated from raw PEMS04
-alone. A public release URL for those four assets still needs to be added.
+alone.
 
-From a trusted local workspace, preview and copy only these four assets:
+Alternatively, from a trusted local workspace, preview and copy only these
+four assets:
 
 ```bash
 python -B tools/prepare_training_assets.py --source <trusted-workspace>
